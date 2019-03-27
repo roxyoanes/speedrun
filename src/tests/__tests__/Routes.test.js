@@ -2,7 +2,7 @@ import React from 'react';
 import { mount } from 'enzyme';
 import { MemoryRouter } from 'react-router-dom';
 import Routes from './../../Routes';
-import { Home, About } from './../../containers';
+import { Home } from './../../containers';
 
 describe('Routes', () => {
   it('default path should redirect to Home component', () => {
