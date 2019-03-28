@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 60px repeat(11,1fr);
+    width: 100vw;
+    height: 1000vh;
+    position: relative;
+}
+.navbar{
+   display: grid;
+   grid-column: 1/4;
+   grid-row: 1/ 2; 
+    position: relative;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.sign-in{
+    width: 65px;
+    justify-self: end;
+}
+.text-middle{
+    grid-column: 1/ span 4;
+    grid-row: 2/ span 8;
+}

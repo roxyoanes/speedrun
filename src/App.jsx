@@ -5,7 +5,7 @@ import Routes from './Routes';
 
 const App = () => (
   <BrowserRouter>
-    <main className="container">
+    <main>
       <Routes />
     </main>
   </BrowserRouter>
