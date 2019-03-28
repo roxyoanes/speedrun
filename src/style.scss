@@ -26,14 +26,24 @@
     grid-row: 1/  2;
     font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 20px;
-
-
+    padding-top: 6px;
 }
 .sign-in{
     grid-row: 1/2;
     width: 65px;
     justify-self: end;
     font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid transparent;
+    transition: color .15s 
+    ease-in-out,background-color .15s 
+    ease-in-out,border-color .15s 
+    ease-in-out,box-shadow .15s 
+    ease-in-out;
+
 }
 .text-middle{
     grid-column: 1/ span 4;
