@@ -12,7 +12,18 @@ const Home = () => (
         <button className="sign-up" type="button">Sign up</button>
       </div>
     </div>
-    <div className="icons" />
+    <div className="icons">
+      <div className="icon1" />
+      <div className="icon2" />
+      <div className="icon3" />
+    </div>
+    <div className="cards-img" />
+    <div className="people-img" />
+    <div className="sign-up2">
+      <input type="text" />
+      <button className="sign-up2" type="button">Sign up</button>
+    </div>
+    <div className="footer" />
   </div>
 );
 
