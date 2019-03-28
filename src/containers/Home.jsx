@@ -4,7 +4,7 @@ const Home = () => (
   <div className="container">
     <div className="navbar">
       <div className="navbar-brand">Start Bootstrap</div>
-      <button className="sign-in" type="button">Sign in</button>
+      <button className="sign-in" type="button">Sign In</button>
     </div>
     <div className="text-middle">
       <div className="enter-email">
