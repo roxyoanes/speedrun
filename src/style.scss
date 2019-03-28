@@ -2,25 +2,38 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 60px repeat(4,1fr) 60px 60px;
-    width: 100vw;
+    width: 98vw;
     height: 500vh;
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 .navbar{
    display: grid;
    grid-column: 1/4;
    grid-row: 1/ 2; 
     position: relative;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 .navbar-brand{
     grid-row: 1/  2;
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 20px;
+
+
 }
 .sign-in{
     grid-row: 1/2;
     width: 65px;
     justify-self: end;
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 .text-middle{
     grid-column: 1/ span 4;
