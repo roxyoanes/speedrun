@@ -1,14 +1,15 @@
+body{
+    margin: 0;
+}
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 60px repeat(4,1fr) 60px 60px;
-    width: 98vw;
     height: 500vh;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
 }
 .navbar{
    display: grid;
@@ -52,6 +53,10 @@
 .text-middle{
     grid-column: 1/ span 4;
     grid-row: 2/  3;
+}
+.water{
+    height: 160vh;
+    width: 98vw;
 }
 .icons{
     grid-column: 1/ span 4;
