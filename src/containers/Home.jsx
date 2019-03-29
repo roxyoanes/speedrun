@@ -7,10 +7,10 @@ const Home = () => (
       <div className="navbar-brand">Start Bootstrap</div>
       <button className="sign-in" type="button">Sign In</button>
     </div>
-    <div className="text-middle">
-      <div className="enter-email">
-        <img className="water.jpg" alt="water" src={water} />
-        <input type="text" />
+    <div className="water-card">
+      <img className="water" alt="water" src={water} />
+      <div className="input-btn">
+        <input className="email" type="text" />
         <button className="sign-up" type="button">Sign up</button>
       </div>
     </div>

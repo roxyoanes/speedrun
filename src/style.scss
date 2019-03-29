@@ -50,13 +50,24 @@ body{
     padding-bottom: 6px;
 
 }
-.text-middle{
+.water-card{
     grid-column: 1/ span 4;
     grid-row: 2/  3;
+    
+}
+.email{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+.sign-up{
+    position: absolute;
+    left: 250px;
+    top: 150px;
 }
 .water{
-    height: 160vh;
-    width: 98vw;
+    height: 91vh;
+    width: 100vw;
 }
 .icons{
     grid-column: 1/ span 4;
