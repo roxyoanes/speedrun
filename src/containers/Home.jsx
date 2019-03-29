@@ -1,5 +1,5 @@
 import React from 'react';
-import water from './images/bg-masthead.jpg';
+import water from './images/water.jpg';
 
 const Home = () => (
   <div className="container">
@@ -9,7 +9,7 @@ const Home = () => (
     </div>
     <div className="text-middle">
       <div className="enter-email">
-        <img className="bg-masthead.jpg" alt="water" src={water} />
+        <img className="water.jpg" alt="water" src={water} />
         <input type="text" />
         <button className="sign-up" type="button">Sign up</button>
       </div>
