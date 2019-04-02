@@ -4,7 +4,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 60px repeat(4,1fr) 60px 60px;
+    grid-template-rows: 60px repeat(4,330px) 60px 60px;
     height: 500vh;
     margin: 0px;
     padding: 0px;
@@ -53,17 +53,40 @@ body{
 .water-card{
     grid-column: 1/ span 4;
     grid-row: 2/  3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./containers/images/water.jpg");
+    background-size: 100% 100%;
     
 }
 .email{
-    position: absolute;
-    left: 100px;
-    top: 150px;
+    grid-column: 1/ 2;
+    grid-row: 2/ 3;
+    justify-self: center;
+    height: 7vh;
+    width: 37vw;
+    border-radius: 5px;
 }
 .sign-up{
-    position: absolute;
-    left: 250px;
-    top: 150px;
+    grid-column: 1/ 2;
+    grid-row: 2/ 3;
+    height: 8.2vh;
+    width: 10vw;
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .water{
     height: 91vh;

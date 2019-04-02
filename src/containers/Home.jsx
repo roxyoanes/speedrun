@@ -1,5 +1,4 @@
 import React from 'react';
-import water from './images/water.jpg';
 
 const Home = () => (
   <div className="container">
@@ -8,11 +7,8 @@ const Home = () => (
       <button className="sign-in" type="button">Sign In</button>
     </div>
     <div className="water-card">
-      <img className="water" alt="water" src={water} />
-      <div className="input-btn">
-        <input className="email" type="text" />
-        <button className="sign-up" type="button">Sign up</button>
-      </div>
+      <input className="email" type="text" />
+      <button className="sign-up" type="button">Sign up</button>
     </div>
     <div className="icons">
       <div className="icon1" />
