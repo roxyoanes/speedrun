@@ -7,9 +7,11 @@ const Home = () => (
       <button className="sign-in" type="button">Sign In</button>
     </div>
     <div className="water-card">
-      <h1 className="text">Build a landing page for  your business or project and generate more leads!</h1>
-      <input className="email" type="text" />
-      <button className="sign-up" type="button">Sign up</button>
+      <div className="text-input">
+        <h1 className="text">Build a landing page for  your business or project and generate more leads!</h1>
+        <input className="email" type="text" />
+        <button className="sign-up" type="button">Sign up</button>
+      </div>
     </div>
     <div className="icons">
       <div className="icon1" />
