@@ -9,8 +9,8 @@ const Home = () => (
     <div className="water-card">
       <div className="text-input">
         <h1 className="text">Build a landing page for  your business or project and generate more leads!</h1>
-        <input className="email" type="text" />
-        <button className="sign-up" type="button">Sign up</button>
+        <input className="email" type="text" placeholder="Enter you email..." />
+        <button className="sign-up" type="button">Sign up!</button>
       </div>
     </div>
     <div className="icons">
