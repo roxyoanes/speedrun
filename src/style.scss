@@ -129,6 +129,41 @@ body{
 .icons{
     grid-column: 1/ span 4;
     grid-row: 3/  4;
+    margin-left: 61px;
+    margin-right: 61px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    display: grid;
+}
+.first-card{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+
+}
+.second-card{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+
+}
+.third-card{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    align-self: center;
+}
+.fa-desktop, .fa-layer-group, .fa-check-circle{
+    font-size: 65px;
+    color: #007bff;
+}
+.fa-desktop{
+    justify-self: center;
+}
+.fa-layer-group{
+    justify-self: center;
+}
+.fa-check-circle{
+    justify-self: center;
 }
 .cards-img{
     grid-column: 1/ span 4;

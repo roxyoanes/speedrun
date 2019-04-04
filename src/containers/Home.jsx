@@ -14,9 +14,21 @@ const Home = () => (
       </div>
     </div>
     <div className="icons">
-      <div className="icon1" />
-      <div className="icon2" />
-      <div className="icon3" />
+      <div className="first-card">
+        <i className="fas fa-desktop" />
+        <h1>Full Responsive</h1>
+        <h2>This theme will look great on any device, no matter the size!</h2>
+      </div>
+      <div className="second-card">
+        <i className="fas fa-layer-group" />
+        <h1>Full Responsive</h1>
+        <h2>This theme will look great on any device, no matter the size!</h2>
+      </div>
+      <div className="third-card">
+        <i className="far fa-check-circle" />
+        <h1>Full Responsive</h1>
+        <h2>This theme will look great on any device, no matter the size!</h2>
+      </div>
     </div>
     <div className="cards-img" />
     <div className="people-img" />
