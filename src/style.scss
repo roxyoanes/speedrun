@@ -5,12 +5,13 @@ body{
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 60px 600px repeat(3,330px) 150px 1500px;
+    grid-template-rows: 60px 600px repeat(6,1fr);
     height: 500vh;
     margin: 0px;
     padding: 0px;  
 }
 /*Navbar*/
+
 .navbar{
    display: grid;
    grid-column: 1/4;
@@ -52,6 +53,7 @@ body{
     cursor: pointer;
 }
 /*Water card*/
+
 .water-card{
     grid-column: 1/ span 4;
     grid-row: 2/  3;
@@ -127,6 +129,7 @@ body{
     width: 100vw;
 }
 /*Icons card*/
+
 .icons{
     grid-column: 1/ span 4;
     grid-row: 3/  4;
@@ -134,24 +137,27 @@ body{
     margin-right: 61px;
     padding-left: 15px;
     padding-right: 15px; 
+    padding-top: 112px;
+    padding-bottom: 112px;
     display: grid;
 }
 .first-card{
     grid-column: 1/2;
     grid-row: 1/2;
     align-self: center;
-
+    text-align: center;
 }
 .second-card{
     grid-column: 2/3;
     grid-row: 1/2;
     align-self: center;
-
+    text-align: center;
 }
 .third-card{
     grid-column: 3/4;
     grid-row: 1/2;
     align-self: center;
+    text-align: center;
 }
 .fa-desktop, .fa-layer-group, .fa-check-circle{
     font-size: 65px;
