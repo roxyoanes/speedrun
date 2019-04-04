@@ -10,6 +10,7 @@ body{
     margin: 0px;
     padding: 0px;  
 }
+/*Navbar*/
 .navbar{
    display: grid;
    grid-column: 1/4;
@@ -49,8 +50,8 @@ body{
     padding-top: 6px;
     padding-bottom: 6px;
     cursor: pointer;
-
 }
+/*Water card*/
 .water-card{
     grid-column: 1/ span 4;
     grid-row: 2/  3;
@@ -120,12 +121,12 @@ body{
     padding-bottom: 8px;
     cursor: pointer;
     margin-left: 10px;
-
 }
 .water{
     height: 91vh;
     width: 100vw;
 }
+/*Icons card*/
 .icons{
     grid-column: 1/ span 4;
     grid-row: 3/  4;
@@ -165,6 +166,7 @@ body{
 .fa-check-circle{
     justify-self: center;
 }
+/*Images cards*/
 .cards-img{
     grid-column: 1/ span 4;
     grid-row: 4/  5;
