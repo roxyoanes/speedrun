@@ -158,19 +158,24 @@ body{
     grid-row: 1/2;
     align-self: center;
     text-align: center;
+   
 }
 .fa-desktop, .fa-layer-group, .fa-check-circle{
     font-size: 65px;
     color: #007bff;
 }
-.fa-desktop{
-    justify-self: center;
+.first-h1, .second-h1, .third-h1, .first-h2, .second-h2, .third-h2{
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
-.fa-layer-group{
-    justify-self: center;
+.first-h1, .second-h1, .third-h1{
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-bottom: .5rem;
 }
-.fa-check-circle{
-    justify-self: center;
+.first-h2, .second-h2, .third-h2{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 0;
 }
 /*Images cards*/
 .cards-img{

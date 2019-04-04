@@ -16,7 +16,7 @@ const Home = () => (
     <div className="icons">
       <div className="first-card">
         <i className="fas fa-desktop" />
-        <h1 className="first-h1">Full Responsive</h1>
+        <h1 className="first-h1">Fully Responsive</h1>
         <h2 className="first-h2">This theme will look great on any device, no matter the size!</h2>
       </div>
       <div className="second-card">
