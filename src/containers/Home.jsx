@@ -16,18 +16,18 @@ const Home = () => (
     <div className="icons">
       <div className="first-card">
         <i className="fas fa-desktop" />
-        <h1>Full Responsive</h1>
-        <h2>This theme will look great on any device, no matter the size!</h2>
+        <h1 className="first-h1">Full Responsive</h1>
+        <h2 className="first-h2">This theme will look great on any device, no matter the size!</h2>
       </div>
       <div className="second-card">
         <i className="fas fa-layer-group" />
-        <h1>Full Responsive</h1>
-        <h2>This theme will look great on any device, no matter the size!</h2>
+        <h1 className="second-h1">Bootstrap 4 Ready</h1>
+        <h2 className="second-h2">Featuring the latest build of the new Bootstrap 4 framework!</h2>
       </div>
       <div className="third-card">
         <i className="far fa-check-circle" />
-        <h1>Full Responsive</h1>
-        <h2>This theme will look great on any device, no matter the size!</h2>
+        <h1 className="third-h1">Easy to Use</h1>
+        <h2 className="third-h2">Ready to use with your own content, or customize the source files!</h2>
       </div>
     </div>
     <div className="cards-img" />
