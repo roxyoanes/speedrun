@@ -195,7 +195,27 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    height: 210vh;
 }
+.img2{
+    background-image: url(./containers/images/bg-showcase-1.jpg);
+    background-size: cover;
+}
+.img3{
+    background-image: url(./containers/images/bg-showcase-2.jpg);
+    background-size: cover;
+}
+.img6{
+    background-image: url(./containers/images/bg-showcase-3.jpg);
+    background-size: cover;
+}
+.img1, .img4, .img5{
+    align-self: center;
+    text-align: center;
+    padding: 60px;
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+/*People cards*/
 .people-img{
     grid-column: 1/ span 4;
     grid-row: 5/  6;
