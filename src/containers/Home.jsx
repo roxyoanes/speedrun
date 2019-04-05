@@ -16,34 +16,34 @@ const Home = () => (
     <div className="icons">
       <div className="first-card">
         <i className="fas fa-desktop" />
-        <h1 className="first-h1">Fully Responsive</h1>
-        <h2 className="first-h2">This theme will look great on any device, no matter the size!</h2>
+        <h2 className="first-h1">Fully Responsive</h2>
+        <p className="first-h2">This theme will look great on any device, no matter the size!</p>
       </div>
       <div className="second-card">
         <i className="fas fa-layer-group" />
-        <h1 className="second-h1">Bootstrap 4 Ready</h1>
-        <h2 className="second-h2">Featuring the latest build of the new Bootstrap 4 framework!</h2>
+        <h2 className="second-h1">Bootstrap 4 Ready</h2>
+        <p className="second-h2">Featuring the latest build of the new Bootstrap 4 framework!</p>
       </div>
       <div className="third-card">
         <i className="far fa-check-circle" />
-        <h1 className="third-h1">Easy to Use</h1>
-        <h2 className="third-h2">Ready to use with your own content, or customize the source files!</h2>
+        <h2 className="third-h1">Easy to Use</h2>
+        <p className="third-h2">Ready to use with your own content, or customize the source files!</p>
       </div>
     </div>
     <div className="cards-img">
       <div className="img1">
-        <h1 className="title1">Fully Responsive Design</h1>
-        <h2 className="text1">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</h2>
+        <h2 className="title1">Fully Responsive Design</h2>
+        <p className="text1">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
       </div>
       <div className="img2" />
       <div className="img3" />
       <div className="img4">
-        <h1 className="title2">Updated For Bootstrap 4</h1>
-        <h2 className="text2">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</h2>
+        <h2 className="title2">Updated For Bootstrap 4</h2>
+        <p className="text2">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
       </div>
       <div className="img5">
-        <h1 className="title3">Easy to Use & Customize</h1>
-        <h2 className="text3">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</h2>
+        <h2 className="title3">Easy to Use & Customize</h2>
+        <p className="text3">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
       </div>
       <div className="img6" />
     </div>
