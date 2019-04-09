@@ -71,8 +71,11 @@ const Home = () => (
     </div>
     <div className="sign-up2">
       <div className="overlay" />
-      <input type="text" />
-      <button className="sign-upbtn" type="button">Sign up</button>
+      <div className="text-input2">
+        <div className="h1-text">Ready to get started? Sign up now!</div>
+        <input className="email2" type="text" />
+        <button className="signup-btn" type="button">Sign up</button>
+      </div>
     </div>
     <div className="footer" />
   </div>
