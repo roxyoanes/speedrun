@@ -70,8 +70,9 @@ const Home = () => (
       </div>
     </div>
     <div className="sign-up2">
+      <div className="overlay" />
       <input type="text" />
-      <button className="sign-up2" type="button">Sign up</button>
+      <button className="sign-upbtn" type="button">Sign up</button>
     </div>
     <div className="footer" />
   </div>
