@@ -1,5 +1,9 @@
 import React from 'react';
 
+import picture1 from './images/testimonials-1.jpg';
+import picture2 from './images/testimonials-2.jpg';
+import picture3 from './images/testimonials-3.jpg';
+
 const Home = () => (
   <div className="container">
     <div className="navbar">
@@ -50,16 +54,19 @@ const Home = () => (
     <div className="people-img">
       <h1 className="title-people">What people are saying...</h1>
       <div className="person1">
+        <img src={picture1} className="margaret" alt="" />
         <h2 className="name1">Margaret E.</h2>
         <p className="p-name1">"This is fantastic! Thanks so much guys!"</p>
       </div>
       <div className="person2">
+        <img src={picture2} className="fred" alt="" />
         <h2 className="name2">Fred S.</h2>
         <p className="p-name2">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
       </div>
       <div className="person3">
+        <img src={picture3} className="sarah" alt="" />
         <h2 className="name3">Sarah W.</h2>
-        <p className="p-name3">"Thanks so much for making these free resources available to us!"</p>
+        <p className="p-name3">&quot;Thanks so much for making these free resources available to us!&quot;</p>
       </div>
     </div>
     <div className="sign-up2">
