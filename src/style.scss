@@ -7,7 +7,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 60px auto 400px auto auto auto auto auto;
+    grid-template-rows: 60px auto 400px auto auto auto auto;
     height: 500vh;
     margin: 0px;
     padding: 0px; 
@@ -234,46 +234,58 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 7rem;
     padding-bottom: 7rem;
+    padding-left: 76px;
+    padding-right: 76px;
     font-family:'Lato', sans-serif;
     background-color: #f8f9fa;
     align-items: center;
-    padding-left: 76px;
-    padding-right: 76px;
+}
+.title-people{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .margaret, .fred, .sarah{
     height: 180px;
     width: 14vw;
     border-radius: 50%;
-
+    margin-bottom: 16px;
+}
+.name1, .name2, .name3{
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.p-name1, .p-name2, .p-name3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-weight: 300;
+    width: 288px;
 }
 .person1{
     grid-column: 1/2;
     grid-row: 5/6;
     text-align: center;
-    padding-right: 15px;
-    padding-left: 15px;
+    
 }
 .person2{
     grid-column: 2/3;
     grid-row: 5/6;
     text-align: center;
-    padding-right: 15px;
-    padding-left: 15px;
+    
 }
 .person3{
     grid-column: 3/4;
     grid-row: 5/6;
     text-align: center;
-    padding-right: 15px;
-    padding-left: 15px;
+    
 }
 .title-people{
     grid-column: 2/3;
     text-align: center;
 }
-.p-name1, .p-name2, .p-name3{
-    font-weight: 300;
-}
+
 /*Sign up*/
 .sign-up2{
     grid-column: 1/ span 4;
