@@ -391,8 +391,14 @@ body{
     padding-bottom: 4rem;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: 61px;
+    margin-right: 61px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 .inline-list{
+    grid-column: 1/2;
     display: flex;
     list-style-type: none;
     color: #007bff;
@@ -405,6 +411,7 @@ body{
     color: black;
 }
 .rights{
+    grid-column: 1/2;
     color: #6c757d;
     margin-top: 0;
     margin-bottom: 0;
@@ -415,4 +422,18 @@ body{
 }
 .item1, .item2, .item3, .item4, .item5, .item6{
     margin-right: .5rem;
+}
+.footer-right{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    color: #007bff;
+    transition: #007bff .15s ease;
+}
+.fa-facebook, .fa-twitter-square, .fa-instagram{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.fa-facebook:hover, .fa-twitter-square:hover, .fa-instagram:hover{
+    color: #0273ec;
 }
