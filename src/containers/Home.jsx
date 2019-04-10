@@ -77,7 +77,19 @@ const Home = () => (
         <button className="signup-btn" type="button">Sign up!</button>
       </div>
     </div>
-    <div className="footer" />
+    <div className="footer">
+      <div className="footer-left" />
+      <ul className="inline-list">
+        <li className="item1">About</li>
+        <li className="item2">⋅</li>
+        <li className="item3">Contact</li>
+        <li className="item4">⋅</li>
+        <li className="item5">Terms of Use</li>
+        <li className="item6">⋅</li>
+        <li className="item7">Privacy Policy</li>
+      </ul>
+      <p className="rights">© Your Website 2019. All Rights Reserved.</p>
+    </div>
   </div>
 );
 

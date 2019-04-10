@@ -7,8 +7,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 60px 1fr 400px auto auto auto 60px;
-    height: 500vh;
+    grid-template-rows: 55px auto 400px auto auto auto auto;
     margin: 0px;
     padding: 0px; 
 }
@@ -29,9 +28,10 @@ body{
 .navbar-brand{
     grid-row: 1/  2;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
-    padding-top: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     cursor: pointer;
 }
 .sign-in{
@@ -46,12 +46,18 @@ body{
     border: 1px solid transparent;
     border-radius: 6px;
     width: 75px;
-    height: 40px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
+    line-height: 1.5;
     padding-left: 12px;
     padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     cursor: pointer;
+    transition: #007bff .15s ease;
+}
+.sign-in:hover{
+    background-color: #0273ec;
 }
 /*Water card*/
 
@@ -61,6 +67,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 192px;
+    padding-top: 192px;
     background-image: url("./containers/images/water.jpg");
     background-color: black;
     background-size: 100% 100%;
@@ -90,6 +98,8 @@ body{
     text-align: center;
     margin-top: 0;
     margin-bottom: 48px;
+    width: 825px;
+
 }
 .email{
     grid-column: 1/ 2;
@@ -124,6 +134,10 @@ body{
     padding-bottom: 8px;
     cursor: pointer;
     margin-left: 10px;
+    transition: #007bff .15s ease;
+}
+.sign-up:hover{
+    background-color: #0273ec;
 }
 .water{
     height: 91vh;
@@ -334,14 +348,13 @@ body{
     grid-column: 1/ 2;
     grid-row: 2/ 3;
     width: 11vw;
-   
     font-family: 'Lato', sans-serif;
     background-color: #007bff;
     border-color: #007bff;
     color: #fff;
     font-weight: 400;
     border: 1px solid transparent;
-    border-radius: .3rem;
+    border-radius: 5px;
     font-weight: 400;
     font-size: 1.25em;
     line-height: 1.5;
@@ -349,12 +362,18 @@ body{
     cursor: pointer;
     margin-left: 10px;
     z-index: 1;
+    transition: #007bff .15s ease;
+}
+.signup-btn:hover{
+    background-color: #0273ec;
 }
 .h1-text{
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     color: white;
     font-size: 2rem;
     text-align: center;
@@ -368,4 +387,32 @@ body{
 .footer{
     grid-column: 1/ span 4;
     grid-row: 7/  8;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.inline-list{
+    display: flex;
+    list-style-type: none;
+    color: #007bff;
+    font-family: 'Lato', sans-serif; 
+    margin-block-start: 0;
+    margin-bottom: .5rem;
+    padding-left: 40px;
+}
+.item2, .item4, .item6{
+    color: black;
+}
+.rights{
+    color: #6c757d;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 40px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;  
+    font-size: smaller;
+}
+.item1, .item2, .item3, .item4, .item5, .item6{
+    margin-right: .5rem;
 }
