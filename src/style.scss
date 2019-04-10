@@ -24,6 +24,7 @@ body{
     padding-bottom: 8px;
     margin-left: 45px;
     margin-right: 45px;
+    width: 1110px;
 }
 .navbar-brand{
     grid-row: 1/  2;
@@ -395,7 +396,6 @@ body{
     margin-right: 61px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
 }
 .inline-list{
     grid-column: 1/2;
@@ -424,15 +424,16 @@ body{
     margin-right: .5rem;
 }
 .footer-right{
+    grid-column: 2/3;
     display: flex;
     justify-content: flex-end;
     font-size: 30px;
     color: #007bff;
-    transition: #007bff .15s ease;
 }
 .fa-facebook, .fa-twitter-square, .fa-instagram{
     margin-right: 1rem;
     margin-left: 1rem;
+    transition: #007bff .15s ease;
 }
 .fa-facebook:hover, .fa-twitter-square:hover, .fa-instagram:hover{
     color: #0273ec;
