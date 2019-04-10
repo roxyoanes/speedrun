@@ -89,6 +89,11 @@ const Home = () => (
         <li className="item7">Privacy Policy</li>
       </ul>
       <p className="rights">© Your Website 2019. All Rights Reserved.</p>
+      <div className="footer-right">
+        <i className="fab fa-facebook" />
+        <i className="fab fa-twitter-square" />
+        <i className="fab fa-instagram" />
+      </div>
     </div>
   </div>
 );
