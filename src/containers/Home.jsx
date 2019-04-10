@@ -73,7 +73,7 @@ const Home = () => (
       <div className="overlay" />
       <div className="text-input2">
         <div className="h1-text">Ready to get started? Sign up now!</div>
-        <input className="email2" type="text" />
+        <input className="email2" type="text" placeholder="Enter you email..." />
         <button className="signup-btn" type="button">Sign up</button>
       </div>
     </div>
