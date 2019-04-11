@@ -4,40 +4,29 @@
 body{
     margin: 0;
 }
-.container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 55px auto 400px auto auto auto auto;
-    margin: 0px;
-    padding: 0px; 
-}
 /*Navbar*/
 
 .navbar{
-   display: grid;
-   grid-column: 1/4;
-   grid-row: 1/ 2; 
+    display: grid; 
     position: relative;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin-left: 45px;
-    margin-right: 45px;
-    width: 1110px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
 }
 .navbar-brand{
     grid-row: 1/  2;
     font-family: 'Lato', sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: .3em;
+    padding-bottom: .3em;
     cursor: pointer;
 }
 .sign-in{
     grid-row: 1/2;
-    width: 65px;
     justify-self: end;
     font-family: 'Lato', sans-serif;
     background-color: #007bff;
@@ -46,7 +35,7 @@ body{
     font-weight: 400;
     border: 1px solid transparent;
     border-radius: 6px;
-    width: 75px;
+    width: 5em;
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5;
@@ -58,21 +47,38 @@ body{
     transition: #007bff .15s ease;
 }
 .sign-in:hover{
-    background-color: #0273ec;
+    background-color: #015fc4;
 }
 /*Water card*/
 
 .water-card{
-    grid-column: 1/ span 4;
-    grid-row: 2/  3;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 192px;
-    padding-top: 192px;
+    padding-bottom: 10em;
+    padding-top: 10em;
     background-image: url("./containers/images/water.jpg");
     background-color: black;
     background-size: 100% 100%;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        padding-bottom: 5em;
+        padding-top: 5em;
+    }
+}
+.overlay1{
+    position: absolute;
+    background-color: #212529;
+    height: 81%;
+    width: 100%;
+    top: 3.4em;
+    left: 0;
+    opacity: .3;
+    z-index: 0;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        height: 79%;
+    }
 }
 .text-input{
     display: flex;
@@ -80,17 +86,18 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 2em;
+    padding-left: 2em;
     margin-right: 140px;
     margin-left: 140px;
     line-height: 1.2;
     margin-top: 0;
     box-sizing: border-box;
-    width: 916px;
+    width: 76em;
+    z-index: 1;
 }
 .text{
-    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-family: 'Lato', sans-serif;;
     font-weight: 700;
     display: flex;
     flex-direction: row;
@@ -99,12 +106,14 @@ body{
     text-align: center;
     margin-top: 0;
     margin-bottom: 48px;
-    width: 825px;
+    width: 65vw;
+    z-index: 1;
 
+    @media (min-width: 320px) and (max-width: 480px){
+        font-size: 2rem;
+    }
 }
 .email{
-    grid-column: 1/ 2;
-    grid-row: 2/ 3;
     width: 33vw;
     height: 4vh;
     border-radius: 5px;
@@ -114,13 +123,16 @@ body{
     padding-bottom: 8px;
     padding-left: 16px;
     padding-right: 16px;
+    z-index: 1;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        width: 40vw;
+    }
 }
 .sign-up{
-    grid-column: 1/ 2;
-    grid-row: 2/ 3;
-    width: 11vw;
+   
     height: 7.2vh;
-    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-family: 'Lato', sans-serif;;
     background-color: #007bff;
     border-color: #007bff;
     color: #fff;
@@ -138,7 +150,7 @@ body{
     transition: #007bff .15s ease;
 }
 .sign-up:hover{
-    background-color: #0273ec;
+    background-color: #015fc4;
 }
 .water{
     height: 91vh;
@@ -147,49 +159,49 @@ body{
 /*Icons card*/
 
 .icons{
-    grid-column: 1/ span 4;
-    grid-row: 3/  4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
     margin-left: 61px;
     margin-right: 61px;
     padding-left: 15px;
     padding-right: 15px; 
     padding-top: 100px;
     padding-bottom: 100px;
-    display: grid;
+
+    @media (min-width: 320px) and (max-width: 480px){
+
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
 }
 .first-card{
-    grid-column: 1/2;
-    grid-row: 1/2;
     align-self: center;
     text-align: center;
 }
 .second-card{
-    grid-column: 2/3;
-    grid-row: 1/2;
     align-self: center;
     text-align: center;
 }
 .third-card{
-    grid-column: 3/4;
-    grid-row: 1/2;
     align-self: center;
     text-align: center;
    
 }
 .fa-desktop, .fa-layer-group, .fa-check-circle{
-    font-size: 65px;
+    font-size: 5em;
     color: #007bff;
 }
 .fa-desktop:hover{
-    font-size: 5rem;
+    font-size: 5.5rem;
 }
 
 .fa-layer-group:hover{
-    font-size: 5rem;
+    font-size: 5.5rem;
 }
 
 .fa-check-circle:hover{
-    font-size: 5rem;
+    font-size: 5.5rem;
 }
 .first-h1, .second-h1, .third-h1, .first-h2, .second-h2, .third-h2{
     font-family: 'Lato', sans-serif;
@@ -206,15 +218,28 @@ body{
 }
 /*Images cards*/
 .cards-img{
-    grid-column: 1/ span 4;
-    grid-row: 4/  5;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+
+        .img2, .img3, .img6{
+            height: 40vh;
+            width: 90vw;
+            justify-self: center;
+        }
+        .img1, .img4, .img5{
+            padding: 2rem;
+        }
+    }
 }
 .img2{
     background-image: url(./containers/images/bg-showcase-1.jpg);
     background-size: cover;
+    
 }
 .img3{
     background-image: url(./containers/images/bg-showcase-2.jpg);
@@ -225,7 +250,7 @@ body{
     background-size: cover;
 }
 .img1, .img4, .img5{
-    padding: 7rem;
+    padding: 6rem;
     font-family: 'Lato', sans-serif;
 }
 .title1, .title2, .title3{
@@ -243,10 +268,6 @@ body{
 
 /*People cards*/
 .people-img{
-    grid-column: 1/ span 4;
-    grid-row: 5/  6;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     padding-top: 7rem;
     padding-bottom: 7rem;
     padding-left: 76px;
@@ -254,8 +275,18 @@ body{
     font-family:'Lato', sans-serif;
     background-color: #f8f9fa;
     align-items: center;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
 }
 .title-people{
+    display: flex;
+    justify-content: center;
+    align-content: center;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -265,6 +296,11 @@ body{
     border-radius: 50%;
     margin-bottom: 16px;
     box-shadow: 0 5px 5px 0 #adb5bd;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        height: 18vh;
+        width: 26vw;
+    }
 }
 .name1, .name2, .name3{
     margin-top: 0;
@@ -278,36 +314,23 @@ body{
     line-height: 1.5;
     font-weight: 300;
     width: 288px;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        font-size: 1.5em;
+        text-align: center;
+    }
 }
-.person1{
-    grid-column: 1/2;
-    grid-row: 5/6;
+.person1, .person2, .person3{
     text-align: center;
-    
 }
-.person2{
-    grid-column: 2/3;
-    grid-row: 5/6;
-    text-align: center;
-    
-}
-.person3{
-    grid-column: 3/4;
-    grid-row: 5/6;
-    text-align: center;
-    
-}
+
 .title-people{
-    grid-column: 2/3;
-    text-align: center;
     margin-bottom: 48px;
 }
 
 /*Sign up*/
 .sign-up2{
     position: relative;
-    grid-column: 1/ span 4;
-    grid-row: 6/  7;
     background-color: #343a40;
     background-image: url("./containers/images/water.jpg");
     background-size: cover;
@@ -317,6 +340,11 @@ body{
     background-size: 100% 100%;
     padding-top: 7rem;
     padding-bottom: 7rem;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
 }
 .overlay{
     position: absolute;
@@ -330,10 +358,15 @@ body{
 }
 .text-input2{
     z-index: 1;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 }
 .email2{
-    grid-column: 1/ 2;
-    grid-row: 2/ 3;
     width: 33vw;
     border-radius: 5px;
     border: 1px solid #ced4da;
@@ -344,10 +377,12 @@ body{
     padding-left: 16px;
     padding-right: 16px;
     z-index: 1;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        width: 40vw;
+    }
 }
 .signup-btn{
-    grid-column: 1/ 2;
-    grid-row: 2/ 3;
     width: 11vw;
     font-family: 'Lato', sans-serif;
     background-color: #007bff;
@@ -364,9 +399,15 @@ body{
     margin-left: 10px;
     z-index: 1;
     transition: #007bff .15s ease;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        width: 20vw;
+        height: 10vh;
+        font-size: 1em;
+    }
 }
 .signup-btn:hover{
-    background-color: #0273ec;
+    background-color: #015fc4;
 }
 .h1-text{
     font-family: 'Lato', sans-serif;
@@ -382,20 +423,26 @@ body{
     margin-bottom: 24px;
     line-height: 1.2;
     z-index: 1;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        font-size: 1.7rem;
+        margin-bottom: 4px;
+    }
 }
 
 /*Footer*/
 .footer{
-    grid-column: 1/ span 4;
-    grid-row: 7/  8;
     padding-top: 4rem;
     padding-bottom: 4rem;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 61px;
-    margin-right: 61px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        display: flex;
+        flex-direction: column;
+    }
 }
 .inline-list{
     grid-column: 1/2;
@@ -409,6 +456,13 @@ body{
 }
 .item2, .item4, .item6{
     color: black;
+}
+.item1, .item3, .item5, .item7{
+    cursor: pointer;
+}
+.item1:hover, .item3:hover, .item5:hover, .item7:hover{
+    text-decoration: underline;
+    color: #015fc4;
 }
 .rights{
     grid-column: 1/2;
@@ -429,12 +483,20 @@ body{
     justify-content: flex-end;
     font-size: 30px;
     color: #007bff;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        justify-content: center;
+        align-content: center;
+        margin-top: 1em;
+    }
 }
 .fa-facebook, .fa-twitter-square, .fa-instagram{
     margin-right: 1rem;
     margin-left: 1rem;
     transition: #007bff .15s ease;
+    cursor: pointer;
 }
+
 .fa-facebook:hover, .fa-twitter-square:hover, .fa-instagram:hover{
-    color: #0273ec;
+    color: #015fc4;
 }
