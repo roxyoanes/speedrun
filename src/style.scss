@@ -218,6 +218,13 @@ body{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 
+    @media (min-width: 320px) and (max-width: 786px){
+        .card1, .card4, .card5{
+            padding: 2rem;
+            max-width: 100%;
+        }
+    }
+
     @media (min-width: 320px) and (max-width: 480px){
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -227,8 +234,9 @@ body{
             width: 90vw;
             justify-self: center;
         }
-        .img1, .img4, .img5{
+        .card1, .card4, .card5{
             padding: 2rem;
+            max-width: 100%;
         }
     }
 }
@@ -245,7 +253,7 @@ body{
     background-image: url(./containers/images/bg-showcase-3.jpg);
     background-size: cover;
 }
-.img1, .img4, .img5{
+.card1, .card4, .card5{
     padding: 6rem;
     font-family: 'Lato', sans-serif;
 }
