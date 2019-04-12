@@ -54,20 +54,22 @@ const Home = () => (
     </div>
     <div className="people-img">
       <h1 className="title-people">What people are saying...</h1>
-      <div className="person1">
-        <img src={picture1} className="margaret" alt="" />
-        <h2 className="name1">Margaret E.</h2>
-        <p className="p-name1">"This is fantastic! Thanks so much guys!"</p>
-      </div>
-      <div className="person2">
-        <img src={picture2} className="fred" alt="" />
-        <h2 className="name2">Fred S.</h2>
-        <p className="p-name2">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
-      </div>
-      <div className="person3">
-        <img src={picture3} className="sarah" alt="" />
-        <h2 className="name3">Sarah W.</h2>
-        <p className="p-name3">&quot;Thanks so much for making these free resources available to us!&quot;</p>
+      <div className="all-people">
+        <div className="person1">
+          <img src={picture1} className="margaret" alt="" />
+          <h2 className="name1">Margaret E.</h2>
+          <p className="p-name1">"This is fantastic! Thanks so much guys!"</p>
+        </div>
+        <div className="person2">
+          <img src={picture2} className="fred" alt="" />
+          <h2 className="name2">Fred S.</h2>
+          <p className="p-name2">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+        </div>
+        <div className="person3">
+          <img src={picture3} className="sarah" alt="" />
+          <h2 className="name3">Sarah W.</h2>
+          <p className="p-name3">&quot;Thanks so much for making these free resources available to us!&quot;</p>
+        </div>
       </div>
     </div>
     <div className="sign-up2">
