@@ -126,6 +126,7 @@ body{
     }
 }
 .sign-up{
+    height: 50px;
     font-family: 'Lato', sans-serif;;
     background-color: #007bff;
     border-color: #007bff;
@@ -429,6 +430,17 @@ body{
         margin-bottom: 4px;
     }
 }
+.input-button{
+    display: flex;
+    justify-content: center;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 /*Footer*/
 .footer{
@@ -453,6 +465,10 @@ body{
     margin-block-start: 0;
     margin-bottom: .5rem;
     padding-left: 40px;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        padding-left: 0;
+    }
 }
 .item2, .item4, .item6{
     color: black;
@@ -473,6 +489,10 @@ body{
     font-weight: 400;
     font-family: 'Lato', sans-serif;  
     font-size: smaller;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        padding-left: 0;
+    } 
 }
 .item1, .item2, .item3, .item4, .item5, .item6{
     margin-right: .5rem;
