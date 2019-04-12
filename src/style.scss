@@ -91,7 +91,6 @@ body{
     line-height: 1.2;
     margin-top: 0;
     box-sizing: border-box;
-    width: 76em;
     z-index: 1;
 }
 .text{
@@ -113,7 +112,6 @@ body{
 }
 .email{
     width: 33vw;
-    height: 4vh;
     border-radius: 5px;
     font-size: 1.25rem;
     line-height: 1.5;
@@ -294,7 +292,9 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
 
     @media (min-width: 320px) and (max-width: 480px){
+        display: flex;
         flex-direction: column;
+
     }
 }
 .margaret, .fred, .sarah{
