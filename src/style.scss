@@ -387,7 +387,6 @@ body{
     }
 }
 .signup-btn{
-    width: 11vw;
     font-family: 'Lato', sans-serif;
     background-color: #007bff;
     border-color: #007bff;
@@ -405,8 +404,6 @@ body{
     transition: #007bff .15s ease;
 
     @media (min-width: 320px) and (max-width: 480px){
-        width: 20vw;
-        height: 10vh;
         font-size: 1em;
     }
 }
