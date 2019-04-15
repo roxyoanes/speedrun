@@ -6,22 +6,25 @@ body{
 }
 /*Navbar*/
 
-.navbar {
+.navbar{
     display: grid; 
     position: relative;
-    padding: .5em 1em;
-    margin: 0 2.5em;
-
-    &__brand {
-        grid-row: 1/  2;
-        font-family: 'Lato', sans-serif;
-        font-size: 1.25rem;
-        font-weight: 400;
-        padding: .3em 0;
-        cursor: pointer;
-    }
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
 }
-
+.navbar-brand{
+    grid-row: 1/  2;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    cursor: pointer;
+}
 .sign-in{
     grid-row: 1/2;
     justify-self: end;
@@ -36,15 +39,16 @@ body{
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5;
-    padding: 6px 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     cursor: pointer;
     transition: #007bff .15s ease;
-
-    &:hover{
-        background-color: #015fc4;
-    }    
 }
-
+.sign-in:hover{
+    background-color: #015fc4;
+}
 /*Water card*/
 
 .water-card{
@@ -52,14 +56,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10em 0;
+    padding-bottom: 10em;
+    padding-top: 10em;
     background-image: url("./containers/images/water.jpg");
     background-color: #343a40;
     background-size: 100% 100%;
     height: 300px;
    
     @media (min-width: 320px) and (max-width: 480px){
-        padding: 5em 0;
+        padding-bottom: 5em;
+        padding-top: 5em;
     }
 }
 .overlay1{
@@ -78,8 +84,10 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0 2em;
-    margin: 0 140px;
+    padding-right: 2em;
+    padding-left: 2em;
+    margin-right: 140px;
+    margin-left: 140px;
     line-height: 1.2;
     margin-top: 0;
     box-sizing: border-box;
