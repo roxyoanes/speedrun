@@ -37,24 +37,18 @@ const Home = () => (
     </div>
     <div className="cards-img">
       <div className="img1">
-        <div className="card1">
-          <h2 className="title1">Fully Responsive Design</h2>
-          <p className="text1">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-        </div>
+        <h2 className="title1">Fully Responsive Design</h2>
+        <p className="text1">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
       </div>
       <div className="img2" />
       <div className="img3" />
       <div className="img4">
-        <div className="card4">
-          <h2 className="title2">Updated For Bootstrap 4</h2>
-          <p className="text2">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
-        </div>
+        <h2 className="title2">Updated For Bootstrap 4</h2>
+        <p className="text2">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
       </div>
       <div className="img5">
-        <div className="card5">
-          <h2 className="title3">Easy to Use & Customize</h2>
-          <p className="text3">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
-        </div>
+        <h2 className="title3">Easy to Use & Customize</h2>
+        <p className="text3">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
       </div>
       <div className="img6" />
     </div>
