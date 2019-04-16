@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../styles/second-page.scss';
+
 const SecondPage = () => (
   <div className="container">
     <div className="navbar">

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../styles/home.scss';
+
 import picture1 from './images/testimonials-1.jpg';
 import picture2 from './images/testimonials-2.jpg';
 import picture3 from './images/testimonials-3.jpg';
