@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400');
 
 .secondpage{
     .navbar{
@@ -48,9 +49,34 @@
         &__welcome{
             color: white;
             font-size: 40px;
-            font-style: italic;
             line-height: 40px;
-            
+            font-family: 'Merriweather', serif;
+            font-weight: 300;
+            margin-top: 0;
+        }
+        &__subtext{
+            color: white;
+            font-size: 75px;
+            font-weight: 700;
+            line-height: 75px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin-top: 0;
+        }
+    }
+    .btn-yellow{
+        color: white;
+        background-color: #fed136;
+        border-color: #fed136;
+        font-size: 18px;
+        padding: 20px 40px;
+        border-radius: 5px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        transition: #fed136 .15s ease;
+
+        &:hover{
+            background-color: #e4ba25;
         }
     }
 }
