@@ -18,8 +18,8 @@ const SecondPage = () => (
         </div>
       </div>
       <div className="landing-page">
-        <h1 className="Welcome">Welcome To Our Studio!</h1>
-        <h2 className="subtext">IT'S NICE TO MEET YOU</h2>
+        <h1 className="landing-page__welcome">Welcome To Our Studio!</h1>
+        <h2 className="landing-page__subtext">IT'S NICE TO MEET YOU</h2>
         <button className="btn-yellow" type="button">TELL ME MORE</button>
       </div>
     </div>
