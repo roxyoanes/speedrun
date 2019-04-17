@@ -53,6 +53,20 @@ const SecondPage = () => (
           </div>
         </div>
       </div>
+      <div className="portfolio">
+        <h2 className="services-page__title">PORTFOLIO</h2>
+        <h1 className="services-page__sub-title">Lorem ipsum dolor sit amet consectetur.</h1>
+        <div className="portfolio-images">
+          <div className="portfolio-images__img" />
+          <div className="portfolio-images__img" />
+          <div className="portfolio-images__img" />
+          <div className="portfolio-images__img" />
+          <div className="portfolio-images__img" />
+          <div className="portfolio-images__img" />
+          <div className="portfolio-images__img" />
+          <div className="portfolio-images__img" />
+        </div>
+      </div>
     </div>
   </div>
 );
