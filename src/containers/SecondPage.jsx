@@ -17,6 +17,11 @@ const SecondPage = () => (
           </nav>
         </div>
       </div>
+      <div className="landing-page">
+        <h1 className="Welcome">Welcome To Our Studio!</h1>
+        <h2 className="subtext">IT'S NICE TO MEET YOU</h2>
+        <button className="btn-yellow" type="button">TELL ME MORE</button>
+      </div>
     </div>
   </div>
 );
