@@ -1,6 +1,7 @@
 import React from 'react';
 
 import '../styles/second-page.scss';
+import '../styles/default.scss';
 
 const SecondPage = () => (
   <div className="secondpage">

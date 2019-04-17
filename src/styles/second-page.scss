@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400');
 
 .secondpage{
@@ -78,5 +78,10 @@
         &:hover{
             background-color: #e4ba25;
         }
+    }
+    .services-page{
+        padding: 150px 0;
+
+        
     }
 }
