@@ -100,4 +100,9 @@
             color: #fed136;
         }
     }
+    .portfolio-images{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
 }
