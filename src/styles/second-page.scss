@@ -80,10 +80,24 @@
         }
     }
     .services-page{
-        padding: 150px 0;   
+        padding: 150px 0;
+        margin: 0 50px;
+
+        &__sub-title{
+            margin-bottom: 75px;
+        }
     }
     .icons{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        grid-gap: 10px;
+
+        .fa-stack{
+            font-size: 65px;
+        }
+        .fa-circle{
+            color: #fed136;
+        }
     }
 }
