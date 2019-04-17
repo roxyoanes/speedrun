@@ -11,8 +11,8 @@
     &__right-side{
         display: grid;
         justify-content: end;
-    }
-    }
+        align-items: center;
+    }}
 
     .start{
         text-decoration: none;
@@ -34,5 +34,11 @@
         &:hover{
             color: #fed136;
         }
+    }
+    .landing-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 200px 0;
     }
 }
