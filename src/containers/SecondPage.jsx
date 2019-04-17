@@ -3,6 +3,13 @@ import React from 'react';
 import '../styles/second-page.scss';
 import '../styles/default.scss';
 
+import pic1 from './images/pic1.jpg';
+import pic2 from './images/pic2.jpg';
+import pic3 from './images/pic3.jpg';
+import pic4 from './images/04.jpg';
+import pic5 from './images/05.jpg';
+import pic6 from './images/06.jpg';
+
 const SecondPage = () => (
   <div className="secondpage">
     <div className="container">
@@ -58,34 +65,34 @@ const SecondPage = () => (
         <h1 className="services-page__sub-title">Lorem ipsum dolor sit amet consectetur.</h1>
         <div className="portfolio-images">
           <div className="wrapper">
-            <div className="portfolio-images__img" />
-            <h2 className="title-img">Threads</h2>
-            <h1 className="sub-title-img">Illustration</h1>
+            <img src={pic1} className="portfolio-images__img" alt="" />
+            <h2 className="portfolio-images__title-img">Threads</h2>
+            <h1 className="portfolio-images__sub-title-img">Illustration</h1>
           </div>
           <div className="wrapper">
-            <div className="portfolio-images__img" />
-            <h2 className="title-img">Explore</h2>
-            <h1 className="sub-title-img">Graphic Design</h1>
+            <img src={pic2} className="portfolio-images__img" alt="" />
+            <h2 className="portfolio-images__title-img">Explore</h2>
+            <h1 className="portfolio-images__sub-title-img">Graphic Design</h1>
           </div>
           <div className="wrapper">
-            <div className="portfolio-images__img" />
-            <h2 className="title-img">Finish</h2>
-            <h1 className="sub-title-img">Identity</h1>
+            <img src={pic3} className="portfolio-images__img" alt="" />
+            <h2 className="portfolio-images__title-img">Finish</h2>
+            <h1 className="portfolio-images__sub-title-img">Identity</h1>
           </div>
           <div className="wrapper">
-            <div className="portfolio-images__img" />
-            <h2 className="title-img">Lines</h2>
-            <h1 className="sub-title-img">Branding</h1>
+            <img src={pic4} className="portfolio-images__img" alt="" />
+            <h2 className="portfolio-images__title-img">Lines</h2>
+            <h1 className="portfolio-images__sub-title-img">Branding</h1>
           </div>
           <div className="wrapper">
-            <div className="portfolio-images__img" />
-            <h2 className="title-img">Southwest</h2>
-            <h1 className="sub-title-img">Web Design</h1>
+            <img src={pic5} className="portfolio-images__img" alt="" />
+            <h2 className="portfolio-images__title-img">Southwest</h2>
+            <h1 className="portfolio-images__sub-title-img">Web Design</h1>
           </div>
           <div className="wrapper">
-            <div className="portfolio-images__img" />
-            <h2 className="title-img">Window</h2>
-            <h1 className="sub-title-img">Photography</h1>
+            <img src={pic6} className="portfolio-images__img" alt="" />
+            <h2 className="portfolio-images__title-img">Window</h2>
+            <h1 className="portfolio-images__sub-title-img">Photography</h1>
           </div>
         </div>
       </div>
