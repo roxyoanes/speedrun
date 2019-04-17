@@ -57,14 +57,36 @@ const SecondPage = () => (
         <h2 className="services-page__title">PORTFOLIO</h2>
         <h1 className="services-page__sub-title">Lorem ipsum dolor sit amet consectetur.</h1>
         <div className="portfolio-images">
-          <div className="portfolio-images__img" />
-          <div className="portfolio-images__img" />
-          <div className="portfolio-images__img" />
-          <div className="portfolio-images__img" />
-          <div className="portfolio-images__img" />
-          <div className="portfolio-images__img" />
-          <div className="portfolio-images__img" />
-          <div className="portfolio-images__img" />
+          <div className="wrapper">
+            <div className="portfolio-images__img" />
+            <h2 className="title-img">Threads</h2>
+            <h1 className="sub-title-img">Illustration</h1>
+          </div>
+          <div className="wrapper">
+            <div className="portfolio-images__img" />
+            <h2 className="title-img">Explore</h2>
+            <h1 className="sub-title-img">Graphic Design</h1>
+          </div>
+          <div className="wrapper">
+            <div className="portfolio-images__img" />
+            <h2 className="title-img">Finish</h2>
+            <h1 className="sub-title-img">Identity</h1>
+          </div>
+          <div className="wrapper">
+            <div className="portfolio-images__img" />
+            <h2 className="title-img">Lines</h2>
+            <h1 className="sub-title-img">Branding</h1>
+          </div>
+          <div className="wrapper">
+            <div className="portfolio-images__img" />
+            <h2 className="title-img">Southwest</h2>
+            <h1 className="sub-title-img">Web Design</h1>
+          </div>
+          <div className="wrapper">
+            <div className="portfolio-images__img" />
+            <h2 className="title-img">Window</h2>
+            <h1 className="sub-title-img">Photography</h1>
+          </div>
         </div>
       </div>
     </div>
