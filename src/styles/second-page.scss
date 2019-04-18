@@ -100,13 +100,36 @@
             color: #fed136;
         }
     }
+    .portfolio{
+        padding: 0 60px;
+        padding-top: 100px;
+        background-color: #f8f9fa;
+    }
     .portfolio-images{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
-        grid-gap: 10px;
+        grid-gap: 20px;
 
-       
-       
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+        }
+       &__img{
+           position: relative;
+           height: 35vh;
+           width: 25vw;
+           margin: 0 auto;
+           cursor: pointer;
+           object-fit: cover;
+       }
+       &__title-img{
+           margin: 10px 0;
+           font-size: 25px;
+       }
+       &__sub-title-img{
+            margin-top: 0;
+            font-size: 15px;
+       }
     }
 }
