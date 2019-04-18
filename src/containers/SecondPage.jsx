@@ -96,6 +96,40 @@ const SecondPage = () => (
           </div>
         </div>
       </div>
+      <div className="about">
+        <h2 className="about__title">ABOUT</h2>
+        <h1 className="about__sub-title">Lorem ipsum dolor sit amet consectetur.</h1>
+        <div className="timeline">
+          <div className="container-timeline">
+            <div className="container-timeline--content-left">
+              <h4>2009-2011</h4>
+              <h3>Our Humble Beginnings</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+            </div>
+          </div>
+          <div className="container-timeline">
+            <div className="container-timeline--content-right">
+              <h4>2009-2011</h4>
+              <h3>Our Humble Beginnings</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+            </div>
+          </div>
+          <div className="container-timeline">
+            <div className="container-timeline--content-left">
+              <h4>2009-2011</h4>
+              <h3>Our Humble Beginnings</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+            </div>
+          </div>
+          <div className="container-timeline">
+            <div className="container-timeline--content-right">
+              <h4>2009-2011</h4>
+              <h3>Our Humble Beginnings</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 );

@@ -101,7 +101,6 @@
         }
     }
     .portfolio{
-        padding: 0 60px;
         padding: 100px 0;
         background-color: #f8f9fa;
     }
@@ -131,5 +130,28 @@
             margin-top: 0;
             font-size: 15px;
        }
+    }
+    .timeline{
+        position: relative;
+
+    }
+    .timeline::before{
+        left: 50%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        content: '';
+        background-color: #e9ecef;
+    }
+    .container-timeline{
+        display: flex;
+        flex-direction: column;
+        
+        position: relative;
+
+        &--content-right{
+            
+        }
     }
 }
