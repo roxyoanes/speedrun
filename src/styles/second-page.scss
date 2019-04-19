@@ -9,11 +9,25 @@
         padding: 25px;
 
 
-    &__right-side{
-        display: grid;
-        justify-content: end;
-        align-items: center;
-    }}
+        &__right-side{
+            display: grid;
+            justify-content: end;
+            align-items: center;
+        }
+        &__navbar-button{
+            font-size: 100%;
+            border: 0;
+            background-color: transparent;
+            letter-spacing: 1px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            padding: 0 10px;
+            cursor: pointer;
+    
+            &:hover{
+                color: #fed136;
+            }
+    }
 
     .start{
         text-decoration: none;
@@ -21,20 +35,6 @@
         color: #fed136;
         font-family: 'Kaushan Script', cursive;
     }
-    .button{
-        font-size: 100%;
-        border: 0;
-        font-family: inherit;
-        background-color: transparent;
-        letter-spacing: 1px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        padding: 0 10px;
-        cursor: pointer;
-
-        &:hover{
-            color: #fed136;
-        }
     }
     .landing-page{
         display: flex;
@@ -64,7 +64,7 @@
             margin-top: 0;
         }
     }
-    .btn-yellow{
+    .button{
         color: white;
         background-color: #fed136;
         border-color: #fed136;
@@ -114,26 +114,25 @@
             display: flex;
             flex-direction: column;
         }
-       &__img{
-           position: relative;
-           height: 35vh;
-           width: 25vw;
-           margin: 0 auto;
-           cursor: pointer;
-           object-fit: cover;
-       }
-       &__title-img{
-           margin: 10px 0;
-           font-size: 25px;
-       }
-       &__sub-title-img{
+        &__img{
+            position: relative;
+            height: 35vh;
+            width: 25vw;
+            margin: 0 auto;
+            cursor: pointer;
+            object-fit: cover;
+        }
+        &__title-img{
+            margin: 10px 0;
+            font-size: 25px;
+        }
+        &__sub-title-img{
             margin-top: 0;
             font-size: 15px;
-       }
+        }
     }
     .timeline{
         position: relative;
-
     }
     .timeline::before{
         left: 50%;
@@ -147,11 +146,14 @@
     .container-timeline{
         display: flex;
         flex-direction: column;
-        
-        position: relative;
 
-        &--content-right{
-            
+        &__content-right{
+            align-items: flex-end;
+            display: flex;
+            flex-direction: column;
+        }
+        &__p{
+            width:40%;
         }
     }
 }

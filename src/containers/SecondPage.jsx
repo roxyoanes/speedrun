@@ -17,18 +17,18 @@ const SecondPage = () => (
         <a className="start" href="#top">Start Bootstrap</a>
         <div className="navbar__right-side">
           <nav className="navbar__elements">
-            <button className="button" type="button">SERVICES</button>
-            <button className="button" type="button">PORTFOLIO</button>
-            <button className="button" type="button">ABOUT</button>
-            <button className="button" type="button">TEAM</button>
-            <button className="button" type="button">CONTACT</button>
+            <button className="navbar__navbar-button" type="button">SERVICES</button>
+            <button className="navbar__navbar-button" type="button">PORTFOLIO</button>
+            <button className="navbar__navbar-button" type="button">ABOUT</button>
+            <button className="navbar__navbar-button" type="button">TEAM</button>
+            <button className="navbar__navbar-button" type="button">CONTACT</button>
           </nav>
         </div>
       </div>
       <div className="landing-page">
         <h2 className="landing-page__welcome">Welcome To Our Studio!</h2>
         <h3 className="landing-page__subtext">IT'S NICE TO MEET YOU</h3>
-        <button className="btn-yellow" type="button">TELL ME MORE</button>
+        <button className="button" type="button">TELL ME MORE</button>
       </div>
       <div className="services-page">
         <h2 className="services-page__title">SERVICES</h2>
@@ -101,31 +101,31 @@ const SecondPage = () => (
         <h1 className="about__sub-title">Lorem ipsum dolor sit amet consectetur.</h1>
         <div className="timeline">
           <div className="container-timeline">
-            <div className="container-timeline--content-left">
+            <div className="container-timeline__content-left">
               <h4>2009-2011</h4>
               <h3>Our Humble Beginnings</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+              <p className="container-timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
             </div>
           </div>
           <div className="container-timeline">
-            <div className="container-timeline--content-right">
+            <div className="container-timeline__content-right">
               <h4>2009-2011</h4>
               <h3>Our Humble Beginnings</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+              <p className="container-timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
             </div>
           </div>
           <div className="container-timeline">
-            <div className="container-timeline--content-left">
+            <div className="container-timeline__content-left">
               <h4>2009-2011</h4>
               <h3>Our Humble Beginnings</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+              <p className="container-timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
             </div>
           </div>
           <div className="container-timeline">
-            <div className="container-timeline--content-right">
+            <div className="container-timeline__content-right">
               <h4>2009-2011</h4>
               <h3>Our Humble Beginnings</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+              <p className="container-timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
             </div>
           </div>
         </div>
