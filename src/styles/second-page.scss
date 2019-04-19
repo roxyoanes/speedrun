@@ -151,8 +151,8 @@
             left: 42%;
         }
         &__img{
-            width: 14vw;
-            height: 66vh;        
+            width: 170px;
+            height: 170px;        
             border-radius: 50%;
         }
         &__circle-last{
@@ -160,8 +160,8 @@
             border: 7px solid #e9ecef;
             border-radius: 100%;
             left: 42%;
-            width: 14vw;
-            height: 66vh;
+            width: 170px;
+            height: 170px;
             background-color: #fed136;        
         }
         &__last{
@@ -175,22 +175,26 @@
         grid-row:1/2;
         text-align: -webkit-right;
         margin: 0 50px;
+        padding: 0 50px;
     }
     .container2{
         grid-column: 2/3;
         grid-row: 2/3;
         margin: 0 50px;
+        padding: 0 50px;
     }
     .container3{
         grid-column: 1/2;
         grid-row: 3/4;
         text-align: -webkit-right;
         margin: 0 50px;
+        padding: 0 50px;
     }
     .container4{
         grid-column: 2/3;
         grid-row: 4/5;
         margin: 0 50px;
+        padding: 0 50px;
     }
     .container5{
         grid-column: 2/3;
@@ -206,5 +210,44 @@
         content: '';
         background-color: #e9ecef;
     }
-    
+    .team-page{
+        padding: 100px 0;
+        background-color: #f8f9fa;
+
+        &__subtitle{
+            padding-bottom: 75px;
+        }
+        &__p{
+            text-align: center;
+            padding: 1em 15em;
+        }
+    }
+    .team-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 15px;
+        text-align: center;
+    }
+    .team-card{
+
+        &__img{
+            width: 200px;
+            height: 200px;
+            border: 7px solid #fff;
+            border-radius: 50%;
+        }
+        &__title{
+            margin-bottom: 0;
+        }
+        &__p{
+            margin-top: 0;
+        }
+    }
+    .fa-stack{
+        cursor: pointer;
+    }
+    .fa-circle:hover{
+        color: #e4ba25;
+    }
 }
