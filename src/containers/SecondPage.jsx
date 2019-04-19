@@ -100,32 +100,32 @@ const SecondPage = () => (
         <h2 className="about__title">ABOUT</h2>
         <h1 className="about__sub-title">Lorem ipsum dolor sit amet consectetur.</h1>
         <div className="timeline">
-          <div className="container-timeline">
-            <div className="container-timeline__content-left">
+          <div className="container1">
+            <div className="timeline__content-1">
               <h4>2009-2011</h4>
               <h3>Our Humble Beginnings</h3>
-              <p className="container-timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+              <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
             </div>
           </div>
-          <div className="container-timeline">
-            <div className="container-timeline__content-right">
-              <h4>2009-2011</h4>
-              <h3>Our Humble Beginnings</h3>
-              <p className="container-timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+          <div className="container2">
+            <div className="timeline__content-2">
+              <h4>March 2011</h4>
+              <h3>An Agency is Born</h3>
+              <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
             </div>
           </div>
-          <div className="container-timeline">
-            <div className="container-timeline__content-left">
-              <h4>2009-2011</h4>
-              <h3>Our Humble Beginnings</h3>
-              <p className="container-timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+          <div className="container3">
+            <div className="timeline__content-3">
+              <h4>December 2012</h4>
+              <h3>Transition to Full Service</h3>
+              <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
             </div>
           </div>
-          <div className="container-timeline">
-            <div className="container-timeline__content-right">
-              <h4>2009-2011</h4>
-              <h3>Our Humble Beginnings</h3>
-              <p className="container-timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+          <div className="container4">
+            <div className="timeline__content-4">
+              <h4>July 2014</h4>
+              <h3>Phase Two Expansion</h3>
+              <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
             </div>
           </div>
         </div>
