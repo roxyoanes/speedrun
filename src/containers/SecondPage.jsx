@@ -16,6 +16,10 @@ import mountain2 from './images/mountain2.jpg';
 import person1 from './images/person1.jpg';
 import person2 from './images/person2.jpg';
 import person3 from './images/person3.jpg';
+import envato from './images/envato.jpg';
+import designmodo from './images/designmodo.jpg';
+import themeforest from './images/themeforest.jpg';
+import creative from './images/creative-market.jpg';
 
 const SecondPage = () => (
   <div className="secondpage">
@@ -225,6 +229,19 @@ const SecondPage = () => (
           </div>
         </div>
         <p className="team-page__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+      </div>
+      <div className="sponsors">
+        <img src={envato} className="img" alt="" />
+        <img src={designmodo} className="img" alt="" />
+        <img src={themeforest} className="img" alt="" />
+        <img src={creative} className="img" alt="" />
+      </div>
+      <div className="contact">
+        <h2 className="CONTACT__title">CONTACT</h2>
+        <h1 className="CONTACT__sub-title">Lorem ipsum dolor sit amet consectetur.</h1>
+        <div className="inputs">
+          
+        </div>
       </div>
     </div>
   </div>
