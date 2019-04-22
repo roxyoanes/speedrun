@@ -252,7 +252,39 @@
     }
     .sponsors{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(4,1fr);
         padding: 30px 20px;
+    }
+    .contact{
+    }
+    .inputs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr) ;
+        grid-template-rows: repeat(3,1fr);
+        grid-gap: 20px;
+        padding: 20px 40px;
+        
+        .input{
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            border: 1px solid #ced4da;
+            border-radius: .25rem;
+            padding: 15px;
+        }
+        &__email{
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        &__phone{
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        &__message{
+            grid-column: 2/3;
+            grid-row: 1/4;
+        }
     }
 }
