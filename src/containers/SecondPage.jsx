@@ -240,8 +240,12 @@ const SecondPage = () => (
         <h2 className="CONTACT__title">CONTACT</h2>
         <h1 className="CONTACT__sub-title">Lorem ipsum dolor sit amet consectetur.</h1>
         <div className="inputs">
-          
+          <input className="inputs__name" type="text" placeholder="Your Name*" />
+          <input className="inputs__email" type="text" placeholder="Your Email*" />
+          <input className="inputs__phone" type="text" placeholder="Your Phone*" />
+          <input className="inputs__message" type="text" placeholder="Your Message*" />
         </div>
+        <button className="button" type="button">SEND MESSAGE</button>
       </div>
     </div>
   </div>
