@@ -256,14 +256,30 @@
         padding: 30px 20px;
     }
     .contact{
+        background-image: url('../containers/images/map.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &__title{
+            color: white;
+            padding-top: 100px;
+        }
+        &__sub-title{
+            color: darkgrey;
+        }
     }
     .inputs{
         display: grid;
         grid-template-columns: repeat(2,1fr) ;
-        grid-template-rows: repeat(3,1fr);
         grid-gap: 20px;
-        padding: 20px 40px;
+        padding: 60px 40px;
         
+        &__left{
+            display: grid;
+            grid-auto-rows: 1fr;
+            grid-gap: 20px;
+        }
+      
         .input{
             font-size: 1rem;
             font-weight: 400;
@@ -274,17 +290,10 @@
             border-radius: .25rem;
             padding: 15px;
         }
-        &__email{
-            grid-column: 1/2;
-            grid-row: 2/3;
-        }
-        &__phone{
-            grid-column: 1/2;
-            grid-row: 3/4;
-        }
-        &__message{
-            grid-column: 2/3;
-            grid-row: 1/4;
-        }
+    }
+    .button-btn{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 100px;
     }
 }
