@@ -12,7 +12,6 @@
 
         &__right-side{
             display: grid;
-            justify-content: end;
             align-items: center;
         }
         &__navbar-button{
@@ -41,7 +40,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 200px 0;
+        padding: 230px 0;
         background-image: url("../containers/images/secondpage.jpg");
         background-attachment: scroll;
         background-position: center center;
@@ -49,19 +48,16 @@
 
         &__welcome{
             color: white;
-            font-size: 40px;
-            line-height: 40px;
+            font-size: 3rem;
             font-family: 'Merriweather', serif;
             font-weight: 300;
             margin-top: 0;
         }
         &__subtext{
             color: white;
-            font-size: 75px;
+            font-size: 5rem;
             font-weight: 700;
-            line-height: 75px;
             font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
             margin-top: 0;
         }
     }
@@ -69,7 +65,7 @@
         color: white;
         background-color: #fed136;
         border-color: #fed136;
-        font-size: 18px;
+        font-size: 1rem;
         padding: 20px 40px;
         border-radius: 5px;
         font-weight: 700;
@@ -90,12 +86,12 @@
     }
     .icons{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         text-align: center;
         grid-gap: 10px;
 
         .fa-stack{
-            font-size: 65px;
+            font-size: 4rem;
         }
         .fa-circle{
             color: #fed136;
@@ -107,7 +103,7 @@
     }
     .portfolio-images{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
         grid-gap: 20px;
 
@@ -125,11 +121,11 @@
         }
         &__title-img{
             margin: 10px 0;
-            font-size: 25px;
+            font-size: 1.5rem;
         }
         &__sub-title-img{
             margin-top: 0;
-            font-size: 15px;
+            font-size: 1rem;
         }
     }
     .about{
@@ -225,7 +221,7 @@
     }
     .team-wrapper{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
         grid-gap: 15px;
         text-align: center;
@@ -300,18 +296,18 @@
     .footer{
         display: grid;
         grid-template-rows: 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         justify-items: center;
         padding: 30px;
-        font-size: 12px;
+        font-size: 1rem;
 
         &__icons{
-          font-size: 12px;
+          font-size: .8rem;
         }
         &__right-side{
             display: flex;
             align-items: center;
-            font-size: 15px;
+            font-size: 1rem;
         &__a{
             padding-right: 10px;
             color: #fed136;
