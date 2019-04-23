@@ -296,4 +296,29 @@
         justify-content: center;
         padding-bottom: 100px;
     }
+    .footer{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        padding: 30px;
+        font-size: 12px;
+
+        &__icons{
+          font-size: 12px;
+        }
+        &__right-side{
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+        &__a{
+            padding-right: 10px;
+            color: #fed136;
+            text-decoration: none;
+        }
+       }
+        .footer__right-side__a:hover{
+            text-decoration: underline;
+        }
+    }
 }
