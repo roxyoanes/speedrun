@@ -111,7 +111,7 @@ const SecondPage = () => (
         <h2 className="about__title">ABOUT</h2>
         <h1 className="about__sub-title">Lorem ipsum dolor sit amet consectetur.</h1>
         <div className="timeline">
-          <div className="container1">
+          <div className="container1 card">
             <div className="timeline__content-1">
               <div className="timeline__circle">
                 <img src={mountain} className="timeline__img" alt="" />
@@ -121,7 +121,7 @@ const SecondPage = () => (
               <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
             </div>
           </div>
-          <div className="container2">
+          <div className="container2 card">
             <div className="timeline__content-2">
               <div className="timeline__circle">
                 <img src={airplane} className="timeline__img" alt="" />
@@ -131,7 +131,7 @@ const SecondPage = () => (
               <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
             </div>
           </div>
-          <div className="container3">
+          <div className="container3 card">
             <div className="timeline__content-3">
               <div className="timeline__circle">
                 <img src={laptop} className="timeline__img" alt="" />
@@ -141,7 +141,7 @@ const SecondPage = () => (
               <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
             </div>
           </div>
-          <div className="container4">
+          <div className="container4 card">
             <div className="timeline__content-4">
               <div className="timeline__circle">
                 <img src={mountain2} className="timeline__img" alt="" />
@@ -151,7 +151,7 @@ const SecondPage = () => (
               <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
             </div>
           </div>
-          <div className="container5">
+          <div className="container5 card">
             <div className="timeline__circle-last">
               <h4 className="timeline__last">
               Be Part
