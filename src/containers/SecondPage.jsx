@@ -116,9 +116,11 @@ const SecondPage = () => (
               <div className="timeline__circle">
                 <img src={mountain} className="timeline__img" alt="" />
               </div>
-              <h4>2009-2011</h4>
-              <h3>Our Humble Beginnings</h3>
-              <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+              <div className="timeline__text-box">
+                <h4>2009-2011</h4>
+                <h3>Our Humble Beginnings</h3>
+                <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+              </div>
             </div>
           </div>
           <div className="container2 card">
@@ -126,9 +128,11 @@ const SecondPage = () => (
               <div className="timeline__circle">
                 <img src={airplane} className="timeline__img" alt="" />
               </div>
-              <h4>March 2011</h4>
-              <h3>An Agency is Born</h3>
-              <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+              <div className="timeline__text-box">
+                <h4>March 2011</h4>
+                <h3>An Agency is Born</h3>
+                <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+              </div>
             </div>
           </div>
           <div className="container3 card">
@@ -136,9 +140,11 @@ const SecondPage = () => (
               <div className="timeline__circle">
                 <img src={laptop} className="timeline__img" alt="" />
               </div>
-              <h4>December 2012</h4>
-              <h3>Transition to Full Service</h3>
-              <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+              <div className="timeline__text-box">
+                <h4>December 2012</h4>
+                <h3>Transition to Full Service</h3>
+                <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+              </div>
             </div>
           </div>
           <div className="container4 card">
@@ -146,9 +152,11 @@ const SecondPage = () => (
               <div className="timeline__circle">
                 <img src={mountain2} className="timeline__img" alt="" />
               </div>
-              <h4>July 2014</h4>
-              <h3>Phase Two Expansion</h3>
-              <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+              <div className="timeline__text-box">
+                <h4>July 2014</h4>
+                <h3>Phase Two Expansion</h3>
+                <p className="timeline__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+              </div>
             </div>
           </div>
           <div className="container5 card">
