@@ -14,9 +14,8 @@ const Portfolio = ({ openModalHandler }) => (
       Lorem ipsum dolor sit amet consectetur.
     </h1>
     <div className="portfolio-images">
-      <div className="wrapper">
-        <figure className="hover-image">
-          <i className="fas fa-plus" />
+      <div className="portfolio-images__wrapper">
+        <figure className="portfolio-images__hover-image">
           <img
             src={pic1}
             className="portfolio-images__img"
@@ -24,6 +23,7 @@ const Portfolio = ({ openModalHandler }) => (
             onClick={() => openModalHandler(1)}
             role="presentation"
           />
+          <i className="fas fa-plus fa-3x" />
         </figure>
         <h2 className="portfolio-images__title-img">Threads</h2>
         <h1 className="portfolio-images__sub-title-img">Illustration</h1>
