@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import '../../styles/second-page.scss';
-import '../../styles/default.scss';
+import "../../styles/second-page.scss";
+import "../../styles/default.scss";
 
-const Navbar = () => (
-  <div className="navbar">
+const Navbar = ({ scrolled }) => (
+  <div className={scrolled ? "scrolled" : "navbar"}>
     <a className="start" href="#top">
               Start Bootstrap
     </a>

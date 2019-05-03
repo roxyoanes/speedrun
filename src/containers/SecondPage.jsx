@@ -21,7 +21,23 @@ class SecondPage extends Component {
   state = {
     isShowing: false,
     modalNumber: 0,
+    scrolled: false,
   };
+
+  componentDidMount() {
+    window.addEventListener("scroll", () => {
+      const isTop = window.scrollY < 50;
+      if (isTop !== true) {
+        this.setState({ scrolled: true });
+      } else {
+        this.setState({ scrolled: false });
+      }
+    });
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll");
+  }
 
   openModalHandler = (number) => {
     this.setState({
@@ -36,12 +52,14 @@ class SecondPage extends Component {
     });
   };
 
+
   render() {
-    const { isShowing, modalNumber } = this.state;
+    const { isShowing, modalNumber, scrolled } = this.state;
+
     return (
       <div className="secondpage">
         <div className="container">
-          <Navbar />
+          <Navbar scrolled={scrolled} />
           <Landing />
           <Services />
           <Portfolio openModalHandler={this.openModalHandler} />
