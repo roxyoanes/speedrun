@@ -8,7 +8,7 @@ import pic5 from "../images/05.jpg";
 import pic6 from "../images/06.jpg";
 
 const Portfolio = ({ openModalHandler }) => (
-  <div className="portfolio">
+  <div id="portfolio" className="portfolio">
     <h2 className="services-page__title">PORTFOLIO</h2>
     <h1 className="services-page__sub-title">
       Lorem ipsum dolor sit amet consectetur.

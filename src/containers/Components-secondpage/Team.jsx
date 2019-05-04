@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import '../../styles/second-page.scss';
-import '../../styles/default.scss';
+import "../../styles/second-page.scss";
+import "../../styles/default.scss";
 
-import person1 from '../images/person1.jpg';
-import person2 from '../images/person2.jpg';
-import person3 from '../images/person3.jpg';
+import person1 from "../images/person1.jpg";
+import person2 from "../images/person2.jpg";
+import person3 from "../images/person3.jpg";
 
 const Team = () => (
-  <div className="team-page">
+  <div id="team" className="team-page">
     <h2 className="team-page__title">OUR AMAZING TEAM</h2>
     <h1 className="team-page__sub-title">
       Lorem ipsum dolor sit amet consectetur.

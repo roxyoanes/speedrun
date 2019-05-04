@@ -10,21 +10,31 @@ const Navbar = ({ scrolled }) => (
     </a>
     <div className="navbar__right-side">
       <nav className="navbar__elements">
-        <button className="navbar__navbar-button" type="button">
+        <a href="#service">
+          <button className="navbar__navbar-button" type="button">
                   SERVICES
-        </button>
-        <button className="navbar__navbar-button" type="button">
+          </button>
+        </a>
+        <a href="#portfolio">
+          <button className="navbar__navbar-button" type="button">
                   PORTFOLIO
-        </button>
-        <button className="navbar__navbar-button" type="button">
+          </button>
+        </a>
+        <a href="#about">
+          <button className="navbar__navbar-button" type="button">
                   ABOUT
-        </button>
-        <button className="navbar__navbar-button" type="button">
+          </button>
+        </a>
+        <a href="#team">
+          <button className="navbar__navbar-button" type="button">
                   TEAM
-        </button>
-        <button className="navbar__navbar-button" type="button">
+          </button>
+        </a>
+        <a href="#contact">
+          <button className="navbar__navbar-button" type="button">
                   CONTACT
-        </button>
+          </button>
+        </a>
       </nav>
     </div>
   </div>

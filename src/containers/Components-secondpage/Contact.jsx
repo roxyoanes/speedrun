@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import '../../styles/second-page.scss';
-import '../../styles/default.scss';
+import "../../styles/second-page.scss";
+import "../../styles/default.scss";
 
 const Contact = () => (
-  <div className="contact">
+  <div id="contact" className="contact">
     <h2 className="contact__title">CONTACT US</h2>
     <h1 className="contact__sub-title">
       Lorem ipsum dolor sit amet consectetur.
