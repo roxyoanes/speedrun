@@ -84,7 +84,7 @@ const About = () => (
         </div>
       </div>
       <div className="container5 card">
-        <div className="timeline__circle-last">
+        <div className="timeline__circle timeline__circle--last">
           <h4 className="timeline__last">
             Be Part
             {" "}
