@@ -37,9 +37,8 @@
             }
             @media (min-width: 320px) and (max-width: 768px) {
                 display: none;
-             }
-    }
-      
+             }  
+    } 
     .start{
         text-decoration: none;
         font-size: 1.75em;
@@ -50,11 +49,35 @@
     }
     .button--menu{
         padding: 10px !important;
+        width: 100px !important;
     }
     .tablet{
         @media (min-width: 769px){
             display: none; 
         }
+    }
+    .menu{
+            &__drop{
+                background-color: #212529;
+                display: flex;
+                flex-direction: column;
+    
+                @media (min-width: 320px) and (max-width: 768px){
+                    visibility: visible;
+                }
+            }
+            &__menu-button{
+                font-size: 1rem;
+                border: 0;
+                background-color: transparent;
+                letter-spacing: 1px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                padding: 0 10px;
+                cursor: pointer;
+                color: white;
+                padding: 5px 0;
+            }
     }
   
     .scrolled{
@@ -74,9 +97,7 @@
             font-family: 'Kaushan Script', cursive;
             padding-left: 40px;
         }
-  
     }
-   
     .landing-page{
         display: flex;
         flex-direction: column;
@@ -142,7 +163,6 @@
             grid-template-rows: repeat(3, 1fr);
             grid-template-columns: 1fr;
         }
-
         .fa-stack{
             font-size: 4rem;
         }
@@ -164,9 +184,7 @@
             display: grid;
             grid-template-rows: repeat(3, 1fr);
             grid-template-columns: auto;
-            
         }
-
             &__wrapper{
                 display: flex;
                 flex-direction: column;
@@ -175,7 +193,6 @@
                 @media (min-width: 320px) and (max-width: 480px){
                     align-items: center;
                 }
-
             }
             &__img{
                 position: relative;
@@ -188,14 +205,13 @@
 
             @media (min-width: 481px) and (max-width: 768px){
                 height: 130px;
-                width: 185px;
+                width: 170px;
                 }
             @media (min-width: 320px) and (max-width: 480px){
                 height: 200px;
-                width: 250px;
+                width: 230px;
             }
         }
-       
         &__title-img{
             margin: 10px 0;
             font-size: 1.5rem;
@@ -212,11 +228,11 @@
 
             @media (min-width: 481px) and (max-width: 768px){
                 height: 130px;
-                width: 185px;
+                width: 170px;
             }
             @media (min-width: 320px) and (max-width: 480px){
                 height: 200px;
-                width: 250px;  
+                width: 230px;  
             } 
             &:hover img {
                 opacity: .1;
@@ -235,7 +251,6 @@
         left: 43%;
         opacity: 0;
     }
-    
     .about{
         padding: 100px 0;
 
@@ -496,7 +511,6 @@
             grid-auto-rows: 1fr;
             grid-gap: 20px;
         }
-      
         .input{
             font-size: 1rem;
             font-weight: 400;
