@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import '../../styles/second-page.scss';
-import '../../styles/default.scss';
+import "../../styles/second-page.scss";
+import "../../styles/default.scss";
 
-import envato from '../images/envato.jpg';
-import designmodo from '../images/designmodo.jpg';
-import themeforest from '../images/themeforest.jpg';
-import creative from '../images/creative-market.jpg';
+import envato from "../images/envato.jpg";
+import designmodo from "../images/designmodo.jpg";
+import themeforest from "../images/themeforest.jpg";
+import creative from "../images/creative-market.jpg";
 
 const Sponsors = () => (
   <div className="sponsors">

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 class Navbar extends Component {
   state={
@@ -92,11 +93,13 @@ class Navbar extends Component {
                 null
               )
           }
-
         </div>
       </div>
     );
   }
 }
+Navbar.propTypes = {
+  scrolled: PropTypes.bool.isRequired,
+};
 
 export default Navbar;

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import pic1 from "../images/pic1.jpg";
 import pic2 from "../images/pic2.jpg";
@@ -101,5 +102,8 @@ const Portfolio = ({ openModalHandler }) => (
     </div>
   </div>
 );
+Portfolio.propTypes = {
+  openModalHandler: PropTypes.bool.isRequired,
+};
 
 export default Portfolio;
