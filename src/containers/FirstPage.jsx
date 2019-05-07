@@ -18,7 +18,6 @@ const Home = () => (
       <div className="water-card">
         <div className="overlay1" />
         <div className="text-input">
-          #
           <h1 className="text">
             Build a landing page for your business or project and generate more
             leads!
