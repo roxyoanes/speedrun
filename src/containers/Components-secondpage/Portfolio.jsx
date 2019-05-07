@@ -103,7 +103,7 @@ const Portfolio = ({ openModalHandler }) => (
   </div>
 );
 Portfolio.propTypes = {
-  openModalHandler: PropTypes.bool.isRequired,
+  openModalHandler: PropTypes.func.isRequired,
 };
 
 export default Portfolio;
