@@ -33,7 +33,7 @@ const ThirdPage = () => (
           strategy foster collaborative thinking to further the overall value
           proposition.
         </p>
-        <div className="icons">
+        <div className="icons-media">
           <span className="fa-stack fa-2x">
             <i className="fas fa-circle fa-stack-2x" />
             <i className="fab fa-linkedin-in fa-stack-1x fa-inverse" />
@@ -113,6 +113,47 @@ const ThirdPage = () => (
       <div className="skills">
         <h2 className="skills__heading">Skills</h2>
         <h1 className="skills__languages">PROGRAMMING LANGUAGES & TOOLS</h1>
+        <div className="icons">
+          <span className="icons__symbol">
+            <i className="fab fa-html5" />
+          </span>
+          <span className="icons__symbol">
+            <i className="fab fa-css3-alt" />
+          </span>
+          <span className="icons__symbol">
+            <i className="fab fa-css3-alt" />
+          </span>
+          <span className="icons__symbol">
+            <i className="fab fa-js-square" />
+          </span>
+          <span className="icons__symbol">
+            <i className="fab fa-angular" />
+          </span>
+          <span className="icons__symbol">
+            <i className="fab fa-react" />
+          </span>
+          <span className="icons__symbol">
+            <i className="fab fa-node-js" />
+          </span>
+          <span className="icons__symbol">
+            <i className="fab fa-sass" />
+          </span>
+          <span className="icons__symbol">
+            <i className="fab fa-less" />
+          </span>
+          <span className="icons__symbol">
+            <i className="fab fa-wordpress" />
+          </span>
+          <span className="icons__symbol">
+            <i className="fab fa-gulp" />
+          </span>
+          <span className="icons__symbol">
+            <i className="fab fa-grunt" />
+          </span>
+          <span className="icons__symbol">
+            <i className="fab fa-npm" />
+          </span>
+        </div>
       </div>
     </div>
   </div>
