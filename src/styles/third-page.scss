@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700|Saira+Extra+Condensed:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,600,700|Saira+Extra+Condensed:300,400,500,600,700');
 
 .third-page{
     .navbar{
@@ -16,7 +15,6 @@
             display: flex;
             align-items: center;
         }
-
         &__right{
             display: flex;
             justify-content: flex-end;
@@ -31,5 +29,117 @@
         font-size: 1.25rem;
         padding: 6px 15px;
         border-radius: 4px;
+    }
+    .about{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        padding-left: 15px;
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        &__name{
+            line-height: 5.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+        &__heading{
+            font-size: 6rem;
+            margin: 0;
+
+            &--first{
+                color: #343a40;
+            }
+            &--second{
+                color: #bd5d38;
+            }
+        }
+        &__subheading{
+            font-size: 1.5rem;
+            color: #868e96;
+        }
+        &__email{
+            color: #bd5d38;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        &__description{
+            font-size: 1.15rem;
+            font-weight: 400;
+            margin-bottom: 3rem;
+        }
+    }
+    .fa-circle{
+        color: #495057;
+    }
+    .experience{
+        padding-left: 15px;
+        margin-bottom: 5rem;
+
+        &__card{
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+        }
+        &__heading{
+            margin-bottom: 3rem;
+        }
+        &__job{
+            font-size: 2rem;
+            color: #343a40;
+            font-weight: 700;
+            margin: 0;
+        }
+        &__company{
+            margin: 0;
+            font-weight: 500;
+        }
+        &__years{
+            color: #bd5d38;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            margin-bottom: 3rem;
+        }
+    }
+    .education{
+        padding-left: 15px;
+        margin-bottom: 5rem;
+
+        &__card{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+        &__heading{
+            margin-bottom: 3rem;
+        }
+        &__institution{
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0;
+            color: #343a40;
+        }
+        &__degree{
+            margin: 0;
+            font-weight: 500;
+        }
+        &__years{
+            color: #bd5d38;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            margin-bottom: 3rem;
+        }
+    }
+    .skills{
+        padding-left: 15px;
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        &__heading{
+            margin-bottom: 3rem;
+        }
     }
 }
