@@ -52,6 +52,7 @@ const ThirdPage = () => (
           </span>
         </div>
       </div>
+      <hr className="break-line" />
       <div className="experience">
         <div className="experience__card">
           <h2 className="experience__heading">EXPERIENCE</h2>
@@ -91,6 +92,7 @@ const ThirdPage = () => (
           <span className="experience__years">July 2010 - December 2011</span>
         </div>
       </div>
+      <hr className="break-line" />
       <div className="education">
         <div className="education__card">
           <h2 className="education__heading">EDUCATION</h2>
@@ -110,8 +112,9 @@ const ThirdPage = () => (
           <span className="education__years">August 2002 - May 2006</span>
         </div>
       </div>
+      <hr className="break-line" />
       <div className="skills">
-        <h2 className="skills__heading">Skills</h2>
+        <h2 className="skills__heading">SKILLS</h2>
         <h1 className="skills__languages">PROGRAMMING LANGUAGES & TOOLS</h1>
         <div className="icons">
           <span className="icons__symbol">
@@ -154,6 +157,89 @@ const ThirdPage = () => (
             <i className="fab fa-npm" />
           </span>
         </div>
+        <div className="skills__workflow">
+          <h1 className="skills__subheading">WORKFLOW</h1>
+          <ul className="skills__list">
+            <li className="skills__item">
+              <i className="fas fa-check" />
+              Mobile-First, Responsive Design
+            </li>
+            <li className="skills__item">
+              <i className="fas fa-check" />
+              Cross Browser Testing & Debugging
+            </li>
+            <li className="skills__item">
+              <i className="fas fa-check" />
+              Cross Functional Teams
+            </li>
+            <li className="skills__item">
+              <i className="fas fa-check" />
+              Agile Development & Scrum
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr className="break-line" />
+      <div className="interests">
+        <h2 className="interests__heading">INTERESTS</h2>
+        <p className="interests__description">
+          Apart from being a web developer, I enjoy most of my time being
+          outdoors. In the winter, I am an avid skier and novice ice climber.
+          During the warmer months here in Colorado, I enjoy mountain biking,
+          free climbing, and kayaking.
+        </p>
+        <p className="interests__description">
+          When forced indoors, I follow a number of sci-fi and fantasy genre
+          movies and television shows, I am an aspiring chef, and I spend a
+          large amount of my free time exploring the latest technology
+          advancements in the front-end web development world.
+        </p>
+      </div>
+      <hr className="break-line" />
+      <div className="awards">
+        <h2 className="awards__heading">AWARDS & CERTIFICATIONS</h2>
+        <ul className="awards__list">
+          <li className="awards__item">
+            <i className="fas fa-trophy" />
+            Google Analytics Certified Developer
+          </li>
+          <li className="awards__item">
+            <i className="fas fa-trophy" />
+            Mobile Web Specialist - Google Certification
+          </li>
+          <li className="awards__item">
+            <i className="fas fa-trophy" />
+            1
+            <sup>st</sup>
+            Place - University of
+            Colorado Boulder -
+            Emerging Tech Competition 2009
+          </li>
+          <li className="awards__item">
+            <i className="fas fa-trophy" />
+            1
+            <sup>st</sup>
+             Place - University of Colorado Boulder - Adobe Creative Jam 2008
+            (UI Design Category)
+          </li>
+          <li className="awards__item">
+            <i className="fas fa-trophy" />
+            2
+            <sup>nd</sup>
+             Place - University of Colorado Boulder - Emerging Tech
+            Competition 2008
+          </li>
+          <li className="awards__item">
+            <i className="fas fa-trophy" />
+            1st Place - James Buchanan High School - Hackathon 2006
+          </li>
+          <li className="awards__item">
+            <i className="fas fa-trophy" />
+            3
+            <sup>rd</sup>
+            Place - James Buchanan High School - Hackathon 2005
+          </li>
+        </ul>
       </div>
     </div>
   </div>
