@@ -4,7 +4,7 @@ import "../styles/third-page.scss";
 import "../styles/default-third.scss";
 
 import {
-  About, Experience, Education, Skills, Interests, Awards,Navbar,
+  About, Experience, Education, Skills, Interests, Awards, Navbar,
 } from "./Components-thirdpage";
 
 const ThirdPage = () => (
