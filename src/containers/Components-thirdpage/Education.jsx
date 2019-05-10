@@ -1,7 +1,7 @@
 import React from "react";
 
 const Education = () => (
-  <div className="education">
+  <div className="education" id="education">
     <div className="education__card">
       <h2 className="education__heading">EDUCATION</h2>
       <h1 className="education__institution">UNIVERSITY OF COLORADO BOULDER</h1>

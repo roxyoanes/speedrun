@@ -1,7 +1,7 @@
 import React from "react";
 
 const About = () => (
-  <div className="about">
+  <div className="about" id="about">
     <div className="about__name">
       <h2 className="about__heading about__heading--first">CLARENCE</h2>
       <h2 className="about__heading about__heading--second">TAYLOR</h2>

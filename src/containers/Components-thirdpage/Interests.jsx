@@ -1,7 +1,7 @@
 import React from "react";
 
 const Interests = () => (
-  <div className="interests">
+  <div className="interests" id="interests">
     <h2 className="interests__heading">INTERESTS</h2>
     <p className="interests__description">
       Apart from being a web developer, I enjoy most of my time being outdoors.

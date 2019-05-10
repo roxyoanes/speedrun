@@ -1,7 +1,7 @@
 import React from "react";
 
 const Skills = () => (
-  <div className="skills">
+  <div className="skills" id="skills">
     <h2 className="skills__heading">SKILLS</h2>
     <h1 className="skills__languages">PROGRAMMING LANGUAGES & TOOLS</h1>
     <div className="icons">
