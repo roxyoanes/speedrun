@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import person2 from "../images/person2.jpg";
+
 class Navbar extends Component {
   state={
     showMenu: false,
@@ -25,6 +27,15 @@ class Navbar extends Component {
         <a className="navbar__left" href="#top">
           Clarence Taylor
         </a>
+        <img className="navbar__pic" src={person2} alt="person" />
+        <nav className="navbar__list">
+          <a href="#about" className="navbar__item">ABOUT</a>
+          <a href="#experience" className="navbar__item">EXPERIENCE</a>
+          <a href="#education" className="navbar__item">EDUCATION</a>
+          <a href="#skills" className="navbar__item">SKILLS</a>
+          <a href="#interests" className="navbar__item">INTERESTS</a>
+          <a href="#awards" className="navbar__item">AWARDS</a>
+        </nav>
         <div className="navbar__right">
           <button type="button" className="button-menu " onClick={this.showMenu}>
             <i className="fas fa-bars" />
