@@ -1,7 +1,7 @@
 import React from "react";
 
 const Awards = () => (
-  <div className="awards" id="id">
+  <div className="awards" id="awards">
     <h2 className="awards__heading">AWARDS & CERTIFICATIONS</h2>
     <ul className="awards__list">
       <li className="awards__item">

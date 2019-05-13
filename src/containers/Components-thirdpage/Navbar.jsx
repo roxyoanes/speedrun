@@ -32,24 +32,24 @@ class Navbar extends Component {
         </div>
         {
           showMenu ? (
-            <nav className="menu">
+            <nav className="dropdown">
               <a href="#about">
-                <button type="button" className="menu-button">ABOUT</button>
+                <button type="button" className="dropdown-item ">ABOUT</button>
               </a>
               <a href="#experience">
-                <button type="button" className="menu-button">EXPERIENCE</button>
+                <button type="button" className="dropdown-item ">EXPERIENCE</button>
               </a>
               <a href="#education">
-                <button type="button" className="menu-button">EDUCATION</button>
+                <button type="button" className="dropdown-item">EDUCATION</button>
               </a>
               <a href="#skills">
-                <button type="button" className="menu-button">SKILLS</button>
+                <button type="button" className="dropdown-item">SKILLS</button>
               </a>
               <a href="#interests">
-                <button type="button" className="menu-button">INTERESTS</button>
+                <button type="button" className="dropdown-item">INTERESTS</button>
               </a>
               <a href="#awards">
-                <button type="button" className="menu-button">AWARDS</button>
+                <button type="button" className="dropdown-item">AWARDS</button>
               </a>
             </nav>
           )
