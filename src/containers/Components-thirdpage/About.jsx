@@ -19,22 +19,30 @@ const About = () => (
       proposition.
     </p>
     <div className="icons-media">
-      <span className="fa-stack fa-2x">
-        <i className="fas fa-circle fa-stack-2x" />
-        <i className="fab fa-linkedin-in fa-stack-1x fa-inverse" />
-      </span>
-      <span className="fa-stack fa-2x">
-        <i className="fas fa-circle fa-stack-2x" />
-        <i className="fab fa-github fa-stack-1x fa-inverse" />
-      </span>
-      <span className="fa-stack fa-2x">
-        <i className="fas fa-circle fa-stack-2x" />
-        <i className="fab fa-twitter fa-stack-1x fa-inverse" />
-      </span>
-      <span className="fa-stack fa-2x">
-        <i className="fas fa-circle fa-stack-2x" />
-        <i className="fab fa-facebook-f fa-stack-1x fa-inverse" />
-      </span>
+      <a href="#about" className="icons-media__hover">
+        <span className="fa-stack fa-2x">
+          <i className="fas fa-circle fa-stack-2x" />
+          <i className="fab fa-linkedin-in fa-stack-1x fa-inverse" />
+        </span>
+      </a>
+      <a href="#about" className="icons-media__hover">
+        <span className="fa-stack fa-2x">
+          <i className="fas fa-circle fa-stack-2x" />
+          <i className="fab fa-github fa-stack-1x fa-inverse" />
+        </span>
+      </a>
+      <a href="#about" className="icons-media__hover">
+        <span className="fa-stack fa-2x">
+          <i className="fas fa-circle fa-stack-2x" />
+          <i className="fab fa-twitter fa-stack-1x fa-inverse" />
+        </span>
+      </a>
+      <a href="#about" className="icons-media__hover">
+        <span className="fa-stack fa-2x">
+          <i className="fas fa-circle fa-stack-2x" />
+          <i className="fab fa-facebook-f fa-stack-1x fa-inverse" />
+        </span>
+      </a>
     </div>
   </div>
 );
