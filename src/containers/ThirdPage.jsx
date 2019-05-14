@@ -1,7 +1,6 @@
 import React from "react";
 
 import "../styles/third-page.scss";
-import "../styles/default-third.scss";
 
 import {
   About, Experience, Education, Skills, Interests, Awards, Navbar,
