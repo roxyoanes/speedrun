@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,600,700|Saira+Extra+Condensed:300,400,500,600,700');
 
+.smooth-scroll {
+    scroll-behavior: smooth;
+}
+
 .third-page{
+
     .navbar{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -95,9 +100,6 @@
         &__is-current{
                 color: white;
         }
-    }
-    #scroll{
-        scroll-behavior: smooth;
     }
     .button-menu{
         cursor: pointer;

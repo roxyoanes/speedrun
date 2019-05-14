@@ -8,6 +8,14 @@ class Navbar extends Component {
     showMenu: false,
   };
 
+  componentDidMount() {
+    document.querySelector("html").classList.add("smooth-scroll");
+  }
+
+  componentWillUnmount() {
+    document.querySelector("html").classList.remove("smooth-scroll");
+  }
+
   showMenu = (event) => {
     event.preventDefault();
     this.setState({ showMenu: true }, () => {
@@ -31,7 +39,7 @@ class Navbar extends Component {
         <a className="navbar__pic-container" href="#top">
           <img className="navbar__pic" src={person2} alt="person" />
         </a>
-        <nav className="navbar__list" id="scroll">
+        <nav className="navbar__list">
           <Scrollspy
             style={{
               display: "flex",
