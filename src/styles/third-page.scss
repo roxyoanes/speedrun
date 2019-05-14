@@ -4,6 +4,7 @@
     .navbar{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
         background-color: #bd5d38;
         padding: 8px 16px;
         position: fixed;
@@ -13,13 +14,13 @@
         @media (min-width: 1024px){
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: auto;
+            grid-template-rows: 180px 1fr;
+            justify-items: center;
             height: 100%;
             width: 220px;
             top: 0;
             left: 0;
-            padding-top: 60px;
-
+            padding-top: 50px;
         }
 
         &__left{
@@ -44,13 +45,16 @@
                 display: none;
             }
         }
+        &__pic-container{
+            @media (max-width: 1023px){
+                display: none; 
+            }
+        }
         &__pic{
             width: 140px;
             border: .5rem solid rgba(255,255,255,.2);
             border-radius: 50%;
-            display: flex;
-            justify-self: center;
-            align-self: center;
+            cursor: pointer;
 
             @media (max-width: 1023px){
                 display: none;
@@ -59,7 +63,7 @@
         &__list{
             display: flex;
             flex-direction: column;
-            align-items: center;
+            text-align: center;
 
             @media (max-width: 1023px){
                 display: none;
@@ -72,18 +76,28 @@
             font-size: 1.5rem;
             letter-spacing: .07rem;
             font-weight: 800;
+            padding: 8px;
 
             @media (max-width: 1023px){
                 display: none;
             }
 
             &:hover{
-                color: white;
+                color: rgba(255, 255, 255, 0.76);
             }
             &:active{
                 color: white;
             }
+            &:focus{
+                color: rgba(255, 255, 255, 0.644);
+            }
         }
+        &__is-current{
+                color: white;
+        }
+    }
+    #scroll{
+        scroll-behavior: smooth;
     }
     .button-menu{
         cursor: pointer;
@@ -117,9 +131,7 @@
     }
     .about{
         font-family: 'Saira Extra Condensed', sans-serif;
-        padding-left: 15px;
-        margin-bottom: 5rem;
-        padding-top: 5rem;
+        padding: 8rem 15px;
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -133,6 +145,11 @@
             display: flex;
             flex-direction: column;
             align-items: start;
+
+            @media (min-width: 768px){
+                display: flex;
+                flex-direction: row;
+            }
         }
         &__heading{
             font-size: 6rem;
@@ -140,6 +157,10 @@
 
             &--first{
                 color: #343a40;
+
+                @media (min-width: 768px){
+                    padding-right: 15px;
+                }
             }
             &--second{
                 color: #bd5d38;
@@ -148,6 +169,7 @@
         &__subheading{
             font-size: 1.5rem;
             color: #868e96;
+            padding-bottom: 30px;
         }
         &__email{
             color: #bd5d38;
@@ -164,8 +186,17 @@
         border-top: 1px solid rgba(0,0,0,.1);
         margin: 0;
     }
-    .fa-circle{
+    .icons-media{
+        margin-bottom: 2rem;
+    }
+    .icons-media__hover{
         color: #495057;
+        &:hover{
+            color: #bd5d38;
+        }
+    }
+    .fa-stack{
+        font-size: 1.5rem;
     }
     .experience{
         padding-left: 15px;
@@ -222,6 +253,7 @@
             font-weight: 700;
             margin: 0;
             color: #343a40;
+            text-align: -webkit-left;
         }
         &__degree{
             margin: 0;
@@ -235,8 +267,7 @@
         }
     }
     .skills{
-        padding-left: 15px;
-        margin-bottom: 5rem;
+        padding: 5rem 15px;
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -246,8 +277,7 @@
         }
 
         &__heading{
-            margin-bottom: 3rem;
-            margin-top: 5rem;
+            margin: 4rem 0;
         }
         &__subheading{
             text-align: left;
@@ -275,7 +305,8 @@
         }
     }
     .interests{
-        padding-left: 15px;
+        padding: 10rem 15px;
+       
 
         @media (min-width: 1024px){
             padding-left: 280px;
@@ -288,9 +319,8 @@
         }
     }
     .awards{
-        padding-left: 15px;
-        margin-bottom: 5rem;
-
+        padding: 10rem 15px;
+        
         @media (min-width: 1024px){
             padding-left: 280px;
         }
