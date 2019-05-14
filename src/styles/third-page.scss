@@ -5,7 +5,28 @@
 }
 
 .third-page{
+    font-family: 'Roboto', sans-serif;
+    color: #868e96;
 
+    h2{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size: 3.5rem;
+        color: #343a40;
+    }
+    h1{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-style: normal;
+        font-size: 1.5rem;
+    }
+    p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #868e96;
+    }
+    li{
+        list-style-type: none;
+    }
     .navbar{
         display: grid;
         grid-template-columns: 1fr 1fr;
