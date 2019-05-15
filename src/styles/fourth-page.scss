@@ -152,4 +152,55 @@
             margin-bottom: 4rem;
         }
     }
+    .card-5{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 7.5rem 0;
+
+        &__portfolio{
+            color: #ecb807;
+            font-size: 1rem;
+            margin: 0;
+        }
+        &__subheading{
+            margin-top: 0;
+            font-size: 2.5rem;
+        }
+    }
+    .captions{
+        
+
+        &__img{
+            max-width: 100%;
+        }
+        &__card{
+            margin: 1rem;
+            position: relative;
+        }
+        &__text{
+            position: absolute;
+            color: #fff;
+            margin: 6rem 5rem 1rem 1rem;
+            text-align: -webkit-left;
+        }
+        &__title{
+            margin: 0;
+            font-size: .8rem;
+        }
+        &__p{
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+        &__overlay{
+            position: absolute;
+            background-color: #212529;
+            height: 98%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            opacity: .3;
+        }
+        
+    }
 }
