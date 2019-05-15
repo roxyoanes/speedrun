@@ -3,6 +3,27 @@
 .fourth-page{
     font-family: 'Source Sans Pro', sans-serif;
 
+    h1{
+        font-size: 3.5rem;
+        line-height: 1.2;
+        font-weight: 700;
+        margin: 0;
+    }
+    h2{
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    h3{
+        font-size: 1.75rem;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    p{
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.8;
+    }
     .navbar{
         display: flex;
         justify-content: flex-end;
@@ -31,17 +52,10 @@
             text-align: -webkit-center;
         }
         &__heading{
-            font-size: 3.5rem;
-            line-height: 1.2;
-            font-weight: 700;
-            margin: 0;
             padding-top: 30px;
         }
         &__subheading{
-            font-size: 1.75rem;
-            font-weight: 700;
             padding-bottom: 3rem;
-            line-height: 1.2;
             font-style: italic;
         }
         &__button-wrapper{
@@ -58,5 +72,62 @@
         border-radius: 5px;
         border: 1px solid transparent;
         font-weight: 700;
+
+        &--color{
+            background-color: #343a40;
+            border-color: #343a40;
+            text-decoration: none;
+        }
+    }
+    .card-2{
+        display: flex;
+        flex-direction: column;
+        text-align: -webkit-center;
+        padding: 7.5rem 15px;
+        font-family: 'Source Sans Pro', sans-serif;
+
+        &__description{
+            margin: 3rem 0;
+        }
+    }
+    .link-website{
+        padding-left: 5px;
+        text-decoration: none;
+        color: #1d809f;
+    }
+    .card-3{
+        background-color: #1d809f;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        padding: 7.5rem 0;
+
+        &__text-services{
+            color: #ecb807;
+            font-size: 1rem;
+            margin: 0;
+        }
+        &__subheading{
+            margin-top: 0;
+            font-size: 2.5rem;
+        }
+        &__property{
+            margin-bottom: 5px;
+        }
+        &__description{
+            margin-top: 0;
+            margin-bottom: 3rem;
+            color: rgba(255,255,255,.7);
+        }
+    }
+    .fa-stack{
+        font-size: 3rem;
+    }
+    .fa-heart{
+        padding: 0 5px;
+    }
+    .item{
+        color: #1d809f;
     }
 }
