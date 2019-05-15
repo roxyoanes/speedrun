@@ -93,10 +93,20 @@ const FourthPage = () => (
               <i className="fas fa-question fa-stack-1x fa-inverse item" />
             </span>
             <h4 className="card-3__property">Question</h4>
-            <p className="card-3__description">
-              I mustache you a question...
-            </p>
+            <p className="card-3__description">I mustache you a question...</p>
           </div>
+        </div>
+      </div>
+      <div className="card-4">
+        <div className="card-4__container">
+          <h2 className="card-4__subheading">
+            Welcome to
+            <em>your</em>
+            next website!
+          </h2>
+          <a href="#top" className="button-card">
+            Download Now!
+          </a>
         </div>
       </div>
     </div>
