@@ -219,4 +219,20 @@
             font-size: 2rem;
         }
     }
+    .footer{
+        padding: 5rem 0;
+
+        &__p{
+            text-align: center;
+            margin-top: 2rem;
+            font-weight: 400;
+            font-size: .8rem;
+        }
+    }
+   .footer-icons{
+        font-size: 2rem;
+        color: #1d809f;
+        text-align: center;
+        cursor: pointer;
+    }
 }
