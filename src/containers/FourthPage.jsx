@@ -209,7 +209,11 @@ const FourthPage = () => (
         </div>
         <p className="footer__p">Copyright © Your Website 2019</p>
       </div>
-      
+      <div className="scroll">
+        <button type="button" className="button-scroll">
+          <i className="fas fa-arrow-up" />
+        </button>
+      </div>
     </div>
   </div>
 );
