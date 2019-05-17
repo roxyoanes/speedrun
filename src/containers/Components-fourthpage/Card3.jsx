@@ -1,7 +1,7 @@
 import React from "react";
 
 const Card3 = () => (
-  <div className="card-3">
+  <div className="card-3" id="services">
     <div className="card-3__heading">
       <h3 className="card-3__text-services">SERVICES</h3>
       <h2 className="card-3__subheading">What We Offer</h2>

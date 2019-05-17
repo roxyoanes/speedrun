@@ -3,7 +3,6 @@ import React from "react";
 import "../../styles/second-page.scss";
 import "../../styles/default.scss";
 
-
 const Landing = () => (
   <div className="landing-page">
     <h2 className="landing-page__welcome">Welcome To Our Studio!</h2>

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Card1 = () => (
-  <div className="card-1 image">
+  <div className="card-1 image" id="top">
     <div className="card-1__container">
       <h1 className="card-1__heading">Stylish Portfolio</h1>
       <h3 className="card-1__subheading">

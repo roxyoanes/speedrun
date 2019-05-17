@@ -1,7 +1,7 @@
 import React from "react";
 
 const Card2 = () => (
-  <div className="card-2">
+  <div className="card-2" id="about">
     <div className="card-2__container">
       <h2 className="card-2__subheading">
         Stylish Portfolio is the perfect theme for your next project!
