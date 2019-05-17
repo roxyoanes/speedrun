@@ -14,7 +14,7 @@ const Card2 = () => (
         </a>
         !
       </p>
-      <a href="#top" className="button-card button-card--color">
+      <a href="#services" className="button-card button-card--color">
         What We Offer
       </a>
     </div>

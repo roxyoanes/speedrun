@@ -8,7 +8,7 @@ const Card4 = () => (
         <em>your</em>
         next website!
       </h2>
-      <a href="#top" className="button-card">
+      <a href="https://startbootstrap.com/themes/stylish-portfolio/" className="button-card">
         Download Now!
       </a>
     </div>

@@ -32,7 +32,6 @@ const Card5 = () => (
             cream cone!
           </p>
         </div>
-
         <img src={port2} className="captions__img" alt="img" />
       </div>
       <div className="captions__card">

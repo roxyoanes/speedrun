@@ -7,7 +7,7 @@ const Card1 = () => (
       <h3 className="card-1__subheading">
         A Free Bootstrap Theme by Start Bootstrap
       </h3>
-      <a href="#top" className="card-1__button-wrapper">
+      <a href="#about" className="card-1__button-wrapper">
         <button type="button" className="button-card">
           Find Out More
         </button>
