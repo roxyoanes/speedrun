@@ -57,19 +57,35 @@
         background-image: url(../containers/images/card1pr4.jpg);
         background-position: center center;
         background-repeat: no-repeat;
+        
+        @media (min-width: 768px) and (max-width: 1024px){
+            background-size: cover;
+        }
     }
     .card-1{
         &__container{
             display: flex;
             flex-direction: column;
             text-align: -webkit-center;
+
+            @media (min-width: 1024px){
+                padding: 8rem 0;
+            }
         }
         &__heading{
             padding-top: 30px;
+
+            @media (min-width: 1024px){
+                font-size: 5.5rem;
+            }
         }
         &__subheading{
             padding-bottom: 3rem;
             font-style: italic;
+
+            @media (min-width: 1024px){
+                padding-bottom: 1rem;
+            }
         }
         &__button-wrapper{
             margin-bottom: 5rem;
@@ -97,6 +113,10 @@
             border-color: #fff;
             color: black;
             margin-right: 20px;
+
+            @media (max-width: 320px){
+                margin-right: 0;
+            }
         }
     }
     .card-2{
@@ -106,8 +126,19 @@
         padding: 7.5rem 15px;
         font-family: 'Source Sans Pro', sans-serif;
 
+        &__subheading{
+            @media (min-width: 1024px){
+                font-size: 2rem;
+                margin-bottom: 0;
+            }
+        }
         &__description{
             margin: 3rem 0;
+
+            @media (min-width: 1024px){
+                margin-top: 0;
+                font-size: 1.2rem;
+            }
         }
     }
     .link-website{
@@ -123,6 +154,18 @@
         color: white;
         padding: 7.5rem 0;
 
+        &__icons-wrapper{
+            @media (min-width: 1024px){
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: auto;
+            }
+            @media (width: 768px){
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+
+            }
+        }
         &__text-services{
             color: #ecb807;
             font-size: 1rem;
@@ -157,12 +200,26 @@
         background-repeat: no-repeat;
         padding: 15rem 0;
 
+        @media (min-width: 768px) and (max-width: 1024px){
+            background-size: cover;
+        }
+        @media (width: 768px){
+            padding: 6rem 0;
+        }
+
         &__container{
             text-align: -webkit-center;
         }
         &__subheading{
             font-size: 3.5rem;
             margin-bottom: 4rem;
+
+            @media (min-width: 1024px){
+                padding: 0 23rem;
+            }
+            @media (width: 768px){
+                padding: 0 9rem;
+            }
         }
     }
     .card-5{
@@ -182,12 +239,33 @@
         }
     }
     .captions{
-        &__img{
-            max-width: 100%;
+        @media (min-width: 1024px){
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+        }
+        &__img-wrapper{
+            position: relative;
+        }
+        &__img, &__overlay {
+            width: 100%;
+        }
+        
+        &__overlay{
+            position: absolute;
+            background-color: #212529;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: .3;
         }
         &__card{
             margin: 1rem;
             position: relative;
+
+            @media (min-width: 1024px){
+                margin: 0;
+            } 
             
         }
         &__text{
@@ -204,15 +282,6 @@
             font-size: 1.2rem;
             line-height: 1.5;
         }
-        &__overlay{
-            position: absolute;
-            background-color: #212529;
-            height: 98%;
-            width: 100%;
-            top: 0;
-            left: 0;
-            opacity: .3;
-        }
     }
     .card-6{
         display: flex;
@@ -227,8 +296,20 @@
             font-size: 2rem;
         }
     }
+    .map{
+        width: 100%;
+        height: 250px;
+
+        @media (min-width: 1024px){
+            height: 400px;
+        }
+    }
     .footer{
         padding: 5rem 0;
+
+        @media (min-width: 768px) and (max-width: 1024px){
+            padding: 2rem;
+        }
 
         &__p{
             text-align: center;
@@ -247,6 +328,10 @@
         display: flex;
         justify-content: flex-end;
         margin: 1rem;
+
+        @media (min-width: 768px) and (max-width: 1024px){
+            margin: 0;
+        }
    }
    .button-scroll{
         color: #fff;
@@ -279,12 +364,11 @@
         right:15px;
         z-index: 2;
    }
-   .menu-drop{
-       position: fixed;
-       top: 0;
-       right: 0;
-       bottom: 0;
-        width: 250px;
+   .menu{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0; 
         margin: 0;
         padding: 0;
         background-color: #1d809f;
@@ -313,6 +397,23 @@
             font-size: 1rem;
             font-weight: 400;
             line-height: 1.5;
+
+            @media (min-width: 1024px){
+                padding: 25px;
+            }
         }
    }
+   .menu-drop{
+        width: 250px;
+        transition: width 0.3s;
+   }
+   .menu-closed{
+       width: 0;
+       transition: width 0.3s;
+
+       * {
+           display: none;
+       }
+   }
+
 }
