@@ -1,11 +1,15 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const ScrollUp = () => (
-  <div className="scroll">
-    <button type="button" className="button-scroll">
+const ScrollUp = ({ scrolled }) => (
+  <a href="#top" className="scroll">
+    <button type="button" className={scrolled ? "scrolled" : "button-scroll"}>
       <i className="fas fa-arrow-up" />
     </button>
-  </div>
+  </a>
 );
+ScrollUp.propTypes = {
+  scrolled: PropTypes.bool.isRequired,
+};
 
 export default ScrollUp;

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import Scrollspy from "react-scrollspy";
 
 class Navbar extends Component {
