@@ -58,7 +58,7 @@
         background-position: center center;
         background-repeat: no-repeat;
         
-        @media (min-width: 768px) and (max-width: 1024px){
+        @media (min-width: 768px) and (max-width: 1440px){
             background-size: cover;
         }
     }
@@ -200,7 +200,7 @@
         background-repeat: no-repeat;
         padding: 15rem 0;
 
-        @media (min-width: 768px) and (max-width: 1024px){
+        @media (min-width: 768px) and (max-width: 1440px){
             background-size: cover;
         }
         @media (width: 768px){
@@ -239,40 +239,89 @@
         }
     }
     .captions{
-        @media (min-width: 1024px){
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
             grid-template-rows: auto;
-        }
-        &__img-wrapper{
-            position: relative;
-        }
-        &__img, &__overlay {
-            width: 100%;
-        }
-        
-        &__overlay{
-            position: absolute;
-            background-color: #212529;
-            height: 100%;
-            top: 0;
-            left: 0;
-            opacity: .3;
-        }
-        &__card{
-            margin: 1rem;
-            position: relative;
+            justify-items: center;
+            grid-gap: 10px;
 
             @media (min-width: 1024px){
-                margin: 0;
-            } 
-            
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: auto;
+                grid-gap: 0px;
+                
+            }
+        &__card1, &__card3{
+            @media (min-width: 1024px){
+                display: grid;
+                justify-self: end;
+            }
         }
+        &__card2, &__card4{
+            @media (min-width: 1024px){
+                display: grid;
+                justify-self: start;
+            }
+        }
+        &__image-style{
+            width: 250px;
+            height: 200px;
+            background-size: cover;
+           background-repeat: no-repeat;
+           background-position: center;
+           transition: all .2s ease-in-out;
+           position: relative;
+
+           &:hover{
+            transform: scale(0.9);
+           }
+
+           @media (min-width: 768px) and (max-width: 1440px){
+            width: 400px;
+            height: 300px;
+        }
+         }
+
+        &__img1 {
+           background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/port1.jpg);
+           
+           &:hover{
+            background-image: linear-gradient(to bottom, rgba(37, 131, 123, 0.53),rgba(37, 131, 123, 0.53)), url(../containers/images/port1.jpg);
+           }
+        }
+        &__img2 {
+            background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/port2.jpg);
+           
+           &:hover{
+            background-image: linear-gradient(to bottom, rgba(37, 131, 123, 0.53),rgba(37, 131, 123, 0.53)), url(../containers/images/port2.jpg);
+           }
+         }
+         &__img3 {
+            background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/port3.jpg);
+            
+           &:hover{
+            background-image: linear-gradient(to bottom, rgba(37, 131, 123, 0.53),rgba(37, 131, 123, 0.53)), url(../containers/images/port3.jpg);
+           }
+         }
+         &__img4 {
+            background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/card4pr4.jpg);
+            
+           &:hover{
+            background-image: linear-gradient(to bottom, rgba(37, 131, 123, 0.53),rgba(37, 131, 123, 0.53)), url(../containers/images/card4pr.jpg);
+           }
+         }
         &__text{
             position: absolute;
             color: #fff;
-            margin: 6rem 5rem 1rem 1rem;
-            text-align: -webkit-left;
+            text-align: left;
+            z-index: 0;
+            padding: 20px;
+            width: 200px;
+
+            @media (min-width: 768px) and (max-width: 1440px){
+                width: 300px;
+            }
         }
         &__title{
             margin: 0;
@@ -307,10 +356,9 @@
     .footer{
         padding: 5rem 0;
 
-        @media (min-width: 768px) and (max-width: 1024px){
+        @media (min-width: 768px) and (max-width: 1440px){
             padding: 2rem;
         }
-
         &__p{
             text-align: center;
             margin-top: 2rem;
@@ -328,8 +376,7 @@
         display: flex;
         justify-content: flex-end;
         margin: 1rem;
-
-        @media (min-width: 768px) and (max-width: 1024px){
+        @media (min-width: 768px) and (max-width: 1440px){
             margin: 0;
         }
    }
@@ -399,7 +446,7 @@
             line-height: 1.5;
 
             @media (min-width: 1024px){
-                padding: 25px;
+                padding: 15px;
             }
         }
    }
