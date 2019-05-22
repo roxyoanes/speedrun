@@ -10,14 +10,14 @@ import {
   Card6,
   Map,
   Footer,
-  ScrollUp,
+  ScrollUp
 } from "./Components-fourthpage";
 
 import "../styles/fourth-page.scss";
 
 class FourthPage extends Component {
-  state={
-    scrolled: false,
+  state = {
+    scrolled: false
   };
 
   componentDidMount() {
@@ -35,16 +35,13 @@ class FourthPage extends Component {
     window.removeEventListener("scroll");
   }
 
-
   render() {
     const { scrolled } = this.state;
     return (
       <div className="fourth-page">
         <div className="container">
-          <div className="image">
-            <Navbar />
-            <Card1 />
-          </div>
+          <Navbar />
+          <Card1 />
           <Card2 />
           <Card3 />
           <Card4 />
