@@ -108,12 +108,14 @@
             background-color: #343a40;
             border-color: #343a40;
             text-decoration: none;
+            padding: 1.25rem 2rem;
         }
         &--white{
             background-color: #fff;
             border-color: #fff;
             color: black;
             margin-right: 20px;
+            padding: 1.25rem 2rem;
 
             @media (max-width: 320px){
                 margin-right: 0;
