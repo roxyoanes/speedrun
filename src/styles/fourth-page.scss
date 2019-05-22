@@ -4,8 +4,6 @@
     scroll-behavior: smooth;
 }
 .fourth-page{
-    font-family: 'Source Sans Pro', sans-serif;
-
     a{
         text-decoration: none;
     }
@@ -189,7 +187,6 @@
     }
     .fa-stack{
         font-size: 3rem;
-       
     }
     .fa-heart{
         padding: 0 5px;
@@ -281,7 +278,6 @@
            background-repeat: no-repeat;
            background-position: center;
            
-
            @media (min-width: 768px) and (max-width: 1440px){
             width: 450px;
             height: 350px;
@@ -360,7 +356,7 @@
         }
     }
     .footer{
-        padding: 5rem 0;
+        padding: 4rem 0;
 
         @media (min-width: 768px) and (max-width: 1440px){
             padding: 2rem;
@@ -372,7 +368,6 @@
             font-size: .8rem;
         }
     }
-    
    .footer-icons{
         font-size: 2rem;
         color: #1d809f;
@@ -386,10 +381,7 @@
    .scroll{
         display: flex;
         justify-content: flex-end;
-        margin: 1rem;
-        @media (min-width: 768px) and (max-width: 1440px){
-            margin: 0;
-        }
+        margin: 0;
    }
    .button-scroll{
         color: #fff;
@@ -405,7 +397,6 @@
         right:15px;
         z-index: 2;
         display: none;
-
    }
    .scrolled{
        visibility: visible!important;
@@ -438,8 +429,7 @@
             line-height: 50px;
             padding: 10px;
             font-size: 1.2rem;
-            background: rgba(52,58,64,.1);
-            
+            background: rgba(52,58,64,.1);   
         }
         &__heading{
             color: white;
