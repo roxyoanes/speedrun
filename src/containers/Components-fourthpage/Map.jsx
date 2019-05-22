@@ -1,7 +1,7 @@
 import React from "react";
 
 const Map = () => (
-  <div className="card-7">
+  <div className="card-7" id="contact">
     <div>
       <iframe
         className="map"

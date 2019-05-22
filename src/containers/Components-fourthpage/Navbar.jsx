@@ -52,6 +52,7 @@ class Navbar extends Component {
               "About",
               "Services",
               "Portfolio",
+              "Contact",
             ]}
             currentClassName="is-current"
           >
@@ -72,6 +73,9 @@ class Navbar extends Component {
               </a>
               <a href="#portfolio" className="menu__item">
                 Portfolio
+              </a>
+              <a href="#contact" className="menu__item">
+                Contact
               </a>
             </div>
           </Scrollspy>
