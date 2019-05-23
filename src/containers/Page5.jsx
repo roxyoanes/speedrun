@@ -11,12 +11,29 @@ const Page5 = () => (
           <img src={logonavbar5} className="navbar__logo-img" alt="logo" />
         </a>
         <div className="navbar__right-side">
-          <a href="#top" className="navbar__list-item">HOME</a>
-          <a href="#top" className="navbar__list-item">ABOUT US</a>
-          <a href="#top" className="navbar__list-item">SERVICES</a>
-          <a href="#top" className="navbar__list-item">PORTFOLIO</a>
-          <a href="#top" className="navbar__list-item">TEAM</a>
-          <a href="#top" className="navbar__list-item">CONTACT</a>
+          <button className="navbar-button" type="button">
+            <i className="fas fa-bars" />
+          </button>
+          <nav className="navbar__elements">
+            <a href="#top" className="navbar__list-item">
+              HOME
+            </a>
+            <a href="#top" className="navbar__list-item">
+              ABOUT US
+            </a>
+            <a href="#top" className="navbar__list-item">
+              SERVICES
+            </a>
+            <a href="#top" className="navbar__list-item">
+              PORTFOLIO
+            </a>
+            <a href="#top" className="navbar__list-item">
+              TEAM
+            </a>
+            <a href="#top" className="navbar__list-item">
+              CONTACT
+            </a>
+          </nav>
         </div>
       </div>
     </div>
