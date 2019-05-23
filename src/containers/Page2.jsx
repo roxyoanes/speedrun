@@ -13,7 +13,7 @@ import {
   Sponsors,
   Contact,
   Footer,
-} from "./Components-secondpage";
+} from "./Components-page2";
 
 import Modal from "./modal/modal";
 

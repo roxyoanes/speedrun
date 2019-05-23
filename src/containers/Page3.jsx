@@ -4,7 +4,7 @@ import "../styles/third-page.scss";
 
 import {
   About, Experience, Education, Skills, Interests, Awards, Navbar,
-} from "./Components-thirdpage";
+} from "./Components-page3";
 
 const Page3 = () => (
   <div className="third-page">

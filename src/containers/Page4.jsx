@@ -11,7 +11,7 @@ import {
   Map,
   Footer,
   ScrollUp,
-} from "./Components-fourthpage";
+} from "./Components-page4";
 
 import "../styles/fourth-page.scss";
 
