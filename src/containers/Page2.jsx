@@ -36,7 +36,7 @@ class Page2 extends Component {
     const isTop = window.scrollY < 50;
     if (isTop !== true) {
       this.setState({ scrolled: true });
-    } else { 
+    } else {
       this.setState({ scrolled: false });
     }
   }
