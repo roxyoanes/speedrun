@@ -21,8 +21,12 @@
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: 1fr;
             align-items: center;
+            width: 90%;
             padding: 20px;
             z-index: 99;
+            position: fixed;
+            background-color: white;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16);
         
         &__right-side{
             display: flex;
@@ -67,6 +71,12 @@
             color: rgba(255, 255, 255, 0.8);
             line-height: 26px;
             font-size: 1rem;
+        }
+        &__img-wrapper{
+            margin: 10px;
+        }
+        &__img{
+            width: 330px;
         }
     }
     .button{
