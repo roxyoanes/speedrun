@@ -14,14 +14,15 @@
     }
     p{
         font-family: 'Open Sans', sans-serif;
-        font-size: .8rem;
+        line-height: 24px;
+        font-size: .9rem;
     }
     .navbar{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: 1fr;
             align-items: center;
-            width: 90%;
+            width: 100%;
             padding: 20px;
             z-index: 99;
             position: fixed;
@@ -31,6 +32,7 @@
         &__right-side{
             display: flex;
             justify-content: flex-end;
+            padding-right: 30px;
 
             @media (min-width: 1224px){
                 display: grid;
@@ -52,6 +54,7 @@
     .landing{
         background-color: #2781e6;
         padding: 10px;
+        margin-bottom: 5rem;
 
         &__text-section{
             margin-top: 80px;
@@ -89,5 +92,68 @@
         text-align: center;
         color: #fff;
         border: 1px solid #fff;
+    }
+    .about{
+
+        &__part1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__heading{
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 500;        
+        }
+        &__img{
+            width: 350px;
+        }
+        &__part2{
+            text-align: left;
+            padding: 15px;
+        }
+        &__paragraph{
+            line-height: 24px;
+            color: #999;
+            font-size: .9rem;
+        }
+    }
+    .services{
+        background: #f3f3f3;
+        padding: 0 15px;
+
+        &__all-cards{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-gap: 15px;
+        }
+        &__heading{
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 500;
+            padding: 3rem 0;
+            margin: 0;
+        }
+        &__card{
+            text-align: center;
+            background: #0175cb;
+            position: relative;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.06);
+            border-radius: 10px 10px 0 0;
+            padding: 2rem 1rem;
+        }
+        &__card-title{
+            color: #feae3a;
+        }
+        &__card-paragraph{
+            color: rgba(255, 255, 255, 0.76);
+        }
+    }
+    .icon{
+        font-size: 2rem;
+        color: #f3f3f3;
+        padding: 2rem 0;
+
     }
 }
