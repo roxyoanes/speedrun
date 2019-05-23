@@ -6,7 +6,7 @@ import {
   About, Experience, Education, Skills, Interests, Awards, Navbar,
 } from "./Components-thirdpage";
 
-const ThirdPage = () => (
+const Page3 = () => (
   <div className="third-page">
     <div className="container">
       <Navbar />
@@ -25,4 +25,4 @@ const ThirdPage = () => (
   </div>
 );
 
-export default ThirdPage;
+export default Page3;

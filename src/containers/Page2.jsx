@@ -17,7 +17,7 @@ import {
 
 import Modal from "./modal/modal";
 
-class SecondPage extends Component {
+class Page2 extends Component {
   state = {
     isShowing: false,
     modalNumber: 0,
@@ -25,18 +25,20 @@ class SecondPage extends Component {
   };
 
   componentDidMount() {
-    window.addEventListener("scroll", () => {
-      const isTop = window.scrollY < 50;
-      if (isTop !== true) {
-        this.setState({ scrolled: true });
-      } else {
-        this.setState({ scrolled: false });
-      }
-    });
+    window.addEventListener("scroll", this.scrollFunction, true);
   }
 
   componentWillUnmount() {
-    window.removeEventListener("scroll");
+    window.removeEventListener("scroll", this.scrollFunction, true);
+  }
+
+  scrollFunction = () => {
+    const isTop = window.scrollY < 50;
+    if (isTop !== true) {
+      this.setState({ scrolled: true });
+    } else { 
+      this.setState({ scrolled: false });
+    }
   }
 
   openModalHandler = (number) => {
@@ -77,4 +79,4 @@ class SecondPage extends Component {
   }
 }
 
-export default SecondPage;
+export default Page2;

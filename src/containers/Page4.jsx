@@ -10,29 +10,31 @@ import {
   Card6,
   Map,
   Footer,
-  ScrollUp
+  ScrollUp,
 } from "./Components-fourthpage";
 
 import "../styles/fourth-page.scss";
 
-class FourthPage extends Component {
+class Page4 extends Component {
   state = {
-    scrolled: false
+    scrolled: false,
   };
 
   componentDidMount() {
-    window.addEventListener("scroll", () => {
-      const isTop = window.scrollY < 50;
-      if (isTop !== true) {
-        this.setState({ scrolled: true });
-      } else {
-        this.setState({ scrolled: false });
-      }
-    });
+    window.addEventListener("scroll", this.scrollFunction, true);
   }
 
   componentWillUnmount() {
-    window.removeEventListener("scroll");
+    window.removeEventListener("scroll", this.scrollFunction, true);
+  }
+
+  scrollFunction = () => {
+    const isTop = window.scrollY < 50;
+    if (isTop !== true) {
+      this.setState({ scrolled: true });
+    } else {
+      this.setState({ scrolled: false });
+    }
   }
 
   render() {
@@ -56,4 +58,4 @@ class FourthPage extends Component {
   }
 }
 
-export default FourthPage;
+export default Page4;
