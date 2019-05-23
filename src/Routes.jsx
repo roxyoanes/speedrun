@@ -1,15 +1,16 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import {
-  Home, FirstPage, SecondPage, ThirdPage, FourthPage,
+  Home, Page1, Page2, Page3, Page4, Page5,
 } from "./containers";
 
 const Routes = () => (
   <Switch>
-    <Route exact path="/page-1" component={FirstPage} />
-    <Route exact path="/page-2" component={SecondPage} />
-    <Route exact path="/page-3" component={ThirdPage} />
-    <Route exact path="/page-4" component={FourthPage} />
+    <Route exact path="/page-1" component={Page1} />
+    <Route exact path="/page-2" component={Page2} />
+    <Route exact path="/page-3" component={Page3} />
+    <Route exact path="/page-4" component={Page4} />
+    <Route exact path="/page-5" component={Page5} />
     <Route path="/" component={Home} />
   </Switch>
 );

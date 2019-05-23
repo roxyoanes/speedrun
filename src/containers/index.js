@@ -1,7 +1,8 @@
 /* eslint-disable import/prefer-default-export */
 export { default as Home } from "./Home";
 
-export { default as FirstPage } from "./FirstPage";
-export { default as SecondPage } from "./SecondPage";
-export { default as ThirdPage } from "./ThirdPage";
-export { default as FourthPage } from "./FourthPage";
+export { default as Page1 } from "./Page1";
+export { default as Page2 } from "./Page2";
+export { default as Page3 } from "./Page3";
+export { default as Page4 } from "./Page4";
+export { default as Page5 } from "./Page5";
