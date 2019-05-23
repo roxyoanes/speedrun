@@ -1,5 +1,6 @@
 import React from "react";
 
+import "../styles/page5.scss";
 import logonavbar5 from "./images/logonavbar5.png";
 
 const Page5 = () => (
