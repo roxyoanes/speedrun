@@ -396,7 +396,7 @@ const Page5 = () => (
         </div>
       </div>
       <div className="clients">
-        <h2 className="clients__title">CLIENTS</h2>
+        <h2 className="clients__heading">CLIENTS</h2>
         <div className="clients__clients-container">
           <img src={clientlogo1} className="clients__img" alt="client-logo" />
           <img src={clientlogo2} className="clients__img" alt="client-logo" />

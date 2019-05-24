@@ -342,4 +342,26 @@
     .team-icon{
         padding: 0 10px;
     }
+    .clients{
+        padding: 2rem 10px;
+        text-align: center;
+     
+        &__heading{
+            font-weight: 500;
+            padding: 1rem 0;
+            margin: 0; 
+        }
+        &__clients-container{
+            background-color: #2781e6;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            padding: 2rem 10px;
+            align-items: center;
+        }
+        &__img{
+            width: 180px;
+            padding: 10px 0;
+        }
+    }
 }
