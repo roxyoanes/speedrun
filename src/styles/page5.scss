@@ -7,6 +7,7 @@
     }
     h2{
         font-family: 'Raleway', sans-serif;
+        font-size: 2rem;
     }
     h3{
         font-family: 'Open Sans', sans-serif;
@@ -127,10 +128,10 @@
             grid-template-columns: 1fr;
             grid-template-rows: auto;
             grid-gap: 15px;
+            padding-bottom: 8rem;
         }
         &__heading{
             text-align: center;
-            font-size: 2rem;
             font-weight: 500;
             padding: 3rem 0;
             margin: 0;
@@ -142,6 +143,19 @@
             box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.06);
             border-radius: 10px 10px 0 0;
             padding: 2rem 1rem;
+
+            &:before{
+                position: absolute;
+                content: '';
+                height: 80px;
+                width: 105%;
+                background: rgba(255, 255, 255, 0.21);
+                transform-style: preserve-3d;
+                left: -9px;
+                border-top: 1px dashed #c4d3e2;
+                border-bottom: 1px dashed #c4d3e2;
+                border-radius: 33px 33px 0 0;
+            }
         }
         &__card-title{
             color: #feae3a;
@@ -151,9 +165,9 @@
         }
     }
     .icon{
-        font-size: 2rem;
+        font-size: 3rem;
         color: #f3f3f3;
-        padding: 2rem 0;
+        padding: 1rem 0;
 
     }
 }
