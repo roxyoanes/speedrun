@@ -13,6 +13,10 @@ import gallery6 from "./images/gallery6.jpg";
 import teamPic1 from "./images/teamPic1.jpg";
 import teamPic2 from "./images/teamPic2.jpg";
 import teamPic3 from "./images/teamPic3.jpg";
+import clientlogo1 from "./images/clientlogo1.png";
+import clientlogo2 from "./images/clientlogo2.png";
+import clientlogo3 from "./images/clientlogo3.png";
+import clientlogo4 from "./images/clientlogo4.png";
 
 const Page5 = () => (
   <div className="page5">
@@ -50,7 +54,9 @@ const Page5 = () => (
       <div className="landing">
         <div className="landing__text-section">
           <h2 className="landing__heading">
-            The <strong className="landing__bold">BEST</strong> One Page Web
+            The
+            <strong className="landing__bold">BEST</strong>
+            One Page Web
             Template
           </h2>
           <p className="landing__paragraph">
@@ -387,6 +393,15 @@ const Page5 = () => (
               elit proin consequat.
             </p>
           </div>
+        </div>
+      </div>
+      <div className="clients">
+        <h2 className="clients__title">CLIENTS</h2>
+        <div className="clients__clients-container">
+          <img src={clientlogo1} className="clients__img" alt="client-logo" />
+          <img src={clientlogo2} className="clients__img" alt="client-logo" />
+          <img src={clientlogo3} className="clients__img" alt="client-logo" />
+          <img src={clientlogo4} className="clients__img" alt="client-logo" />
         </div>
       </div>
     </div>
