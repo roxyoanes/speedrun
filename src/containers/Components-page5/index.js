@@ -1,0 +1,10 @@
+export { default as Navbar } from "./Navbar";
+export { default as Landing } from "./Landing";
+export { default as About } from "./About";
+export { default as Services } from "./Services";
+export { default as Gallery } from "./Gallery";
+export { default as Pricing } from "./Pricing";
+export { default as Team } from "./Team";
+export { default as Clients } from "./Clients";
+export { default as Contact } from "./Contact";
+export { default as Footer } from "./Footer";
