@@ -426,5 +426,22 @@
     .contact-icon{
         padding: 0 10px;
     }
+    .footer{
+        background: black;
+        color: rgb(190, 189, 189);
+        border-top: 1px solid #3C3A3A;
+        padding: 25px 0;
+
+        &__text{
+            font-size: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__link{
+            padding: 0 8px;
+            color: #2781e6;
+        }
+    }
 
 }
