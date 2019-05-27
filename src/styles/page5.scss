@@ -89,7 +89,7 @@
             width: 330px;
         }
     }
-    .button{
+    .landing-button{
         background-color: transparent;
         width: 178px;
         height: 46px;
@@ -284,13 +284,19 @@
             padding-bottom: 2rem;
         }
     }
-    .pricing-button{
+    .button{
         background: #2983e6;
         border: 1px solid #2983e6;
         border-radius: 50px;
         color: #fff;
         font-size: 1rem;
         padding: 10px 30px;
+
+        &--big{
+            border-radius: 3px;
+            width: 175px;
+            height: 50px;
+        }
 
     }
     .team{
@@ -364,4 +370,61 @@
             padding: 10px 0;
         }
     }
+    .contact{
+        background: black;
+        color: white;
+        padding: 2rem 15px;
+        font-family: 'Raleway', sans-serif;
+
+        &__info{
+            padding: 0 15px;
+        }
+        &__heading{
+            text-align: center;
+            font-weight: 500;
+            margin: 3rem 0;
+        }
+        &__title{
+            font-weight: 500;
+            line-height: 1.1;
+            margin-bottom: 0;
+            color: #999;
+            font-size: 1rem;
+        }
+        &__icons{
+            font-size: 2rem;
+        }
+        &__input-areas{
+            padding: 2rem 0;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-gap: 10px;
+        }
+        &__input-name, &__input-email, &__input-message{
+            color: #999;
+            font-size: 1rem;
+            border: 1px solid #232323;
+            border-radius: 4px;
+            background-color: black;
+            padding: 15px;
+
+            &:focus{
+                border: 1px solid white;
+            }
+        }
+        &__input-message{
+            font-family: 'Raleway', sans-serif;
+            height: 150px;
+        }
+        &__button{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+    }
+    .contact-icon{
+        padding: 0 10px;
+    }
+
 }
