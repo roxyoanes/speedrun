@@ -3,7 +3,12 @@ import React from "react";
 const Contact = () => (
   <div className="contact" id="contact">
     <h2 className="contact__heading">CONTACT</h2>
-    <div className="contact__info">
+    <div
+      className="contact__info"
+      data-aos="fade-left"
+      data-aos-offset="500"
+      data-aos-duration="500"
+    >
       <div className="contact__details">
         <h4 className="contact__title">Ballet One Page</h4>
         <p className="contact__details">104, Some street, NewYork, USA</p>
@@ -17,13 +22,23 @@ const Contact = () => (
         <p className="contact__details">support@sitename.com</p>
       </div>
     </div>
-    <span className="contact__icons">
+    <span
+      className="contact__icons"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
       <i className="fab fa-twitter contact-icon" />
       <i className="fab fa-facebook contact-icon" />
       <i className="fab fa-pinterest contact-icon" />
       <i className="fab fa-google-plus contact-icon" />
     </span>
-    <div className="contact__input-areas">
+    <div
+      className="contact__input-areas"
+      data-aos="fade-left"
+      data-aos-offset="500"
+      data-aos-duration="500"
+    >
       <input
         className="contact__input-name"
         type="text"
@@ -45,4 +60,3 @@ const Contact = () => (
 );
 
 export default Contact;
-

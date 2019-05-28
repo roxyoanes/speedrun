@@ -4,7 +4,14 @@ import landing5 from "../images/landing5.png";
 
 const Landing = () => (
   <div className="landing">
-    <div className="landing__text-section">
+    <div
+      className="landing__text-section"
+      data-aos="zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0"
+      data-aos-duration="1500"
+    >
       <h2 className="landing__heading">
         The
         <strong className="landing__bold">BEST</strong>
@@ -20,7 +27,16 @@ const Landing = () => (
       </button>
     </div>
     <div className="landing__img-wrapper">
-      <img src={landing5} className="landing__img" alt="landing-img" />
+      <img
+        src={landing5}
+        className="landing__img"
+        alt="landing-img"
+        data-aos="zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+        data-aos-duration="1500"
+      />
     </div>
   </div>
 );

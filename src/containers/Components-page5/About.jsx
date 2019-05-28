@@ -6,9 +6,23 @@ const About = () => (
   <div className="about" id="about">
     <div className="about__part1">
       <h2 className="about__heading">ABOUT US</h2>
-      <img src={aboutimg} className="about__img" alt="img" />
+      <img
+        src={aboutimg}
+        className="about__img"
+        alt="img"
+        data-aos="zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+        data-aos-duration="1500"
+      />
     </div>
-    <div className="about__part2">
+    <div
+      className="about__part2"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
       <h3 className="about__subheading">
         Lorem Ipsum has been the industry's standard dummy text ever..
       </h3>
