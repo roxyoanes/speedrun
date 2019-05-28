@@ -9,8 +9,8 @@ const Services = () => (
           <span className="services__card-icon">
             <i className="fab fa-android icon" />
           </span>
-          <h3 className="services__card-title">ANDROID</h3>
-          <p className="services__card-paragraph">
+          <h3 className="services__card-title" data-aos="fade-up">ANDROID</h3>
+          <p className="services__card-paragraph" data-aos="fade-down">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text.
           </p>
@@ -21,8 +21,8 @@ const Services = () => (
           <span className="services__card-icon">
             <i className="fab fa-apple icon" />
           </span>
-          <h3 className="services__card-title">APPLE IOS</h3>
-          <p className="services__card-paragraph">
+          <h3 className="services__card-title" data-aos="fade-up">APPLE IOS</h3>
+          <p className="services__card-paragraph" data-aos="fade-down">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text.
           </p>
@@ -33,8 +33,8 @@ const Services = () => (
           <span className="services__card-icon">
             <i className="fab fa-html5 icon" />
           </span>
-          <h3 className="services__card-title">DESIGN</h3>
-          <p className="services__card-paragraph">
+          <h3 className="services__card-title" data-aos="fade-up">DESIGN</h3>
+          <p className="services__card-paragraph" data-aos="fade-down">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text.
           </p>
@@ -45,8 +45,8 @@ const Services = () => (
           <span className="services__card-icon">
             <i className="fab fa-dropbox icon" />
           </span>
-          <h3 className="services__card-title">CONCEPT</h3>
-          <p className="services__card-paragraph">
+          <h3 className="services__card-title" data-aos="fade-up">CONCEPT</h3>
+          <p className="services__card-paragraph" data-aos="fade-down">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text.
           </p>
@@ -57,8 +57,8 @@ const Services = () => (
           <span className="services__card-icon">
             <i className="fab fa-slack icon" />
           </span>
-          <h3 className="services__card-title">USER RESEARCH</h3>
-          <p className="services__card-paragraph">
+          <h3 className="services__card-title" data-aos="fade-up">USER RESEARCH</h3>
+          <p className="services__card-paragraph" data-aos="fade-down">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text.
           </p>
@@ -69,8 +69,8 @@ const Services = () => (
           <span className="services__card-icon">
             <i className="fas fa-users icon" />
           </span>
-          <h3 className="services__card-title">USER EXPERIENCE</h3>
-          <p className="services__card-paragraph">
+          <h3 className="services__card-title" data-aos="fade-up">USER EXPERIENCE</h3>
+          <p className="services__card-paragraph" data-aos="fade-down">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text.
           </p>
@@ -79,4 +79,5 @@ const Services = () => (
     </div>
   </div>
 );
- export default Services;
+
+export default Services;

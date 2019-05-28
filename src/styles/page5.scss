@@ -42,7 +42,6 @@
             justify-content: flex-end;
             padding-right: 30px;
         }
-       
     }
     .dropdown{
         display: flex;
@@ -86,7 +85,9 @@
 
         &__text-section{
             margin-top: 80px;
+            
         }
+        
         &__heading{
             margin: 0;
             font-weight: 500;
@@ -110,6 +111,7 @@
         }
         &__img{
             width: 330px;
+           
         }
     }
     .landing-button{
@@ -135,7 +137,9 @@
         }
         &__img{
             width: 350px;
+            
         }
+
         &__part2{
             text-align: left;
             padding: 15px;
@@ -196,6 +200,7 @@
         color: #f3f3f3;
         padding: 1rem 0;
     }
+
     .gallery{
         padding: 2rem 1rem 4rem;
         text-align: center;
