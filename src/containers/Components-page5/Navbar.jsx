@@ -44,22 +44,20 @@ class Navbar extends Component {
             <i className="fas fa-bars" />
           </button>
         </div>
-        {showMenu ? (
-          <nav className="dropdown">
-            {[
-              { value: "HOME", href: "#top" },
-              { value: "ABOUT US", href: "#about" },
-              { value: "SERVICES", href: "#services" },
-              { value: "PORTFOLIO", href: "#portfolio" },
-              { value: "TEAM", href: "#team" },
-              { value: "CONTACT", href: "#contact" },
-            ].map(navElement => (
-              <a href={navElement.href} className="dropdown__list-item">
-                {navElement.value}
-              </a>
-            ))}
-          </nav>
-        ) : null}
+        <nav className={`menu ${showMenu ? "dropdown" : "menu-closed"}`}>
+          {[
+            { value: "HOME", href: "#top" },
+            { value: "ABOUT US", href: "#about" },
+            { value: "SERVICES", href: "#services" },
+            { value: "PORTFOLIO", href: "#portfolio" },
+            { value: "TEAM", href: "#team" },
+            { value: "CONTACT", href: "#contact" },
+          ].map(navElement => (
+            <a href={navElement.href} className="dropdown__list-item">
+              {navElement.value}
+            </a>
+          ))}
+        </nav>
       </div>
     );
   }
