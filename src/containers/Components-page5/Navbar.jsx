@@ -35,6 +35,20 @@ class Navbar extends Component {
         <a href="#top" className="navbar__logo">
           <img src={logonavbar5} className="navbar__logo-img" alt="logo" />
         </a>
+        <nav className="navbar__list">
+          {[
+            { value: "HOME", href: "#top" },
+            { value: "ABOUT US", href: "#about" },
+            { value: "SERVICES", href: "#services" },
+            { value: "PORTFOLIO", href: "#portfolio" },
+            { value: "TEAM", href: "#team" },
+            { value: "CONTACT", href: "#contact" },
+          ].map(navElement => (
+            <a href={navElement.href} className="navbar__list-item">
+              {navElement.value}
+            </a>
+          ))}
+        </nav>
         <div className="navbar__right-side">
           <button
             onClick={this.showMenu}
@@ -51,7 +65,7 @@ class Navbar extends Component {
             { value: "SERVICES", href: "#services" },
             { value: "PORTFOLIO", href: "#portfolio" },
             { value: "TEAM", href: "#team" },
-            { value: "CONTACT", href: "#contact" },
+            { value: "CONTACT", href: "#contact" }
           ].map(navElement => (
             <a href={navElement.href} className="dropdown__list-item">
               {navElement.value}
