@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap');
 
+.smooth-scroll {
+    scroll-behavior: smooth;
+}
 .page5{
     a{
         font-family: 'Raleway', sans-serif;
@@ -44,6 +47,21 @@
     .dropdown{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        grid-column: 1/3;
+        padding: 15px 0;
+        border-top: 2px solid black;
+
+        &__list-item{
+            padding: 8px 0;
+            color: black;
+            font-size: 1rem;
+            font-weight: 800;
+
+            &:active{
+                color: #2781e6;
+            }
+        }
     }
     .navbar-button{
         background-color: transparent;

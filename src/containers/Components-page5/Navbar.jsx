@@ -7,6 +7,14 @@ class Navbar extends Component {
     showMenu: false,
   };
 
+  componentDidMount() {
+    document.querySelector("html").classList.add("smooth-scroll");
+  }
+
+  componentWillUnmount() {
+    document.querySelector("html").classList.remove("smooth-scroll");
+  }
+
   showMenu = (event) => {
     event.preventDefault();
     this.setState({ showMenu: true }, () => {
@@ -40,13 +48,13 @@ class Navbar extends Component {
           <nav className="dropdown">
             {[
               { value: "HOME", href: "#top" },
-              { value: "ABOUT US", href: "#top" },
-              { value: "SERVICES", href: "#top" },
-              { value: "PORTFOLIO", href: "#top" },
-              { value: "TEAM", href: "#top" },
-              { value: "CONTACT", href: "#top" }
+              { value: "ABOUT US", href: "#about" },
+              { value: "SERVICES", href: "#services" },
+              { value: "PORTFOLIO", href: "#portfolio" },
+              { value: "TEAM", href: "#team" },
+              { value: "CONTACT", href: "#contact" },
             ].map(navElement => (
-              <a href={navElement.href} className="navbar__list-item">
+              <a href={navElement.href} className="dropdown__list-item">
                 {navElement.value}
               </a>
             ))}
