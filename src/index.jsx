@@ -10,8 +10,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 // hot reload for development
 import { AppContainer } from "react-hot-loader";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import App from "./App";
+
+AOS.init();
 
 
 const root = document.getElementById("root");
