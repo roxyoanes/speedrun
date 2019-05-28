@@ -3,7 +3,7 @@ import React from "react";
 import aboutimg from "../images/aboutimg.jpg";
 
 const About = () => (
-  <div className="about">
+  <div className="about" id="about">
     <div className="about__part1">
       <h2 className="about__heading">ABOUT US</h2>
       <img src={aboutimg} className="about__img" alt="img" />

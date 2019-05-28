@@ -1,7 +1,7 @@
 import React from "react";
 
 const Services = () => (
-  <div className="services">
+  <div className="services" id="services">
     <h2 className="services__heading">SERVICES</h2>
     <div className="services__all-cards">
       <div className="services__card">

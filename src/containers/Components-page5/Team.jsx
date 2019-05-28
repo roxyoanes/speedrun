@@ -6,7 +6,7 @@ import teamPic2 from "../images/teamPic2.jpg";
 import teamPic3 from "../images/teamPic3.jpg";
 
 const Team = () => (
-  <div className="team">
+  <div className="team" id="team">
     <h2 className="team__heading">TEAM</h2>
     <p className="team__description">
       Lorem ipsum dolor sit amet, consectetur adipiscing.

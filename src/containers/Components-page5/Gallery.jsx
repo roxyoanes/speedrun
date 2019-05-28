@@ -8,7 +8,7 @@ import gallery5 from "../images/gallery5.jpg";
 import gallery6 from "../images/gallery6.jpg";
 
 const Gallery = () => (
-  <div className="gallery">
+  <div className="gallery" id="portfolio">
     <h2 className="gallery__heading">GALLERY</h2>
     <p className="gallery__description">
       Lorem ipsum dolor sit amet, consectetur adipiscing.
