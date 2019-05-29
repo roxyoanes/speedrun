@@ -10,7 +10,7 @@ const Team = () => (
     <p className="team__description">
       Lorem ipsum dolor sit amet, consectetur adipiscing.
     </p>
-    <div className="team-cards-container">
+    <div className="team__cards-container">
       <div className="team__card">
         <div className="team__box">
           <div className="team__box-shadow">

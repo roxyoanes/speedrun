@@ -73,9 +73,11 @@ const Pricing = () => (
           <p>Bootstrap & HTML5</p>
           <p>24/7 support</p>
         </div>
-        <button type="button" className="button">
-          Buy Now
-        </button>
+        <div className="pricing__button-wrapper">
+          <button type="button" className="button">
+            Buy Now
+          </button>
+        </div>
       </div>
     </div>
   </div>

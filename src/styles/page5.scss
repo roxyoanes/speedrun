@@ -27,7 +27,7 @@
     }
     .navbar{
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: repeat(2, 1fr);
             grid-template-rows: 1fr;
             align-items: center;
             width: 100%;
@@ -36,6 +36,11 @@
             position: fixed;
             background-color: white;
             box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16);
+
+            @media(min-width: 768px)and(max-width: 1024px){
+                display: grid;
+                grid-template-columns: 30% 1fr;
+            }
         
         &__right-side{
             display: flex;
@@ -61,6 +66,9 @@
             }
 
             &:active{
+                color: #2781e6;
+            }
+            &:hover{
                 color: #2781e6;
             }
             
@@ -141,10 +149,12 @@
         }
         &__img-wrapper{
             margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         &__img{
             width: 330px;
-           
         }
     }
     .landing-button{
@@ -166,12 +176,13 @@
         &__wrapper{
             display: grid;
             grid-template-columns: 1fr;
-
+            justify-items: center;
 
             @media(min-width:768px){
                 display: grid;
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: repeat(2, 1fr);
                 justify-items: center;
+                align-items: center;
                 padding: 40px 15px;
         }
         }
@@ -203,6 +214,12 @@
             grid-template-rows: auto;
             grid-gap: 15px;
             padding-bottom: 8rem;
+
+            @media(min-width: 768px){
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-auto-rows: auto;
+            }
         }
         &__heading{
             text-align: center;
@@ -267,9 +284,19 @@
             font-weight: 700;
             font-size: .9rem;
             margin-bottom: 2rem;
+
+            @media(min-width: 768px){
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: 1fr;
+            }
         }
         &__tag{
             color: #777777;
+
+            &:hover{
+                color: black;
+            }
         }
         &__backslash{
             &:before{
@@ -283,11 +310,65 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
+
+            @media(min-width: 768px){
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: auto;
+                padding-top: 20px;
+                justify-items: center;
+            }
         }
-        &__img{
+        &__image-style{
             width: 300px;
-            padding-bottom: 20px;
+            height: 250px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
         }
+        &__img1{
+            background-image: url(../containers//images/gallery1.jpg);
+
+            &:hover{
+                background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery1.jpg);
+            }
+        }
+        &__img2{
+            background-image: url(../containers//images/gallery2.jpg);
+
+            &:hover{
+                background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery2.jpg);
+            }
+        }
+        &__img3{
+            background-image: url(../containers//images/gallery3.jpg);
+
+            &:hover{
+                background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery3.jpg);
+            }
+        }
+        &__img4{
+            background-image: url(../containers//images/gallery4.jpg);
+
+            &:hover{
+                background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery4.jpg);
+            }
+        }
+        &__img5{
+            background-image: url(../containers//images/gallery5.jpg);
+
+            &:hover{
+                background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery5.jpg);
+            }
+        }
+        &__img6{
+            background-image: url(../containers//images/gallery6.jpg);
+
+            &:hover{
+                background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery6.jpg);
+            }
+        }
+
         &__card-title{
             margin: 0;
             font-size: .8rem;
@@ -325,7 +406,12 @@
             grid-template-rows: auto;
             grid-gap: 15px;
             padding-bottom: 2rem;
-            background-color: white;
+            
+
+            @media(min-width: 768px){
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+            }
         }
         &__title{
             padding: 10px;
@@ -338,9 +424,15 @@
         }
         &__card{
             border-bottom: 3px solid rgb(233, 231, 231);
+            background-color: white;
+
+            @media(min-width: 768px){
+                border-bottom: none;
+            }
 
             &--noshow{
                 border-bottom: none;
+                background-color: white;
             }
         }
         &__content{
@@ -384,8 +476,24 @@
             font-size: 1rem;
             margin-bottom: 2rem;
         }
+        &__cards-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+
+            @media(min-width: 768px){
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                padding: 40px;
+            }
+        }
         &__person-name{
             margin: 20px 0 5px 0;
+        }
+        &__img{
+            @media(width: 768px){
+                width: 200px;
+            }
         }
         &__position{
             margin: 0;
@@ -441,6 +549,10 @@
     .clients{
         padding: 2rem 10px;
         text-align: center;
+
+        @media(min-width: 768px){
+            padding: 0;
+        }
      
         &__heading{
             font-weight: 500;
@@ -466,6 +578,16 @@
         padding: 2rem 15px;
         font-family: 'Raleway', sans-serif;
 
+        &__container{
+            display: grid;
+            grid-template-columns: 1fr;
+
+            @media(min-width: 768px){
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                padding: 40px;
+            }
+        }
         &__info{
             padding: 0 15px;
         }
