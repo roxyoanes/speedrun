@@ -72,18 +72,36 @@ class Navbar extends Component {
           </button>
         </div>
         <nav className={`menu ${showMenu ? "dropdown" : "menu-closed"}`}>
-          {[
-            { value: "HOME", href: "#top" },
-            { value: "ABOUT US", href: "#about" },
-            { value: "SERVICES", href: "#services" },
-            { value: "PORTFOLIO", href: "#portfolio" },
-            { value: "TEAM", href: "#team" },
-            { value: "CONTACT", href: "#contact" },
-          ].map(navElement => (
-            <a href={navElement.href} className="dropdown__list-item">
-              {navElement.value}
-            </a>
-          ))}
+          <Scrollspy
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              padding: "0",
+              alignItems: "center",
+            }}
+            items={[
+              "top",
+              "about",
+              "services",
+              "portfolio",
+              "team",
+              "contact",
+            ]}
+            currentClassName="dropdown__is-current"
+          >
+            {[
+              { value: "HOME", href: "#top" },
+              { value: "ABOUT US", href: "#about" },
+              { value: "SERVICES", href: "#services" },
+              { value: "PORTFOLIO", href: "#portfolio" },
+              { value: "TEAM", href: "#team" },
+              { value: "CONTACT", href: "#contact" },
+            ].map(navElement => (
+              <a href={navElement.href} className="dropdown__list-item">
+                {navElement.value}
+              </a>
+            ))}
+          </Scrollspy>
         </nav>
       </div>
     );
