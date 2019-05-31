@@ -320,17 +320,38 @@
             }
         }
         &__image-style{
-            width: 300px;
-            height: 250px;
+            width: 350px;
+            height: 280px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
+            display: flex;
+            align-items: center;
+            position: relative;
+            transition: all .2s ease-in-out;
+
+            &:hover{
+                transform: scale(1.1);
+            }
+
+            @media(max-width: 768px) {
+                width: 220px;
+                height: 200px;
+            }
         }
+        &__icon-eye, &__icon-link{
+            font-size: 2rem;
+        }
+        
         &__img1{
             background-image: url(../containers//images/gallery1.jpg);
 
             &:hover{
                 background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery1.jpg);
+                
+                 .container-icon1, .container-icon2{
+                    opacity: 1;
+                }
             }
         }
         &__img2{
@@ -338,6 +359,10 @@
 
             &:hover{
                 background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery2.jpg);
+                
+                .container-icon1, .container-icon2{
+                    opacity: 1;
+                }
             }
         }
         &__img3{
@@ -345,6 +370,10 @@
 
             &:hover{
                 background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery3.jpg);
+
+                .container-icon1, .container-icon2{
+                    opacity: 1;
+                }
             }
         }
         &__img4{
@@ -352,6 +381,10 @@
 
             &:hover{
                 background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery4.jpg);
+
+                .container-icon1, .container-icon2{
+                    opacity: 1;
+                }
             }
         }
         &__img5{
@@ -359,6 +392,10 @@
 
             &:hover{
                 background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery5.jpg);
+
+                .container-icon1, .container-icon2{
+                    opacity: 1;
+                }
             }
         }
         &__img6{
@@ -366,14 +403,18 @@
 
             &:hover{
                 background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery6.jpg);
+
+                .container-icon1, .container-icon2{
+                    opacity: 1;
+                }
             }
         }
-
         &__card-title{
             margin: 0;
             font-size: .8rem;
             font-weight: 700;
             color: #777777;
+            padding-top: 15px;
         }
         &__card-subheading{
             margin: 0;
@@ -384,6 +425,31 @@
             line-height: 1.4;
         }
     }
+    .container-icon1, .container-icon2{
+        opacity: 0; 
+        position: absolute;
+    }
+    .container-icon1{
+        left: 25%;
+    }
+    .container-icon2{
+        right: 25%;
+    }
+    .fa-square{
+        color: #041975;
+
+        &:hover{
+            color: #feae3a;
+        }
+    }
+    .fa-eye, .fa-link{
+        color: white;
+
+        &:hover{
+            color: #091c6e;
+        }
+    }
+    
     .pricing{
         background-color: #2781e6;
         padding: 3rem 1rem;
