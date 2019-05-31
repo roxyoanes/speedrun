@@ -1,6 +1,7 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const Gallery = () => (
+const Gallery = ({ openModalHandler }) => (
   <div className="gallery" id="portfolio">
     <h2 className="gallery__heading">GALLERY</h2>
     <p className="gallery__description">
@@ -29,11 +30,13 @@ const Gallery = () => (
     <div className="gallery__images-container">
       <div className="gallery__card">
         <div className="gallery__img1 gallery__image-style">
-          <span className="fa-stack fa-2x container-icon1">
-            <a href="#top" className="gallery__icon-eye">
-              <i className="fas fa-square fa-stack-2x" />
-              <i className="fa fa-eye fa-stack-1x fa-inverse" />
-            </a>
+          <span
+            className="fa-stack fa-2x container-icon1"
+            role="presentation"
+            onClick={() => openModalHandler(1)}
+          >
+            <i className="fas fa-square fa-stack-2x" />
+            <i className="fa fa-eye fa-stack-1x fa-inverse" />
           </span>
           <span className="fa-stack fa-2x container-icon2">
             <a href="#top" className="gallery__icon-link">
@@ -49,11 +52,13 @@ const Gallery = () => (
       </div>
       <div className="gallery__card">
         <div className="gallery__img2 gallery__image-style">
-          <span className="fa-stack fa-2x container-icon1">
-            <a href="#top" className="gallery__icon-eye">
-              <i className="fas fa-square fa-stack-2x" />
-              <i className="fa fa-eye fa-stack-1x fa-inverse" />
-            </a>
+          <span
+            className="fa-stack fa-2x container-icon1"
+            role="presentation"
+            onClick={() => openModalHandler(2)}
+          >
+            <i className="fas fa-square fa-stack-2x" />
+            <i className="fa fa-eye fa-stack-1x fa-inverse" />
           </span>
           <span className="fa-stack fa-2x container-icon2">
             <a href="#top" className="gallery__icon-link">
@@ -69,11 +74,13 @@ const Gallery = () => (
       </div>
       <div className="gallery__card">
         <div className="gallery__img3 gallery__image-style">
-          <span className="fa-stack fa-2x container-icon1">
-            <a href="#top" className="gallery__icon-eye">
-              <i className="fas fa-square fa-stack-2x" />
-              <i className="fa fa-eye fa-stack-1x fa-inverse" />
-            </a>
+          <span
+            className="fa-stack fa-2x container-icon1"
+            role="presentation"
+            onClick={() => openModalHandler(3)}
+          >
+            <i className="fas fa-square fa-stack-2x" />
+            <i className="fa fa-eye fa-stack-1x fa-inverse" />
           </span>
           <span className="fa-stack fa-2x container-icon2">
             <a href="#top" className="gallery__icon-link">
@@ -89,11 +96,13 @@ const Gallery = () => (
       </div>
       <div className="gallery__card">
         <div className="gallery__img4 gallery__image-style">
-          <span className="fa-stack fa-2x container-icon1">
-            <a href="#top" className="gallery__icon-eye">
-              <i className="fas fa-square fa-stack-2x" />
-              <i className="fa fa-eye fa-stack-1x fa-inverse" />
-            </a>
+          <span
+            className="fa-stack fa-2x container-icon1"
+            role="presentation"
+            onClick={() => openModalHandler(4)}
+          >
+            <i className="fas fa-square fa-stack-2x" />
+            <i className="fa fa-eye fa-stack-1x fa-inverse" />
           </span>
           <span className="fa-stack fa-2x container-icon2">
             <a href="#top" className="gallery__icon-link">
@@ -109,11 +118,13 @@ const Gallery = () => (
       </div>
       <div className="gallery__card">
         <div className="gallery__img5 gallery__image-style">
-          <span className="fa-stack fa-2x container-icon1">
-            <a href="#top" className="gallery__icon-eye">
-              <i className="fas fa-square fa-stack-2x" />
-              <i className="fa fa-eye fa-stack-1x fa-inverse" />
-            </a>
+          <span
+            className="fa-stack fa-2x container-icon1"
+            role="presentation"
+            onClick={() => openModalHandler(5)}
+          >
+            <i className="fas fa-square fa-stack-2x" />
+            <i className="fa fa-eye fa-stack-1x fa-inverse" />
           </span>
           <span className="fa-stack fa-2x container-icon2">
             <a href="#top" className="gallery__icon-link">
@@ -129,11 +140,13 @@ const Gallery = () => (
       </div>
       <div className="gallery__card">
         <div className="gallery__img6 gallery__image-style">
-          <span className="fa-stack fa-2x container-icon1">
-            <a href="#top" className="gallery__icon-eye">
-              <i className="fas fa-square fa-stack-2x" />
-              <i className="fa fa-eye fa-stack-1x fa-inverse" />
-            </a>
+          <span
+            className="fa-stack fa-2x container-icon1"
+            role="presentation"
+            onClick={() => openModalHandler(6)}
+          >
+            <i className="fas fa-square fa-stack-2x" />
+            <i className="fa fa-eye fa-stack-1x fa-inverse" />
           </span>
           <span className="fa-stack fa-2x container-icon2">
             <a href="#top" className="gallery__icon-link">
@@ -150,5 +163,8 @@ const Gallery = () => (
     </div>
   </div>
 );
+Gallery.propTypes = {
+  openModalHandler: PropTypes.func.isRequired,
+};
 
 export default Gallery;
