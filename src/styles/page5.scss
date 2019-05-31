@@ -64,15 +64,14 @@
             @media(max-width: 767px){
                 display: none;
             }
-
-            &:active{
-                color: #2781e6;
-            }
             &:hover{
                 color: #2781e6;
             }
             
         }
+        &__is-current{
+            color: #2781e6;
+    }
     }
     .dropdown{
         display: flex;

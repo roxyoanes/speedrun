@@ -3,7 +3,7 @@ import React from "react";
 import landing5 from "../images/landing5.png";
 
 const Landing = () => (
-  <div className="landing">
+  <div className="landing" id="top">
     <div
       className="landing__text-section"
       data-aos="zoom-in"
