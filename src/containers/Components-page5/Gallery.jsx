@@ -12,41 +12,55 @@ const photoData = [
     id: 1,
     category: ["artwork", "all", "creative"],
     image: gallery1,
+    title: "1st gallery Item",
+    description: " Nullam id dolor id nibh ultricies vehicula."
   },
   {
     id: 2,
     category: ["nature", "all", "outside"],
     image: gallery2,
+    title: "2nd gallery Item",
+    description: " Nullam id dolor id nibh ultricies vehicula."
   },
   {
     id: 3,
     category: ["artwork", "all", "photography"],
     image: gallery3,
+    title: "3rd gallery Item",
+    description: " Nullam id dolor id nibh ultricies vehicula."
   },
   {
     id: 4,
     category: ["nature", "all"],
     image: gallery4,
+    title: "4th gallery Item",
+    description: " Nullam id dolor id nibh ultricies vehicula."
   },
   {
     id: 5,
     category: ["nature", "all", "creative"],
     image: gallery5,
+    title: "5sth gallery Item",
+    description: " Nullam id dolor id nibh ultricies vehicula."
   },
   {
     id: 6,
     category: ["artwork", "all", "creative"],
     image: gallery6,
-  },
+    title: "6th gallery Item",
+    description: " Nullam id dolor id nibh ultricies vehicula."
+  }
 ];
 
 class Gallery extends Component {
   state = {
-    allPhotos: photoData,
+    allPhotos: photoData
   };
 
-  filterPhotos = (tag) => {
-    const filteredImages = photoData.filter(photoObject => photoObject.category.includes(tag));
+  filterPhotos = tag => {
+    const filteredImages = photoData.filter(photoObject =>
+      photoObject.category.includes(tag)
+    );
     this.setState({ allPhotos: filteredImages });
   };
 
@@ -60,7 +74,11 @@ class Gallery extends Component {
           Lorem ipsum dolor sit amet, consectetur adipiscing.
         </p>
         <div className="gallery__tags-container">
-          <button type="button" onClick={() => this.filterPhotos("all")} className="gallery__tag">
+          <button
+            type="button"
+            onClick={() => this.filterPhotos("all")}
+            className="gallery__tag"
+          >
             ALL
           </button>
           <button
@@ -101,143 +119,31 @@ class Gallery extends Component {
         </div>
         <div className="gallery__images-container">
           {allPhotos.map(item => (
-            <img src={item.image} alt="img" className="gallery__image-style" />
-
-
-            /*  <div>
-              <div className="gallery__card">
-                <div className="gallery__img1 gallery__image-style">
-                  <span
-                    className="fa-stack fa-2x container-icon1"
-                    role="presentation"
-                    onClick={() => openModalHandler(1)}
-                  >
+            <div className="gallery__card">
+              <div className="gallery__gradient">
+                <img
+                  src={item.image}
+                  alt="img"
+                  className="gallery__image-style"
+                />
+                <span
+                  className="fa-stack fa-2x container-icon1"
+                  role="presentation"
+                  onClick={() => openModalHandler(1)}
+                >
+                  <i className="fas fa-square fa-stack-2x" />
+                  <i className="fa fa-eye fa-stack-1x fa-inverse" />
+                </span>
+                <span className="fa-stack fa-2x container-icon2">
+                  <a href="#top" className="gallery__icon-link">
                     <i className="fas fa-square fa-stack-2x" />
-                    <i className="fa fa-eye fa-stack-1x fa-inverse" />
-                  </span>
-                  <span className="fa-stack fa-2x container-icon2">
-                    <a href="#top" className="gallery__icon-link">
-                      <i className="fas fa-square fa-stack-2x" />
-                      <i className="fa fa-link fa-stack-1x fa-inverse" />
-                    </a>
-                  </span>
-                </div>
-                <h5 className="gallery__card-title">1st gallery Item</h5>
-                <h6 className="gallery__card-subheading">
-                  Nullam id dolor id nibh ultricies vehicula.
-                </h6>
+                    <i className="fa fa-link fa-stack-1x fa-inverse" />
+                  </a>
+                </span>
               </div>
-              <div className="gallery__card">
-                <div className="gallery__img2 gallery__image-style">
-                  <span
-                    className="fa-stack fa-2x container-icon1"
-                    role="presentation"
-                    onClick={() => openModalHandler(2)}
-                  >
-                    <i className="fas fa-square fa-stack-2x" />
-                    <i className="fa fa-eye fa-stack-1x fa-inverse" />
-                  </span>
-                  <span className="fa-stack fa-2x container-icon2">
-                    <a href="#top" className="gallery__icon-link">
-                      <i className="fas fa-square fa-stack-2x" />
-                      <i className="fa fa-link fa-stack-1x fa-inverse" />
-                    </a>
-                  </span>
-                </div>
-                <h5 className="gallery__card-title">2nd gallery Item</h5>
-                <h6 className="gallery__card-subheading">
-                  Nullam id dolor id nibh ultricies vehicula.
-                </h6>
-              </div>
-              <div className="gallery__card">
-                <div className="gallery__img3 gallery__image-style">
-                  <span
-                    className="fa-stack fa-2x container-icon1"
-                    role="presentation"
-                    onClick={() => openModalHandler(3)}
-                  >
-                    <i className="fas fa-square fa-stack-2x" />
-                    <i className="fa fa-eye fa-stack-1x fa-inverse" />
-                  </span>
-                  <span className="fa-stack fa-2x container-icon2">
-                    <a href="#top" className="gallery__icon-link">
-                      <i className="fas fa-square fa-stack-2x" />
-                      <i className="fa fa-link fa-stack-1x fa-inverse" />
-                    </a>
-                  </span>
-                </div>
-                <h5 className="gallery__card-title">3rd gallery Item</h5>
-                <h6 className="gallery__card-subheading">
-                  Nullam id dolor id nibh ultricies vehicula.
-                </h6>
-              </div>
-              <div className="gallery__card">
-                <div className="gallery__img4 gallery__image-style">
-                  <span
-                    className="fa-stack fa-2x container-icon1"
-                    role="presentation"
-                    onClick={() => openModalHandler(4)}
-                  >
-                    <i className="fas fa-square fa-stack-2x" />
-                    <i className="fa fa-eye fa-stack-1x fa-inverse" />
-                  </span>
-                  <span className="fa-stack fa-2x container-icon2">
-                    <a href="#top" className="gallery__icon-link">
-                      <i className="fas fa-square fa-stack-2x" />
-                      <i className="fa fa-link fa-stack-1x fa-inverse" />
-                    </a>
-                  </span>
-                </div>
-                <h5 className="gallery__card-title">4th gallery Item</h5>
-                <h6 className="gallery__card-subheading">
-                  Nullam id dolor id nibh ultricies vehicula.
-                </h6>
-              </div>
-              <div className="gallery__card">
-                <div className="gallery__img5 gallery__image-style">
-                  <span
-                    className="fa-stack fa-2x container-icon1"
-                    role="presentation"
-                    onClick={() => openModalHandler(5)}
-                  >
-                    <i className="fas fa-square fa-stack-2x" />
-                    <i className="fa fa-eye fa-stack-1x fa-inverse" />
-                  </span>
-                  <span className="fa-stack fa-2x container-icon2">
-                    <a href="#top" className="gallery__icon-link">
-                      <i className="fas fa-square fa-stack-2x" />
-                      <i className="fa fa-link fa-stack-1x fa-inverse" />
-                    </a>
-                  </span>
-                </div>
-                <h5 className="gallery__card-title">5th gallery Item</h5>
-                <h6 className="gallery__card-subheading">
-                  Nullam id dolor id nibh ultricies vehicula.
-                </h6>
-              </div>
-              <div className="gallery__card">
-                <div className="gallery__img6 gallery__image-style">
-                  <span
-                    className="fa-stack fa-2x container-icon1"
-                    role="presentation"
-                    onClick={() => openModalHandler(6)}
-                  >
-                    <i className="fas fa-square fa-stack-2x" />
-                    <i className="fa fa-eye fa-stack-1x fa-inverse" />
-                  </span>
-                  <span className="fa-stack fa-2x container-icon2">
-                    <a href="#top" className="gallery__icon-link">
-                      <i className="fas fa-square fa-stack-2x" />
-                      <i className="fa fa-link fa-stack-1x fa-inverse" />
-                    </a>
-                  </span>
-                </div>
-                <h5 className="gallery__card-title">6th gallery Item</h5>
-                <h6 className="gallery__card-subheading">
-                  Nullam id dolor id nibh ultricies vehicula.
-                </h6>
-              </div>
-            </div> */
+              <h5 className="gallery__card-title">{item.title}</h5>
+              <h6 className="gallery__card-subheading">{item.description}</h6>
+            </div>
           ))}
         </div>
       </div>
