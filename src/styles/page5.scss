@@ -67,7 +67,6 @@
             &:hover{
                 color: #2781e6;
             }
-            
         }
         &__is-current{
             color: #2781e6;
@@ -156,7 +155,7 @@
             align-items: center;
         }
         &__img{
-            width: 330px;
+            width: 100%;
         }
     }
     .landing-button{
@@ -409,7 +408,6 @@
             color: #feae3a;
         }
     }
-    
     .pricing{
         background-color: #2781e6;
         padding: 3rem 1rem;
@@ -486,7 +484,6 @@
             width: 175px;
             height: 50px;
         }
-
     }
     .team{
         text-align: center;
@@ -517,7 +514,8 @@
             margin: 20px 0 5px 0;
         }
         &__img{
-            @media(width: 768px){
+            
+            @media(max-width: 768px)and(min-width:320px){
                 width: 200px;
             }
         }
@@ -573,13 +571,8 @@
         padding: 0 10px;
     }
     .clients{
-        padding: 2rem 10px;
         text-align: center;
-
-        @media(min-width: 768px){
-            padding: 0;
-        }
-     
+        
         &__heading{
             font-weight: 500;
             padding: 1rem 0;
@@ -681,5 +674,4 @@
             color: #2781e6;
         }
     }
-
 }
