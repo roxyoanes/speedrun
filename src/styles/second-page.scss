@@ -1,8 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400');
 
 .secondpage{
+    h2{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    h1{
+        text-align: center;
+        color: #6c757d;
+    }
+    p{
+        line-height: 1.75;
+        color: #6c757d;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
     .navbar{
         display: grid;
         grid-template-columns: 1fr 1fr;
