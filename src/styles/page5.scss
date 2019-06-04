@@ -295,6 +295,9 @@
         }
         &__tag{
             color: #777777;
+            border: transparent;
+            background-color: transparent;
+            font-weight: 600;
 
             &:hover{
                 color: black;
@@ -324,128 +327,47 @@
         &__image-style{
             width: 350px;
             height: 280px;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
             display: flex;
             align-items: center;
             position: relative;
-            transition: all .2s ease-in-out;
-
-            &:hover{
-                width: 370px;
-            }
+            transition: all .3s ease-in-out;
 
             @media(max-width: 768px) {
                 width: 220px;
                 height: 200px;
             }
         }
+        &__gradient{
+            position:relative;
+        }
+        &__gradient:hover:after{
+            content:'';
+            position: absolute;
+            left:0; top:0;
+            width:350px; 
+            height:100%;
+            background: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53));
+            z-index: 10;
+        }
+            &__gradient:hover{
+                transform: scale(1.1);
+                transition: all .3s ease-in;
+
+                .container-icon1, .container-icon2{
+                    opacity: 1;
+                    z-index: 50;
+                }
+                .container-icon1{
+                    left: 25%;
+                    bottom: 35%;
+                }
+                .container-icon2{
+                    right: 25%;
+                    bottom: 35%;
+                }      
+            }
         &__icon-eye, &__icon-link{
             font-size: 2rem;
-        }
-        
-        &__img1{
-            background-image: url(../containers//images/gallery1.jpg);
-
-            &:hover{
-                background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery1.jpg);
-                
-                 .container-icon1, .container-icon2{
-                    opacity: 1;
-                }
-                .container-icon1{
-                    left: 25%;
-                }
-                .container-icon2{
-                    right: 25%;
-                }
-            }
-        }
-        &__img2{
-            background-image: url(../containers//images/gallery2.jpg);
-
-            &:hover{
-                background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery2.jpg);
-                
-                .container-icon1, .container-icon2{
-                    opacity: 1;
-                }
-                .container-icon1{
-                    left: 25%;
-                }
-                .container-icon2{
-                    right: 25%;
-                }
-            }
-        }
-        &__img3{
-            background-image: url(../containers//images/gallery3.jpg);
-
-            &:hover{
-                background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery3.jpg);
-
-                .container-icon1, .container-icon2{
-                    opacity: 1;
-                }
-                .container-icon1{
-                    left: 25%;
-                }
-                .container-icon2{
-                    right: 25%;
-                }
-            }
-        }
-        &__img4{
-            background-image: url(../containers//images/gallery4.jpg);
-
-            &:hover{
-                background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery4.jpg);
-
-                .container-icon1, .container-icon2{
-                    opacity: 1;
-                }
-                .container-icon1{
-                    left: 25%;
-                }
-                .container-icon2{
-                    right: 25%;
-                }
-            }
-        }
-        &__img5{
-            background-image: url(../containers//images/gallery5.jpg);
-
-            &:hover{
-                background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery5.jpg);
-
-                .container-icon1, .container-icon2{
-                    opacity: 1;
-                }
-                .container-icon1{
-                    left: 25%;
-                }
-                .container-icon2{
-                    right: 25%;
-                }
-            }
-        }
-        &__img6{
-            background-image: url(../containers//images/gallery6.jpg);
-
-            &:hover{
-                background-image: linear-gradient(to bottom, rgba(90, 88, 89, 0.53), rgba(90, 88, 89, 0.53)), url(../containers/images/gallery6.jpg);
-
-                .container-icon1, .container-icon2{
-                    opacity: 1;
-                }
-                .container-icon1{
-                    left: 25%;
-                }
-                .container-icon2{
-                    right: 25%;
-                }
-            }
         }
         &__card-title{
             margin: 0;
@@ -469,11 +391,13 @@
     }
     .container-icon1{
         left: 0%;
-        transition: all .2s ease-in-out;
+        bottom: 35%;
+        transition: all .3s ease-in-out;
     }
     .container-icon2{
         right: 0%;
-        transition: all .2s ease-in-out;
+        bottom: 35%;
+        transition: all .3s ease-in-out;
     }
     .fa-square{
         color: #041975;
