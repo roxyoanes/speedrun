@@ -13,54 +13,52 @@ const photoData = [
     category: ["artwork", "all", "creative"],
     image: gallery1,
     title: "1st gallery Item",
-    description: " Nullam id dolor id nibh ultricies vehicula."
+    description: " Nullam id dolor id nibh ultricies vehicula.",
   },
   {
     id: 2,
     category: ["nature", "all", "outside"],
     image: gallery2,
     title: "2nd gallery Item",
-    description: " Nullam id dolor id nibh ultricies vehicula."
+    description: " Nullam id dolor id nibh ultricies vehicula.",
   },
   {
     id: 3,
     category: ["artwork", "all", "photography"],
     image: gallery3,
     title: "3rd gallery Item",
-    description: " Nullam id dolor id nibh ultricies vehicula."
+    description: " Nullam id dolor id nibh ultricies vehicula.",
   },
   {
     id: 4,
     category: ["nature", "all"],
     image: gallery4,
     title: "4th gallery Item",
-    description: " Nullam id dolor id nibh ultricies vehicula."
+    description: " Nullam id dolor id nibh ultricies vehicula.",
   },
   {
     id: 5,
     category: ["nature", "all", "creative"],
     image: gallery5,
     title: "5sth gallery Item",
-    description: " Nullam id dolor id nibh ultricies vehicula."
+    description: " Nullam id dolor id nibh ultricies vehicula.",
   },
   {
     id: 6,
     category: ["artwork", "all", "creative"],
     image: gallery6,
     title: "6th gallery Item",
-    description: " Nullam id dolor id nibh ultricies vehicula."
-  }
+    description: " Nullam id dolor id nibh ultricies vehicula.",
+  },
 ];
 
 class Gallery extends Component {
   state = {
-    allPhotos: photoData
+    allPhotos: photoData,
   };
 
-  filterPhotos = tag => {
-    const filteredImages = photoData.filter(photoObject =>
-      photoObject.category.includes(tag)
-    );
+  filterPhotos = (tag) => {
+    const filteredImages = photoData.filter(photoObject => photoObject.category.includes(tag),);
     this.setState({ allPhotos: filteredImages });
   };
 
@@ -118,7 +116,7 @@ class Gallery extends Component {
           </button>
         </div>
         <div className="gallery__images-container">
-          {allPhotos.map(item => (
+          {allPhotos.map((item, i) => (
             <div className="gallery__card">
               <div className="gallery__gradient">
                 <img
@@ -129,7 +127,7 @@ class Gallery extends Component {
                 <span
                   className="fa-stack fa-2x container-icon1"
                   role="presentation"
-                  onClick={() => openModalHandler(1)}
+                  onClick={() => openModalHandler(i + 1)}
                 >
                   <i className="fas fa-square fa-stack-2x" />
                   <i className="fa fa-eye fa-stack-1x fa-inverse" />
