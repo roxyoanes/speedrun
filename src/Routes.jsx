@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import {
-  Home, Page1, Page2, Page3, Page4, Page5,
+  Home, Page1, Page2, Page3, Page4, Page5, Page6,
 } from "./containers";
 
 const Routes = () => (
