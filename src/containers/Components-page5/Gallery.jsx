@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
+
 import gallery1 from "../images/gallery1.jpg";
 import gallery2 from "../images/gallery2.jpg";
 import gallery3 from "../images/gallery3.jpg";
@@ -58,7 +60,7 @@ class Gallery extends Component {
   };
 
   filterPhotos = (tag) => {
-    const filteredImages = photoData.filter(photoObject => photoObject.category.includes(tag),);
+    const filteredImages = photoData.filter(photoObject => photoObject.category.includes(tag));
     this.setState({ allPhotos: filteredImages });
   };
 
@@ -116,33 +118,39 @@ class Gallery extends Component {
           </button>
         </div>
         <div className="gallery__images-container">
-          {allPhotos.map((item, i) => (
-            <div className="gallery__card">
-              <div className="gallery__gradient">
-                <img
-                  src={item.image}
-                  alt="img"
-                  className="gallery__image-style"
-                />
-                <span
-                  className="fa-stack fa-2x container-icon1"
-                  role="presentation"
-                  onClick={() => openModalHandler(i + 1)}
-                >
-                  <i className="fas fa-square fa-stack-2x" />
-                  <i className="fa fa-eye fa-stack-1x fa-inverse" />
-                </span>
-                <span className="fa-stack fa-2x container-icon2">
-                  <a href="#top" className="gallery__icon-link">
-                    <i className="fas fa-square fa-stack-2x" />
-                    <i className="fa fa-link fa-stack-1x fa-inverse" />
-                  </a>
-                </span>
-              </div>
-              <h5 className="gallery__card-title">{item.title}</h5>
-              <h6 className="gallery__card-subheading">{item.description}</h6>
-            </div>
-          ))}
+          <TransitionGroup className="gallery__transition-container">
+            {allPhotos.map((item, i) => (
+              <CSSTransition key={item.id} timeout={500} classNames="gallery__item">
+                <div className="gallery__card">
+                  <div className="gallery__gradient">
+                    <img
+                      src={item.image}
+                      alt="img"
+                      className="gallery__image-style"
+                    />
+                    <span
+                      className="fa-stack fa-2x container-icon1"
+                      role="presentation"
+                      onClick={() => openModalHandler(i + 1)}
+                    >
+                      <i className="fas fa-square fa-stack-2x" />
+                      <i className="fa fa-eye fa-stack-1x fa-inverse" />
+                    </span>
+                    <span className="fa-stack fa-2x container-icon2">
+                      <a href="#top" className="gallery__icon-link">
+                        <i className="fas fa-square fa-stack-2x" />
+                        <i className="fa fa-link fa-stack-1x fa-inverse" />
+                      </a>
+                    </span>
+                  </div>
+                  <h5 className="gallery__card-title">{item.title}</h5>
+                  <h6 className="gallery__card-subheading">
+                    {item.description}
+                  </h6>
+                </div>
+              </CSSTransition>
+            ))}
+          </TransitionGroup>
         </div>
       </div>
     );
