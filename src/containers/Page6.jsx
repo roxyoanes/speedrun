@@ -78,7 +78,7 @@ class Page6 extends Component {
               className={`menu ${showMenu ? "dropdown-menu" : "menu-closed"}`}
             >
               <Link
-                to={`${match.path}/home`}
+                to={`${match.path}/`}
                 className="dropdown-menu__list-item"
               >
                 Home
@@ -116,12 +116,12 @@ class Page6 extends Component {
               </Link>
             </nav>
           </div>
-          <Route path={`${match.path}/home`} component={First} />
           <Route path={`${match.path}/about`} component={About} />
           <Route path={`${match.path}/services`} component={Services} />
           <Route path={`${match.path}/portfolio`} component={Portfolio} />
           <Route path={`${match.path}/pricing`} component={Pricing} />
           <Route path={`${match.path}/contact`} component={Contact} />
+          <Route exact path={`${match.path}/`} component={First} />
           <div className="subfooter">
             <div className="subfooter__contact">
               <h5 className="subfooter__title">Our Contact</h5>
