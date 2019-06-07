@@ -129,6 +129,9 @@ render() {
           <img src={company} alt="laptop" className="company__img" />
         </div>
       </div>
+      <div className="features">
+        <h3 className="features__subtitle">FEATURES</h3>
+      </div>
     </div>
 
 
