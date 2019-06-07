@@ -137,6 +137,11 @@
             }
         }
     }
+    .landing{
+        &__img{
+            width: 100%;
+        }
+    }
     .footer{
         color: #858585;
         background: #2d2d2d;

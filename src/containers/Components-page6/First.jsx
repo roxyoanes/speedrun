@@ -18,7 +18,7 @@ componentDidMount() {
       currentImage: currentImage === 0 ? 1 : 0,
       intervalId,
     });
-  })(), 1000);
+  })(), 5000);
 }
 
 componentWillUnmount() {
@@ -34,8 +34,8 @@ timer= () => {
 render() {
   const { currentImage } = this.state;
   return (
-    <div className="home">
-      <img src={images[currentImage]} alt="fgfggfgf" />
+    <div className="landing">
+      <img src={images[currentImage]} className="landing__img" alt="landing-img" />
     </div>
 
   );
