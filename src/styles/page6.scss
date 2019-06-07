@@ -185,6 +185,78 @@
             color: #656565;
         }
     }
+    .company{
+        font-family: 'Open Sans', Arial, sans-serif;
+        background: #f5f5f5;
+        padding: 60px;
+
+        &__info{
+            text-align: center;
+            padding: 0 20px
+        }
+        &__title{
+            font-weight: 600;
+            line-height: 1.1em;
+            color: #333;
+            margin: 60px 0 30px;
+            font-size: 2rem;
+            
+        }
+        &__description{
+            font-weight: 300;
+            line-height: 1.6em;
+            color: #656565;
+            font-size: 1rem;
+            margin: 40px 0;
+           
+        }
+        &__container{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4, 1fr);
+            grid-gap: 10px;
+            margin-bottom: 60px;
+        }
+        &__list-wrapper{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        &__about{
+            font-weight: 300;
+            line-height: 1.6em;
+            color: #656565;
+            font-size: 1rem;
+            text-align: -webkit-left;
+            padding: 0 10px;
+        }
+        &__item{
+            font-weight: 300;
+            line-height: 1.6em;
+            color: #656565;
+            font-size: 1rem;
+        }
+        &__btn{
+            text-align: center;
+            color: #FFFFFF;
+            background: #ff5722;
+            border-color: #ff5722;
+            width: 120px;
+            padding: 10px;
+        }
+        &__img-wrapper{
+            margin-top: 9px;
+        }
+        &__{
+            width: 300px;
+        }
+    }
+    .fa-angle-right{
+        font-size: 1.2rem;
+        padding: 0 15px;
+        font-weight: 700;
+        color: #ff5722;
+    }
     .icon-common{
         font-size: 2rem;
         color: #ff5722;
