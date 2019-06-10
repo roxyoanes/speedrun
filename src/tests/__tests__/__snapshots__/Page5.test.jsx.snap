@@ -1,0 +1,1381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="page5"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="navbar"
+    >
+      <a
+        className="navbar__logo"
+        href="#top"
+      >
+        <img
+          alt="logo"
+          className="navbar__logo-img"
+          src="logonavbar5.png"
+        />
+      </a>
+      <nav
+        className="navbar__list"
+      >
+        <ul
+          className=""
+          style={Object {}}
+        >
+          <a
+            className="navbar__list-item"
+            href="#top"
+          >
+            HOME
+          </a>
+          <a
+            className="navbar__list-item"
+            href="#about"
+          >
+            ABOUT US
+          </a>
+          <a
+            className="navbar__list-item"
+            href="#services"
+          >
+            SERVICES
+          </a>
+          <a
+            className="navbar__list-item"
+            href="#portfolio"
+          >
+            PORTFOLIO
+          </a>
+          <a
+            className="navbar__list-item"
+            href="#team"
+          >
+            TEAM
+          </a>
+          <a
+            className="navbar__list-item"
+            href="#contact"
+          >
+            CONTACT
+          </a>
+        </ul>
+      </nav>
+      <div
+        className="navbar__right-side"
+      >
+        <button
+          className="navbar-button"
+          onClick={[Function]}
+          type="button"
+        >
+          <i
+            className="fas fa-bars"
+          />
+        </button>
+      </div>
+      <nav
+        className="menu menu-closed"
+      >
+        <ul
+          className=""
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "padding": "0",
+            }
+          }
+        >
+          <a
+            className="dropdown__list-item"
+            href="#top"
+          >
+            HOME
+          </a>
+          <a
+            className="dropdown__list-item"
+            href="#about"
+          >
+            ABOUT US
+          </a>
+          <a
+            className="dropdown__list-item"
+            href="#services"
+          >
+            SERVICES
+          </a>
+          <a
+            className="dropdown__list-item"
+            href="#portfolio"
+          >
+            PORTFOLIO
+          </a>
+          <a
+            className="dropdown__list-item"
+            href="#team"
+          >
+            TEAM
+          </a>
+          <a
+            className="dropdown__list-item"
+            href="#contact"
+          >
+            CONTACT
+          </a>
+        </ul>
+      </nav>
+    </div>
+    <div
+      className="landing"
+      id="top"
+    >
+      <div
+        className="landing__text-section"
+        data-aos="zoom-in"
+        data-aos-delay="300"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-back"
+        data-aos-offset="0"
+      >
+        <h2
+          className="landing__heading"
+        >
+          The
+          <strong
+            className="landing__bold"
+          >
+            BEST
+          </strong>
+          One Page Web Template
+        </h2>
+        <p
+          className="landing__paragraph"
+        >
+          Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the galley of type and scrambled it to make a type specimen.
+        </p>
+        <button
+          className="landing-button"
+          type="button"
+        >
+          READ MORE
+        </button>
+      </div>
+      <div
+        className="landing__img-wrapper"
+      >
+        <img
+          alt="landing-img"
+          className="landing__img"
+          data-aos="zoom-in"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-back"
+          data-aos-offset="0"
+          src="landing5.png"
+        />
+      </div>
+    </div>
+    <div
+      className="about"
+      id="about"
+    >
+      <h2
+        className="about__heading"
+      >
+        ABOUT US
+      </h2>
+      <div
+        className="about__wrapper"
+      >
+        <img
+          alt="img"
+          className="about__img"
+          data-aos="zoom-in"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-back"
+          data-aos-offset="0"
+          src="aboutimg.jpg"
+        />
+        <div
+          className="about__text"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          data-aos-easing="linear"
+        >
+          <h3
+            className="about__subheading"
+          >
+            Lorem Ipsum has been the industry's standard dummy text ever..
+          </h3>
+          <p
+            className="about__paragraph"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. PageMaker including versions of Lorem Ipsum.
+          </p>
+          <p
+            className="about__paragraph"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="services"
+      id="services"
+    >
+      <h2
+        className="services__heading"
+      >
+        SERVICES
+      </h2>
+      <div
+        className="services__all-cards"
+      >
+        <div
+          className="services__card"
+        >
+          <div
+            className="services__card-dashed-area"
+          >
+            <span
+              className="services__card-icon"
+            >
+              <i
+                className="fab fa-android icon"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-back"
+                data-aos-offset="0"
+              />
+            </span>
+            <h3
+              className="services__card-title"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              ANDROID
+            </h3>
+            <p
+              className="services__card-paragraph"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+              data-aos-easing="linear"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+            </p>
+          </div>
+        </div>
+        <div
+          className="services__card"
+        >
+          <div
+            className="services__card-dashed-area"
+          >
+            <span
+              className="services__card-icon"
+            >
+              <i
+                className="fab fa-apple icon"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-back"
+                data-aos-offset="0"
+              />
+            </span>
+            <h3
+              className="services__card-title"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              APPLE IOS
+            </h3>
+            <p
+              className="services__card-paragraph"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+              data-aos-easing="linear"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+            </p>
+          </div>
+        </div>
+        <div
+          className="services__card"
+        >
+          <div
+            className="services__card-dashed-area"
+          >
+            <span
+              className="services__card-icon"
+            >
+              <i
+                className="fab fa-html5 icon"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-back"
+                data-aos-offset="0"
+              />
+            </span>
+            <h3
+              className="services__card-title"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              DESIGN
+            </h3>
+            <p
+              className="services__card-paragraph"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+              data-aos-easing="linear"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+            </p>
+          </div>
+        </div>
+        <div
+          className="services__card"
+        >
+          <div
+            className="services__card-dashed-area"
+          >
+            <span
+              className="services__card-icon"
+            >
+              <i
+                className="fab fa-dropbox icon"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-back"
+                data-aos-offset="0"
+              />
+            </span>
+            <h3
+              className="services__card-title"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              CONCEPT
+            </h3>
+            <p
+              className="services__card-paragraph"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+              data-aos-easing="linear"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+            </p>
+          </div>
+        </div>
+        <div
+          className="services__card"
+        >
+          <div
+            className="services__card-dashed-area"
+          >
+            <span
+              className="services__card-icon"
+            >
+              <i
+                className="fab fa-slack icon"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-back"
+                data-aos-offset="0"
+              />
+            </span>
+            <h3
+              className="services__card-title"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              USER RESEARCH
+            </h3>
+            <p
+              className="services__card-paragraph"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+              data-aos-easing="linear"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+            </p>
+          </div>
+        </div>
+        <div
+          className="services__card"
+        >
+          <div
+            className="services__card-dashed-area"
+          >
+            <span
+              className="services__card-icon"
+            >
+              <i
+                className="fas fa-users icon"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-back"
+                data-aos-offset="0"
+              />
+            </span>
+            <h3
+              className="services__card-title"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              USER EXPERIENCE
+            </h3>
+            <p
+              className="services__card-paragraph"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+              data-aos-easing="linear"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="gallery"
+      id="portfolio"
+    >
+      <h2
+        className="gallery__heading"
+      >
+        GALLERY
+      </h2>
+      <p
+        className="gallery__description"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing.
+      </p>
+      <div
+        className="gallery__tags-container"
+      >
+        <button
+          className="gallery__tag"
+          onClick={[Function]}
+          type="button"
+        >
+          ALL
+        </button>
+        <button
+          className="gallery__tag gallery__backslash"
+          onClick={[Function]}
+          type="button"
+        >
+          ARTWORK
+        </button>
+        <button
+          className="gallery__tag gallery__backslash"
+          onClick={[Function]}
+          type="button"
+        >
+          CREATIVE
+        </button>
+        <button
+          className="gallery__tag gallery__backslash"
+          onClick={[Function]}
+          type="button"
+        >
+          NATURE
+        </button>
+        <button
+          className="gallery__tag gallery__backslash"
+          onClick={[Function]}
+          type="button"
+        >
+          OUTSIDE
+        </button>
+        <button
+          className="gallery__tag gallery__backslash"
+          onClick={[Function]}
+          type="button"
+        >
+          PHOTOGRAPHY
+        </button>
+      </div>
+      <div
+        className="gallery__images-container"
+      >
+        <div
+          className="gallery__transition-container"
+        >
+          <div
+            className="gallery__card"
+          >
+            <div
+              className="gallery__gradient"
+            >
+              <img
+                alt="img"
+                className="gallery__image-style"
+                src="gallery1.jpg"
+              />
+              <span
+                className="fa-stack fa-2x container-icon1"
+                onClick={[Function]}
+                role="presentation"
+              >
+                <i
+                  className="fas fa-square fa-stack-2x"
+                />
+                <i
+                  className="fa fa-eye fa-stack-1x fa-inverse"
+                />
+              </span>
+              <span
+                className="fa-stack fa-2x container-icon2"
+              >
+                <a
+                  className="gallery__icon-link"
+                  href="#top"
+                >
+                  <i
+                    className="fas fa-square fa-stack-2x"
+                  />
+                  <i
+                    className="fa fa-link fa-stack-1x fa-inverse"
+                  />
+                </a>
+              </span>
+            </div>
+            <h5
+              className="gallery__card-title"
+            >
+              1st gallery Item
+            </h5>
+            <h6
+              className="gallery__card-subheading"
+            >
+               Nullam id dolor id nibh ultricies vehicula.
+            </h6>
+          </div>
+          <div
+            className="gallery__card"
+          >
+            <div
+              className="gallery__gradient"
+            >
+              <img
+                alt="img"
+                className="gallery__image-style"
+                src="gallery2.jpg"
+              />
+              <span
+                className="fa-stack fa-2x container-icon1"
+                onClick={[Function]}
+                role="presentation"
+              >
+                <i
+                  className="fas fa-square fa-stack-2x"
+                />
+                <i
+                  className="fa fa-eye fa-stack-1x fa-inverse"
+                />
+              </span>
+              <span
+                className="fa-stack fa-2x container-icon2"
+              >
+                <a
+                  className="gallery__icon-link"
+                  href="#top"
+                >
+                  <i
+                    className="fas fa-square fa-stack-2x"
+                  />
+                  <i
+                    className="fa fa-link fa-stack-1x fa-inverse"
+                  />
+                </a>
+              </span>
+            </div>
+            <h5
+              className="gallery__card-title"
+            >
+              2nd gallery Item
+            </h5>
+            <h6
+              className="gallery__card-subheading"
+            >
+               Nullam id dolor id nibh ultricies vehicula.
+            </h6>
+          </div>
+          <div
+            className="gallery__card"
+          >
+            <div
+              className="gallery__gradient"
+            >
+              <img
+                alt="img"
+                className="gallery__image-style"
+                src="gallery3.jpg"
+              />
+              <span
+                className="fa-stack fa-2x container-icon1"
+                onClick={[Function]}
+                role="presentation"
+              >
+                <i
+                  className="fas fa-square fa-stack-2x"
+                />
+                <i
+                  className="fa fa-eye fa-stack-1x fa-inverse"
+                />
+              </span>
+              <span
+                className="fa-stack fa-2x container-icon2"
+              >
+                <a
+                  className="gallery__icon-link"
+                  href="#top"
+                >
+                  <i
+                    className="fas fa-square fa-stack-2x"
+                  />
+                  <i
+                    className="fa fa-link fa-stack-1x fa-inverse"
+                  />
+                </a>
+              </span>
+            </div>
+            <h5
+              className="gallery__card-title"
+            >
+              3rd gallery Item
+            </h5>
+            <h6
+              className="gallery__card-subheading"
+            >
+               Nullam id dolor id nibh ultricies vehicula.
+            </h6>
+          </div>
+          <div
+            className="gallery__card"
+          >
+            <div
+              className="gallery__gradient"
+            >
+              <img
+                alt="img"
+                className="gallery__image-style"
+                src="gallery4.jpg"
+              />
+              <span
+                className="fa-stack fa-2x container-icon1"
+                onClick={[Function]}
+                role="presentation"
+              >
+                <i
+                  className="fas fa-square fa-stack-2x"
+                />
+                <i
+                  className="fa fa-eye fa-stack-1x fa-inverse"
+                />
+              </span>
+              <span
+                className="fa-stack fa-2x container-icon2"
+              >
+                <a
+                  className="gallery__icon-link"
+                  href="#top"
+                >
+                  <i
+                    className="fas fa-square fa-stack-2x"
+                  />
+                  <i
+                    className="fa fa-link fa-stack-1x fa-inverse"
+                  />
+                </a>
+              </span>
+            </div>
+            <h5
+              className="gallery__card-title"
+            >
+              4th gallery Item
+            </h5>
+            <h6
+              className="gallery__card-subheading"
+            >
+               Nullam id dolor id nibh ultricies vehicula.
+            </h6>
+          </div>
+          <div
+            className="gallery__card"
+          >
+            <div
+              className="gallery__gradient"
+            >
+              <img
+                alt="img"
+                className="gallery__image-style"
+                src="gallery5.jpg"
+              />
+              <span
+                className="fa-stack fa-2x container-icon1"
+                onClick={[Function]}
+                role="presentation"
+              >
+                <i
+                  className="fas fa-square fa-stack-2x"
+                />
+                <i
+                  className="fa fa-eye fa-stack-1x fa-inverse"
+                />
+              </span>
+              <span
+                className="fa-stack fa-2x container-icon2"
+              >
+                <a
+                  className="gallery__icon-link"
+                  href="#top"
+                >
+                  <i
+                    className="fas fa-square fa-stack-2x"
+                  />
+                  <i
+                    className="fa fa-link fa-stack-1x fa-inverse"
+                  />
+                </a>
+              </span>
+            </div>
+            <h5
+              className="gallery__card-title"
+            >
+              5sth gallery Item
+            </h5>
+            <h6
+              className="gallery__card-subheading"
+            >
+               Nullam id dolor id nibh ultricies vehicula.
+            </h6>
+          </div>
+          <div
+            className="gallery__card"
+          >
+            <div
+              className="gallery__gradient"
+            >
+              <img
+                alt="img"
+                className="gallery__image-style"
+                src="gallery6.jpg"
+              />
+              <span
+                className="fa-stack fa-2x container-icon1"
+                onClick={[Function]}
+                role="presentation"
+              >
+                <i
+                  className="fas fa-square fa-stack-2x"
+                />
+                <i
+                  className="fa fa-eye fa-stack-1x fa-inverse"
+                />
+              </span>
+              <span
+                className="fa-stack fa-2x container-icon2"
+              >
+                <a
+                  className="gallery__icon-link"
+                  href="#top"
+                >
+                  <i
+                    className="fas fa-square fa-stack-2x"
+                  />
+                  <i
+                    className="fa fa-link fa-stack-1x fa-inverse"
+                  />
+                </a>
+              </span>
+            </div>
+            <h5
+              className="gallery__card-title"
+            >
+              6th gallery Item
+            </h5>
+            <h6
+              className="gallery__card-subheading"
+            >
+               Nullam id dolor id nibh ultricies vehicula.
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="pricing"
+    >
+      <h2
+        className="pricing__heading"
+      >
+        PRICING
+      </h2>
+      <p
+        className="pricing__description"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing.
+      </p>
+      <div
+        className="pricing__cards-container"
+      >
+        <div
+          className="pricing__card"
+        >
+          <h2
+            className="pricing__title"
+          >
+            Starter
+          </h2>
+          <div
+            className="pricing__content"
+          >
+            <p
+              className="pricing__price"
+            >
+              <sup>
+                $
+              </sup>
+              8.00
+            </p>
+            <p>
+              Best Template
+            </p>
+            <p>
+              Clean and modern
+            </p>
+            <p>
+              Bootstrap & HTML5
+            </p>
+            <p>
+              24/7 support
+            </p>
+          </div>
+          <div
+            className="pricing__button-wrapper"
+          >
+            <button
+              className="button"
+              type="button"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <div
+          className="pricing__card"
+        >
+          <h2
+            className="pricing__title"
+          >
+            Popular
+          </h2>
+          <div
+            className="pricing__content"
+          >
+            <p
+              className="pricing__price"
+            >
+              <sup>
+                $
+              </sup>
+              12.00
+            </p>
+            <p>
+              Best Template
+            </p>
+            <p>
+              Clean and modern
+            </p>
+            <p>
+              Bootstrap & HTML5
+            </p>
+            <p>
+              24/7 support
+            </p>
+          </div>
+          <div
+            className="pricing__button-wrapper"
+          >
+            <button
+              className="button"
+              type="button"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <div
+          className="pricing__card"
+        >
+          <h2
+            className="pricing__title"
+          >
+            Business
+          </h2>
+          <div
+            className="pricing__content"
+          >
+            <p
+              className="pricing__price"
+            >
+              <sup>
+                $
+              </sup>
+              16.00
+            </p>
+            <p>
+              Best Template
+            </p>
+            <p>
+              Clean and modern
+            </p>
+            <p>
+              Bootstrap & HTML5
+            </p>
+            <p>
+              24/7 support
+            </p>
+          </div>
+          <div
+            className="pricing__button-wrapper"
+          >
+            <button
+              className="button"
+              type="button"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <div
+          className="pricing__card--noshow"
+        >
+          <h2
+            className="pricing__title"
+          >
+            Enterprise
+          </h2>
+          <div
+            className="pricing__content"
+          >
+            <p
+              className="pricing__price"
+            >
+              <sup>
+                $
+              </sup>
+              20.00
+            </p>
+            <p>
+              Best Template
+            </p>
+            <p>
+              Clean and modern
+            </p>
+            <p>
+              Bootstrap & HTML5
+            </p>
+            <p>
+              24/7 support
+            </p>
+          </div>
+          <div
+            className="pricing__button-wrapper"
+          >
+            <button
+              className="button"
+              type="button"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="team"
+      id="team"
+    >
+      <h2
+        className="team__heading"
+      >
+        TEAM
+      </h2>
+      <p
+        className="team__description"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing.
+      </p>
+      <div
+        className="team__cards-container"
+      >
+        <div
+          className="team__card"
+        >
+          <div
+            className="team__box"
+          >
+            <div
+              className="team__box-shadow"
+            >
+              <span
+                className="team__icons"
+              >
+                <i
+                  className="fab fa-twitter team-icon"
+                />
+                <i
+                  className="fab fa-facebook team-icon"
+                />
+                <i
+                  className="fab fa-pinterest team-icon"
+                />
+                <i
+                  className="fab fa-google-plus team-icon"
+                />
+              </span>
+            </div>
+            <img
+              alt="person"
+              className="team__img"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+              data-aos-easing="linear"
+              src="teamPic1.jpg"
+            />
+          </div>
+          <div
+            className="team__text-wrapper"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+            data-aos-easing="linear"
+          >
+            <h3
+              className="team__person-name"
+            >
+              Tom Rensed
+            </h3>
+            <h6
+              className="team__position"
+            >
+              Chief Executive Officer
+            </h6>
+            <p
+              className="team__description"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing consectetur elit proin consequat.
+            </p>
+          </div>
+        </div>
+        <div
+          className="team__card"
+        >
+          <div
+            className="team__box"
+          >
+            <div
+              className="team__box-shadow"
+            >
+              <span
+                className="team__icons"
+              >
+                <i
+                  className="fab fa-twitter team-icon"
+                />
+                <i
+                  className="fab fa-facebook team-icon"
+                />
+                <i
+                  className="fab fa-pinterest team-icon"
+                />
+                <i
+                  className="fab fa-google-plus team-icon"
+                />
+              </span>
+            </div>
+            <img
+              alt="person"
+              className="team__img"
+              data-aos="fade-down"
+              data-aos-delay="300"
+              data-aos-duration="1500"
+              data-aos-easing="linear"
+              src="teamPic2.jpg"
+            />
+          </div>
+          <div
+            className="team__text-wrapper"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            data-aos-duration="1500"
+            data-aos-easing="linear"
+          >
+            <h3
+              className="team__person-name"
+            >
+              Kathren Mory
+            </h3>
+            <h6
+              className="team__position"
+            >
+              Vice President
+            </h6>
+            <p
+              className="team__description"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing consectetur elit proin consequat.
+            </p>
+          </div>
+        </div>
+        <div
+          className="team__card"
+        >
+          <div
+            className="team__box"
+          >
+            <div
+              className="team__box-shadow"
+            >
+              <span
+                className="team__icons"
+              >
+                <i
+                  className="fab fa-twitter team-icon"
+                />
+                <i
+                  className="fab fa-facebook team-icon"
+                />
+                <i
+                  className="fab fa-pinterest team-icon"
+                />
+                <i
+                  className="fab fa-google-plus team-icon"
+                />
+              </span>
+            </div>
+            <img
+              alt="person"
+              className="team__img"
+              data-aos="fade-down"
+              data-aos-delay="600"
+              data-aos-duration="1500"
+              data-aos-easing="linear"
+              src="teamPic3.jpg"
+            />
+          </div>
+          <div
+            className="team__text-wrapper"
+            data-aos="fade-down"
+            data-aos-delay="600"
+            data-aos-duration="1500"
+            data-aos-easing="linear"
+          >
+            <h3
+              className="team__person-name"
+            >
+              Lancer Jack
+            </h3>
+            <h6
+              className="team__position"
+            >
+              Senior Manager
+            </h6>
+            <p
+              className="team__description"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing consectetur elit proin consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="clients"
+    >
+      <h2
+        className="clients__heading"
+      >
+        CLIENTS
+      </h2>
+      <div
+        className="clients__clients-container"
+        data-aos="fade-right"
+        data-aos-easing="ease-in-sine"
+        data-aos-offset="300"
+      >
+        <img
+          alt="client-logo"
+          className="clients__img"
+          src="clientlogo1.png"
+        />
+        <img
+          alt="client-logo"
+          className="clients__img"
+          src="clientlogo2.png"
+        />
+        <img
+          alt="client-logo"
+          className="clients__img"
+          src="clientlogo3.png"
+        />
+        <img
+          alt="client-logo"
+          className="clients__img"
+          src="clientlogo4.png"
+        />
+      </div>
+    </div>
+    <div
+      className="contact"
+      id="contact"
+    >
+      <h2
+        className="contact__heading"
+      >
+        CONTACT
+      </h2>
+      <div
+        className="contact__container"
+      >
+        <div
+          className="contact__info"
+          data-aos="zoom-in"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-back"
+          data-aos-offset="0"
+        >
+          <div
+            className="contact__details"
+          >
+            <h4
+              className="contact__title"
+            >
+              Ballet One Page
+            </h4>
+            <p
+              className="contact__details"
+            >
+              104, Some street, NewYork, USA
+            </p>
+          </div>
+          <div
+            className="contact__details"
+          >
+            <h4
+              className="contact__title"
+            >
+              call us
+            </h4>
+            <p
+              className="contact__details"
+            >
+              +1 234 567890
+            </p>
+          </div>
+          <div
+            className="contact__details"
+          >
+            <h4
+              className="contact__title"
+            >
+              Email us
+            </h4>
+            <p
+              className="contact__details"
+            >
+              support@sitename.com
+            </p>
+          </div>
+          <span
+            className="contact__icons"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+            data-aos-easing="linear"
+          >
+            <i
+              className="fab fa-twitter contact-icon"
+            />
+            <i
+              className="fab fa-facebook contact-icon"
+            />
+            <i
+              className="fab fa-pinterest contact-icon"
+            />
+            <i
+              className="fab fa-google-plus contact-icon"
+            />
+          </span>
+        </div>
+        <div
+          className="contact__input-areas"
+          data-aos="zoom-in"
+          data-aos-delay="300"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-back"
+          data-aos-offset="0"
+        >
+          <input
+            className="contact__input-name"
+            placeholder="Full Name"
+            type="text"
+          />
+          <input
+            className="contact__input-email"
+            placeholder="Email"
+            type="text"
+          />
+          <textarea
+            className="contact__input-message"
+            placeholder="Message"
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        className="contact__button"
+      >
+        <button
+          className="button button--big"
+          type="button"
+        >
+          SEND
+        </button>
+      </div>
+    </div>
+    <div
+      className="footer"
+    >
+      <span
+        className="footer__text"
+      >
+        Copyright © 2017, Template by
+        <a
+          className="footer__link"
+          href="https://webthemez.com/free-bootstrap-templates/"
+        >
+          WebThemez.com
+        </a>
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <a
+    href="/page-1"
+    onClick={[Function]}
+  >
+    Page1
+  </a>
+  <a
+    href="/page-2"
+    onClick={[Function]}
+  >
+    Page2
+  </a>
+  <a
+    href="/page-3"
+    onClick={[Function]}
+  >
+    Page3
+  </a>
+  <a
+    href="/page-4"
+    onClick={[Function]}
+  >
+    Page4
+  </a>
+  <a
+    href="/page-5"
+    onClick={[Function]}
+  >
+    Page5
+  </a>
+  <a
+    href="/page-6"
+    onClick={[Function]}
+  >
+    Page6
+  </a>
+</div>
+`;

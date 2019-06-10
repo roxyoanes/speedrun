@@ -56,7 +56,7 @@ class Navbar extends Component {
               { value: "TEAM", href: "#team" },
               { value: "CONTACT", href: "#contact" },
             ].map(navElement => (
-              <a href={navElement.href} className="navbar__list-item">
+              <a href={navElement.href} key={navElement.value} className="navbar__list-item">
                 {navElement.value}
               </a>
             ))}
@@ -97,7 +97,7 @@ class Navbar extends Component {
               { value: "TEAM", href: "#team" },
               { value: "CONTACT", href: "#contact" },
             ].map(navElement => (
-              <a href={navElement.href} className="dropdown__list-item">
+              <a href={navElement.href} key={navElement.value} className="dropdown__list-item">
                 {navElement.value}
               </a>
             ))}

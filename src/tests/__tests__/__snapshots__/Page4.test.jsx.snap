@@ -1,0 +1,530 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="fourth-page"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="navbar"
+    >
+      <button
+        className="button-menu"
+        onClick={[Function]}
+        type="button"
+      >
+        <i
+          className="fas fa-bars"
+        />
+      </button>
+      <nav
+        className="menu menu-closed"
+        id="active"
+      >
+        <ul
+          className=""
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+              "margin": "0",
+              "paddingLeft": "0",
+            }
+          }
+        >
+          <div
+            className="menu__header"
+          >
+            <a
+              className="menu__heading"
+              href="#top"
+            >
+              Start Bootstrap
+            </a>
+          </div>
+          <div
+            className="menu__list"
+          >
+            <a
+              className="menu__item"
+              href="#top"
+            >
+              Home
+            </a>
+            <a
+              className="menu__item"
+              href="#about"
+            >
+              About
+            </a>
+            <a
+              className="menu__item"
+              href="#services"
+            >
+              Services
+            </a>
+            <a
+              className="menu__item"
+              href="#portfolio"
+            >
+              Portfolio
+            </a>
+            <a
+              className="menu__item"
+              href="#contact"
+            >
+              Contact
+            </a>
+          </div>
+        </ul>
+      </nav>
+    </div>
+    <div
+      className="card-1 image"
+      id="top"
+    >
+      <div
+        className="card-1__container"
+      >
+        <h1
+          className="card-1__heading"
+        >
+          Stylish Portfolio
+        </h1>
+        <h3
+          className="card-1__subheading"
+        >
+          A Free Bootstrap Theme by Start Bootstrap
+        </h3>
+        <a
+          className="card-1__button-wrapper"
+          href="#about"
+        >
+          <button
+            className="button-card"
+            type="button"
+          >
+            Find Out More
+          </button>
+        </a>
+      </div>
+    </div>
+    <div
+      className="card-2"
+      id="about"
+    >
+      <div
+        className="card-2__container"
+      >
+        <h2
+          className="card-2__subheading"
+        >
+          Stylish Portfolio is the perfect theme for your next project!
+        </h2>
+        <p
+          className="card-2__description"
+        >
+          This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
+          <a
+            className="link-website"
+            href="https://unsplash.com/"
+          >
+            Unsplash
+          </a>
+          !
+        </p>
+        <a
+          className="button-card button-card--color"
+          href="#services"
+        >
+          What We Offer
+        </a>
+      </div>
+    </div>
+    <div
+      className="card-3"
+      id="services"
+    >
+      <div
+        className="card-3__heading"
+      >
+        <h3
+          className="card-3__text-services"
+        >
+          SERVICES
+        </h3>
+        <h2
+          className="card-3__subheading"
+        >
+          What We Offer
+        </h2>
+      </div>
+      <div
+        className="card-3__icons-wrapper"
+      >
+        <div
+          className="card-3__icons-sections"
+        >
+          <div
+            className="card-3__section"
+          >
+            <span
+              className="fa-stack fa-2x"
+            >
+              <i
+                className="fas fa-circle fa-stack-2x"
+              />
+              <i
+                className="fas fa-mobile-alt fa-stack-1x fa-inverse item"
+              />
+            </span>
+            <h4
+              className="card-3__property"
+            >
+              Responsive
+            </h4>
+            <p
+              className="card-3__description"
+            >
+              Looks great on any screen size!
+            </p>
+          </div>
+        </div>
+        <div
+          className="card-3__icons-sections"
+        >
+          <div
+            className="card-3__section"
+          >
+            <span
+              className="fa-stack fa-2x"
+            >
+              <i
+                className="fas fa-circle fa-stack-2x"
+              />
+              <i
+                className="fas fa-pencil-alt fa-stack-1x fa-inverse item"
+              />
+            </span>
+            <h4
+              className="card-3__property"
+            >
+              Redesigned
+            </h4>
+            <p
+              className="card-3__description"
+            >
+              Freshly redesigned for Bootstrap 4!
+            </p>
+          </div>
+        </div>
+        <div
+          className="card-3__icons-sections"
+        >
+          <div
+            className="card-3__section"
+          >
+            <span
+              className="fa-stack fa-2x"
+            >
+              <i
+                className="fas fa-circle fa-stack-2x"
+              />
+              <i
+                className="fas fa-thumbs-up fa-stack-1x fa-inverse item"
+              />
+            </span>
+            <h4
+              className="card-3__property"
+            >
+              Favorited
+            </h4>
+            <p
+              className="card-3__description"
+            >
+              Millions of users
+              <i
+                className="fas fa-heart"
+              />
+              Start Bootstrap!
+            </p>
+          </div>
+        </div>
+        <div
+          className="card-3__icons-sections"
+        >
+          <div
+            className="card-3__section"
+          >
+            <span
+              className="fa-stack fa-2x"
+            >
+              <i
+                className="fas fa-circle fa-stack-2x"
+              />
+              <i
+                className="fas fa-question fa-stack-1x fa-inverse item"
+              />
+            </span>
+            <h4
+              className="card-3__property"
+            >
+              Question
+            </h4>
+            <p
+              className="card-3__description"
+            >
+              I mustache you a question...
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card-4"
+    >
+      <div
+        className="card-4__container"
+      >
+        <h2
+          className="card-4__subheading"
+        >
+          Welcome to
+          <em>
+            your
+          </em>
+          next website!
+        </h2>
+        <a
+          className="button-card"
+          href="https://startbootstrap.com/themes/stylish-portfolio/"
+        >
+          Download Now!
+        </a>
+      </div>
+    </div>
+    <div
+      className="card-5"
+      id="portfolio"
+    >
+      <div
+        className="card-5__container"
+      >
+        <h3
+          className="card-5__portfolio"
+        >
+          PORTFOLIO
+        </h3>
+        <h2
+          className="card-5__subheading"
+        >
+          Recent Projects
+        </h2>
+      </div>
+      <div
+        className="captions"
+      >
+        <div
+          className="captions__card1"
+        >
+          <a
+            href="#top"
+          >
+            <div
+              className="captions__text"
+            >
+              <h2
+                className="captions__title"
+              >
+                STATIONARY
+              </h2>
+              <p
+                className="captions__p"
+              >
+                A yellow pencil with envelops on a clean, blue backdrop!
+              </p>
+            </div>
+            <div
+              className="captions__image-style captions__img1"
+            />
+          </a>
+        </div>
+        <div
+          className="captions__card2"
+        >
+          <a
+            href="#top"
+          >
+            <div
+              className="captions__text"
+            >
+              <h2
+                className="captions__title"
+              >
+                ICE CREAM
+              </h2>
+              <p
+                className="captions__p"
+              >
+                A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!
+              </p>
+            </div>
+            <div
+              className="captions__image-style captions__img2"
+            />
+          </a>
+        </div>
+        <div
+          className="captions__card3"
+        >
+          <a
+            href="#top"
+          >
+            <div
+              className="captions__text"
+            >
+              <h2
+                className="captions__title"
+              >
+                STRAWBERRIES
+              </h2>
+              <p
+                className="captions__p"
+              >
+                Strawberries are such a tasty snack, especially with a little sugar on top
+              </p>
+            </div>
+            <div
+              className="captions__image-style captions__img3"
+            />
+          </a>
+        </div>
+        <div
+          className="captions__card4"
+        >
+          <a
+            href="#top"
+          >
+            <div
+              className="captions__text"
+            >
+              <h2
+                className="captions__title"
+              >
+                WORKSPACE
+              </h2>
+              <p
+                className="captions__p"
+              >
+                A yellow workspace with some scissors, pencils, and other objects.
+              </p>
+            </div>
+            <div
+              className="captions__image-style captions__img4"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card-6"
+    >
+      <div
+        className="card-6__container"
+      >
+        <h2
+          className="card-6__subheading"
+        >
+          The buttons below are impossible to resist...
+        </h2>
+        <a
+          className="button-card button-card--white"
+          href="#top"
+        >
+          Click Me!
+        </a>
+        <a
+          className="button-card button-card--color"
+          href="#top"
+        >
+          Look At Me!
+        </a>
+      </div>
+    </div>
+    <div
+      className="card-7"
+      id="contact"
+    >
+      <div>
+        <iframe
+          className="map"
+          frameBorder="0"
+          marginHeight="0"
+          marginWidth="0"
+          scrolling="no"
+          src="https://maps.google.com/maps?width=100%&height=600&hl=en&coord=37.7767817,-122.4167923&q=1355%20Market%20St%20%23900%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA+(map)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+          title="map"
+        />
+      </div>
+    </div>
+    <div
+      className="footer"
+    >
+      <div
+        className="footer-icons"
+      >
+        <span
+          className="fa-stack footer-icons fa-2x"
+        >
+          <i
+            className="fas fa-circle fa-stack-2x"
+          />
+          <i
+            className="fab fa-facebook-f fa-stack-1x fa-inverse"
+          />
+        </span>
+        <span
+          className="fa-stack footer-icons fa-2x"
+        >
+          <i
+            className="fas fa-circle fa-stack-2x"
+          />
+          <i
+            className="fab fa-twitter fa-stack-1x fa-inverse"
+          />
+        </span>
+        <span
+          className="fa-stack footer-icons fa-2x"
+        >
+          <i
+            className="fas fa-circle fa-stack-2x"
+          />
+          <i
+            className="fab fa-github fa-stack-1x fa-inverse"
+          />
+        </span>
+      </div>
+      <p
+        className="footer__p"
+      >
+        Copyright © Your Website 2019
+      </p>
+    </div>
+    <a
+      className="scroll"
+      href="#top"
+    >
+      <button
+        className="button-scroll"
+        type="button"
+      >
+        <i
+          className="fas fa-arrow-up"
+        />
+      </button>
+    </a>
+  </div>
+</div>
+`;
