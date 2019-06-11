@@ -293,6 +293,18 @@
             color: #ffffff;
         }
     }
+    .news{
+        padding: 40px;
+        font-family: 'Open Sans', Arial, sans-serif;
+
+        &__subtitle{
+            font-weight: 500;
+            line-height: 1.1em;
+            color: rgb(10, 10, 10);
+            margin: 20px 0;
+            font-size: 1.4rem;
+        }
+    }
     .subfooter{
         padding: 30px 30px 100px;
         color: #858585;
