@@ -16,7 +16,25 @@ import logo6 from "./images/logo6.png";
 class Page6 extends Component {
   state = {
     showMenu: false,
+    scrolled: false,
   };
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.scrollFunction, true);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.scrollFunction, true);
+  }
+
+  scrollFunction = () => {
+    const isTop = window.scrollY < 50;
+    if (isTop !== true) {
+      this.setState({ scrolled: true });
+    } else {
+      this.setState({ scrolled: false });
+    }
+  }
 
   showMenu = (event) => {
     event.preventDefault();
@@ -33,7 +51,7 @@ class Page6 extends Component {
 
   render() {
     const { match } = this.props;
-    const { showMenu } = this.state;
+    const { showMenu, scrolled } = this.state;
     return (
       <div className="page6">
         <div className="container">
@@ -178,7 +196,7 @@ class Page6 extends Component {
             </span>
           </div>
           <div>
-            <a href="#top" className="footer-btn">
+            <a href="#top" className={scrolled ? "button-scroll" : "scrolled"}>
               <i className="fas fa-arrow-up" />
             </a>
           </div>
