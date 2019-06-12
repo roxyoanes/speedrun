@@ -177,6 +177,11 @@ class Page6 extends Component {
               <i className="fab fa-google-plus footer-icon" />
             </span>
           </div>
+          <div>
+            <a href="#top" className="footer-btn">
+              <i className="fas fa-arrow-up" />
+            </a>
+          </div>
         </div>
       </div>
     );

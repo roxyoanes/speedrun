@@ -435,4 +435,17 @@
             color: #ff5722;
         }
     }
+    .footer-btn{
+        position: fixed;
+        width: 32px;
+        height: 32px;
+        bottom: 0px;
+        right: 20px;
+        background: #ff5722;
+        font-size: 15px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
