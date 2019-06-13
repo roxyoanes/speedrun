@@ -97,7 +97,7 @@ class Page6 extends Component {
               </Link>
               <button
                 ref={this.myRef}
-                className="about-btn"
+                className="dropdown-menu__list-item"
                 onClick={this.aboutMenu}
                 type="button"
               >

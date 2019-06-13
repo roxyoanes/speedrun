@@ -19,7 +19,8 @@
         &__right-side{
             display: flex;
             justify-content: flex-end;
-            padding-right: 30px;
+            grid-column: 2/3;
+            grid-row: 1/2;
         }
         &__list{
             text-align: right;
@@ -83,6 +84,10 @@
             font-weight: 600;
             font-size: 1rem;
             padding: 15px 10px;
+            border: 0;
+            background-color: white;
+            text-align: left;
+            text-transform: uppercase;
             
             &__caret{
                 display: inline-block;
@@ -94,6 +99,7 @@
             }
         }
     }
+    
     .menu-closed{
         height: 0;
         transition: height 0.3s;
@@ -113,10 +119,11 @@
         align-items: left;
         font-weight: 600;
         font-size: .8rem;
-        padding: 15px 10px;
+        padding: 0px 10px;
         
         &__item{
             color: #676767;
+            font-weight: 100;
         }
     }
     
