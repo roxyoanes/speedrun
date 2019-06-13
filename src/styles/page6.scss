@@ -102,6 +102,23 @@
             display: none;
         }
     }
+    .about-closed{
+        * {
+            display: none;
+          }
+    }
+    .about-opened{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        font-weight: 600;
+        font-size: .8rem;
+        padding: 15px 10px;
+        
+        &__item{
+            color: #676767;
+        }
+    }
     
     .landing{
         &__img{

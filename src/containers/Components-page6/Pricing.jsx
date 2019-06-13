@@ -1,7 +1,7 @@
 import React from "react";
 
 const Pricing = () => (
-  <h1>about</h1>
+  <h1>pricing</h1>
 );
 
 export default Pricing;
