@@ -1,0 +1,81 @@
+.page6{
+    .contact{
+        &__page-title{
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+            background: #2d2d2d;
+        }
+        &__about-wrapper{
+            padding: 30px;
+        }
+        &__text{
+            line-height: 1.1em;
+            color: #212121;
+            font-weight: 200;
+        }
+        &__text-color{
+            line-height: 1.1em;
+            color: #ff5722;
+        }
+        &__p{
+            font-weight: 300;
+            line-height: 1.6em;
+            color: #656565;
+        }
+        &__form{
+            border-bottom: 1px solid #656565;
+            height: 50px;
+            width: 200px;
+            font-size: 16px;
+            border: 0;
+            border-bottom: 1px solid darkgrey;
+
+            &:focus{
+                border-bottom: 2px solid #ff5722;
+                padding: 0 5px;
+                
+            }
+        }
+        &__form:focus + label{
+            font-size: 14px;
+            transition: all .3s ease;
+            color: #ff5722;
+        }
+        &__label{
+            position: absolute;
+            top: -12px;
+            :focus{
+                padding-bottom: 15px;
+
+            }
+        }
+        &__info-wrapper{
+            display: grid;
+            grid-template-rows: repeat(2,1fr) 150px;
+            grid-gap: 10px;
+            padding: 30px 30px 0px 30px;
+        }
+        &__info-card{
+            position: relative;
+            margin-bottom: 10px;
+            display: flex;
+            font-weight: 600;
+            color: #656565;
+            padding: 10px 0;
+        }
+        &__textarea{
+            height: 100px;
+        }
+    }
+    .button-contact{
+        color: #FFF;
+        width: 80px;
+        height: 35px;
+        font-weight: 600;
+        font-size: .8rem;
+        background: #f1511e;
+        border-color: #ff5722;
+        box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+    }
+}
