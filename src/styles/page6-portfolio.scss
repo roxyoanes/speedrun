@@ -1,0 +1,27 @@
+.page6{
+    .portfolio{
+        &__page-title{
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+            background: #2d2d2d;
+        }
+        &__about-wrapper{
+            padding: 30px;
+        }
+        &__text{
+            line-height: 1.1em;
+            color: #212121;
+            font-weight: 200;
+        }
+        &__text-color{
+            line-height: 1.1em;
+            color: #ff5722;
+        }
+        &__p{
+            font-weight: 300;
+            line-height: 1.6em;
+            color: #656565;
+        }
+    }
+}

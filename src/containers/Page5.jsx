@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import "../styles/page5.scss";
+import "../styles/page5-gallery.scss";
 import Modal from "./modal/modal5";
 
 import {

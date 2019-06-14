@@ -12,6 +12,9 @@ import {
 
 import "../styles/page6.scss";
 import "../styles/page6-contact.scss";
+import "../styles/page6-portfolio.scss";
+import "../styles/page5-gallery.scss";
+
 import { Page6navbar1, Subfooter, Footer } from "./Sections-page6";
 import logo6 from "./images/logo6.png";
 
