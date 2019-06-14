@@ -1,0 +1,38 @@
+.page6{
+    .services{
+        &__page-title{
+            padding: 50px 0;
+            background: #2d2d2d;
+        }
+        &__title{
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+        &__about-wrapper{
+            padding: 30px;
+        }
+        &__text{
+            line-height: 1.1em;
+            color: #212121;
+            font-weight: 200;
+            font-size: 1.4rem;
+
+            &--font{
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+        }
+        &__text-color{
+            line-height: 1.1em;
+            color: #ff5722;
+        }
+        &__p{
+            font-weight: 300;
+            line-height: 1.6em;
+            color: #656565;
+            text-align: left;
+
+        }
+    }
+}
