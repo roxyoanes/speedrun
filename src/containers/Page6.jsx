@@ -16,6 +16,7 @@ import "../styles/page6-portfolio.scss";
 import "../styles/page5-gallery.scss";
 import "../styles/page6-about.scss";
 import "../styles/page6-services.scss";
+import "../styles/page6-pricing.scss";
 import { Page6navbar1, Subfooter, Footer } from "./Sections-page6";
 import logo6 from "./images/logo6.png";
 

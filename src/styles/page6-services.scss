@@ -8,6 +8,7 @@
             color: white;
             text-align: center;
             margin: 0;
+            font-size: 1.4rem;
         }
         &__about-wrapper{
             padding: 30px;
@@ -32,7 +33,97 @@
             line-height: 1.6em;
             color: #656565;
             text-align: left;
-
         }
+        &__skills-container{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        &__skills-card{
+            margin: 30px 0;
+        }
+        &__icon-container{
+            padding: 35px 40px;
+            width: 94px;
+            height: 85px;
+            font-size: 38px;
+            border: 4px solid #efefef;
+            color: #ff5722;
+            border-radius: 50%;
+            background: #ffffff;
+        }
+        &__box-area{
+            padding: 15px;
+            margin: 25px;
+            border: 2px solid #f3f3f3;
+        }
+        &__box-title{
+            line-height: 1.1em;
+            color: #212121;
+            font-size: 17px;
+            font-weight: 600;        
+        }
+        &__box-p{
+            font-weight: 300;
+            line-height: 1.6em;
+            color: #656565;
+            font-size: 1rem;
+        }
+        &__info-container{
+            padding: 30px;
+        }
+        &__info-card{
+            display: grid;
+            grid-template-columns: 100px 1fr;
+        }
+        &__info-title{
+            color: #484848;
+            font-size: 1.2rem;
+            line-height: 28px;
+            margin: 0px;
+            font-weight: 600;
+        }
+        &__info-p{
+            font-weight: 300;
+            line-height: 1.6em;
+            color: #656565;
+            font-size: 1rem;
+        }
+        &__people-container{
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+        }
+        &__people-card{
+            margin: 15px 0;
+        }
+        &__img-card{
+            position: relative;
+            margin-bottom: -18px;
+        }
+        &__img{
+            width: 315px;
+        }
+        &__text-img{
+            color: #2d2d2d;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 20px;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px #fff;
+            font-size: 1.4rem;
+        }
+        &__card-content{
+            box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+            padding: 14px;
+        }
+    }
+    .icon{
+        color: #ff5722;
+        font-size: 45px;
+        min-width: 50px;
+        margin-top: 30px;
+        text-align: center;    
     }
 }
