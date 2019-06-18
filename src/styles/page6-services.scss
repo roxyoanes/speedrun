@@ -4,6 +4,9 @@
             padding: 50px 0;
             background: #2d2d2d;
         }
+        &__intro{
+            padding:30px;
+        }
         &__title{
             color: white;
             text-align: center;
@@ -96,13 +99,13 @@
         }
         &__people-card{
             margin: 15px 0;
+            
         }
         &__img-card{
             position: relative;
-            margin-bottom: -18px;
         }
         &__img{
-            width: 315px;
+            width: 100%;
         }
         &__text-img{
             color: #2d2d2d;

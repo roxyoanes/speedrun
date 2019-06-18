@@ -5,7 +5,7 @@ import company from "../../images/company.jpg";
 const Company = () => (
   <div className="company">
     <div className="company__info">
-      <h2 className="company__title">OUR COMPANY</h2>
+      <h2 className="company__first-title">OUR COMPANY</h2>
       <p className="company__description">
         Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin
         molestie malesuada Pellentesque ipsum id orci porta dapibus. Vivamus
@@ -41,7 +41,7 @@ const Company = () => (
         LEARN MORE
       </a>
     </div>
-    <div className="company__img-wrapper">
+    <div className="company__first-img-wrapper">
       <img src={company} alt="laptop" className="company__img" />
     </div>
   </div>

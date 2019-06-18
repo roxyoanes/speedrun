@@ -23,57 +23,53 @@ class Page6navbar1 extends Component {
     const { match } = this.props;
     const { aboutMenu } = this.state;
     return (
-      <div>
-        <nav className="navbar__list">
-          <Link to={`${match.path}/home`} className="navbar__list-item">
-            Home
+      <nav className="navbar__list">
+        <Link to={`${match.path}/home`} className="navbar__list-item">
+          Home
+        </Link>
+        <button
+          type="button"
+          className="navbar__list-item"
+          onClick={this.aboutMenu}
+        >
+          About
+          <span className="navbar__list-item__caret" />
+        </button>
+        <nav className={`menu ${aboutMenu ? "about-opened" : "about-closed"}`}>
+          <Link to={`${match.path}/about`} className="about-opened__link-about">
+            <a href="#top" className="about-opened__item">
+              COMPANY
+            </a>
           </Link>
-          <button
-            type="button"
-            className="navbar__list-item"
-            onClick={this.aboutMenu}
-          >
-            About
-            <span className="navbar__list-item__caret" />
-          </button>
-          <nav
-            className={`menu ${aboutMenu ? "about-opened" : "about-closed"}`}
-          >
-            <Link to={`${match.path}/about`}>
-              <a href="#top" className="about-opened__item">
-                COMPANY
-              </a>
-            </Link>
-            <Link to={`${match.path}/about`}>
-              <a href="#top" className="about-opened__item">
-                OUR TEAM
-              </a>
-            </Link>
-            <Link to={`${match.path}/about`}>
-              <a href="#top" className="about-opened__item">
-                NEWS
-              </a>
-            </Link>
-            <Link to={`${match.path}/about`}>
-              <a href="#top" className="about-opened__item">
-                INVESTORS
-              </a>
-            </Link>
-          </nav>
-          <Link to={`${match.path}/services`} className="navbar__list-item">
-            Services
+          <Link to={`${match.path}/about`} className="about-opened__link-about">
+            <a href="#top" className="about-opened__item">
+              OUR TEAM
+            </a>
           </Link>
-          <Link to={`${match.path}/portfolio`} className="navbar__list-item">
-            Portfolio
+          <Link to={`${match.path}/about`} className="about-opened__link-about">
+            <a href="#top" className="about-opened__item">
+              NEWS
+            </a>
           </Link>
-          <Link to={`${match.path}/pricing`} className="navbar__list-item">
-            Pricing
-          </Link>
-          <Link to={`${match.path}/contact`} className="navbar__list-item">
-            Contact
+          <Link to={`${match.path}/about`} className="about-opened__link-about">
+            <a href="#top" className="about-opened__item">
+              INVESTORS
+            </a>
           </Link>
         </nav>
-      </div>
+        <Link to={`${match.path}/services`} className="navbar__list-item">
+          Services
+        </Link>
+        <Link to={`${match.path}/portfolio`} className="navbar__list-item">
+          Portfolio
+        </Link>
+        <Link to={`${match.path}/pricing`} className="navbar__list-item">
+          Pricing
+        </Link>
+        <Link to={`${match.path}/contact`} className="navbar__list-item">
+          Contact
+        </Link>
+      </nav>
     );
   }
 }
