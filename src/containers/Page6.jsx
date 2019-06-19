@@ -31,10 +31,12 @@ class Page6 extends Component {
 
   componentDidMount() {
     window.addEventListener("scroll", this.scrollFunction, true);
+    document.querySelector("html").classList.add("smooth-scroll");
   }
 
   componentWillUnmount() {
     window.removeEventListener("scroll", this.scrollFunction, true);
+    document.querySelector("html").classList.remove("smooth-scroll");
   }
 
   scrollFunction = () => {
