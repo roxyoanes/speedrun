@@ -155,7 +155,7 @@ class Page6 extends Component {
           <Route path={`${match.path}/portfolio`} component={Portfolio} />
           <Route path={`${match.path}/pricing`} component={Pricing} />
           <Route path={`${match.path}/contact`} component={Contact} />
-          <Route exact path={`${match.path}/`} component={First} />
+          <Route exact path={`${match.path}`} component={First} />
           <Subfooter />
           <Footer />
           <div>

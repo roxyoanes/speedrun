@@ -4,7 +4,7 @@ const Services = () => (
   <div className="services">
     <div className="services__intro">
       <h2 className="services__first-title">OUR SERVICES</h2>
-      <p className="services__p">
+      <p className="services__first-p">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
         porro consequatur aliquam, incidunt eius magni provident,
         <br />

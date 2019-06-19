@@ -91,6 +91,12 @@
             justify-content: center;
             align-items: center;
             padding: 20px 0;
+
+            @media(min-width: 268px){
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+
+            }
         }
         &__team-member{
             display: flex;
@@ -100,6 +106,10 @@
         }
         &__team-img{
             width: 200px;
+
+            @media(min-width:768px){
+                width: 300px;
+            }
         }
         &__team-name{
             line-height: 1.1em;

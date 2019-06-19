@@ -24,7 +24,7 @@ class Page6navbar1 extends Component {
     const { aboutMenu } = this.state;
     return (
       <nav className="navbar__list">
-        <Link to={`${match.path}/home`} className="navbar__list-item">
+        <Link to={`${match.path}/`} className="navbar__list-item">
           Home
         </Link>
         <button

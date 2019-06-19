@@ -100,10 +100,18 @@
                 .container-icon1{
                     left: 25%;
                     bottom: 35%;
+
+                    @media(min-width: 768px){
+                        left: 15%;
+                    }
                 }
                 .container-icon2{
                     right: 25%;
                     bottom: 35%;
+
+                    @media(min-width: 768px){
+                        right: 15px;
+                    }
                 }      
             }
         &__icon-eye, &__icon-link{
@@ -172,5 +180,6 @@
         &__description{
             display: none;
         }
+
     }
 }

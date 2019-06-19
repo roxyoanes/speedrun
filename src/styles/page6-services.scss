@@ -74,6 +74,11 @@
         }
         &__info-container{
             padding: 30px;
+
+            @media(min-width: 768px){
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+            }
         }
         &__info-card{
             display: grid;
