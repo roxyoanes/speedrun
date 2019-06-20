@@ -28,6 +28,7 @@
         &__list{
             display: flex;
             flex-direction: row;
+            justify-content: flex-end;
             padding-right: 45px;
             grid-column: 2/3;
             grid-row: 1/2;
@@ -49,9 +50,10 @@
             @media(max-width: 767px){
                 display: none;
             }
-            &:active{
+            &:focus{
                 color: #ffffff;
                 background: #FF5722;
+                border-radius: 0;
             }
             &:hover{
                 color: black;
@@ -134,13 +136,19 @@
         left: 255px;
         width: 130px;
         border-top: 1px solid #d4d4d4;
-    
+
         &__item{
             color: #676767;
             font-weight: 100;
         }
         &__link-about{
             padding: 10px 0;
+
+            &:hover{
+                color: #ffffff;
+                background: #FF5722;
+                border-radius: 0;
+            }
         }
     }
     

@@ -103,29 +103,35 @@ class Page6 extends Component {
               <Link to={`${match.path}/`} className="dropdown-menu__list-item">
                 Home
               </Link>
-              <button
-                ref={this.myRef}
-                className="dropdown-menu__list-item"
-                onClick={this.aboutMenu}
-                type="button"
-              >
-                About
-                <span className="dropdown-menu__list-item__caret" />
-              </button>
-              <nav className={`menu ${aboutMenu ? "about-opened" : "about-closed"}`}>
-                <Link to={`${match.path}/about`}>
-                  <h3 className="about-opened__item">COMPANY</h3>
-                </Link>
-                <Link to={`${match.path}/about`}>
-                  <h3 className="about-opened__item">OUR TEAM</h3>
-                </Link>
-                <Link to={`${match.path}/about`}>
-                  <h3 className="about-opened__item">NEWS</h3>
-                </Link>
-                <Link to={`${match.path}/about`}>
-                  <h3 className="about-opened__item">INVESTORS</h3>
-                </Link>
-              </nav>
+              <div className="dropdown-menu__wrapper">
+                <button
+                  ref={this.myRef}
+                  className="dropdown-menu__list-item"
+                  onClick={this.aboutMenu}
+                  type="button"
+                >
+                  About
+                  <span className="dropdown-menu__list-item__caret" />
+                </button>
+                <nav
+                  className={`menu ${
+                    aboutMenu ? "about-opened" : "about-closed"
+                  }`}
+                >
+                  <Link to={`${match.path}/about`}>
+                    <h3 className="about-opened__item">COMPANY</h3>
+                  </Link>
+                  <Link to={`${match.path}/about`}>
+                    <h3 className="about-opened__item">OUR TEAM</h3>
+                  </Link>
+                  <Link to={`${match.path}/about`}>
+                    <h3 className="about-opened__item">NEWS</h3>
+                  </Link>
+                  <Link to={`${match.path}/about`}>
+                    <h3 className="about-opened__item">INVESTORS</h3>
+                  </Link>
+                </nav>
+              </div>
               <Link
                 to={`${match.path}/services`}
                 className="dropdown-menu__list-item"

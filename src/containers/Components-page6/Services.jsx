@@ -11,7 +11,9 @@ const Services = () => (
     </div>
     <div className="services__about-wrapper">
       <h3 className="services__text">
-        Our Best <span className="services__text-color">Services</span>
+        Our Best
+        {" "}
+        <span className="services__text-color">Services</span>
       </h3>
       <p className="services__p">
         Sed ut perspiciaatis unde omnis iste natus error sit voluptatem
