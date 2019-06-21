@@ -16,6 +16,10 @@
         align-items: center;
         padding: 20px 215px;
 
+        @media(width: 2560px){
+            justify-items: center;
+        }
+
     }
     &__image{
         width: 100%;

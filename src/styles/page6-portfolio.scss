@@ -11,6 +11,10 @@
         }
         &__about-wrapper{
             padding: 30px;
+
+            @media(width: 2560px){
+                margin: 0 400px;
+            }
         }
         &__text{
             line-height: 1.1em;
