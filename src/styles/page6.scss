@@ -90,6 +90,7 @@
         padding: 15px 0;
         transition: height 0.3s;
         height: 300px;
+        overflow: scroll;
 
         &__list-item{
             padding: 5px;
@@ -132,17 +133,20 @@
         align-items: left;
         font-weight: 600;
         font-size: .8rem;
-        padding: 20px 10px;
-        position: absolute;
-        top: 65px;
-        background: white;
-        right: 355px;
-        width: 130px;
-        z-index: 30;
-        border-top: 1px solid #d4d4d4;
+        padding: 0 20px;
 
         @media(width: 2560px){
             right: 765px;
+        }
+        @media(min-width: 768px){
+            right: 355px;
+            top: 65px;
+            z-index: 30;
+            border-top: 1px solid #d4d4d4;
+            width: 130px;
+            position: absolute;
+            background: white;
+            padding: 20px 10px;
         }
 
         &__item{
@@ -505,6 +509,7 @@
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             justify-items: center;
+            grid-gap: 15px;
 
         }
         @media(width: 2560px){
