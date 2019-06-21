@@ -12,15 +12,15 @@ const Company = () => (
         suscipit tortor eget felis porttitor volutpat.
       </p>
     </div>
-
-    <p className="company__about">
-      Grids is a responsive Multipurpose Template. Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit. Curabitur aliquet quam id dui posuere
-      blandit. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id
-      orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.
-    </p>
     <div className="company__about-wrapper">
       <div className="company__container">
+        <p className="company__about">
+          Grids is a responsive Multipurpose Template. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit. Curabitur aliquet quam id dui
+          posuere blandit. Donec sollicitudin molestie malesuada. Pellentesque
+          in ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis
+          porttitor volutpat.
+        </p>
         <span className="company__list-wrapper">
           <i className="fas fa-angle-right" />
           <h1 className="company__item">Lorem ipsum dolor sit amet</h1>

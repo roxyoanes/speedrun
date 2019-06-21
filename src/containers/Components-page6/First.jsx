@@ -8,9 +8,11 @@ const First = () => (
     <Landing />
     <Services />
     <Company />
-    <Features />
-    <News />
-    <Testimonials />
+    <div className="wrapper-landing-page">
+      <Features />
+      <News />
+      <Testimonials />
+    </div>
   </div>
 );
 

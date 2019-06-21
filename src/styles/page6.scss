@@ -133,7 +133,7 @@
         position: absolute;
         top: 65px;
         background: white;
-        left: 255px;
+        right: 355px;
         width: 130px;
         border-top: 1px solid #d4d4d4;
 
@@ -234,6 +234,10 @@
             grid-template-rows: repeat(4, 1fr);
             grid-gap: 10px;
             margin-bottom: 60px;
+
+            @media(min-width: 1024px) {
+                display: block;
+            }
         }
         &__list-wrapper{
             display: flex;
@@ -284,6 +288,10 @@
             @media(min-width: 768px){
                 height: 200px;
             }
+            @media(min-width: 1024px){
+                height: 325px;
+                width: 450px;
+            }
         }
     }
     .fa-angle-right{
@@ -297,7 +305,10 @@
         color: #ff5722;
         padding: 0 20px;
     }
-    
+    .wrapper-landing-page{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
     .features{
         padding: 40px;
 
