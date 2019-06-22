@@ -1,5 +1,6 @@
 import React, { Component, createRef } from "react";
 import { Route, Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 import {
   First,
@@ -176,5 +177,10 @@ class Page6 extends Component {
     );
   }
 }
+Page6.propTypes = {
+  match: PropTypes.shape({
+    params: PropTypes.object,
+  }).isRequired,
+};
 
 export default Page6;
