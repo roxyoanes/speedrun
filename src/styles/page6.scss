@@ -112,6 +112,16 @@
             background-color: white;
             text-align: left;
             text-transform: uppercase;
+            background-position: center;
+            transition: ease-in 1.0s;
+            
+
+            &:focus {
+                background-size: 100%;
+                transition: ease-in .8s;
+                background:rgba(192,192,192,0.3) radial-gradient(circle, transparent 1%, rgba(192,192,192,0.3) 1%) center/15000%;
+                opacity: 1;
+              }
             
             &__caret{
                 display: inline-block;
@@ -148,8 +158,17 @@
         @media(width: 2560px){
             right: 765px;
         }
-        @media(min-width: 768px){
+        @media(min-width: 768px)and (max-width: 1440px){
             right: 355px;
+            top: 65px;
+            z-index: 30;
+            border-top: 1px solid #d4d4d4;
+            width: 130px;
+            position: absolute;
+            background: white;
+            padding: 20px 10px;
+        }
+        @media(width: 2560px){
             top: 65px;
             z-index: 30;
             border-top: 1px solid #d4d4d4;

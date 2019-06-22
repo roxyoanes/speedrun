@@ -60,9 +60,11 @@ class Page6 extends Component {
     if (this.myRef && this.myRef.current.contains(event.target)) {
       return;
     }
-    this.setState({ showMenu: false }, () => {
-      document.removeEventListener("click", this.closeMenu);
-    });
+    setTimeout(() => {
+      this.setState({ showMenu: false }, () => {
+        document.removeEventListener("click", this.closeMenu);
+      });
+    }, 2000);
   };
 
   aboutMenu = (event) => {
