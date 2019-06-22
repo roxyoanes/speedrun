@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 class Page6navbar1 extends Component {
   state = {
@@ -73,5 +74,10 @@ class Page6navbar1 extends Component {
     );
   }
 }
+Page6navbar1.propTypes = {
+  match: PropTypes.shape({
+    params: PropTypes.object,
+  }).isRequired,
+};
 
 export default Page6navbar1;
