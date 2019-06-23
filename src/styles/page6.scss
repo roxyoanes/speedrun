@@ -1,3 +1,17 @@
+@keyframes  color-change {
+    0% {
+        background-color: rgb(173, 171, 171);
+        color: black;
+    }
+    80%{
+        background-color: rgb(173, 171, 171);
+        color: black;
+    }
+    100%{
+        background-color: #FF5722;
+    }
+}
+
 .smooth-scroll {
     scroll-behavior: smooth;
 }
@@ -48,29 +62,32 @@
             font-weight: 700;
             text-decoration: none;
             text-transform: uppercase;
-            background-color: white;
             border: 1px solid transparent;
             background-position: center;
-            transition: all 1.0s;
+            transition: background .8s;
+            background-color: white;
             
             @media(max-width: 767px){
                 display: none;
             }
             &:hover {
                 color: black;
+                background:rgba(192,192,192,0.3) radial-gradient(circle, transparent 1%, rgba(192,192,192,0.3) 1%) center/15000%;
               }
               &:active {
                 background-size: 100%;
-                transition: all .8s;
-                background:rgba(192,192,192,0.3) radial-gradient(circle, transparent 1%, rgba(192,192,192,0.3) 1%) center/15000%;
+                transition: background 0s;
                 opacity: 1;
+                
               }
             &:focus{
                 color: #ffffff;
-                background: #FF5722;
+                background-color: #FF5722;
                 border-radius: 0;
+                animation: color-change 0.8s;
+                animation-iteration-count: 1;
+                animation-timing-function: ease-in;
             }
-            
             &__caret{
                 display: inline-block;
                 margin-left: 2px;
@@ -81,6 +98,7 @@
             }
         }
     }
+    
     .navbar-btn{
         background-color: transparent;
         padding: 7px 10px;
@@ -113,15 +131,18 @@
             text-align: left;
             text-transform: uppercase;
             background-position: center;
-            transition: ease-in 1.0s;
+            transition: linear .4s;
             
-
             &:focus {
-                background-size: 100%;
-                transition: ease-in .8s;
-                background:rgba(192,192,192,0.3) radial-gradient(circle, transparent 1%, rgba(192,192,192,0.3) 1%) center/15000%;
-                opacity: 1;
+                opacity: .8;
+                background: linear-gradient(to right, rgb(197, 196, 196) 50%, white 50%);
+                background-size: 200% 100%;
+                background-position:left bottom;
+                color: #FF5722;
               }
+            &:active{
+                color: #FF5722;
+            }
             
             &__caret{
                 display: inline-block;
