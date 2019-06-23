@@ -30,7 +30,7 @@ class Page6navbar1 extends Component {
         </Link>
         <button
           type="button"
-          className="navbar__list-item"
+          className="navbar__list-item waves-effect waves-light btn"
           onClick={this.aboutMenu}
         >
           About
