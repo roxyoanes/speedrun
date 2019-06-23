@@ -4,19 +4,26 @@ import image1 from "../../images/landing1.jpg";
 import image2 from "../../images/landing2.jpg";
 
 const images = [image1, image2];
+const texts = [{
+  title: "Bootstrap",
+  paragraph: "Succes Depends on Originality",
+}, {
+  title: "Material Design",
+  paragraph: "We Create the Opportunities",
+}];
 
 class Landing extends Component {
   state = {
-    currentImage: 0,
+    currentOption: 0,
   };
 
   componentDidMount() {
-    const { currentImage } = this.state;
+    const { currentOption } = this.state;
     const intervalId = setInterval(this.timer, 5000);
     setInterval(
       (() => {
         this.setState({
-          currentImage: currentImage === 0 ? 1 : 0,
+          currentOption: currentOption === 0 ? 1 : 0,
           intervalId,
         });
       })(),
@@ -30,20 +37,22 @@ class Landing extends Component {
   }
 
   timer = () => {
-    const { currentImage } = this.state;
-    this.setState({ currentImage: currentImage === 0 ? 1 : 0 });
+    const { currentOption } = this.state;
+    this.setState({ currentOption: currentOption === 0 ? 1 : 0 });
   };
 
   render() {
-    const { currentImage } = this.state;
+    const { currentOption } = this.state;
     return (
       <div className="landing">
         <div className="gradient">
           <img
-            src={images[currentImage]}
+            src={images[currentOption]}
             className="landing__img"
             alt="landing-img"
           />
+          <h3 className="landing__title-img">{texts[currentOption].title}</h3>
+          <p className="landing__p-img">{texts[currentOption].paragraph}</p>
         </div>
       </div>
     );
