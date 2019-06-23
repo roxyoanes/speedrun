@@ -64,7 +64,7 @@ class Page6 extends Component {
       this.setState({ showMenu: false }, () => {
         document.removeEventListener("click", this.closeMenu);
       });
-    }, 2000);
+    }, 450);
   };
 
   aboutMenu = (event) => {

@@ -30,11 +30,11 @@ class Page6navbar1 extends Component {
         </Link>
         <button
           type="button"
-          className="navbar__list-item waves-effect waves-light btn"
+          className="navbar__list-item"
           onClick={this.aboutMenu}
         >
           About
-          <span className="navbar__list-item__caret" />
+          <b className="navbar__list-item__caret" />
         </button>
         <nav className={`menu ${aboutMenu ? "about-opened" : "about-closed"}`}>
           <Link to={`${match.path}/about`} className="about-opened__link-about">
