@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 
 class Page6navbar1 extends Component {
   state = {
-    aboutMenu: false
+    aboutMenu: false,
   };
 
-  aboutMenu = event => {
+  aboutMenu = (event) => {
     event.preventDefault();
     this.setState({ aboutMenu: true }, () => {
       document.addEventListener("click", this.closeAboutMenu);
@@ -35,7 +35,7 @@ class Page6navbar1 extends Component {
             onClick={this.aboutMenu}
           >
             About
-            <b className="navbar__list-item__caret" />
+            <i className="navbar__list-item__caret" />
           </button>
           <nav
             className={`menu ${aboutMenu ? "about-opened" : "about-closed"}`}
@@ -84,8 +84,8 @@ class Page6navbar1 extends Component {
 }
 Page6navbar1.propTypes = {
   match: PropTypes.shape({
-    params: PropTypes.object
-  }).isRequired
+    params: PropTypes.object,
+  }).isRequired,
 };
 
 export default Page6navbar1;
