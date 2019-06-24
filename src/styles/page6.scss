@@ -28,7 +28,11 @@
         padding: 20px;
         background-color: white;
 
-        @media(min-width: 768px){
+        @media(width: 768px){
+            display: flex;
+            flex-direction: row;
+        }
+        @media(min-width: 1024px){
             display: grid;
             grid-template-columns: 25% 1fr;
         }
@@ -189,7 +193,7 @@
             right: 780px;
         }
         @media(min-width: 768px)and (max-width: 1440px){
-            right: 385px;
+            right: 390px;
             top: 75px;
             z-index: 30;
             width: 130px;
@@ -198,7 +202,7 @@
             padding: 20px 10px;
         }
         @media(width: 2560px){
-            top: 65px;
+            top: 82px;
             z-index: 30;
             width: 130px;
             position: absolute;
