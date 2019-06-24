@@ -28,15 +28,11 @@
         padding: 20px;
         background-color: white;
 
-        @media(width: 768px){
-            display: flex;
-            flex-direction: row;
-        }
-        @media(min-width: 1024px){
-            display: grid;
+        @media(min-width: 768px){
             grid-template-columns: 25% 1fr;
+            padding: 0;
         }
-        @media(width: 2560px){
+        @media(min-width: 2560px){
             margin: 0 400px;
         }
         &__logo{
@@ -72,6 +68,8 @@
             background-position: center;
             transition: background .8s;
             background-color: white;
+            display: flex;
+            align-items: center;
             
             @media(width: 768px){
                 padding: 8px 8px;
@@ -99,7 +97,6 @@
             }
             &__caret{
                 display: inline-block;
-                margin-left: 2px;
                 vertical-align: middle;
                 border-top: 4px solid;
                 border-right: 4px solid transparent;
@@ -107,6 +104,7 @@
                 display: inline-block;
                 width: 0;
                 height: 0;
+                margin-left: 6px;
             }
         }
         &__btn-menu-wrapper{
