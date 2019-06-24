@@ -31,7 +31,7 @@ class Page6navbar1 extends Component {
         <nav className="navbar__btn-menu-wrapper">
           <button
             type="button"
-            className="navbar__list-item"
+            className="navbar__list-item-btn"
             onClick={this.aboutMenu}
           >
             About

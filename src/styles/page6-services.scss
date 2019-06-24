@@ -16,7 +16,7 @@
         &__about-wrapper{
             padding: 30px;
 
-            @media(width: 2560px){
+            @media(min-width: 2560px){
                 margin: 0 400px;
             }
         }
@@ -50,7 +50,7 @@
                 flex-direction: row;
                 margin-bottom: 30px;
             }
-            @media(width: 2560px){
+            @media(min-width: 2560px){
                 margin: 0 400px;
             }
         }
@@ -91,7 +91,7 @@
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
             }
-            @media(width: 2560px){
+            @media(min-width: 2560px){
                 margin: 0 400px;
             }
         }
@@ -120,7 +120,7 @@
             @media(min-width: 1024px){
                 flex-direction: row;
             }
-            @media(width: 2560px){
+            @media(min-width: 2560px){
                 margin: 0 400px;
             }
         }

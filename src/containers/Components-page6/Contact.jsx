@@ -16,7 +16,7 @@ const Contact = () => (
     </div>
     <form className="contact__info-wrapper">
       <div className="contact__info-card">
-        <input type="text"  className="contact__form" id="name" />
+        <input type="text" className="contact__form" id="name" />
         <label HTMLfor="name" className="contact__label">Name</label>
       </div>
       <div className="contact__info-card">

@@ -58,7 +58,6 @@
             top: -12px;
             :focus{
                 padding-bottom: 15px;
-
             }
         }
         &__info-wrapper{
@@ -67,7 +66,7 @@
             grid-gap: 10px;
             padding: 30px 8%;
 
-            @media(width: 2560px){
+            @media(min-width: 2560px){
                 margin: 0 400px;
             }
         }
