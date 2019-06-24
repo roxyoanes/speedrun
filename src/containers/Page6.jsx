@@ -121,17 +121,17 @@ class Page6 extends Component {
                     aboutMenu ? "about-opened" : "about-closed"
                   }`}
                 >
-                  <Link to={`${match.path}/about`}>
-                    <h3 className="about-opened__item">COMPANY</h3>
+                  <Link to={`${match.path}/about`} className="about-opened__item">
+                    COMPANY
                   </Link>
-                  <Link to={`${match.path}/about`}>
-                    <h3 className="about-opened__item">OUR TEAM</h3>
+                  <Link to={`${match.path}/about`} className="about-opened__item">
+                    OUR TEAM
                   </Link>
-                  <Link to={`${match.path}/about`}>
-                    <h3 className="about-opened__item">NEWS</h3>
+                  <Link to={`${match.path}/about`} className="about-opened__item">
+                    NEWS
                   </Link>
-                  <Link to={`${match.path}/about`}>
-                    <h3 className="about-opened__item">INVESTORS</h3>
+                  <Link to={`${match.path}/about`} className="about-opened__item">
+                    INVESTORS
                   </Link>
                 </nav>
               </div>

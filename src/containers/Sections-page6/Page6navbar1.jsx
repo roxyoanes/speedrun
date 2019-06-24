@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 
 class Page6navbar1 extends Component {
   state = {
-    aboutMenu: false,
+    aboutMenu: false
   };
 
-  aboutMenu = (event) => {
+  aboutMenu = event => {
     event.preventDefault();
     this.setState({ aboutMenu: true }, () => {
       document.addEventListener("click", this.closeAboutMenu);
@@ -28,35 +28,43 @@ class Page6navbar1 extends Component {
         <Link to={`${match.path}/`} className="navbar__list-item">
           Home
         </Link>
-        <button
-          type="button"
-          className="navbar__list-item"
-          onClick={this.aboutMenu}
-        >
-          About
-          <b className="navbar__list-item__caret" />
-        </button>
-        <nav className={`menu ${aboutMenu ? "about-opened" : "about-closed"}`}>
-          <Link to={`${match.path}/about`} className="about-opened__link-about">
-            <a href="#top" className="about-opened__item">
+        <nav className="navbar__btn-menu-wrapper">
+          <button
+            type="button"
+            className="navbar__list-item"
+            onClick={this.aboutMenu}
+          >
+            About
+            <b className="navbar__list-item__caret" />
+          </button>
+          <nav
+            className={`menu ${aboutMenu ? "about-opened" : "about-closed"}`}
+          >
+            <Link
+              to={`${match.path}/about`}
+              className="about-opened__link-about"
+            >
               COMPANY
-            </a>
-          </Link>
-          <Link to={`${match.path}/about`} className="about-opened__link-about">
-            <a href="#top" className="about-opened__item">
+            </Link>
+            <Link
+              to={`${match.path}/about`}
+              className="about-opened__link-about"
+            >
               OUR TEAM
-            </a>
-          </Link>
-          <Link to={`${match.path}/about`} className="about-opened__link-about">
-            <a href="#top" className="about-opened__item">
+            </Link>
+            <Link
+              to={`${match.path}/about`}
+              className="about-opened__link-about"
+            >
               NEWS
-            </a>
-          </Link>
-          <Link to={`${match.path}/about`} className="about-opened__link-about">
-            <a href="#top" className="about-opened__item">
+            </Link>
+            <Link
+              to={`${match.path}/about`}
+              className="about-opened__link-about"
+            >
               INVESTORS
-            </a>
-          </Link>
+            </Link>
+          </nav>
         </nav>
         <Link to={`${match.path}/services`} className="navbar__list-item">
           Services
@@ -76,8 +84,8 @@ class Page6navbar1 extends Component {
 }
 Page6navbar1.propTypes = {
   match: PropTypes.shape({
-    params: PropTypes.object,
-  }).isRequired,
+    params: PropTypes.object
+  }).isRequired
 };
 
 export default Page6navbar1;

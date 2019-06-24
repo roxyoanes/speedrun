@@ -109,6 +109,9 @@
                 height: 0;
             }
         }
+        &__btn-menu-wrapper{
+            position: relative;
+        }
     }
     
     .navbar-btn{
@@ -189,33 +192,22 @@
         font-size: .8rem;
         padding: 0 20px;
 
-        @media(width: 2560px){
-            right: 780px;
-        }
-        @media(min-width: 768px)and (max-width: 1440px){
-            right: 390px;
-            top: 75px;
+        @media(min-width: 768px){
             z-index: 30;
             width: 130px;
-            position: absolute;
             background: white;
             padding: 20px 10px;
-        }
-        @media(width: 2560px){
-            top: 82px;
-            z-index: 30;
-            width: 130px;
             position: absolute;
-            background: white;
-            padding: 20px 10px;
         }
-
         &__item{
+            padding: 10px 0;
             color: #676767;
             font-weight: 100;
         }
         &__link-about{
             padding: 10px 0;
+            color: #676767;
+            font-weight: 100;
 
             &:hover{
                 color: #ffffff;
