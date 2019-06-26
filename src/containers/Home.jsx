@@ -9,6 +9,7 @@ const Home = () => (
     <Link to="/page-4">Page4</Link>
     <Link to="/page-5">Page5</Link>
     <Link to="/page-6">Page6</Link>
+    <Link to="/page-7">Page7</Link>
   </div>
 );
 
