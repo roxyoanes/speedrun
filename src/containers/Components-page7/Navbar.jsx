@@ -31,9 +31,11 @@ class Navbar extends Component {
     const { showMenu } = this.state;
     return (
       <div className="navbar">
-        <a href="#top" className="navbar__brand">
-          Start Bootstrap
-        </a>
+        <div className="navbar__brand-wrapper">
+          <a href="#top" className="navbar__brand">
+            Start Bootstrap
+          </a>
+        </div>
         <div className="navbar__right-side">
           <button type="button" className="navbar-btn" onClick={this.showMenu}>
             <i className="fas fa-bars" />
