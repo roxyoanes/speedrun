@@ -4,7 +4,7 @@ const About = () => (
   <div className="about">
     <div className="about__text-wrapper">
       <h3 className="about__title">We've got what you need!</h3>
-      <hr className="about__divider" />
+      <hr className="divider divider--white" />
       <p className="about__paragraph">
         Start Bootstrap has everything you need to get your new website up and
         running in no time! Choose one of our open source, free to download, and

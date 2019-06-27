@@ -6,7 +6,7 @@ const Landing = () => (
       <h3 className="landing__title">
         YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
       </h3>
-      <hr className="landing__divider" />
+      <hr className="divider" />
       <p className="landing__paragraph">
         Start Bootstrap can help you build better websites using the Bootstrap
         framework! Just download a theme and start customizing, no strings
