@@ -281,6 +281,17 @@
         }
 
     }
+    .footer{
+        padding: 3rem 0;
+        background-color: #f8f9fa;
+        text-align: center;
+
+        &__text{
+            color: #6c757d;
+            font-weight: 400;
+            margin: 0;
+        }
+    }
     .icons-contact{
         color: #6c757d;
         margin-bottom: 1rem
