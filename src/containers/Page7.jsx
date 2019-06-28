@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Navbar, Landing, About, Services } from "./Components-page7";
+import { Navbar, Landing, About, Services, Portfolio } from "./Components-page7";
 import "../styles/page7.scss";
 
 const Page7 = () => (
@@ -10,6 +10,7 @@ const Page7 = () => (
       <Landing />
       <About />
       <Services />
+      <Portfolio />
     </div>
   </div>
 );

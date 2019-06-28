@@ -224,4 +224,13 @@
     .icon-services{
         color: #f4623a;
     }
+    .portfolio{
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        
+        &__img{
+            width: 100%;
+            vertical-align: middle;
+        }
+    }
 }
