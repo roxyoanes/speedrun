@@ -41,10 +41,10 @@ const modal7 = ({ close, number }) => {
           <div className="modal7__img-container">
             <img className="modal7__image" src={img} alt="img" />
             <button type="button" className="button-left">
-              <i className="fas fa-caret-left" />
+              <span className="modal7__arrow-left" />
             </button>
             <button type="button" className="button-right">
-              <i className="fas fa-caret-right" />
+              <span className="modal7__arrow-right" />
             </button>
           </div>
         </div>
