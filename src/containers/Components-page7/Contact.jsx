@@ -11,7 +11,7 @@ const Contact = () => (
         DOWNLOAD NOW!
       </a>
     </div>
-    <div className="contact">
+    <div className="contact" id="contact">
       <h3 className="contact__title">
         Let's Get In Touch!
       </h3>

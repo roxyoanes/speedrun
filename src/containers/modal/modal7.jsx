@@ -36,7 +36,7 @@ const modal7 = ({ close, number }) => {
       <div className="modal7">
         <div className="modal7__wrapper">
           <span role="presentation" className="modal-btn" onClick={close}>
-            ×
+              ×
           </span>
           <div className="modal7__img-container">
             <img className="modal7__image" src={img} alt="img" />

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Landing = () => (
-  <div className="landing">
+  <div className="landing" id="about">
     <div className="landing__text-wrapper">
       <h3 className="landing__title">
         YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES

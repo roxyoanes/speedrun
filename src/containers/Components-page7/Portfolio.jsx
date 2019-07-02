@@ -11,7 +11,7 @@ import pic6 from "../images/portfolio6.jpg";
 const photos = [pic1, pic2, pic3, pic4, pic5, pic6];
 
 const Portfolio = ({ openModalHandler }) => (
-  <div className="portfolio">
+  <div className="portfolio" id="portfolio">
     {photos.map((photo, i) => (
       <div className="portfolio__card">
         <img
