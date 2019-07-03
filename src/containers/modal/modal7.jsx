@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import PropTypes from "prop-types";
 
 import "./modal7.scss";
@@ -29,29 +29,63 @@ const pickImage = (number) => {
   }
 };
 
-const modal7 = ({ close, number }) => {
-  const img = pickImage(number);
-  return (
-    <div>
-      <div className="modal7">
-        <div className="modal7__wrapper">
-          <span role="presentation" className="modal-btn" onClick={close}>
+class modal7 extends Component {
+  state = {
+    // eslint-disable-next-line react/destructuring-assignment
+    number: this.props.number,
+  };
+
+  changeNumber = (num) => {
+    const { number } = this.state;
+    if (number + num < 1) {
+      this.setState({
+        number: 6,
+      });
+    } else if (number + num > 6) {
+      this.setState({
+        number: 1,
+      });
+    } else {
+      this.setState({
+        number: number + num,
+      });
+    }
+  };
+
+  render() {
+    const { close } = this.props;
+    const { number } = this.state;
+    const img = pickImage(number);
+    return (
+      <div>
+        <div className="modal7">
+          <div className="modal7__wrapper">
+            <span role="presentation" className="modal-btn" onClick={close}>
               ×
-          </span>
-          <div className="modal7__img-container">
-            <img className="modal7__image" src={img} alt="img" />
-            <button type="button" className="button-left">
-              <span className="modal7__arrow-left" />
-            </button>
-            <button type="button" className="button-right">
-              <span className="modal7__arrow-right" />
-            </button>
+            </span>
+            <div className="modal7__img-container">
+              <img className="modal7__image" src={img} alt="img" />
+              <button
+                type="button"
+                className="button-left"
+                onClick={() => this.changeNumber(-1)}
+              >
+                <span className="modal7__arrow-left" />
+              </button>
+              <button
+                type="button"
+                className="button-right"
+                onClick={() => this.changeNumber(1)}
+              >
+                <span className="modal7__arrow-right" />
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 modal7.propTypes = {
   close: PropTypes.func.isRequired,
