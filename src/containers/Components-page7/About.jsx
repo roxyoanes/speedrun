@@ -1,7 +1,7 @@
 import React from "react";
 
 const About = () => (
-  <div className="about">
+  <div className="about" id="about">
     <div className="about__text-wrapper">
       <h3 className="about__title">We've got what you need!</h3>
       <hr className="divider divider--white" />
@@ -12,7 +12,7 @@ const About = () => (
       </p>
     </div>
     <div className="about__button-wrapper">
-      <a href="#about" className="button-landing button-landing--white">
+      <a href="#services" className="button-landing button-landing--white">
         GET STARTED!
       </a>
     </div>
