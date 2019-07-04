@@ -13,14 +13,16 @@ const photos = [pic1, pic2, pic3, pic4, pic5, pic6];
 const Portfolio = ({ openModalHandler }) => (
   <div className="portfolio" id="portfolio">
     {photos.map((photo, i) => (
-      <div className="portfolio__card">
+      <div className="portfolio__card" role="presentation" onClick={() => openModalHandler(i + 1)}>
         <img
           src={photo}
           className="portfolio__img"
           alt="portfolio"
-          role="presentation"
-          onClick={() => openModalHandler(i + 1)}
         />
+        <div className="text">
+          <h1 className="hover-title">CATEGORY</h1>
+          <h3 className="hover-name">Project Name</h3>
+        </div>
       </div>
     ))}
   </div>
