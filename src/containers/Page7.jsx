@@ -16,7 +16,25 @@ class Page7 extends Component {
   state = {
     isShowing: false,
     modalNumber: 0,
+    scrolled: false,
   };
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.scrollFunction, true);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.scrollFunction, true);
+  }
+
+  scrollFunction = () => {
+    const isTop = window.scrollY < 50;
+    if (isTop !== true) {
+      this.setState({ scrolled: true });
+    } else {
+      this.setState({ scrolled: false });
+    }
+  }
 
   openModalHandler = (number) => {
     this.setState({
@@ -32,11 +50,11 @@ class Page7 extends Component {
   };
 
   render() {
-    const { isShowing, modalNumber } = this.state;
+    const { isShowing, modalNumber, scrolled } = this.state;
     return (
       <div className="page7">
         <div className="container">
-          <Navbar />
+          <Navbar scrolled={scrolled} />
           <Landing />
           <About />
           <Services />

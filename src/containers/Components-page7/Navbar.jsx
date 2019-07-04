@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Scrollspy from "react-scrollspy";
+import PropTypes from "prop-types";
 
 class Navbar extends Component {
   state = {
@@ -29,10 +30,11 @@ class Navbar extends Component {
 
   render() {
     const { showMenu } = this.state;
+    const { scrolled } = this.props;
     return (
-      <div className="navbar">
-        <div className="navbar__brand-wrapper">
-          <a href="#top" className="navbar__brand">
+      <div className={scrolled ? "scrolled" : "navbar"}>
+        <div className={scrolled ? "scrolled__brand-wrapper" : "navbar__brand-wrapper"}>
+          <a href="#top" className={scrolled ? "scrolled__brand" : "navbar__brand"}>
             Start Bootstrap
           </a>
         </div>
@@ -41,7 +43,7 @@ class Navbar extends Component {
             <i className="fas fa-bars" />
           </button>
         </div>
-        <nav className="navbar__list">
+        <nav className={scrolled ? "scrolled__list" : "navbar__list"}>
           <Scrollspy
             items={[
               "about",
@@ -49,7 +51,7 @@ class Navbar extends Component {
               "portfolio",
               "contact",
             ]}
-            currentClassName="navbar__is-current"
+            currentClassName={scrolled ? "scrolled__is-current" : "navbar__is-current"}
           >
             {[
               { value: "About", href: "#about" },
@@ -57,7 +59,7 @@ class Navbar extends Component {
               { value: "Portfolio", href: "#portfolio" },
               { value: "Contact", href: "#contact" },
             ].map(navElement => (
-              <a href={navElement.href} key={navElement.value} className="navbar__list-item">
+              <a href={navElement.href} key={navElement.value} className={scrolled ? "scrolled__list-item" : "navbar__list-item"}>
                 {navElement.value}
               </a>
             ))}
@@ -94,5 +96,8 @@ class Navbar extends Component {
     );
   }
 }
+Navbar.propTypes = {
+  scrolled: PropTypes.bool.isRequired,
+};
 
 export default Navbar;
