@@ -10,7 +10,7 @@ import pic4 from "../images/portfolio4.jpg";
 import pic5 from "../images/portfolio5.jpg";
 import pic6 from "../images/portfolio6.jpg";
 
-const pickImage = (number) => {
+const pickImage = number => {
   switch (number) {
     case 1:
       return pic1;
@@ -32,22 +32,22 @@ const pickImage = (number) => {
 class modal7 extends Component {
   state = {
     // eslint-disable-next-line react/destructuring-assignment
-    number: this.props.number,
+    number: this.props.number
   };
 
-  changeNumber = (num) => {
+  changeNumber = num => {
     const { number } = this.state;
     if (number + num < 1) {
       this.setState({
-        number: 6,
+        number: 6
       });
     } else if (number + num > 6) {
       this.setState({
-        number: 1,
+        number: 1
       });
     } else {
       this.setState({
-        number: number + num,
+        number: number + num
       });
     }
   };
@@ -65,21 +65,21 @@ class modal7 extends Component {
             </span>
             <div className="modal7__img-container">
               <img className="modal7__image" src={img} alt="img" />
-              <button
-                type="button"
-                className="button-left"
-                onClick={() => this.changeNumber(-1)}
-              >
-                <span className="modal7__arrow-left" />
-              </button>
-              <button
-                type="button"
-                className="button-right"
-                onClick={() => this.changeNumber(1)}
-              >
-                <span className="modal7__arrow-right" />
-              </button>
             </div>
+            <button
+              type="button"
+              className="button-left"
+              onClick={() => this.changeNumber(-1)}
+            >
+              <span className="modal7__arrow-left" />
+            </button>
+            <button
+              type="button"
+              className="button-right"
+              onClick={() => this.changeNumber(1)}
+            >
+              <span className="modal7__arrow-right" />
+            </button>
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@ class modal7 extends Component {
 
 modal7.propTypes = {
   close: PropTypes.func.isRequired,
-  number: PropTypes.number.isRequired,
+  number: PropTypes.number.isRequired
 };
 
 export default modal7;
