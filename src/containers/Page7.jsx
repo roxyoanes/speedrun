@@ -10,6 +10,11 @@ import {
   Footer,
 } from "./Components-page7";
 import "../styles/page7.scss";
+import "../styles/page7-navbar.scss";
+import "../styles/page7-services.scss";
+import "../styles/page7-portfolio.scss";
+import "../styles/page7-contact.scss";
+import "../styles/page7-landing.scss";
 import Modal7 from "./modal/modal7";
 
 class Page7 extends Component {
