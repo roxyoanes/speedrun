@@ -14,7 +14,6 @@
         @media(min-width: 1024px){
             justify-items: center;
         }
-
     }
     &__img-container{
         position: relative;
@@ -24,7 +23,7 @@
             position: absolute;
             transform: translateX(-50%);
             left: 50%;
-            bottom: 15%;
+            bottom: 20%;
         }
         @media(min-width: 768px)and (max-width: 1024px){
             width: 550px;
@@ -32,7 +31,7 @@
             position: absolute;
             transform: translateX(-50%);
             left: 50%;
-            top: 20%;
+            top: 12%;
         }
         @media(min-width: 1025px)and(max-width: 2559px){
             width: 650px;
@@ -40,7 +39,7 @@
             position: absolute;
             transform: translateX(-50%);
             left: 50%;
-            top: 10%;
+            top: 15%;
         }
         @media(min-width: 2560px){
             width: 600px;
@@ -48,7 +47,7 @@
             position: absolute;
             transform: translateX(-50%);
             left: 50%;
-            top: 20%;
+            top: 25%;
         }
     }
     &__image{
@@ -85,7 +84,7 @@
 
     @media(min-width: 2560px){
         right: 38%;
-        top: 10%;
+        top: 15%;
         font-size: 60px;
     }
     &:hover{
@@ -100,8 +99,18 @@
 .button-left{
     left: 0;
     top: 40%;
+
+    @media(min-width: 2560px){
+        left: -150%;
+        top: 40%;
+    }
 }
 .button-right{
     right: 0;
     top: 40%;
+    
+    @media(min-width: 2560px){
+        left: 240%;
+        top: 40%;
+    }
 }
