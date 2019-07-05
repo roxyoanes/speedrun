@@ -18,6 +18,7 @@
         }
         &__card{
             position:relative;
+            cursor: pointer;
         }
         &__card:hover:after{
             content:'';

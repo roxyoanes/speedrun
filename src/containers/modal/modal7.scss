@@ -64,6 +64,7 @@
     position: absolute;
     right: 2%;
     top: 0%;
+    cursor: pointer;
 
     @media(min-width: 2560px){
         right: 38%;
@@ -78,6 +79,7 @@
     position: absolute;
     background-color: transparent;
     border-color: transparent;
+    cursor: pointer;
 }
 .button-left{
     left: 0;
