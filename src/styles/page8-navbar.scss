@@ -85,7 +85,7 @@
         position: fixed;
         z-index: 1;
         width: 100%;
-        background-color: #fff;
+        background-color: #383838;
         color: black;
         align-items: center;
         padding: 20px;
@@ -100,9 +100,11 @@
             }
         }
         &__brand{
-            color: white;
-            font-weight: 700;
+            color: black;
             font-size: 1.25rem;
+            letter-spacing: 3px;
+            font-weight: 700;
+            font-size: 26px;
         }
         &__list{
             text-align: right;

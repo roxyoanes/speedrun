@@ -1,14 +1,15 @@
 .page8{
     .landing{
+        display: grid;
+
         &__img{
             width: 100%;
             height: 180px;
         }
         &__word1, &__word2{
-            visibility: hidden;
+            display: none;
 
             @media(min-width: 768px){
-                visibility: visible;
                 position: absolute;
                 color: white;
                 margin-bottom: 8px;
@@ -20,6 +21,21 @@
                 z-index: 20;
                 text-transform: uppercase;
             }
+        }
+        &__text-wrapper{
+            background-color: #ea4f5f;
+            color: white;
+            padding: 100px 30px;
+            text-align: -webkit-center;
+        }
+        &__title{
+            line-height: 1.1;
+            font-size: 28px;
+            font-weight: 300;
+        }
+        &__p{
+            font-size: 14px;
+            line-height: 22px;
         }
     }
 }
