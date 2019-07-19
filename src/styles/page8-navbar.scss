@@ -6,9 +6,9 @@
         align-items: center;
         width: 100%;
         z-index: 99;
-        position: fixed;
         padding: 20px;
         background: rgba(0, 0, 0, 0.36);
+        position: fixed;
 
         &__right-side{
             display: flex;
