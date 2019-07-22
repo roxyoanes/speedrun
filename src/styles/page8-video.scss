@@ -1,0 +1,30 @@
+.page8{
+  .video{
+    &__text-wrapper{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      padding: 20px;
+    }
+    &__title{
+      font-size: 28px;
+      color: #2d3033;
+      font-weight: 100;
+    }
+    &__p{
+      font-size: 14px;
+      line-height: 22px;
+      color: #6c7279;
+      margin: 0;
+    }
+    &__video-wrapper{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 60px;
+    }
+    &__player{
+      width: 360px;
+      height: 200px;
+    }
+  }
+}
