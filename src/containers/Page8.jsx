@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 
-import { Navbar, Landing } from "./Components-page8";
+import { Navbar, Landing, Services } from "./Components-page8";
 import "../styles/page8.scss";
 import "../styles/page8-navbar.scss";
 import "../styles/page8-landing.scss";
+import "../styles/page8-services.scss";
 
 class Page8 extends Component {
   state= {
@@ -34,6 +35,7 @@ class Page8 extends Component {
         <div className="container">
           <Navbar scrolled={scrolled} />
           <Landing />
+          <Services />
         </div>
       </div>
     );
