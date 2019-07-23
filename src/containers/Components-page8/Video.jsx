@@ -13,7 +13,7 @@ const Video = () => (
       <p className="video__p">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
     </div>
     <div className="video__video-wrapper">
-      <iframe src="https://player.vimeo.com/video/146742515?title=0&byline=0&portrait=0" className="video__player" frameborder="0" allow="autoplay; fullscreen" allowfullscreen />
+      <iframe src="https://player.vimeo.com/video/146742515?title=0&byline=0&portrait=0" className="video__player" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen />
     </div>
   </div>
 );
