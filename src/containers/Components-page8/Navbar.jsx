@@ -57,7 +57,7 @@ class Navbar extends Component {
               { value: "Services", href: "#services" },
               { value: "About", href: "#about" },
               { value: "Gallery", href: "#gallery" },
-              { value: "Our Team", href: "#ourteam" },
+              { value: "Our Team", href: "#team" },
               { value: "Testimonials", href: "#testimonials" },
               { value: "Contact", href: "#contact" },
             ].map(navElement => (

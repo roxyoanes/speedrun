@@ -1,7 +1,7 @@
 import React from "react";
 
 const Services = () => (
-  <div className="services">
+  <div className="services" id="#services">
     <div className="services__text-section">
       <h2 className="services__title">Our Services</h2>
       <p className="services__paragraph">

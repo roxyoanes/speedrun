@@ -3,7 +3,7 @@ import React from "react";
 import image1 from "../images/landing81.jpg";
 
 const About = () => (
-  <div className="about">
+  <div className="about" id="#about">
     <div className="about__img-wrapper">
       <img src={image1} className="about__img" alt="living-room" />
     </div>

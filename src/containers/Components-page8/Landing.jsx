@@ -44,7 +44,7 @@ class Landing extends Component {
       render() {
         const { currentOption } = this.state;
         return (
-          <div className="landing">
+          <div className="landing" id="home">
             <img src={images[currentOption]} className="landing__img" alt="landing-img" />
             <h3 className="landing__word1">{texts[currentOption].word1}</h3>
             <h3 className="landing__word2">{texts[currentOption].word2}</h3>
