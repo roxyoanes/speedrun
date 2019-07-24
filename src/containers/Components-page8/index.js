@@ -5,3 +5,4 @@ export { default as About } from "./About";
 export { default as Video } from "./Video";
 export { default as Gallery } from "./Gallery";
 export { default as Team } from "./Team";
+export { default as Testimonials } from "./Testimonials";

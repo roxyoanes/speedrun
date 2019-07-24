@@ -10,7 +10,7 @@ import pic4 from "../images/portfolio4.jpg";
 import pic5 from "../images/portfolio5.jpg";
 import pic6 from "../images/portfolio6.jpg";
 
-const pickImage = number => {
+const pickImage = (number) => {
   switch (number) {
     case 1:
       return pic1;
@@ -32,22 +32,22 @@ const pickImage = number => {
 class modal7 extends Component {
   state = {
     // eslint-disable-next-line react/destructuring-assignment
-    number: this.props.number
+    number: this.props.number,
   };
 
-  changeNumber = num => {
+  changeNumber = (num) => {
     const { number } = this.state;
     if (number + num < 1) {
       this.setState({
-        number: 6
+        number: 6,
       });
     } else if (number + num > 6) {
       this.setState({
-        number: 1
+        number: 1,
       });
     } else {
       this.setState({
-        number: number + num
+        number: number + num,
       });
     }
   };
@@ -89,7 +89,7 @@ class modal7 extends Component {
 
 modal7.propTypes = {
   close: PropTypes.func.isRequired,
-  number: PropTypes.number.isRequired
+  number: PropTypes.number.isRequired,
 };
 
 export default modal7;
