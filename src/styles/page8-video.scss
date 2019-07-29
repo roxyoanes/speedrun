@@ -25,6 +25,11 @@
     &__player{
       width: 360px;
       height: 200px;
+
+    @media(min-width: 768px){
+      width: 650px;
+      height: 350px;
+    }
     }
   }
 }

@@ -16,11 +16,20 @@
       line-height: 22px;
       color: #6c7279;
       margin: 0;
+
+      @media(min-width: 768px){
+        padding: 0 40px;
+      }
   }
   &__container{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
+
+    @media(min-width: 768px){
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+    }
   }
   &__card{
     display: flex;

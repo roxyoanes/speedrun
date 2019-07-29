@@ -13,7 +13,7 @@ import img8 from "../images/gallery008.jpg";
 const photos = [img1, img2, img3, img4, img5, img6, img7, img8];
 
 const Gallery = ({ openModalHandler }) => (
-  <div className="gallery" id="#gallery">
+  <div className="gallery" id="gallery">
     <div className="gallery__text-wrapper">
       <h2 className="gallery__title">Gallery</h2>
       <p className="gallery__p">

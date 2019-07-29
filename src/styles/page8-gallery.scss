@@ -18,12 +18,21 @@
       line-height: 22px;
       color: #6c7279;
       margin: 0;
+
+      @media(min-width: 768px){
+        padding: 0 40px;
+      }
     }
     &__pic-wrapper{
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(8, 1fr);
       grid-gap: 5px;
+
+      @media(min-width: 768px){
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+      }
     }
     &__pic{
       width: 100%;

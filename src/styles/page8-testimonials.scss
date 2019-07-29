@@ -7,12 +7,20 @@
     padding: 40px 25px;
     color: white;
 
+    @media(min-width: 768px){
+      padding: 60px 25px;
+    }
+
     &__p{
       font-size: 20px;
       font-family: 'Merriweather', serif;
       font-weight: 300;
       margin: 20px 0;
       line-height: 1.4;
+
+      @media(min-width: 768px){
+        margin: 30px 0;
+      }
     }
     &__name{
       letter-spacing: 2px;
