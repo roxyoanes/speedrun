@@ -28,7 +28,7 @@ const Gallery = ({ openModalHandler }) => (
             <img src={photo} className="gallery__pic" alt="interior-design" />
           </div>
         </div>
-      ))} 
+      ))}
     </div>
   </div>
 );

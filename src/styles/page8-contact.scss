@@ -1,0 +1,78 @@
+.page8{
+  .contact{
+    &__text-wrapper{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px 40px;
+    }
+    &__title{
+      font-size: 40px;
+      color: #2d3033;
+      font-weight: 100;
+    }
+    &__p{
+      font-size: 14px;
+      line-height: 22px;
+      color: #6c7279;
+      margin: 0;
+    }
+    &__info-wrapper{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-gap: 10px;
+      padding: 20px;
+    }
+    &__form{
+      color: #999;
+      font-size: 1rem;
+      border: 1px solid rgb(190, 189, 189);
+      padding: 15px;
+    }
+    &__textarea{
+      height: 100px;
+      font-family: "Open Sans", Arial, sans-serif;
+    }
+    &__btn-wrapper{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+    }
+    &__details-wrapper{
+      background: #232323;
+      padding: 40px;
+    }
+    &__details-title{
+      color: white;
+      font-size: 30px;
+      font-weight: 300;
+    }
+    &__info-container{
+      color: #b5b5b5;
+    }
+    &__info{
+      margin: 5px 0;
+      font-weight: 300;
+    }
+    &__rights{
+      color: #848484;
+      font-weight: 300;
+    }
+    &__link{
+      color: rgba(255, 255, 255, 0.50);
+      padding-left: 4px;
+    }
+  }
+  .contact-btn{
+    background: #3496d8;
+    color: #fff;
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    border: transparent;
+    border-radius: 2px;
+  }
+}
