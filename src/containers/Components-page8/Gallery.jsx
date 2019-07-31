@@ -26,6 +26,9 @@ const Gallery = ({ openModalHandler }) => (
         <div className="gallery__card" role="presentation" onClick={() => openModalHandler(i + 1)}>
           <div className="gallery__gradient">
             <img src={photo} className="gallery__pic" alt="interior-design" />
+            <span className="icon-container">
+              <i className="fas fa-search search" />
+            </span>
           </div>
         </div>
       ))}

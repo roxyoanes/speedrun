@@ -22,6 +22,9 @@
       }
   
     }
+    &__details-wrapper{
+      text-align: center
+    }
     &__info-wrapper{
       display: grid;
       grid-template-columns: 1fr;
@@ -71,6 +74,7 @@
     &__rights{
       color: #848484;
       font-weight: 300;
+      text-align: center;
     }
     &__link{
       color: rgba(255, 255, 255, 0.50);
