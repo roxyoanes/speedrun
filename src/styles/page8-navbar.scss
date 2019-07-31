@@ -23,6 +23,7 @@
             @media(min-width: 769px){
                 display: none;
             }
+            
         }
         &__list{
             text-align: right;
@@ -34,6 +35,11 @@
             }
             @media(min-width: 2560px){
                 margin-right: 500px;
+            }
+        }
+        &__brand-wrapper{
+            @media(min-width: 2560px){
+                margin-left: 500px;
             }
         }
         &__brand{

@@ -5,6 +5,9 @@
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: auto;
     }
+    @media(min-width: 2560px){
+      margin: 0 500px;
+    }
 
     &__text-wrapper{
       display: flex;
