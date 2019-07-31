@@ -1,5 +1,11 @@
 .page8{
   .video{
+    @media(min-width: 1024px){
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+    }
+
     &__text-wrapper{
       display: flex;
       flex-direction: column;

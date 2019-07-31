@@ -18,6 +18,7 @@
             line-height: 22px;
             color: #6c7279;
             margin: 0;
+            text-align: center;
         }
         &__wrapper{
             padding: 60px 0;
@@ -25,11 +26,17 @@
             grid-template-rows: repeat(6, 1fr);
             grid-gap: 40px;
 
-            @media(min-width: 768px){
+            @media(min-width: 768px) and (max-width: 1023px){
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: auto;
                 padding: 40px 20px;
             }
+            @media(min-width: 1024px){
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: auto;
+                padding: 40px 20px;
+            }
+
         }
         &__card{
             position: relative;
@@ -54,6 +61,7 @@
             background: #eaeaea;
             border: 1px solid #fff;
             text-align: left;
+            margin-top: 30px;
         }
         &__card-title{
             margin: 0;

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import image1 from "../images/landing81.jpg";
-import image2 from "../images/landing82.jpg";
+import image2 from "../images/landing82ch.jpg";
 
 const images = [image1, image2];
 const texts = [{
