@@ -40,7 +40,7 @@ class Testimonials extends Component {
   render() {
     const { currentOption } = this.state;
     return (
-      <div className="testimonials">
+      <div className="testimonials" id="testimonials">
         <div className="testimonials__text-wrapper">
           <p className="testimonials__p">{texts[currentOption].paragraph}</p>
           <h3 className="testimonials__name">{texts[currentOption].name}</h3>

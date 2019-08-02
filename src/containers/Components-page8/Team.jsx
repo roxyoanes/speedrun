@@ -6,7 +6,7 @@ import img3 from "../images/team-3.jpg";
 import img4 from "../images/team-4.jpg";
 
 const Team = () => (
-  <div className="team" id="#team">
+  <div className="team" id="team">
     <div className="team__text-wrapper">
       <h2 className="team__title">Our Team</h2>
       <p className="team__p">
