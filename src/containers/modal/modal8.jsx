@@ -11,7 +11,6 @@ import img5 from "../images/gallery005.jpg";
 import img6 from "../images/gallery006.jpg";
 import img7 from "../images/gallery007.jpg";
 import img8 from "../images/gallery008.jpg";
-import btn from "../images/button-modal.png";
 
 const pickImage = (number) => {
   switch (number) {
@@ -39,12 +38,10 @@ const pickImage = (number) => {
 const modal8 = ({ close, number }) => {
   const img = pickImage(number);
   return (
-    <div>
-      <div className="modal8">
-        <div className="modal8__img-container">
-          <img className="modal8__image" src={img} alt="img" />
-        </div>
-        <img src={btn} alt="btn" className="modal-btn" role="presentation" onClick={close} />
+    <div className="modal8">
+      <div className="modal8__img-container">
+        <img className="modal8__image" src={img} alt="img" />
+        <button type="button" className="far fa-times-circle modal8-btn" onClick={close} />
       </div>
     </div>
   );

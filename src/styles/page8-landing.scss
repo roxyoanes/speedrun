@@ -17,7 +17,6 @@
                 font-weight: 700;
                 font-size: 60px;
                 text-shadow: 2px 1px 1px #000000;
-                z-index: 20;
                 opacity: 1;
             }
         }
@@ -30,6 +29,10 @@
             transform: translateX(-50%);
             left: 70%;
             bottom: 5%;
+        }
+        &__img-wrapper{
+            position: relative;
+            display: flex;
         }
         &__text-wrapper{
             background-color: #ea4f5f;

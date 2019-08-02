@@ -62,23 +62,25 @@ class Landing extends Component {
     const { currentOption } = this.state;
     return (
       <div className="landing" id="home">
-        <img src={images[currentOption]} className="landing__img" alt="landing-img" />
-        <h3 className="landing__word1">{texts[currentOption].word1}</h3>
-        <h3 className="landing__word2">{texts[currentOption].word2}</h3>
-        <button
-          type="button"
-          className="button-left"
-          onClick={() => this.changeNumber()}
-        >
-          <span className="fas fa-arrow-circle-left icon-btn" />
-        </button>
-        <button
-          type="button"
-          className="button-right"
-          onClick={() => this.changeNumber()}
-        >
-          <span className="fas fa-arrow-circle-right icon-btn" />
-        </button>
+        <div className="landing__img-wrapper">
+          <img src={images[currentOption]} className="landing__img" alt="landing-img" />
+          <h3 className="landing__word1">{texts[currentOption].word1}</h3>
+          <h3 className="landing__word2">{texts[currentOption].word2}</h3>
+          <button
+            type="button"
+            className="button-left"
+            onClick={() => this.changeNumber()}
+          >
+            <span className="fas fa-arrow-circle-left icon-btn" />
+          </button>
+          <button
+            type="button"
+            className="button-right"
+            onClick={() => this.changeNumber()}
+          >
+            <span className="fas fa-arrow-circle-right icon-btn" />
+          </button>
+        </div>
         <div className="landing__text-wrapper">
           <h3 className="landing__title">Interior Designers and Decorators</h3>
           <p className="landing__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
