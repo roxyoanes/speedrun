@@ -8,7 +8,7 @@
         }
             
         &__word1, &__word2{
-            opacity: 0;
+            display: none;
 
             @media(min-width: 1024px){
                 position: absolute;
@@ -17,7 +17,7 @@
                 font-weight: 700;
                 font-size: 60px;
                 text-shadow: 2px 1px 1px #000000;
-                opacity: 1;
+                display: block;
             }
         }
         &__word1{

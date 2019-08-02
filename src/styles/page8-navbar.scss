@@ -23,7 +23,6 @@
             @media(min-width: 769px){
                 display: none;
             }
-            
         }
         &__list{
             text-align: right;
@@ -197,6 +196,8 @@
         font-size: 20px;
         z-index: 100;
         color: white;
+        background-color: transparent;
+        border-color: transparent;
     }
     .fa-times{
         position: absolute;
