@@ -37,13 +37,11 @@ class Navbar extends Component {
           <a href="#top" className={scrolled ? "scrolled__brand" : "navbar__brand"}>LOOKUP</a>
         </div>
         <div className="navbar__right-side">
-          <button type="button" className="nav-btn" onClick={this.showMenu}>
-            {showMenu ? (
-              <i className="fas fa-times nav-icon" />
-            ) : (
-              <i className="fas fa-bars nav-icon" />
-            )}
-          </button>
+          {showMenu ? (
+            <button type="button" className="fas fa-times nav-icon" onClick={this.showMenu} />
+          ) : (
+            <button type="button" className="fas fa-bars nav-icon" onClick={this.showMenu} />
+          )}
         </div>
         <nav className={scrolled ? "scrolled__list" : "navbar__list"}>
           <Scrollspy
