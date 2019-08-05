@@ -70,7 +70,7 @@ class Navbar extends Component {
             style={{
               display: "flex",
               flexDirection: "column",
-              padding: "15px 0",
+              padding: "0px 0",
               alignItems: "center",
             }}
             items={["home", "services", "about", "gallery", "our team", "testimonials", "contact"]}
