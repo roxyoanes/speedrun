@@ -11,7 +11,7 @@
         left: 0%
     }
     100% {
-        left: 60%;
+        left: 55%;
     }
 }
 @keyframes right{
@@ -24,14 +24,15 @@
 }
 
 .page8{
+    overflow-x: hidden;
+
     .landing{
         display: grid;
 
         &__img{
             width: 100%;
             height: auto            
-        }
-            
+        }    
         &__word1, &__word2{
             display: none;
 
@@ -48,16 +49,20 @@
         &__word1{
             transform: translateX(-90%);
             bottom: 20%;
-            animation: left 2s infinite;
+            animation: left 5s infinite;
         }
         &__word2{
-            transform: translateX(150%);
+            transform: translateX(130%);
             bottom: 5%;
-            animation: right 2s infinite;
+            animation: right 5s infinite;
         }
         &__img-wrapper{
             position: relative;
             display: flex;
+
+            @media(min-width: 2560px){
+                margin: 0 300px;
+            }
         }
         &__text-wrapper{
             background-color: #ea4f5f;
@@ -105,13 +110,9 @@
             top: 45%;
         }
         .icon-btn{
-            opacity: 0;
-
-            @media(min-width: 768px){
-                font-size: 40px;
-                color: rgb(0, 0, 0);
-                opacity: 0.7;
-            } 
+            font-size: 40px;
+            color: rgb(0, 0, 0);
+            opacity: 0.7;
         }
     }
 }
