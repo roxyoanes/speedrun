@@ -1,15 +1,19 @@
 .page8{
   .about{
-    margin-bottom: 100px;
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    grid-template-columns: auto;
 
     @media(min-width: 768px){
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      margin-bottom: 100px;
     }
     &__img{
       background: url(../containers/images/landing81.jpg) no-repeat center center;
       height: 100%;
-      background-size: cover;    
+      background-size: cover;  
     }
     &__wrapper{
       display: flex;
