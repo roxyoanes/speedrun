@@ -65,7 +65,8 @@
       
     }
     &__gradient{
-      position: relative;       
+      position: relative;
+      display: flex;
     }
     .search{
       font-size: 45px;
