@@ -66,20 +66,25 @@ class Landing extends Component {
           <img src={images[currentOption]} className="landing__img" alt="landing-img" />
           <h3 className="landing__word1">{texts[currentOption].word1}</h3>
           <h3 className="landing__word2">{texts[currentOption].word2}</h3>
-          <button
-            type="button"
-            className="button-left"
-            onClick={() => this.changeNumber()}
-          >
-            <span className="fas fa-arrow-circle-left icon-btn" />
-          </button>
-          <button
-            type="button"
-            className="button-right"
-            onClick={() => this.changeNumber()}
-          >
-            <span className="fas fa-arrow-circle-right icon-btn" />
-          </button>
+          <div className="landing__buttons-wrapper">
+            <button
+              type="button"
+              className="button-left"
+              onClick={() => this.changeNumber()}
+            >
+              <span className="fas fa-arrow-circle-left icon-btn" />
+            </button>
+            <button
+              type="button"
+              className="button-right"
+              onClick={() => this.changeNumber()}
+            >
+              <span className="fas fa-arrow-circle-right icon-btn" />
+            </button>
+          </div>
+          <div className="landing__progress-bar">
+            <div className="landing__filler" />
+          </div>
         </div>
         <div className="landing__text-wrapper">
           <h3 className="landing__title">Interior Designers and Decorators</h3>

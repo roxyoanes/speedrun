@@ -1,3 +1,28 @@
+@keyframes fill {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+@keyframes left{
+    0% {
+        left: 0%
+    }
+    100% {
+        left: 60%;
+    }
+}
+@keyframes right{
+    0% {
+        right: 0%
+    }
+    100% {
+        right: 50%;
+    }
+}
+
 .page8{
     .landing{
         display: grid;
@@ -21,14 +46,14 @@
             }
         }
         &__word1{
-            transform: translateX(-50%);
-            left: 50%;
+            transform: translateX(-90%);
             bottom: 20%;
+            animation: left 2s infinite;
         }
         &__word2{
-            transform: translateX(-50%);
-            left: 70%;
+            transform: translateX(150%);
             bottom: 5%;
+            animation: right 2s infinite;
         }
         &__img-wrapper{
             position: relative;
@@ -53,6 +78,17 @@
                 box-sizing: border-box;
                 width: 750px;
             }
+        }
+        &__progress-bar{
+            position: absolute;
+            bottom: 0;
+            height: 6px;
+            width: 100%;
+        }
+        &__filler{
+            background: rgba(148, 40, 20, 0.877);
+            height: 100%;
+            animation: fill 5s linear infinite;
         }
         .button-left, .button-right{
             position: absolute;
