@@ -8,9 +8,20 @@ const Landing = () => (
       <img src={logo} className="landing__logo" alt="logo-landing" />
       <p className="landing__p">The Best Organic Restaurant In The Country</p>
       <p className="landing__p">With The Best Flavors</p>
-      <div className="landing__socials-wrapper">
-        
-      </div>
+      <span className="landing__socials-wrapper">
+        <a href className="landing__icon-wrapper">
+          <i className="fab fa-facebook-f icon" />
+        </a>
+        <a href className="landing__icon-wrapper">
+          <i className="fab fa-twitter icon" />
+        </a>
+        <a href className="landing__icon-wrapper">
+          <i className="fab fa-google-plus icon" />
+        </a>
+        <a href className="landing__icon-wrapper">
+          <i className="fab fa-pinterest icon" />
+        </a>
+      </span>
     </div>
   </div>
 

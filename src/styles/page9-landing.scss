@@ -1,8 +1,48 @@
 .page9{
+  font-family: 'Open Sans', sans-serif;
   .landing{
     background: url(../containers/images/landing-restaurant.jpg) no-repeat center center;
     background-size: cover;
     height: 420px;
+    position: relative;
+
+    &__logo-wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 60px;
+    }
+    &__logo{
+      margin-bottom: 15px;
+    }
+    &__p{
+      color: #E4E4E4;
+      margin: 5px 0 0 0;
+      line-height: 22px;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    &__socials-wrapper{
+      margin: 30px 0;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    &__icon-wrapper{
+      margin-right: 4px;
+      border: 1px solid #757575;
+      padding: 10px;
+      text-align: center;
+    }
   }
-  
+  .fa-facebook-f, .fa-twitter, .fa-google-plus, .fa-pinterest{
+    font-size: 22px;
+    color: #C1C1C1;
+  }
+  .fa-facebook-f:hover, .fa-twitter:hover{
+    color: #55acee;
+  }
+  .fa-google-plus:hover, .fa-pinterest:hover{
+    color: rgb(163, 1, 1);
+  }
 }
