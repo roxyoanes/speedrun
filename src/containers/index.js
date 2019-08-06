@@ -9,3 +9,4 @@ export { default as Page5 } from "./Page5";
 export { default as Page6 } from "./Page6";
 export { default as Page7 } from "./Page7";
 export { default as Page8 } from "./Page8";
+export { default as Page9 } from "./Page9";

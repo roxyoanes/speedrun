@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import {
-  Home, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8,
+  Home, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8, Page9,
 } from "./containers";
 
 const Routes = () => (
@@ -14,6 +14,8 @@ const Routes = () => (
     <Route path="/page-6" component={Page6} />
     <Route path="/page-7" component={Page7} />
     <Route path="/page-8" component={Page8} />
+    <Route path="/page-9" component={Page9} />
+
 
     <Route exact path="/" component={Home} />
   </Switch>
