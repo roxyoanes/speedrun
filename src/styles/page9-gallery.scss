@@ -1,0 +1,24 @@
+.page9{
+  font-family: 'Open Sans', sans-serif;
+
+  .gallery{
+    background: rgb(43, 42, 42);
+    padding: 40px 15px;
+
+    &__title{
+      color: #D2D2D2;
+      font-size: 30px;
+      text-align: center;
+      margin: 0;
+      font-weight: 600;
+      font-family: 'Raleway', sans-serif;
+    }
+    &__subtitle{
+      color: #888888;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      margin: 20px 10px;
+    }
+  }
+}

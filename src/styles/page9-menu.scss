@@ -1,0 +1,55 @@
+.page9{
+  font-family: 'Open Sans', sans-serif;
+  .menu{
+    background: rgb(43, 42, 42);
+    padding: 40px 15px;
+
+    &__title{
+      color: #D2D2D2;
+      font-size: 30px;
+      text-align: center;
+      margin: 0;
+      font-weight: 600;
+      font-family: 'Raleway', sans-serif;
+    }
+    &__subtitle{
+      color: #888888;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      margin: 20px 10px;
+    }
+    &__container{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      margin: 40px 0;
+      background: rgb(32, 32, 32);
+    }
+    &__card{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin: 0 15px;
+    }
+    &__recipe-name{
+      font-size: 18px;
+      line-height: 30px;
+      color: #888888;
+      font-weight: 400;
+      margin: 15px 0;
+    }
+    &__recipe-details{
+      font-style: italic;
+      color: #60B10F;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    &__price{
+      color: #60B10F;
+      font-size: 18px;
+      font-weight: 400;
+      margin: 15px 0;
+      text-align: end;
+    }
+  }
+}
