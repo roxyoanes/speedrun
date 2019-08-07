@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 
-import { Landing, Navbar, About } from "./Components-page9";
+import { Landing, Navbar, About, Services } from "./Components-page9";
 import "../styles/page9-landing.scss";
 import "../styles/page9-navbar.scss";
 import "../styles/page9-about.scss";
+import "../styles/page9-services.scss";
+
 
 class Page9 extends Component {
   state = {}
@@ -15,6 +17,7 @@ class Page9 extends Component {
           <Landing />
           <Navbar />
           <About />
+          <Services />
         </div>
       </div>
     );
