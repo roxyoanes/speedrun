@@ -20,5 +20,40 @@
       font-weight: 400;
       margin: 20px 10px;
     }
+    &__tags-container{
+      margin: 40px 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__tag{
+      background: transparent;
+      border: #60B10F solid 1px;
+      color: #7C7C7C;
+      transition: all 0.3s ease-in-out 0s;
+      border-radius: 4px;
+      font-size: 12px;
+      line-height: 20px;
+      margin: 5px 10px;
+      padding: 10px 18px;
+
+      &:hover{
+        background: #60B10F;
+        color: #FFFFFF;
+      }
+      &:active{
+        background: #60B10F;
+        color: #FFFFFF;
+      }
+    }
+    &__images-container{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
+    &__image{
+      width: 100%;
+    }
   }
 }

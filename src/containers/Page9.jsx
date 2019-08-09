@@ -8,11 +8,29 @@ import "../styles/page9-services.scss";
 import "../styles/page9-menu.scss";
 import "../styles/page9-gallery.scss";
 
+import Modal from "./modal/modal9";
 
 class Page9 extends Component {
-  state = {}
+  state = {
+    isShowing: false,
+    modalNumber: 0,
+  }
+
+  openModalHandler = (number) => {
+    this.setState({
+      isShowing: true,
+      modalNumber: number,
+    });
+  };
+
+  closeModalHandler = () => {
+    this.setState({
+      isShowing: false,
+    });
+  };
 
   render() {
+    const { isShowing, modalNumber } = this.state;
     return (
       <div className="page9">
         <div className="container">
@@ -21,8 +39,11 @@ class Page9 extends Component {
           <About />
           <Services />
           <Menu />
-          <Gallery />
+          <Gallery openModalHandler={this.openModalHandler} />
         </div>
+        {isShowing ? (
+          <Modal number={modalNumber} className="modal" close={this.closeModalHandler} />
+        ) : null}
       </div>
     );
   }
