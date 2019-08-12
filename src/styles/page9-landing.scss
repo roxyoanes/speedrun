@@ -27,13 +27,20 @@
       margin: 30px 0;
       display: grid;
       grid-template-columns: repeat(4, 1fr);
+
+      &--contact{
+        justify-items: center;
+        margin: 30px 60px;
+      }
     }
     &__icon-wrapper{
       margin-right: 4px;
       border: 1px solid #757575;
       padding: 10px;
       text-align: center;
+      width: 35px;
     }
+    
   }
   .fa-facebook-f, .fa-twitter, .fa-google-plus, .fa-pinterest{
     font-size: 22px;
