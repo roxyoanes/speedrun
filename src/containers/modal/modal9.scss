@@ -1,4 +1,4 @@
-.modal{
+.modal9{
   top: 0;
   left: 0;
   width: 100%;
@@ -8,21 +8,14 @@
   position: fixed;
   background-color: rgba(2, 2, 7, 0.8);
   
-  &__wrapper{
-      padding: 20px 215px;
-
-      @media(min-width: 1024px){
-          justify-items: center;
-      }
-
-  }
+ 
   &__img-container{
       @media(max-width: 768px){
           width: 300px;
           position: absolute;
           transform: translateX(-50%);
           left: 50%;
-          bottom: 5%;
+          top: 25%;
       }
       @media(min-width: 1024px){
           width: 400px;
@@ -48,23 +41,13 @@
   }
 }
 .modal-btn{
-  color: grey;
-  cursor: zoom-out;
-  font-size: 50px;
-  position: absolute;
-  right: 10%;
-
-  @media(min-width: 1024px){
-      right: 25%;
-      top: 15%;
-     
+    position: absolute;
+    z-index: 200;
+    color: black;
+    font-size: 30px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
   }
-  @media(width: 2560px){
-      right: 38%;
-      top: 50px;
-      font-size: 80px;
-  }
-  &:hover{
-      color: white;
-  }
-}

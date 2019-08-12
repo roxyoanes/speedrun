@@ -136,16 +136,17 @@ class Gallery extends Component {
             {allPhotos.map((item, i) => (
               <CSSTransition key={item.id} timeout={500} classNames="gallery__item">
                 <div className="gallery__card">
-                  <div className="gallery__gradient">
-                    <img
-                      src={item.image}
-                      alt="img"
-                      className="gallery__image"
-                      role="presentation"
-                      onClick={() => openModalHandler(i + 1)}
-                    />
-                  </div>
-                  <h5 className="gallery__card-title">{item.title}</h5>
+                  <img
+                    src={item.image}
+                    alt="img"
+                    className="gallery__image"
+                    role="presentation"
+                    onClick={() => openModalHandler(i + 1)}
+                  />
+                  <h5 className="gallery__card-title">
+                    Warm
+                    <strong className="gallery__card-bold">Oscar</strong>
+                  </h5>
                   <h6 className="gallery__card-subheading">
                     {item.description}
                   </h6>

@@ -39,14 +39,10 @@ const modal9 = ({ close, number }) => {
   const img = pickImage(number);
   return (
     <div>
-      <div className="modal">
-        <div className="modal__wrapper">
-          <span role="presentation" className="modal-btn" onClick={close}>
-            ×
-          </span>
-          <div className="modal__img-container">
-            <img className="modal__image" src={img} alt="img" />
-          </div>
+      <div className="modal9">
+        <div className="modal9__img-container">
+          <img className="modal9__image" src={img} alt="img" />
+          <button type="button" className="far fa-times-circle modal-btn" onClick={close} />
         </div>
       </div>
     </div>
