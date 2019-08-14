@@ -7,7 +7,7 @@ import img4 from "../images/teamPic3.jpg";
 
 
 const Testimonial = () => (
-  <div className="testimonial">
+  <div className="testimonial" id="testimonial">
     <h2 className="testimonial__title">Testimonial</h2>
     <h6 className="testimonial__subtitle">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
     <div className="testimonial__team-container">

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Contact = () => (
-  <div className="contact">
+  <div className="contact" id="contact">
     <h2 className="contact__title">Get In Touch</h2>
     <h6 className="contact__subtitle">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
     <div className="contact__info-container">
