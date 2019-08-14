@@ -29,8 +29,9 @@ class Navbar extends Component {
 
   render() {
     const { showMenu } = this.state;
+    const { scrolled } = this.props;
     return (
-      <div className="navbar">
+      <div className={scrolled ? "fixed" : "navbar"}>
         <div className="navbar__right-side">
           <button type="button" className="fas fa-bars nav-icon" onClick={this.showMenu} />
         </div>
@@ -56,7 +57,7 @@ class Navbar extends Component {
             ))}
           </Scrollspy>
         </nav>
-        <nav className={`menu ${showMenu ? "dropdown-menu" : "closed-menu"}`}>
+        <nav className={`${showMenu ? "dropdown-menu" : "closed-menu"}`}>
           <Scrollspy
             style={{
               display: "flex",
