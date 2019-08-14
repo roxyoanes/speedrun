@@ -19,6 +19,13 @@
       font-weight: 400;
       margin: 20px 10px;
     }
+    &__wrapper{
+      @media(min-width: 768px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+      }
+    }
     &__container{
       display: grid;
       grid-template-columns: 1fr;
