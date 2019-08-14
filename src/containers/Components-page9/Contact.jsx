@@ -41,7 +41,7 @@ const Contact = () => (
       <button type="button" className="contact-btn">SEND</button>
     </div>
     <div className="contact__rights">
-      <h5>
+      <h5 className="contact__footer">
         © 2018 Company Name. Template by
         <a className="contact__link" href="http://webthemez.com/interior-design/">WebThemez.com</a>
       </h5>

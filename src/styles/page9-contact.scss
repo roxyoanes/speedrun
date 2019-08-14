@@ -1,7 +1,7 @@
 .page9{
   .contact{
     background: rgb(43, 42, 42);
-    padding: 60px 20px;
+    padding: 60px 20px 0px 20px;
 
     &__title{
       color: #D2D2D2;
@@ -60,16 +60,56 @@
     &__form{
       color: #999;
       font-size: 1rem;
-      border-bottom: 1px solid rgb(190, 189, 189);
       padding: 15px;
       background-color: transparent;
-      border: none;
+      border-width: 0 0 1px;
+      border-color: rgb(114, 114, 117);
+
+      &:hover{
+        border-color: #66afe9;
+        outline: 0;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+      }
     }
     &__textarea{
-      height: 100px;
+      height: 150px;
       font-family: "Open Sans", Arial, sans-serif;
       background-color: transparent;
-      border: none;
+      border-width: 0 0 1px;
+      border-color: rgb(114, 114, 117);
+
+      &:hover{
+        border-color: #66afe9;
+        outline: 0;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+      }
     }
+    &__btn-wrapper{
+      padding: 0 20px;
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 60px;
+    }
+    &__rights{
+      text-align: center;
+      border-top: 1px solid #3C3A3A;
+      padding: 25px 0;
+    }
+    &__link{
+      color: #60B10F;
+      padding-left: 4px;
+    }
+    &__footer{
+      margin: 0;
+      color: #cccccc;
+      font-weight: 100;
+    }
+  }
+  .contact-btn{
+    color: #2D2D2D;
+    background-color: #60B10F;
+    border: transparent;
+    padding: 10px 34px;
+    border-radius: 0;
   }
 }
