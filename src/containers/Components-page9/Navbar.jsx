@@ -62,8 +62,9 @@ class Navbar extends Component {
             style={{
               display: "flex",
               flexDirection: "column",
-              padding: "0px 0",
+              padding: "0",
               alignItems: "center",
+              margin: "0",
             }}
             items={["home", "about", "services", "menu card", "gallery", "testimonial", "contact"]}
             currentClassName="dropdown-menu__is-current"

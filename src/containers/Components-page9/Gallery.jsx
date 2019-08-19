@@ -131,30 +131,28 @@ class Gallery extends Component {
             NORTHEAST
           </button>
         </div>
-        <div className="gallery__images-container">
-          <TransitionGroup className="gallery__transition-container">
-            {allPhotos.map((item, i) => (
-              <CSSTransition key={item.id} timeout={500} classNames="gallery__item">
-                <div className="gallery__card">
-                  <img
-                    src={item.image}
-                    alt="img"
-                    className="gallery__image"
-                    role="presentation"
-                    onClick={() => openModalHandler(i + 1)}
-                  />
-                  <h5 className="gallery__card-title">
+        <TransitionGroup className="gallery__transition-container">
+          {allPhotos.map((item, i) => (
+            <CSSTransition key={item.id} timeout={500} classNames="gallery__item">
+              <div className="gallery__card">
+                <img
+                  src={item.image}
+                  alt="img"
+                  className="gallery__image"
+                  role="presentation"
+                  onClick={() => openModalHandler(i + 1)}
+                />
+                <h5 className="gallery__card-title">
                     Warm
-                    <strong className="gallery__card-bold">Oscar</strong>
-                  </h5>
-                  <h6 className="gallery__card-subheading">
-                    {item.description}
-                  </h6>
-                </div>
-              </CSSTransition>
-            ))}
-          </TransitionGroup>
-        </div>
+                  <strong className="gallery__card-bold">Oscar</strong>
+                </h5>
+                <h6 className="gallery__card-subheading">
+                  {item.description}
+                </h6>
+              </div>
+            </CSSTransition>
+          ))}
+        </TransitionGroup>
       </div>
     );
   }

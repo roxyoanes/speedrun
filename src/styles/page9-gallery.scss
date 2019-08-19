@@ -47,10 +47,15 @@
         color: #FFFFFF;
       }
     }
-    &__images-container{
+    &__transition-container{
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: auto;
+
+      @media(min-width: 768px){
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+      }
     }
     &__image{
       width: 100%;
