@@ -38,7 +38,7 @@ class Navbar extends Component {
         <nav className="navbar__list">
           <Scrollspy
             items={[
-              "home", "about", "services", "menu card", "gallery", "testimonial", "contact",
+              "home", "about", "services", "menu", "gallery", "testimonial", "contact",
             ]}
             currentClassName="navbar__is-current"
           >
@@ -46,7 +46,7 @@ class Navbar extends Component {
               { value: "Home", href: "#home" },
               { value: "About Us", href: "#about" },
               { value: "Services", href: "#services" },
-              { value: "Menu Card", href: "#menucard" },
+              { value: "Menu Card", href: "#menu" },
               { value: "Gallery", href: "#gallery" },
               { value: "Testimonial", href: "#testimonial" },
               { value: "Contact", href: "#contact" },
@@ -66,14 +66,14 @@ class Navbar extends Component {
               alignItems: "center",
               margin: "0",
             }}
-            items={["home", "about", "services", "menu card", "gallery", "testimonial", "contact"]}
+            items={["home", "about", "services", "menu", "gallery", "testimonial", "contact"]}
             currentClassName="dropdown-menu__is-current"
           >
             {[
               { value: "Home", href: "#home" },
               { value: "About Us", href: "#about" },
               { value: "Services", href: "#services" },
-              { value: "Menu Card", href: "#menucard" },
+              { value: "Menu Card", href: "#menu" },
               { value: "Gallery", href: "#gallery" },
               { value: "Testimonial", href: "#testimonial" },
               { value: "Contact", href: "#contact" },

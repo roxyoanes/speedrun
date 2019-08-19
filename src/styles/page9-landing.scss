@@ -6,6 +6,10 @@
     height: 420px;
     position: relative;
 
+    @media(min-width: 1024px){
+      height: 650px;
+    }
+
     &__logo-wrapper{
       display: flex;
       flex-direction: column;
@@ -14,6 +18,10 @@
     }
     &__logo{
       margin-bottom: 15px;
+
+      @media(min-width: 1024px){
+        padding-top: 100px;
+      }
     }
     &__p{
       color: #E4E4E4;
@@ -30,11 +38,7 @@
 
       &--contact{
         justify-items: center;
-        margin: 30px 60px;
-
-        @media(min-width: 768px){
-          margin: 30px 0;
-        }
+        margin: 30px 0px;
       }
     }
     &__icon-wrapper{

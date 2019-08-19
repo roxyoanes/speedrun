@@ -24,9 +24,16 @@
       grid-template-rows: repeat(4, 1fr);
       padding: 40px 10px;
 
-      @media(min-width: 768px){
+      @media(min-width: 768px) and (max-width: 1023px){
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
+      }
+      @media(min-width: 1024px){
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+      }
+      @media(min-width: 2000px){
+        margin: 60px 500px;
       }
     }
     &__card{

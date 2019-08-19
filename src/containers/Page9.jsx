@@ -29,7 +29,7 @@ class Page9 extends Component {
   }
 
   scrollFunction = () => {
-    const isTop = window.scrollY < 380;
+    const isTop = window.scrollY < 400;
     if (isTop !== true) {
       this.setState({ scrolled: true });
     } else {

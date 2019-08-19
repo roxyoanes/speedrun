@@ -3,7 +3,11 @@
 
   .about{
     background: rgb(43, 42, 42);
-    padding: 40px 15px;
+    padding: 60px 15px;
+
+    @media(min-width: 1024px){
+      padding: 100px 15px;
+    }
 
     &__title{
       color: #D2D2D2;
@@ -36,14 +40,26 @@
        @media(min-width:1024px){
          grid-template-columns: repeat(2, 1fr);
          grid-template-rows: 1fr;
-         grid-gap: 10px;
+         grid-gap: 30px;
+         padding-top: 50px;
+       }
+       @media(min-width: 2000px){
+         margin: 0 500px;
        }
     }
-    
+    &__text-wrapper{
+      @media(min-width: 426px) and (max-width: 1023px){
+        padding: 20px;
+      }
+    }
     &__card-title{
       font-weight: 600;
       color: #60B10F;
       font-size: 26px;
+
+      @media(min-width:1024px){
+        margin: 0;
+      }
     }
     &__card-p{
       font-size: 14px;
@@ -67,6 +83,10 @@
       font-weight: 400;
       font-size: 14px;
       margin: 15px 10px;
+
+      @media(min-width:1024px){
+        margin: 10px;
+      }
     }
   }
 }

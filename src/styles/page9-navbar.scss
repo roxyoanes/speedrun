@@ -23,9 +23,6 @@
       @media(max-width: 768px){
           display: none;
       }
-      @media(min-width: 2560px){
-          margin-right: 500px;
-      }
     }
     &__list-item{
       padding: 8px 5px;
@@ -42,6 +39,9 @@
       @media(max-width: 767px){
           display: none;
       }
+    }
+    &__is-current{
+      color: white;
     }
   }
   .dropdown-menu{
