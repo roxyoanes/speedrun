@@ -103,5 +103,19 @@
         
       }
     }
+    &__item-enter{
+      opacity: 0;
+  }
+  &__item-enter-active {
+      opacity: 1;
+      transition: opacity 500ms ease-in;
+    }
+  &__item-exit {
+      opacity: 1;
+    }
+  &__item-exit-active {
+      opacity: 0;
+      transition: opacity 500ms ease-out;
+    }
   }
 }

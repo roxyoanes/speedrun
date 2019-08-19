@@ -131,7 +131,7 @@ class Gallery extends Component {
             NORTHEAST
           </button>
         </div>
-        <TransitionGroup className="gallery__transition-container">
+        <TransitionGroup className="gallery__transition-container" data-aos="fade-right" data-aos-duration="1500">
           {allPhotos.map((item, i) => (
             <CSSTransition key={item.id} timeout={500} classNames="gallery__item">
               <div className="gallery__card">

@@ -4,7 +4,7 @@ const Contact = () => (
   <div className="contact" id="contact">
     <h2 className="contact__title">Get In Touch</h2>
     <h6 className="contact__subtitle">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
-    <div className="contact__wrapper">
+    <div className="contact__wrapper" data-aos="fade-right" data-aos-duration="1500">
       <div className="contact__info-container">
         <div className="contact__info-pair">
           <h4 className="contact__info-title">Flavour Restaurant</h4>
@@ -19,16 +19,44 @@ const Contact = () => (
           <p className="contact__p">support@sitename.com</p>
         </div>
         <span className="landing__socials-wrapper landing__socials-wrapper--contact">
-          <a href className="landing__icon-wrapper">
+          <a
+            href
+            className="landing__icon-wrapper"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="300"
+          >
             <i className="fab fa-facebook-f icon" />
           </a>
-          <a href className="landing__icon-wrapper">
+          <a
+            href
+            className="landing__icon-wrapper"
+            data-aos-delay="500"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <i className="fab fa-twitter icon" />
           </a>
-          <a href className="landing__icon-wrapper">
+          <a
+            href
+            className="landing__icon-wrapper"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="700"
+          >
             <i className="fab fa-google-plus icon" />
           </a>
-          <a href className="landing__icon-wrapper">
+          <a
+            href
+            className="landing__icon-wrapper"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="900"
+          >
             <i className="fab fa-pinterest icon" />
           </a>
         </span>

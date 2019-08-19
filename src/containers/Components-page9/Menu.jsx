@@ -4,7 +4,7 @@ const Menu = () => (
   <div className="menu" id="menu">
     <h2 className="menu__title">Menu Card</h2>
     <h6 className="menu__subtitle">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
-    <div className="menu__wrapper">
+    <div className="menu__wrapper" data-aos="fade-out" data-aos-duration="1500">
       <div className="menu__container">
         <div className="menu__card">
           <div className="menu__recipe">

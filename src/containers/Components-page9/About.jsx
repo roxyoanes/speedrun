@@ -6,7 +6,7 @@ const About = () => (
   <div className="about" id="about">
     <h2 className="about__title">Our Restaurant</h2>
     <h6 className="about__subtitle">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
-    <div className="about__card">
+    <div className="about__card" data-aos="fade-right" data-aos-duration="1500">
       <img src={about} className="about__img" alt="glasses" />
       <div className="about__text-wrapper">
         <h3 className="about__card-title">Taste the Flavors</h3>
