@@ -142,11 +142,11 @@ class Gallery extends Component {
                   role="presentation"
                   onClick={() => openModalHandler(i + 1)}
                 />
-                <h5 className="gallery__card-title">
+                <h5 className="card-title">
                     Warm
                   <strong className="gallery__card-bold">Oscar</strong>
                 </h5>
-                <h6 className="gallery__card-subheading">
+                <h6 className="card-subheading">
                   {item.description}
                 </h6>
               </div>

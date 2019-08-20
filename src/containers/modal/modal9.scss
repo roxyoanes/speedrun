@@ -10,28 +10,29 @@
   
  
   &__img-container{
-      @media(max-width: 768px){
           width: 300px;
           position: absolute;
           transform: translateX(-50%);
           left: 50%;
           top: 25%;
-      }
-      @media(min-width: 1024px){
-          width: 400px;
-          height: 250px;
-          position: absolute;
-          transform: translateX(-50%);
+
+      @media(min-width: 768px) and (max-width: 1439px){
+          width: 500px;
+          height: 350px;
           left: 50%;
-          top: 25%;
+          top: 15%;
       }
-      @media(width: 2560px){
+      @media(min-width: 1440px) and (max-width: 1999px){
+        width: 450px;
+        height: 350px;
+        left: 50%;
+        top: 25%;
+    }
+      @media(min-width: 2000px){
           width: 600px;
           height: 450px;
-          position: absolute;
-          transform: translateX(-50%);
           left: 50%;
-          top: 20%;
+          top: 25%;
       }
   }
   &__image{
