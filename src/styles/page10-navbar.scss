@@ -2,19 +2,27 @@
   font-family: 'Open Sans', sans-serif;
   .navbar{
     background: #e01931;
-    position: fixed;
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     align-items: center;
+    position: fixed;
+    width: 100%;
 
+    &--scrolled{
+      background:rgba(26, 25, 25, 0.933);
+    }
     &__logo{
       width: 150px;
     }
-    &__wrapper{
+    
+    &__brand-wrapper{
       padding: 10px;
-    }
+
+      @media(min-width: 2560px){
+          margin-left: 500px;
+      }
+  }
     &__right-side{
       display: flex;
       justify-content: flex-end;
@@ -53,13 +61,13 @@
       }
   }
   .dropdown-menu{
-    transition: height 0.3s;
     display: flex;
     flex-direction: column;
     border-top: 1px solid #EAEAEA;
     height: 280px;
     transition: height 0.3s;
     grid-column: 1/3;
+    background: #e01931;
 
     &__list-item{
         padding: 10px 0;
@@ -74,10 +82,12 @@
   }
   .closed-menu{
     height: 0;
+    transition: height 0.3s;
     * {
       display: none;
     }
   }
+  
   .nav-icon{
   font-size: 20px;
   z-index: 100;

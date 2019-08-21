@@ -34,19 +34,19 @@ class Navbar extends Component {
     const { showMenu } = this.state;
     const { scrolled } = this.props;
     return (
-      <div className={scrolled ? "scrolled-navbar" : "navbar"}>
-        <div className={scrolled ? "scrolled__wrapper" : "navbar__wrapper"}>
+      <div className={scrolled ? "navbar navbar--scrolled" : "navbar"}>
+        <div className="navbar__brand-wrapper">
           <img src={logo} alt="logo" className="navbar__logo" />
         </div>
         <div className="navbar__right-side">
           <button type="button" className="fas fa-bars nav-icon" onClick={this.showMenu} />
         </div>
-        <nav className={scrolled ? "scrolled__list" : "navbar__list"}>
+        <nav className="navbar__list">
           <Scrollspy
             items={[
               "home", "about", "features", "screenshots", "clients", "package", "download",
             ]}
-            currentClassName={scrolled ? "scrolled__is-current" : "navbar__is-current"}
+            currentClassName="navbar__is-current"
           >
             {[
               { value: "Home", href: "#home" },
@@ -57,7 +57,7 @@ class Navbar extends Component {
               { value: "Package", href: "#package" },
               { value: "Download", href: "#download" },
             ].map(navElement => (
-              <a href={navElement.href} key={navElement.value} className={scrolled ? "scrolled__list-item" : "navbar__list-item"}>
+              <a href={navElement.href} key={navElement.value} className="navbar__list-item">
                 {navElement.value}
               </a>
             ))}
