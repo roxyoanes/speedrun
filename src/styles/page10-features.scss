@@ -1,7 +1,9 @@
 .page10{
   .features{
-    padding: 60px 10px;
 
+    &__part1{
+      padding: 60px 10px;
+    }
     &__title{
       font-size: 30px;
       font-weight: 500;
@@ -14,7 +16,6 @@
       text-align: center;
     }
     &__container{
-      padding: 40px 0;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
@@ -38,9 +39,32 @@
       font-size: 16px;
       line-height: 28px;
     }
+    &__part2{
+      background: #d92534;
+      padding: 60px 10px;
+      color: white;
+    }
+    &__img{
+      width: 100%;
+    }
+    &__img-wrapper{
+      display: flex;
+      justify-content: center;
+    }
   }
   .icon-feat{
     color: #d92534;
     font-size: 48px;
+
+    &--part2{
+      border: 1px solid #ffffff;
+      width: 24px;
+      height: 24px;
+      text-align: center;
+      padding: 18px;
+      font-size: 22px;
+      border-radius: 50%;
+      background: #ffffff;
+    }
   }
 }
