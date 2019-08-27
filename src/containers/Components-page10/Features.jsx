@@ -72,6 +72,16 @@ const Features = () => (
         <img src={img} className="features__img" alt="features-img" />
       </div>
     </div>
+    <div className="features__part3">
+      <div className="features__icon-wrapper">
+        <i className="fa fa-envelope icon-feat icon-feat--part3" />
+      </div>
+      <p className="features__card-p features__card-p--part3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+      <div className="features__email-wrapper">
+        <input className="features__form" placeholder="Your email..." />
+        <button className="features__email-button" type="button">SUBSCRIBE</button>
+      </div>
+    </div>
   </div>
 );
 
