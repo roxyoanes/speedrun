@@ -1,5 +1,19 @@
 .page10{
   .screenshots{
-    padding: 10px;
+    padding: 60px 10px;
+    background: #d92534;
+
+    &__title{
+      font-size: 30px;
+      font-weight: 500;
+      text-align: center;
+      color: white;
+    }
+    &__oneline{
+      width: 100px;
+      height: 3px;
+      margin: 0 auto;
+      background: #FAD12C;
+    }
   }
 }
