@@ -27,6 +27,29 @@
       width: 100%;
       border-radius: 4px;
       border: solid 3px #dadada;
+      transition: all .8s ease;
+    }
+    &__nav-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    &__bubble-not-active{
+      background-color: rgba(255,255,255, 0.2);
+      width: 11px;
+      height: 11px;
+      border-radius: 20px;
+      margin: 0 5px;
+      border: none;
+    }
+    &__bubble-active{
+      background-color: white;
+      width: 11px;
+      height: 11px;
+      border-radius: 20px;
+      margin: 0 5px;
+      border: none;
+
     }
   }
 }
