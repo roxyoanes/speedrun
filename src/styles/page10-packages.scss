@@ -1,0 +1,84 @@
+.page10{
+  .packages{
+    padding: 60px 10px;
+    background: #F33030;
+
+    &__title{
+      font-size: 30px;
+      font-weight: 500;
+      text-align: center;
+      color: white;
+    }
+    &__oneline{
+      width: 100px;
+      height: 3px;
+      margin: 0 auto;
+      background: #FAD12C;
+    }
+    &__wrapper{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      padding: 60px 5px;
+      grid-gap: 14px;
+    }
+    &__card{
+      background-color: #ffffff;
+      border-radius: 15px;
+      text-align: center;
+    }
+    &__top{
+      margin-top: 0;
+      background-color: #d92634;
+      color: #fff;
+      padding: 15px;
+      border-radius: 30px;
+      margin: 25px;
+      font-size: 18px;
+      position: relative;
+      top: -40px;
+      border: #fff 5px solid;
+      font-weight: 500;
+      z-index: 3;
+    }
+    &__dollar{
+      font-size: 20px;
+      position: relative;
+      bottom: 48px;
+    }
+    &__price{
+      font-size: 60px;
+      font-weight: 500;
+    }
+    &__time{
+      font-size: 18px;
+    }
+    &__details{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    &__details-text{
+      font-weight: 500;
+      margin: 20px 0px 20px 5px;
+    }
+    &__btn-wrapper{
+      padding: 20px 10;
+    }
+  }
+  .package-btn{
+    margin: 5px 0 15px;
+    font-size: 17px;
+    padding: 7px 35px;
+    height: 40px;
+    background: #FCD72C;
+    transition: all 0.4s;
+    color: rgb(32, 32, 32);
+    border-radius: 4px;
+    border: none;
+  }
+  strike{
+    margin: 20px 0px 20px 5px;
+  }
+}

@@ -8,9 +8,11 @@
     align-items: center;
     position: fixed;
     width: 100%;
+    
 
     &--scrolled{
       background:rgba(26, 25, 25, 0.933);
+      z-index: 99;
     }
     &__logo{
       width: 150px;
