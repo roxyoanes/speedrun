@@ -1,0 +1,21 @@
+.page10{
+  .download{
+    padding: 60px 10px;
+    background: #d92634;
+
+    &__text-wrapper{
+      text-align: center;
+      color: white;
+    }
+    &__title{
+      font-size: 30px;
+      font-weight: 500;
+    }
+    &__text{
+      font-size: 16px;
+      line-height: 28px;
+      padding: 0 10px;
+      text-align: center;
+    }
+  }
+}

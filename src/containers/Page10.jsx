@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Navbar, Landing, About, Features, Screenshots, Clients, Packages } from "./Components-page10";
+import { Navbar, Landing, About, Features, Screenshots, Clients, Packages, Download, Footer } from "./Components-page10";
 
 import "../styles/page10-navbar.scss";
 import "../styles/page10-landing.scss";
@@ -9,6 +9,8 @@ import "../styles/page10-features.scss";
 import "../styles/page10-screenshots.scss";
 import "../styles/page10-clients.scss";
 import "../styles/page10-packages.scss";
+import "../styles/page10-download.scss";
+import "../styles/page10-footer.scss";
 
 
 class Page10 extends Component {
@@ -45,6 +47,8 @@ class Page10 extends Component {
           <Screenshots />
           <Clients />
           <Packages />
+          <Download />
+          <Footer />
         </div>
       </div>
     );
