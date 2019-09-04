@@ -20,6 +20,11 @@ const Footer = () => (
      © 2018 Company Name. Template by
       <a className="footer__link" href="http://webthemez.com/interior-design/">WebThemez.com</a>
     </h5>
+    <div className="footer__btn-wrapper">
+      <a href="#top" className="footer__btn-up">
+        <i className="fas fa-arrow-up arrow-btn" />
+      </a>
+    </div>
   </div>
 );
 
