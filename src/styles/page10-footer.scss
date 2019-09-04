@@ -1,5 +1,38 @@
 .page10{
   .footer{
-    background: white;
+    padding: 60px 10px;
+
+    &__icons{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    &__icon-wrapper{
+      border: 1px solid #d92634;
+      color: #d92634;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      border-radius: 50%;
+      margin: 0 5px;
+    }
+    &__text{
+      text-align: center;
+      font-weight: 500;
+      color: rgb(114, 112, 112);
+      line-height: 30px;
+    }
+    &__link{
+      text-decoration: none;
+      color: #d92634;
+      margin-left: 4px;
+      font-weight: 700;
+    }
+  }
+  .icon{
+    padding: 0;
   }
 }
