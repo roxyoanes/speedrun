@@ -51,7 +51,7 @@ class Screenshots extends Component {
   render() {
     const { number } = this.state;
     return (
-      <div className="screenshots">
+      <div className="screenshots" id="screenshots">
         <div className="screenshots__title-wrapper">
           <h2 className="screenshots__title">Screenshots</h2>
           <div className="screenshots__oneline" />

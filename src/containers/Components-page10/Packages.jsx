@@ -1,7 +1,7 @@
 import React from "react";
 
 const Packages = () => (
-  <div className="packages">
+  <div className="packages" id="package">
     <div className="packages__title-wrapper">
       <h2 className="packages__title">Packages</h2>
       <div className="packages__oneline" />

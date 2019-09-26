@@ -39,7 +39,7 @@ changeNumber = (num) => {
 render() {
   const { number } = this.state;
   return (
-    <div className="clients">
+    <div className="clients" id="clients">
       <h2 className="clients__title">Clients</h2>
       <div className="clients__wrapper">
         <img src={clients[number].image} alt="people" className="clients__img" />

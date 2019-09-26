@@ -3,7 +3,7 @@ import React from "react";
 import img from "../images/feat2.png";
 
 const Features = () => (
-  <div className="features">
+  <div className="features" id="features">
     <div className="features__part1">
       <h2 className="features__title">Our Amazing beautiful features</h2>
       <p className="features__p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
