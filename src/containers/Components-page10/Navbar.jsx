@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Scrollspy from "react-scrollspy";
+import PropTypes from "prop-types";
 
 import logo from "../images/logo10.png";
 
@@ -50,7 +51,7 @@ class Navbar extends Component {
             items={[
               "home", "about", "features", "screenshots", "clients", "packages", "download",
             ]}
-            currentClassName="navbar--scrolled__is-current"
+            currentClassName="navbar__is-current"
           >
             {[
               { value: "Home", href: "#home" },
@@ -103,5 +104,8 @@ class Navbar extends Component {
     );
   }
 }
+Navbar.propTypes = {
+  scrolled: PropTypes.bool.isRequired,
+};
 
 export default Navbar;
