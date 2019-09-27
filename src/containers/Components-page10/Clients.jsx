@@ -40,8 +40,8 @@ render() {
   const { number } = this.state;
   return (
     <div className="clients" id="clients">
-      <h2 className="clients__title">Clients</h2>
-      <div className="clients__wrapper">
+      <h2 className="clients__title" data-aos="fade-right" data-aos-duration="1500">Clients</h2>
+      <div className="clients__wrapper" data-aos="fade-up" data-aos-duration="3000">
         <img src={clients[number].image} alt="people" className="clients__img" />
         <p className="clients__p">{clients[number].text}</p>
         <div className="clients__name-container">
@@ -49,7 +49,7 @@ render() {
           <h5 className="clients__company">{clients[number].company}</h5>
         </div>
       </div>
-      <div className="clients__buttons-wrapper">
+      <div className="clients__buttons-wrapper" data-aos="fade-up" data-aos-duration="3000">
         {clients.map((item, i) => (
           <button
             type="button"

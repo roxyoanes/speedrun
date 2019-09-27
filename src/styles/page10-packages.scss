@@ -3,6 +3,10 @@
     padding: 60px 10px;
     background: #d92634;
 
+    @media(min-width: 2560px){
+      padding: 100px 500px;
+  }
+
     &__title{
       font-size: 30px;
       font-weight: 500;
@@ -21,6 +25,11 @@
       grid-template-rows: auto;
       padding: 60px 5px;
       grid-gap: 14px;
+
+      @media(min-width: 768px){
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+      }
     }
     &__card{
       background-color: #ffffff;

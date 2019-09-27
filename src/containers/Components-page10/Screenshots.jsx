@@ -53,14 +53,12 @@ class Screenshots extends Component {
     return (
       <div className="screenshots" id="screenshots">
         <div className="screenshots__title-wrapper">
-          <h2 className="screenshots__title">Screenshots</h2>
+          <h2 className="screenshots__title" data-aos="fade-right" data-aos-duration="1500">Screenshots</h2>
           <div className="screenshots__oneline" />
         </div>
         <div className="screenshots__slides">
-          <div className="screenshots__cards-wrapper">
-            <div className="screenshots__card">
-              <img src={images[number].image} id="pic1" alt="screenshot1" className="screenshots__img" />
-            </div>
+          <div className="screenshots__card">
+            <img src={images[number].image} id="pic1" alt="screenshot1" className="screenshots__img" data-aos="fade-up" data-aos-duration="3000" />
           </div>
           <div className="screenshots__nav-wrapper">
             {images.map((item, i) => (

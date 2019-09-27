@@ -3,6 +3,14 @@
     padding: 60px 10px;
     background: #e01931;
 
+    @media(min-width: 1024px){
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    @media(min-width: 2560px){
+      padding: 0 500px;
+  }
+
     &__img-wrapper{
       display: flex;
       justify-content: center;
@@ -15,10 +23,18 @@
     &__text-wrapper{
       color: white;
       text-align: center;
+
+      @media(min-width: 768px){
+        text-align: left;
+      }
     }
     &__title{
       font-size: 30px;
       font-weight: 500;
+
+      @media(min-width: 768px){
+        font-size: 40px;
+      }
     }
     &__p{
       font-size: 16px;

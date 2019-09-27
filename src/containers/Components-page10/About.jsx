@@ -3,7 +3,7 @@ import React from "react";
 import pic from "../images/feature2-image.png";
 
 const About = () => (
-  <div className="about" id="about">
+  <div className="about" id="about" data-aos="fade-right" data-aos-duration="1500">
     <div className="about__img-wrapper">
       <img src={pic} alt="about" className="about__img" />
     </div>

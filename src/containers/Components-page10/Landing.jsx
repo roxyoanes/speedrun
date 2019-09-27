@@ -3,7 +3,7 @@ import React from "react";
 import img from "../images/about10.png";
 
 const Landing = () => (
-  <div className="landing" id="home">
+  <div className="landing" id="home" data-aos="fade-right" data-aos-duration="1500">
     <div className="landing__text-wrapper">
       <h1 className="landing__title">App Landing Page</h1>
       <p className="landing__p">Lorem Ipsum is simply dummy text of the printing and type setting industry consectetur adipisicing elit, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing tempor incididunt!</p>

@@ -3,11 +3,31 @@
 
     &__part1{
       padding: 60px 10px;
+
+      @media(min-width: 1024px){
+        padding: 120px 10px;
+      }
+      @media(min-width: 2560px){
+        margin: 0 500px;
+    }
     }
     &__title{
       font-size: 30px;
       font-weight: 500;
       text-align: center;
+
+      @media(min-width: 768px){
+        font-size: 40px;
+      }
+      &--2{
+        text-align: left;
+        padding-left: 20px;
+        margin: 0;
+
+        @media(min-width: 768px){
+          font-size: 26px;
+        }
+      }
     }
     &__p{
       font-size: 16px;
@@ -20,11 +40,21 @@
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-gap: 15px;
+
+      @media(min-width: 768px){
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        margin-top: 60px;
+      }
     }
     &__card{
       display: flex;
       align-items: end;
-      margin: 0 10px;
+      margin: 20px 10px;
+
+      @media(min-width: 1024px){
+        margin: 0;
+      }
     }
     &__icon-wrapper{
       margin-right: 15px;
@@ -48,16 +78,49 @@
       background: #d92534;
       padding: 60px 10px;
       color: white;
+
+      @media(min-width: 2560px){
+        padding: 100px 500px;
+    }
+    }
+    &__big-container{
+      @media(min-width: 768px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    &__container2{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-gap: 15px;
+
+      @media(min-width: 1024px){
+        grid-gap: 0px;
+        align-items: center;
+        margin: 0 30px;
+      }
     }
     &__img{
       width: 100%;
+
+      @media(min-width: 1024px){
+        width: 70%;
+      }
     }
     &__img-wrapper{
-      display: flex;
-      justify-content: center;
+      display: grid;
+      align-items: center;
+      justify-items: center;
     }
     &__part3{
       padding: 60px 0px;
+
+      @media(min-width: 2560px){
+        padding: 100px 700px;
+    }
     }
     &__icon-wrapper{
       display: flex;
@@ -80,12 +143,22 @@
       text-align: center;
       font-weight: 500;
       border-radius: 4px 0 0 4px;
+
+      @media(min-width: 768px){
+        width: 200px;
+        text-align: left;
+        padding-left: 10px;
+      }
     }
     &__email-button{
       border-radius: 0 4px 4px 0;
       background-color: #FBD22C;
       color: #040F13;
       border: none;
+
+      @media(min-width: 768px){
+        width: 110px;
+      }
     }
   }
   .icon-feat{

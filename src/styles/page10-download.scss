@@ -3,6 +3,13 @@
     padding: 60px 10px;
     background: #d92634;
 
+    @media(min-width: 1024px)and (max-width: 2559px){
+      padding: 120px 10px;
+    }
+    @media(min-width: 2560px){
+      padding: 100px 500px;
+  }
+
     &__text-wrapper{
       text-align: center;
       color: white;
@@ -10,6 +17,10 @@
     &__title{
       font-size: 30px;
       font-weight: 500;
+
+      @media(min-width: 768px){
+        font-size: 40px;
+      }
     }
     &__text{
       font-size: 16px;

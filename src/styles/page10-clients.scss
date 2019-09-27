@@ -4,6 +4,10 @@
     background-color: #fad12b;
     color: black;
 
+    @media(min-width: 2560px){
+      padding: 100px 500px;
+  }
+
     &__title{
       font-size: 30px;
       font-weight: 500;
@@ -26,6 +30,13 @@
       padding: 20px;
       font-style: italic;
       text-align: center;
+
+      @media(min-width: 768px)and(max-width:1023px){
+        padding: 20px 60px;
+      }
+      @media(min-width: 1024px){
+        padding: 20px 200px;
+      }
     }
     &__name-container{
       display: flex;

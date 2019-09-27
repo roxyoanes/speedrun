@@ -43,10 +43,14 @@ class Navbar extends Component {
         </div>
         <nav className="navbar__list">
           <Scrollspy
+            style={{
+              textAlign: "right",
+              paddingLeft: "0",
+            }}
             items={[
-              "home", "about", "features", "screenshots", "clients", "package", "download",
+              "home", "about", "features", "screenshots", "clients", "packages", "download",
             ]}
-            currentClassName="navbar__is-current"
+            currentClassName="navbar--scrolled__is-current"
           >
             {[
               { value: "Home", href: "#home" },
@@ -54,7 +58,7 @@ class Navbar extends Component {
               { value: "Features", href: "#features" },
               { value: "Screenshots", href: "#screenshots" },
               { value: "Clients", href: "#clients" },
-              { value: "Package", href: "#package" },
+              { value: "Packages", href: "#packages" },
               { value: "Download", href: "#download" },
             ].map(navElement => (
               <a href={navElement.href} key={navElement.value} className="navbar__list-item">
@@ -73,7 +77,7 @@ class Navbar extends Component {
               paddingLeft: "15px",
               margin: "0",
             }}
-            items={["home", "about", "features", "screenshots", "clients", "package", "download"]}
+            items={["home", "about", "features", "screenshots", "clients", "packages", "download"]}
             currentClassName="dropdown-menu__is-current"
           >
             {[
@@ -82,7 +86,7 @@ class Navbar extends Component {
               { value: "Features", href: "#features" },
               { value: "Screenshots", href: "#screenshots" },
               { value: "Clients", href: "#clients" },
-              { value: "Package", href: "#package" },
+              { value: "Packages", href: "#packages" },
               { value: "Download", href: "#download" },
             ].map(navElement => (
               <a

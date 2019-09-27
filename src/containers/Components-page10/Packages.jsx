@@ -1,12 +1,12 @@
 import React from "react";
 
 const Packages = () => (
-  <div className="packages" id="package">
+  <div className="packages" id="packages">
     <div className="packages__title-wrapper">
-      <h2 className="packages__title">Packages</h2>
+      <h2 className="packages__title" data-aos="fade-right" data-aos-duration="1500">Packages</h2>
       <div className="packages__oneline" />
     </div>
-    <div className="packages__wrapper">
+    <div className="packages__wrapper" data-aos="fade-up" data-aos-duration="3000">
       <div className="packages__card">
         <h3 className="packages__top">Basic</h3>
         <div className="packages__price">

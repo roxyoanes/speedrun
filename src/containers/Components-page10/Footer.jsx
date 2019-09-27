@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => (
   <div className="footer">
-    <span className="footer__icons">
+    <span className="footer__icons" data-aos="fade-up" data-aos-duration="3000">
       <a href="https://twitter.com/" className="footer__icon-wrapper">
         <i className="fab fa-twitter icon" />
       </a>
