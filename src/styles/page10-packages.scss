@@ -86,6 +86,11 @@
     color: rgb(32, 32, 32);
     border-radius: 4px;
     border: none;
+
+    &:hover{
+      background: #d92634;
+      color: white;
+    }
   }
   strike{
     margin: 20px 0px 20px 5px;

@@ -58,9 +58,15 @@
     color: rgb(224, 25, 49);
     margin: 0 10px 0 0;
 
+    &:hover{
+      background: #e01931;
+      color: white;
+    }
+
   }
   .icon{
     font-size: 18px;
     padding-right: 5px;
+
   }
 }

@@ -156,6 +156,11 @@
       color: #040F13;
       border: none;
 
+      &:hover{
+        background-color: #1f96e0;
+        color: white;
+      }
+
       @media(min-width: 768px){
         width: 110px;
       }
