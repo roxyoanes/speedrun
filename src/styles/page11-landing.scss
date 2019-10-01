@@ -1,25 +1,46 @@
 .page11{
   .landing{
-    background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%),url("../containers/images/banner-landing.jpg");
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 0;
-    color: white;
-
+    
     &__text-wrapper{
       text-align: center;
       padding: 0 20px;
+      background: linear-gradient(to bottom,rgba(31, 30, 30, 0.6) 0,rgba(31, 30, 30, 0.6) 100%),url("../containers/images/banner-landing.jpg");
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 100px 0 60px 0;
+      color: white;
     }
     &__title{
       font-size: 40px;
       font-weight: 600;
+      margin: 40px 0 0 0;
     }
     &__subtitle{
       font-weight: 500;
       font-size: 20px;
+      margin: 20px;
+    }
+    &__part2{
+      color: #333333;
+    }
+    &__title2{
+      font-weight: 300;
+      font-size: 26px;
+      text-align: center;
+      margin: 60px 20px 20px 20px;
+      padding: 0;
+    }
+    &__word-color{
+      color: #F7780F;
+    }
+    &__p{
+      font-size: 15px;
+      line-height: 1.50;
+      padding: 0 20px;
+      text-align: center;
     }
   }
   .btn-landing{
