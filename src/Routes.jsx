@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import {
-  Home, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8, Page9, Page10,
+  Home, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8, Page9, Page10, Page11,
 } from "./containers";
 
 const Routes = () => (
@@ -16,6 +16,7 @@ const Routes = () => (
     <Route path="/page-8" component={Page8} />
     <Route path="/page-9" component={Page9} />
     <Route path="/page-10" component={Page10} />
+    <Route path="/page-11" component={Page11} />
 
 
     <Route exact path="/" component={Home} />

@@ -1,4 +1,109 @@
 .page11{
   font-family: 'Open Sans', sans-serif;
 
+  .navbar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 99;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.95);
+
+    @media(min-width: 769px){
+      background-color: transparent;
+  }
+
+    &__brand-wrapper{
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+    }
+    &__logo-text{
+      text-decoration: none;
+      color: white;
+      font-weight: 700;
+      font-size: 40px;
+    }
+    &__right-side{
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 30px;
+
+        @media(min-width: 769px){
+            display: none;
+      }
+    }
+    &__list{
+        margin-right: 30px;
+
+        @media(min-width: 768px){
+            display: none;
+        }
+        @media(min-width: 769px){
+          display: grid;
+          grid-row: 1/2;
+          grid-column: 2/3;
+        }
+        @media(min-width: 2560px){
+            margin-right: 500px;
+        }
+      }
+    &__list-item{
+      padding: 10px 5px;
+      color: white;
+      padding: 0 1rem;        
+      font-size: 18px;
+      font-weight: 500;
+      text-decoration: none;
+
+      @media(max-width: 767px){
+          display: none;
+      }
+    }
+    &__is-current{
+        color: #f4623a;
+      }
+    }
+  .dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    transition: height 0.3s;
+    height: 200px;
+    overflow-x: scroll;
+    background-color: #32343500;
+
+    &__list-item{
+        padding: 10px 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    &__is-current{
+        color: #f4623a;
+}
+}
+  .closed-menu{
+      height: 0;
+      transition: height 0.3s;
+      * {
+          display: none;
+      }
+    }
+  .nav-icon{
+    background-color: transparent;
+    color: #6c757d;
+    padding: .35rem .75rem;
+    font-size: 1.25rem;
+    border: 1px solid rgba(245, 243, 243, 0.932);
+    border-radius: .25rem;
+    cursor: pointer;
+
+    @media(min-width: 769px){
+        display: none;
+    }
+  }
 }

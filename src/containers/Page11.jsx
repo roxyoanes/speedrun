@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 
-import { Navbar } from "./Components-page11";
+import { Navbar, Landing } from "./Components-page11";
+
+import "../styles/page11-navbar.scss";
+import "../styles/page11-landing.scss";
+
 
 class Page11 extends Component {
   state={
@@ -12,6 +16,7 @@ class Page11 extends Component {
       <div className="page11">
         <div className="container">
           <Navbar />
+          <Landing />
         </div>
       </div>
     );
