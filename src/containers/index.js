@@ -11,3 +11,5 @@ export { default as Page7 } from "./Page7";
 export { default as Page8 } from "./Page8";
 export { default as Page9 } from "./Page9";
 export { default as Page10 } from "./Page10";
+export { default as Page11 } from "./Page11";
+
