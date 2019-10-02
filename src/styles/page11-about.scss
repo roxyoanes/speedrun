@@ -1,0 +1,88 @@
+.page11{
+  .about{
+    color: #333333;
+
+    &__title{
+      text-align: center;
+      font-size: 38px;
+      font-weight: 700;
+      margin: 60px 0 20px;
+    }
+    &__title-color{
+      color: #F7780F;
+    }
+    &__subtitle{
+      text-align: center;
+      margin: 0;
+    }
+    &__part1{
+      padding: 60px 20px;
+    }
+    &__pic-stats{
+      width: 100%;
+    }
+    &__p{
+      font-size: 15px;
+      line-height: 1.50;
+    }
+    &__list{
+      padding: 0;
+      list-style-type: none;
+    }
+    &__list-item{
+      text-decoration: none;
+      padding: 6px 0;
+    }
+    &__part2{
+      padding: 0 20px 20px;
+    }
+    &__title2{
+      font-weight: 500;
+      line-height: 1.1;
+      font-size: 28px;
+    }
+    &__acc{
+      margin-top: 40px;
+    }
+    &__part3{
+      background-color: #D6D6D6;
+      padding: 0;
+    }
+    &__part3-title{
+      font-size: 38px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      text-align: center;
+      padding: 70px 0;
+      margin: 0;
+    }
+  }
+  .arrow{
+    color: #F7780F;
+    padding-right: 10px;
+  }
+  .accordion{
+    border: 1px solid #ddd;
+    margin: 10px 0;
+
+    &__button{
+        padding: 10px;
+        cursor: pointer;
+        font-size: 1rem;
+        color: #333333;
+        background-color: #FAFAFA;
+
+        &:hover{
+          background-color: #FFFFFF;
+          color: #DB0A61;
+        }
+    }
+    &__p{
+        margin: 0;
+        padding: 20px;
+        border-top: 1px solid #ddd;
+        color: #333333;
+        line-height: 1.6em;
+    }
+}
+}
