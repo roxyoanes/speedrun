@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 
-import { Navbar, Landing, Services, About } from "./Components-page11";
+import { Navbar, Landing, Services, About, Team } from "./Components-page11";
 
 import "../styles/page11-navbar.scss";
 import "../styles/page11-landing.scss";
 import "../styles/page11-services.scss";
 import "../styles/page11-about.scss";
+import "../styles/page11-team.scss";
 
 
 class Page11 extends Component {
@@ -21,6 +22,7 @@ class Page11 extends Component {
           <Landing />
           <Services />
           <About />
+          <Team />
         </div>
       </div>
     );

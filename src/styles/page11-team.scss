@@ -1,0 +1,53 @@
+.page11{
+  .team{
+    color: #333333;
+    padding: 60px 20px;
+
+    &__title{
+      text-align: center;
+      font-size: 38px;
+      font-weight: 700;
+      margin: 60px 0 20px;
+    }
+    &__subtitle{
+      text-align: center;
+      margin: 0;
+    }
+    &__wrapper{
+      padding: 40px 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+    &__card{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 0;
+    }
+    &__img{
+      width: 80%;
+    }
+    &__info{
+      text-align: center;
+    }
+    &__name{
+      font-size: 16px;
+      font-weight: 700;
+      margin: 15px 0 0 0;
+    }
+    &__job{
+      color: #9a9a9a;
+      margin: 0 0 10px;
+    }
+  }
+  .fa-twitter, .fa-facebook{
+    width: 50%;
+    margin: 5px 0;
+    border-radius: 3px 0 0 3px;
+    text-align: center;
+    line-height: 36.8px;
+    background-color: #eee;
+    color: #565656;
+  }
+}
