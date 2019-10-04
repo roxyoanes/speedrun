@@ -51,23 +51,20 @@ const modal = ({ close, number }) => {
   return (
     <div>
       <div
-        className="modal-wrapper"
+        className="modal11"
         style={{
           opacity: "1",
         }}
       >
-        <div className="modal-header">
+        <div className="modal11__header">
+          <h2>PROJECT TITLE</h2>
           <span role="presentation" className="close-modal-btn" onClick={close}>×</span>
         </div>
-        <div className="title">
-          <h2>PROJECT TITLE</h2>
-          <button className="button" type="button" onClick={close}>X</button>
-        </div>
-        <div className="modal-body">
-          <img className="modal-body__image" src={img} alt="img" />
-          <h3 className="modal11__title">Project Description</h3>
-          <p className="modal-body__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt.</p>
-          <button className="button" type="button" onClick={close}>X Close Project</button>
+        <div className="modal11__body">
+          <img className="modal11__image" src={img} alt="img" />
+          <h3 className="modal11__body-title">Project Description</h3>
+          <p className="modal11__body-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt.</p>
+          <button className="button-end" type="button" onClick={close}>Close</button>
         </div>
       </div>
     </div>

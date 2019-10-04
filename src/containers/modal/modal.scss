@@ -1,7 +1,7 @@
 .modal-wrapper {
     background: white;
     border: 1px solid black;
-    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+    box-shadow: 0 5px 8px 0 rgba(126, 123, 123, 0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
     transition: all .8s;
     position: fixed;
     top: 0;
@@ -58,7 +58,6 @@
         @media (min-width: 320px) and (max-width: 480px){
             font-size: .8rem;
         }
-
     }
 
     &__list{

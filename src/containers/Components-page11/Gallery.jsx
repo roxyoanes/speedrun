@@ -29,7 +29,7 @@ const photos = [
   },
   {
     id: 3,
-    category: [ "all", "app"],
+    category: ["all", "app"],
     image: pic3,
     title: "PROJECT TITLE",
   },
@@ -41,7 +41,7 @@ const photos = [
   },
   {
     id: 5,
-    category: [ "all", "app"],
+    category: ["all", "app"],
     image: pic5,
     title: "PROJECT TITLE",
   },
@@ -71,7 +71,7 @@ const photos = [
   },
   {
     id: 10,
-    category: ["web", "all", ],
+    category: ["web", "all"],
     image: pic10,
     title: "PROJECT TITLE",
   },
@@ -136,30 +136,28 @@ class Gallery extends Component {
             APP DEVELOPMENT
           </button>
         </div>
-        <div className="gallery__images-container">
-          <TransitionGroup>
-            {allPhotos.map((item, i) => (
-              <CSSTransition key={item.id} timeout={400}>
-                <div className="gallery__card">
-                  <div className="gallery__gradient">
-                    <img
-                      src={item.image}
-                      alt="img"
-                      className="gallery__image-style"
-                    />
-                    <span
-                      className="container-icon"
-                      role="presentation"
-                      onClick={() => openModalHandler(i + 1)}
-                    >
-                      <i className="fas fa-search search" />
-                    </span>
-                  </div>
-                  <h5 className="gallery__card-title" role="presentation" onClick={() => openModalHandler(i + 1)}>{item.title}</h5>
+        <div className="gallery__pic-container">
+          {allPhotos.map((item, i) => (
+            <CSSTransition key={item.id} timeout={400}>
+              <div className="gallery__card">
+                <div className="gallery__gradient">
+                  <img
+                    src={item.image}
+                    alt="img"
+                    className="gallery__image-style"
+                  />
+                  <span
+                    className="container-icon"
+                    role="presentation"
+                    onClick={() => openModalHandler(i + 1)}
+                  >
+                    <i className="fas fa-search search" />
+                  </span>
                 </div>
-              </CSSTransition>
-            ))}
-          </TransitionGroup>
+                <h5 className="gallery__card-title" role="presentation" onClick={() => openModalHandler(i + 1)}>{item.title}</h5>
+              </div>
+            </CSSTransition>
+          ))}
         </div>
       </div>
     );
