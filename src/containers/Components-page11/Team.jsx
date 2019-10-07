@@ -17,10 +17,10 @@ const Team = () => (
           <h1 className="team__job">General Manager</h1>
           <span className="team__icon-wrapper">
             <a href="top" className="team__icon-a">
-              <i className="fab fa-twitter" />
+              <i className="fab fa-twitter team-icon" />
             </a>
             <a href="top" className="team__icon-a">
-              <i className="fab fa-facebook" />
+              <i className="fab fa-facebook team-icon" />
             </a>
           </span>
         </div>

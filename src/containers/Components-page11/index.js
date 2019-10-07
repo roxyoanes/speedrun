@@ -6,3 +6,5 @@ export { default as Team } from "./Team";
 export { default as Gallery } from "./Gallery";
 export { default as Testimonials } from "./Testimonials";
 export { default as Prices } from "./Prices";
+export { default as Contact } from "./Contact";
+
