@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Navbar, Landing, Services, About, Team, Gallery, Testimonials } from "./Components-page11";
+import { Navbar, Landing, Services, About, Team, Gallery, Testimonials, Prices } from "./Components-page11";
 import Modal from "./modal/modal11";
 
 import "../styles/page11-navbar.scss";
@@ -10,6 +10,7 @@ import "../styles/page11-about.scss";
 import "../styles/page11-team.scss";
 import "../styles/page11-gallery.scss";
 import "../styles/page11-testimonials.scss";
+import "../styles/page11-prices.scss";
 
 
 class Page11 extends Component {
@@ -43,6 +44,7 @@ class Page11 extends Component {
           <Team />
           <Gallery openModalHandler={this.openModalHandler} />
           <Testimonials />
+          <Prices />
         </div>
         {isShowing ? (
           <Modal number={modalNumber} className="modal" close={this.closeModalHandler} />

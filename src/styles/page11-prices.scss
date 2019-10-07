@@ -1,0 +1,68 @@
+.page11{
+  .prices{
+    color: #333333;
+    padding: 60px 20px;
+    text-align: center;
+
+    &__title{
+        font-size: 38px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    &__subtitle{
+      margin-bottom: 20px;
+      font-size: 16px;
+      font-weight: 300;
+    }
+    &__wrapper{
+      margin: 40px 0px;
+    }
+    &__card{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      margin-bottom: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    &__top{
+      padding: 44px 0;
+      background-color: #f5f5f5;
+      margin: 0;
+      font-size: 42px;
+      font-weight: 300;
+    }
+    &__price-wrapper{
+      padding: 20px;
+      border-bottom: 1px solid #ddd;
+      font-weight: 300;
+    }
+    &__price{
+      font-size: 15px;
+    }
+    &__btn-wrapper{
+      padding: 20px;
+      border-bottom: 1px solid #ddd;
+      font-weight: 300;
+    }
+    &__details{
+      border-bottom: 1px solid #ddd;
+    }
+    &__details-text{
+      font-weight: 300;
+      font-size: 15px;
+    }
+  }
+  .prices-btn{
+      background: #F7780F;
+      color: #ffffff;
+      border: 0;
+      padding: 8px 20px;
+      font-size: 15px;
+  
+      &:hover{
+        background-color: #04BD5B;
+      }
+  }
+}
