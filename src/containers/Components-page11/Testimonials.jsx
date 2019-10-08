@@ -45,10 +45,15 @@ class Testimonials extends Component {
         <h3 className="testimonials__title">
           Clients Testimonials
         </h3>
-        <img src={texts[currentOption].img} className="testimonials__img" alt="people" />
-        <div className="testimonials__text-wrapper">
-          <small className="testimonials__name">-Someone famous</small>
-          <p className="testimonials__p">{texts[currentOption].paragraph}</p>
+        <div className="testimonials__container">
+          <img src={texts[currentOption].img} className="testimonials__img" alt="people" />
+          <div className="testimonials__text-wrapper">
+            <p className="testimonials__p">
+              <i className="fas fa-quote-left quotes" />
+              {texts[currentOption].paragraph}
+            </p>
+            <small className="testimonials__name">-Someone famous</small>
+          </div>
         </div>
         <div className="testimonials__bubbles-wrapper">
           {texts.map((item, i) => (

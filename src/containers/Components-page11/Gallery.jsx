@@ -103,8 +103,8 @@ class Gallery extends Component {
     const { openModalHandler } = this.props;
     const { allPhotos } = this.state;
     return (
-      <div className="gallery" id="gallery">
-        <h3 className="gallery__title">Our Team</h3>
+      <div className="gallery" id="portfolio">
+        <h3 className="gallery__title">Portfolio</h3>
         <p className="gallery__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. laudantium culpa tenetur.</p>
         <div className="gallery__tags-container">
           <button

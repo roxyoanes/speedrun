@@ -10,6 +10,12 @@
       margin-bottom: 20px;
       text-align: center;
     }
+    &__containers-wrapper{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 15px;
+      align-items: center;
+    }
     &__info-wrapper{
       display: grid;
       grid-template-rows: repeat(2, 1fr) 150px;

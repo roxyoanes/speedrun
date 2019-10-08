@@ -53,7 +53,7 @@ class Navbar extends Component {
               margin: "0",
             }}
             items={[
-              "home", "services", "about", "team", "portfolio", "testimonials", "prices", "contact"
+              "home", "services", "about", "team", "portfolio", "prices", "contact"
             ]}
             currentClassName="dropdown-menu__is-current"
           >
@@ -63,7 +63,6 @@ class Navbar extends Component {
               { value: "About", href: "#about" },
               { value: "Team", href: "#team" },
               { value: "Portfolio", href: "#portfolio" },
-              { value: "Testimonials", href: "#testimonials" },
               { value: "Prices", href: "#prices" },
               { value: "Contact", href: "#contact" },
             ].map(navElement => (
@@ -84,7 +83,7 @@ class Navbar extends Component {
               paddingLeft: "0",
             }}
             items={[
-              "home", "services", "about", "team", "portfolio", "testimonials", "prices", "contact"
+              "home", "services", "about", "team", "portfolio", "prices", "contact"
             ]}
             currentClassName="navbar__is-current"
           >
@@ -94,7 +93,6 @@ class Navbar extends Component {
              { value: "About", href: "#about" },
              { value: "Team", href: "#team" },
              { value: "Portfolio", href: "#portfolio" },
-             { value: "Testimonials", href: "#testimonials" },
              { value: "Prices", href: "#prices" },
              { value: "Contact", href: "#contact" },
             ].map(navElement => (

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Prices = () => (
-  <div className="prices">
+  <div className="prices" id="prices">
     <h2 className="prices__title">Our Price</h2>
     <p className="prices__subtitle">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam
@@ -90,7 +90,7 @@ const Prices = () => (
         </div>
       </div>
       <div className="prices__card">
-        <h3 className="prices__top">Premium</h3>
+        <h3 className="prices__top">Ultimate</h3>
         <div className="prices__price-wrapper">
           <span className="prices__dollar">$</span>
           <span className="prices__price">4999mo.</span>
