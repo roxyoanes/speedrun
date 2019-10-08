@@ -33,8 +33,9 @@ class Navbar extends Component {
 
   render() {
     const { showMenu } = this.state;
+    const { scrolled } = this.props;
     return (
-      <div className="navbar">
+      <div className={scrolled ? "navbar navbar--scrolled" : "navbar"}>
         <div className="navbar__brand-wrapper">
           <img src={pic} alt="logo" className="navbar__logo" />
           <a href="#top" className="navbar__logo-text">StartUp</a>

@@ -12,6 +12,11 @@
     &__subtitle{
       text-align: center;
       margin: 0;
+      font-size: 16px;
+
+      @media(min-width: 1024px){
+        font-size: 18px;
+      }
     }
     &__wrapper{
       padding: 40px 0 0 0;
@@ -22,6 +27,9 @@
       @media(min-width: 768px){
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: auto;
+      }
+      @media(min-width:2560px){
+        margin: 0 500px;
       }
     }
     &__card{
@@ -52,7 +60,25 @@
     border-radius: 3px 0 0 3px;
     text-align: center;
     line-height: 36.8px;
+    
+  }
+  .t{
     background-color: #eee;
     color: #565656;
+
+    &:hover{
+      background: #55acee;
+      color: white;
+    }
+  }
+  .f{
+    background-color: #eee;
+    color: #565656;
+
+    &:hover{
+      color: white;
+      background: #3b5998;
+
+    }
   }
 }

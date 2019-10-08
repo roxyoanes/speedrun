@@ -11,10 +11,15 @@
       text-align: center;
     }
     &__containers-wrapper{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 15px;
-      align-items: center;
+      @media(min-width: 768px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        align-items: center;
+      }
+      @media(min-width:2560px){
+        margin: 0 500px;
+      }
     }
     &__info-wrapper{
       display: grid;
@@ -78,5 +83,16 @@
     color: #BBBBBB;
     background-color: transparent;
     margin: 5px 0;
+
+    &:hover{
+      color: #3b5998;
+    }
+  }
+  .red{
+    color: #BBBBBB;
+
+    &:hover{
+      color: #aa2121;
+    }
   }
 }

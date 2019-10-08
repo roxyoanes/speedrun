@@ -40,7 +40,7 @@ const Contact = () => (
             <i className="fab fa-twitter icon-contact" />
           </span>
           <span className="contact__icon-wrapper">
-            <i className="fab fa-google-plus-g icon-contact" />
+            <i className="fab fa-google-plus-g icon-contact red" />
           </span>
           <span className="contact__icon-wrapper">
             <i className="fab fa-skype icon-contact" />
@@ -49,7 +49,7 @@ const Contact = () => (
             <i className="fab fa-linkedin icon-contact" />
           </span>
           <span className="contact__icon-wrapper">
-            <i className="fab fa-youtube icon-contact" />
+            <i className="fab fa-youtube icon-contact red" />
           </span>
         </div>
       </div>

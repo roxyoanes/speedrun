@@ -13,9 +13,16 @@
       padding: 100px 0 60px 0;
       color: white;
 
-      @media(min-width: 768px){
+      @media(min-width: 768px)and(max-width: 1023px){
         padding: 100px 0;
       }
+      @media(min-width: 1024px)and(max-width: 2559px){
+        padding: 150px 0;
+      }
+      @media(min-width: 2560px){
+        padding: 250px 0;
+      }
+      
     }
     &__title{
       font-size: 40px;
@@ -30,6 +37,10 @@
     &__part2{
       color: #333333;
       padding-bottom: 40px;
+
+      @media(min-width:2560px){
+        margin: 0 500px;
+      }
     }
     &__title2{
       font-weight: 300;

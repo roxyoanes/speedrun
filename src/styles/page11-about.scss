@@ -14,9 +14,24 @@
     &__subtitle{
       text-align: center;
       margin: 0;
+      font-size: 16px;
+
+      @media(min-width: 1024px){
+        font-size: 18px;
+      }
     }
     &__part1{
       padding: 60px 20px;
+
+      @media(min-width:2560px){
+        margin: 0 500px;
+      }
+
+      @media(min-width: 1024px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+      }
     }
     &__pic-stats{
       width: 100%;
@@ -35,6 +50,18 @@
     }
     &__part2{
       padding: 0 20px 20px;
+
+      @media(min-width:2560px){
+        margin: 0 500px;
+      }
+    }
+    &__big{
+      @media(min-width: 1024px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        padding: 0 40px;
+      }
     }
     &__title2{
       font-weight: 500;

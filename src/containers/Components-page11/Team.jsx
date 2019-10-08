@@ -17,10 +17,10 @@ const Team = () => (
           <h1 className="team__job">General Manager</h1>
           <span className="team__icon-wrapper">
             <a href="top" className="team__icon-a">
-              <i className="fab fa-twitter team-icon" />
+              <i className="fab fa-twitter team-icon t" />
             </a>
             <a href="top" className="team__icon-a">
-              <i className="fab fa-facebook team-icon" />
+              <i className="fab fa-facebook team-icon f" />
             </a>
           </span>
         </div>
@@ -32,10 +32,10 @@ const Team = () => (
           <h1 className="team__job">UI/UX Designer</h1>
           <span className="team__icon-wrapper">
             <a href="top" className="team__icon-a">
-              <i className="fab fa-twitter team-icon" />
+              <i className="fab fa-twitter team-icon t" />
             </a>
             <a href="top" className="team__icon-a">
-              <i className="fab fa-facebook team-icon" />
+              <i className="fab fa-facebook team-icon f" />
             </a>
           </span>
         </div>
@@ -47,10 +47,10 @@ const Team = () => (
           <h1 className="team__job">Project Manager</h1>
           <span className="team__icon-wrapper">
             <a href="top" className="team__icon-a">
-              <i className="fab fa-twitter team-icon" />
+              <i className="fab fa-twitter team-icon t" />
             </a>
             <a href="top" className="team__icon-a">
-              <i className="fab fa-facebook team-icon" />
+              <i className="fab fa-facebook team-icon f" />
             </a>
           </span>
         </div>
@@ -62,10 +62,10 @@ const Team = () => (
           <h1 className="team__job">Software Developer</h1>
           <span className="team__icon-wrapper">
             <a href="top" className="team__icon-a">
-              <i className="fab fa-twitter team-icon" />
+              <i className="fab fa-twitter team-icon t" />
             </a>
             <a href="top" className="team__icon-a">
-              <i className="fab fa-facebook team-icon" />
+              <i className="fab fa-facebook team-icon f" />
             </a>
           </span>
         </div>

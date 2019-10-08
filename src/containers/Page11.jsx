@@ -14,11 +14,11 @@ import "../styles/page11-prices.scss";
 import "../styles/page11-contact.scss";
 
 
-
 class Page11 extends Component {
   state={
     modalNumber: 0,
     isShowing: false,
+    scrolled: false,
   }
 
   openModalHandler = (number) => {
@@ -34,12 +34,29 @@ class Page11 extends Component {
     });
   };
 
+  componentDidMount() {
+    window.addEventListener("scroll", this.scrollFunction, true);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.scrollFunction, true);
+  }
+
+  scrollFunction = () => {
+    const isTop = window.scrollY < 50;
+    if (isTop !== true) {
+      this.setState({ scrolled: true });
+    } else {
+      this.setState({ scrolled: false });
+    }
+  }
+
   render() {
-    const { modalNumber, isShowing } = this.state;
+    const { modalNumber, isShowing, scrolled } = this.state;
     return (
       <div className="page11">
         <div className="container">
-          <Navbar />
+          <Navbar scrolled={scrolled} />
           <Landing />
           <Services />
           <About />
