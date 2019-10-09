@@ -6,9 +6,9 @@ const Contact = () => (
     <div className="contact__containers-wrapper">
       <div className="contact__container1">
         <form className="contact__info-wrapper">
-          <input type="text" className="contact__form" id="name" placeholder="Your Name..." />
-          <input type="text" className="contact__form" id="name" placeholder="Email Address..." />
-          <textarea type="text" className="contact__form contact__textarea" id="name" placeholder="Message..." />
+          <input type="text" className="contact__form icon-name" id="name" placeholder="Your Name..." />
+          <input type="text" className="contact__form icon-address" id="name" placeholder="Email Address..." />
+          <textarea type="text" className="contact__form contact__textarea icon-message" id="name" placeholder="Message..." />
         </form>
         <div className="contact__btn-wrapper">
           <button type="button" className="prices-btn prices-btn--contact">SEND</button>

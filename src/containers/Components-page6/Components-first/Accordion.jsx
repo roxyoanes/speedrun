@@ -15,7 +15,7 @@ class Accordion extends Component {
     const { open } = this.state;
     return (
       <div className="accordion">
-        <div className="accordion__button" role="button" onClick={this.toggleAccordion}>
+        <div className={open ? "accordion__button accordion__button--open" : "accordion__button"} role="button" onClick={this.toggleAccordion}>
           <i className={icon} />
           {btnText}
         </div>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { CSSTransition, TransitionGroup } from "react-transition-group";
+import { CSSTransition } from "react-transition-group";
 
 import pic1 from "../images/portfolio11.jpg";
 import pic2 from "../images/portfolio11-2.jpg";
@@ -139,8 +139,11 @@ class Gallery extends Component {
         <div className="gallery__pic-container">
           {allPhotos.map((item, i) => (
             <CSSTransition key={item.id} timeout={400}>
-              <div className="gallery__card">
-                <div className="gallery__gradient">
+              <div className="gallery__card" role="presentation"
+                  onClick={() => openModalHandler(i + 1)}>
+                <div
+                  className="gallery__gradient"
+                >
                   <img
                     src={item.image}
                     alt="img"
@@ -148,8 +151,6 @@ class Gallery extends Component {
                   />
                   <span
                     className="container-icon"
-                    role="presentation"
-                    onClick={() => openModalHandler(i + 1)}
                   >
                     <i className="fas fa-search search" />
                   </span>
