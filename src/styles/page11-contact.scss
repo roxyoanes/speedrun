@@ -29,9 +29,11 @@
       grid-template-rows: repeat(2, 1fr) 150px;
       grid-gap: 10px;
       margin-bottom: 20px;
+      position: relative;
     }
     &__form{
       padding: 15px;
+      position: relative;
     }
     &__textarea{
       font-family: inherit;
@@ -82,9 +84,9 @@
       color: #F7780F;
       text-decoration: none;
     }
-  }
-  .icon-address{
-    margin-right: 4px;
+    &__input-wrap{
+      position: relative;
+    }
   }
   .icon-contact{
     color: #BBBBBB;
@@ -100,6 +102,19 @@
 
     &:hover{
       color: #aa2121;
+    }
+  }
+  .user-icon{
+    position: absolute;
+    color: #b6b5b5;
+    top: 6%;
+    right: 2%;
+
+    &--address{
+      top: 28%;
+    }
+    &--message{
+      top: 50%;
     }
   }
 }
