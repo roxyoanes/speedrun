@@ -1,6 +1,6 @@
 .page11{
   .services{
-    padding: 40px 0;
+    padding: 4%;
     color: #333333;
     background: #e0e0e0;
 
@@ -16,7 +16,7 @@
       grid-template-rows: repeat(6, 1fr);
 
       @media(min-width:2560px){
-        margin: 0 500px;
+        margin: 0 18%;
       }
 
       @media(min-width: 1024px){
