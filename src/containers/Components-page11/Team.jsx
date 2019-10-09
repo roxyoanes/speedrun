@@ -15,60 +15,60 @@ const Team = () => (
         <div className="team__info">
           <h3 className="team__name">Jane Doe</h3>
           <h1 className="team__job">General Manager</h1>
-          <span className="team__icon-wrapper">
-            <a href="top" className="team__icon-a">
-              <i className="fab fa-twitter team-icon t" />
-            </a>
-            <a href="top" className="team__icon-a">
-              <i className="fab fa-facebook team-icon f" />
-            </a>
-          </span>
         </div>
+        <span className="team__icon-wrapper">
+          <a href="top" className="team__icon-a team__icon-a--t">
+            <i className="fab fa-twitter team-icon" />
+          </a>
+          <a href="top" className="team__icon-a team__icon-a--f">
+            <i className="fab fa-facebook team-icon" />
+          </a>
+        </span>
       </div>
       <div className="team__card">
         <img src={team2} className="team__img" alt="team" />
         <div className="team__info">
           <h3 className="team__name">Mike Wilson</h3>
           <h1 className="team__job">UI/UX Designer</h1>
-          <span className="team__icon-wrapper">
-            <a href="top" className="team__icon-a">
-              <i className="fab fa-twitter team-icon t" />
-            </a>
-            <a href="top" className="team__icon-a">
-              <i className="fab fa-facebook team-icon f" />
-            </a>
-          </span>
         </div>
+        <span className="team__icon-wrapper">
+          <a href="top" className="team__icon-a team__icon-a--t">
+            <i className="fab fa-twitter team-icon" />
+          </a>
+          <a href="top" className="team__icon-a team__icon-a--f">
+            <i className="fab fa-facebook team-icon" />
+          </a>
+        </span>
       </div>
       <div className="team__card">
         <img src={team3} className="team__img" alt="team" />
         <div className="team__info">
           <h3 className="team__name">Hannah Millis</h3>
           <h1 className="team__job">Project Manager</h1>
-          <span className="team__icon-wrapper">
-            <a href="top" className="team__icon-a">
-              <i className="fab fa-twitter team-icon t" />
-            </a>
-            <a href="top" className="team__icon-a">
-              <i className="fab fa-facebook team-icon f" />
-            </a>
-          </span>
         </div>
+        <span className="team__icon-wrapper">
+          <a href="top" className="team__icon-a team__icon-a--t">
+            <i className="fab fa-twitter team-icon" />
+          </a>
+          <a href="top" className="team__icon-a team__icon-a--f">
+            <i className="fab fa-facebook team-icon" />
+          </a>
+        </span>
       </div>
       <div className="team__card">
         <img src={team4} className="team__img" alt="team" />
         <div className="team__info">
           <h3 className="team__name">James Resll</h3>
           <h1 className="team__job">Software Developer</h1>
-          <span className="team__icon-wrapper">
-            <a href="top" className="team__icon-a">
-              <i className="fab fa-twitter team-icon t" />
-            </a>
-            <a href="top" className="team__icon-a">
-              <i className="fab fa-facebook team-icon f" />
-            </a>
-          </span>
         </div>
+        <span className="team__icon-wrapper">
+          <a href="top" className="team__icon-a team__icon-a--t">
+            <i className="fab fa-twitter team-icon" />
+          </a>
+          <a href="top" className="team__icon-a team__icon-a--f">
+            <i className="fab fa-facebook team-icon" />
+          </a>
+        </span>
       </div>
     </div>
   </div>
