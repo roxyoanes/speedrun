@@ -41,9 +41,8 @@ const About = () => (
     </div>
     <div className="about__part2">
       <div className="about__big">
-        
         <div className="about__part2-wrapper">
-        <h2 className="about__title2">Amazing free bootstrap template</h2>
+          <h2 className="about__title2">Amazing free bootstrap template</h2>
           <p className="about__p">Lorem ipsum dolor sit amet, adipisicing sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde error commodi architecto, laudantium culpa optio corporis quod earumdignissimos eius mollitia et quas officia doloremque.</p>
           <ul className="about__list">
             <li className="about__list-item">
