@@ -15,13 +15,14 @@ const texts = [{
   img: pic3,
 }];
 
+
 class Testimonials extends Component {
   state = {
     currentOption: 0,
   }
 
   componentDidMount() {
-    const intervalId = setInterval(this.timer, 6000);
+    const intervalId = setInterval(this.timer, 4000);
     this.setState({
       intervalId,
     });
@@ -31,6 +32,12 @@ class Testimonials extends Component {
     const { intervalId } = this.state;
     clearInterval(intervalId);
   }
+
+  changeNumber = (num) => {
+    this.setState({
+      currentOption: num,
+    });
+  };
 
   timer = () => {
     const { currentOption } = this.state;
@@ -57,7 +64,7 @@ class Testimonials extends Component {
         </div>
         <div className="testimonials__bubbles-wrapper">
           {texts.map((item, i) => (
-            <span className={i === currentOption ? "testimonials__bubble-active" : "testimonials__bubble-not-active"} />
+            <button type="button" className={i === currentOption ? "testimonials__bubble-active" : "testimonials__bubble-not-active"} onClick={() => this.changeNumber(i)} />
           ))}
         </div>
       </div>
