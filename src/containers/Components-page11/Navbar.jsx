@@ -36,6 +36,7 @@ class Navbar extends Component {
     const { scrolled } = this.props;
     return (
       <div className={scrolled ? "navbar navbar--scrolled" : "navbar"}>
+        <div className="navbar__empty" />
         <div className="navbar__brand-wrapper">
           <img src={pic} alt="logo" className="navbar__logo" />
           <a href="#top" className="navbar__logo-text">StartUp</a>
@@ -43,6 +44,7 @@ class Navbar extends Component {
         <div className="navbar__right-side">
           <button type="button" className="fas fa-bars nav-icon" onClick={this.showMenu} />
         </div>
+        <div className="navbar__empty" />
         <nav className={`menu ${showMenu ? "dropdown-menu" : "closed-menu"}`}>
           <Scrollspy
             style={{
@@ -103,6 +105,7 @@ class Navbar extends Component {
             ))}
           </Scrollspy>
         </nav>
+        <div className="navbar__empty" />
       </div>
     );
   }
