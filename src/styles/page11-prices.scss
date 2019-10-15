@@ -21,13 +21,13 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
-        grid-gap: 10px;
+        grid-gap: 20px;
       }
       @media(min-width: 1024px){
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto;
-        grid-gap: 10px;
+        grid-gap: 30px;
       }
       @media(min-width:2560px){
         margin: 0 18%;
@@ -48,6 +48,11 @@
       margin: 0;
       font-size: 42px;
       font-weight: 300;
+
+      &--pink{
+        background-color: #f2dede;
+        border-color: #ebccd1;
+      }
     }
     &__price-wrapper{
       padding: 20px;
@@ -56,6 +61,10 @@
     }
     &__price{
       font-size: 15px;
+
+      &--color{
+        color: #F7780F;
+      }
     }
     &__btn-wrapper{
       padding: 20px;
