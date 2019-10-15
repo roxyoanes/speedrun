@@ -19,7 +19,7 @@ class Accordion extends Component {
           <i className={icon} />
           {btnText}
         </div>
-        {open ? <p className="accordion__p">{text}</p> : null}
+        {open ? <p className="accordion__p">{text}</p> : <p className="accordion__p-closed" />}
       </div>
     );
   }
