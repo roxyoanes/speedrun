@@ -2,7 +2,7 @@
   0% {
     opacity:0;
   }
-  50%{
+  50% {
     opacity: 1;
   }
   100% {
@@ -32,7 +32,7 @@
         flex-direction: row;
         padding: 20px;
         align-items: center;
-        animation: fadeIn ease 6s infinite;
+        animation: fadeIn ease 5s infinite;
       }
       @media(min-width: 1024px){
         padding: 20px 12%;

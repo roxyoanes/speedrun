@@ -22,7 +22,7 @@ class Testimonials extends Component {
   }
 
   componentDidMount() {
-    const intervalId = setInterval(this.timer, 6000);
+    const intervalId = setInterval(this.timer, 5000);
     this.setState({
       intervalId,
     });
