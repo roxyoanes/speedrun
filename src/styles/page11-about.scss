@@ -128,7 +128,7 @@
         line-height: 1.6em;
         transition: height 0.3s;
         height: 150px;
-        overflow: scroll;
+        overflow: overlay;
     }
     &__p-closed{
       transition: height 0.3s;
