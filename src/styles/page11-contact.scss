@@ -14,7 +14,7 @@
       @media(min-width: 768px){
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 15px;
+        grid-gap: 20px;
         align-items: center;
       }
       @media(min-width: 1024px){
@@ -116,5 +116,8 @@
     &--message{
       top: 50%;
     }
+  }
+  .icon-address{
+    padding-right: 5px;
   }
 }
