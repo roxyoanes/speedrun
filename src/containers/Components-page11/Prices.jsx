@@ -12,7 +12,8 @@ const Prices = () => (
         <h3 className="prices__top">Basic</h3>
         <div className="prices__price-wrapper">
           <span className="prices__dollar">$</span>
-          <span className="prices__price">999mo.</span>
+          <span className="prices__price">999</span>
+          <span className="prices__price prices__price--color">mo.</span>
         </div>
         <div className="prices__details">
           <h5 className="prices__details-text">5 Projects</h5>
@@ -39,7 +40,8 @@ const Prices = () => (
         <h3 className="prices__top">Plus</h3>
         <div className="prices__price-wrapper">
           <span className="prices__dollar">$</span>
-          <span className="prices__price">1999mo.</span>
+          <span className="prices__price">1999</span>
+          <span className="prices__price prices__price--color">mo.</span>
         </div>
         <div className="prices__details">
           <h5 className="prices__details-text">10 Projects</h5>
@@ -63,10 +65,11 @@ const Prices = () => (
         </div>
       </div>
       <div className="prices__card">
-        <h3 className="prices__top">Premium</h3>
+        <h3 className="prices__top  prices__top--pink">Premium</h3>
         <div className="prices__price-wrapper">
           <span className="prices__dollar">$</span>
-          <span className="prices__price">2999mo.</span>
+          <span className="prices__price">2999</span>
+          <span className="prices__price prices__price--color">mo.</span>
         </div>
         <div className="prices__details">
           <h5 className="prices__details-text">Unlimited</h5>
@@ -93,7 +96,8 @@ const Prices = () => (
         <h3 className="prices__top">Ultimate</h3>
         <div className="prices__price-wrapper">
           <span className="prices__dollar">$</span>
-          <span className="prices__price">4999mo.</span>
+          <span className="prices__price">4999</span>
+          <span className="prices__price prices__price--color">mo.</span>
         </div>
         <div className="prices__details">
           <h5 className="prices__details-text">Unlimited</h5>
