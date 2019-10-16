@@ -14,6 +14,8 @@ const Home = () => (
     <Link to="/page-9">Page9</Link>
     <Link to="/page-10">Page10</Link>
     <Link to="/page-11">Page11</Link>
+    <Link to="/page-12">Page12</Link>
+
 
   </div>
 );
