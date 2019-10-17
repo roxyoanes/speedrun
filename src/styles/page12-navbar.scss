@@ -42,6 +42,19 @@
           display: none;
       }
     }
+    &--fixed{
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 99;
+    }
+  }
+  .closed-menu{
+    height: 0;
+    transition: height 0.3s;
+    * {
+        display: none;
+    }
   }
   .dropdown-menu{
     display: flex;
@@ -64,30 +77,8 @@
     }
     &__is-current{
       color: #FFB21F;
-
-}
-}
-  .fixed{
-    position: fixed;
-      top: 0px;
-      left: 0px;
-      width: 100%;
-      z-index: 99;
-      background: #60B10F;
-      display: grid;
-      grid-template-columns: 1fr;
-  
-      @media(min-width: 769px){
-        padding: 15px 0;
-      }
-  }
-  .closed-menu{
-      height: 0;
-      transition: height 0.3s;
-      * {
-          display: none;
-      }
     }
+  }
   .nav-icon{
     background: none;
     border-color: transparent;
@@ -97,6 +88,6 @@
 
     @media(min-width: 769px){
       display: none;
-  }
+    }
   }
 }

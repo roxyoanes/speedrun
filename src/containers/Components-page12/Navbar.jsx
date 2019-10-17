@@ -23,7 +23,7 @@ class Navbar extends Component {
     const { showMenu } = this.state;
     const { scrolled } = this.props;
     return(
-      <div className={scrolled ? "fixed" : "navbar"}>
+      <div className={scrolled ? "navbar navbar--fixed" : "navbar"}>
         <div className="navbar__right-side">
           <button type="button" className="fas fa-bars nav-icon" onClick={this.showMenu} />
         </div>
