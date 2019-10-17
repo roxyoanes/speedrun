@@ -30,16 +30,16 @@ class Navbar extends Component {
         <nav className="navbar__list">
           <Scrollspy
             items={[
-              "home", "about", "services", "menu", "gallery", "testimonial", "contact",
+              "home", "about", "skills", "projects", "experience", "testimonial", "contact",
             ]}
             currentClassName="navbar__is-current"
           >
             {[
               { value: "Home", href: "#home" },
-              { value: "About Us", href: "#about" },
-              { value: "Services", href: "#services" },
-              { value: "Menu Card", href: "#menu" },
-              { value: "Gallery", href: "#gallery" },
+              { value: "About Me", href: "#about" },
+              { value: "Skills", href: "#skills" },
+              { value: "Projects", href: "#projects" },
+              { value: "Experience", href: "#experience" },
               { value: "Testimonial", href: "#testimonial" },
               { value: "Contact", href: "#contact" },
             ].map(navElement => (
@@ -58,15 +58,15 @@ class Navbar extends Component {
               alignItems: "center",
               margin: "0",
             }}
-            items={["home", "about", "services", "menu", "gallery", "testimonial", "contact"]}
+            items={["home", "about", "skills", "projects", "experience", "testimonial", "contact"]}
             currentClassName="dropdown-menu__is-current"
           >
             {[
               { value: "Home", href: "#home" },
-              { value: "About Us", href: "#about" },
-              { value: "Services", href: "#services" },
-              { value: "Menu Card", href: "#menu" },
-              { value: "Gallery", href: "#gallery" },
+              { value: "About Me", href: "#about" },
+              { value: "Skills", href: "#skills" },
+              { value: "Projects", href: "#projects" },
+              { value: "Experience", href: "#experience" },
               { value: "Testimonial", href: "#testimonial" },
               { value: "Contact", href: "#contact" },
             ].map(navElement => (
