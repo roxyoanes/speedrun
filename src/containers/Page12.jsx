@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 
-import { Home, Navbar } from "./Components-page12";
+import { Home, Navbar, About } from "./Components-page12";
 
 import "../styles/page12-home.scss";
 import "../styles/page12-navbar.scss";
+import "../styles/page12-about.scss";
 
 
 class Page12 extends Component {
@@ -35,6 +36,7 @@ class Page12 extends Component {
         <div className="container">
           <Home />
           <Navbar scrolled={scrolled} />
+          <About />
         </div>
       </div>
     );
