@@ -1,0 +1,45 @@
+.page12{
+  .skills{
+    padding: 8%;
+    background: rgb(69, 138, 84);
+    color: white;
+
+    &__title{
+      font-size: 34px;
+      text-align: center;
+      font-weight: 500;
+    }
+    &__subtitle{
+      font-size: 16px;
+      text-align: center;
+    }
+    &__container{
+      margin: 40px 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 1fr);
+      grid-gap: 15px;
+    }
+    &__card{
+      text-align: center;
+    }
+    &__text-container{
+      margin-top: 50px;
+    }
+    &__icon-container{
+      padding: 20px;
+      border-bottom: 1px dashed rgb(255, 238, 0);
+    }
+    &__text-title{
+      font-size: 16px;
+    }
+    &__p{
+      font-size: 14px;
+    }
+  }
+  .skills-icon{
+    font-size: 40px;
+    color: #FFFFFF;
+
+  }
+}

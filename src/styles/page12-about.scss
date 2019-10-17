@@ -1,6 +1,6 @@
 .page12{
   .about{
-    margin: 4%;
+    margin: 8% 4%;
 
     &__title{
       font-size: 34px;
@@ -30,6 +30,7 @@
     &__list{
       padding: 0;
       list-style-type: none;
+      margin: 0 0 20% 0;
     }
     &__list-item{
       font-size: 14px;
