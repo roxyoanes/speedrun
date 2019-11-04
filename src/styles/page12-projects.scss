@@ -1,0 +1,93 @@
+.page12{
+  .projects{
+    padding: 8% 0;
+
+    &__title{
+      font-size: 34px;
+      text-align: center;
+      font-weight: 500;
+    }
+    &__subtitle{
+      font-size: 16px;
+      text-align: center;
+      font-weight: 400;
+      color: #888888;
+      padding: 0 8%;
+    }
+    &__tags-container{
+      text-align: center;
+    }
+    &__tag{
+      border-radius: 4px;
+      font-size: 12px;
+      line-height: 20px;
+      padding: 10px 22px;
+      transition: all 0.3s ease-in-out 0s;
+      background: transparent;
+      border: #FEB11E solid 1px;
+      color: #7C7C7C;
+      margin: 5px;
+
+      &:active{
+        background: #FEB11E;
+        color: #FFFFFF;
+      }
+    }
+    &__transition-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    &__image{
+      width: 100%;
+      opacity: .5;
+    }
+    &__card{
+      position: relative;
+      display: flex;
+      background: black;
+
+      &:hover{
+        background: rgb(141, 90, 12);
+
+        .card-title{
+          bottom: 50%;
+          color: #60B10F;
+          transition: all .3s ease-in;
+          font-weight: 700;
+        }
+        .card-subheading{
+          opacity: 1;
+        }
+
+        &::before{
+          transform: scale(1);
+        }
+      }
+      &::before{
+        transition: opacity 0.35s, transform 0.35s;
+        transform: scale(0);
+        opacity: 1;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        bottom: 30px;
+        left: 30px;
+        border: 1px solid #fff;
+        content: '';
+      }
+    }
+    .card-title{
+      position: absolute;
+      z-index: 10;
+      transform: translateX(-50%);
+      left: 50%;
+      bottom: 0%;
+      color: #A3A3A3;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0;
+      transition: all .3s ease-in-out;
+    }
+  }
+}
