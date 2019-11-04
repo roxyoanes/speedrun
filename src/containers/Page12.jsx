@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 
-import { Home, Navbar, About, Skills, Projects } from "./Components-page12";
+import { Home, Navbar, About, Skills, Projects, Experience } from "./Components-page12";
 
 import "../styles/page12-home.scss";
 import "../styles/page12-navbar.scss";
 import "../styles/page12-about.scss";
 import "../styles/page12-skills.scss";
 import "../styles/page12-projects.scss";
+import "../styles/page12-experience.scss";
+
 
 class Page12 extends Component {
   state={
@@ -40,6 +42,7 @@ class Page12 extends Component {
           <About />
           <Skills />
           <Projects />
+          <Experience />
         </div>
       </div>
     );
