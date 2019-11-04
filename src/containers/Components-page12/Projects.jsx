@@ -74,6 +74,7 @@ class Projects extends Component {
 
   render() {
     const { allPhotos } = this.state;
+    const { openModalHandler } = this.props;
     return (
       <div className="projects">
         <h2 className="projects__title">Projects</h2>
@@ -125,13 +126,12 @@ class Projects extends Component {
         <TransitionGroup className="projects__transition-container" data-aos="fade-right" data-aos-duration="1500">
           {allPhotos.map((item, i) => (
             <CSSTransition key={item.id} timeout={500} classNames="projects__item">
-              <div className="projects__card">
+              <div className="projects__card" role="presentation" onClick={() => openModalHandler(i + 1)}>
                 <img
                   src={item.image}
                   alt="img"
                   className="projects__image"
-                  role="presentation"
-                  onClick={() => openModalHandler(i + 1)}
+                  
                 />
                 <h5 className="card-title">
                     Warm
@@ -148,5 +148,9 @@ class Projects extends Component {
     );
   }
 }
+
+Projects.propTypes = {
+  openModalHandler: PropTypes.func.isRequired,
+};
 
 export default Projects;
