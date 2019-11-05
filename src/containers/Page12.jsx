@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Home, Navbar, About, Skills, Projects, Experience } from "./Components-page12";
+import { Home, Navbar, About, Skills, Projects, Experience, Testimonials } from "./Components-page12";
 
 import "../styles/page12-home.scss";
 import "../styles/page12-navbar.scss";
@@ -8,6 +8,8 @@ import "../styles/page12-about.scss";
 import "../styles/page12-skills.scss";
 import "../styles/page12-projects.scss";
 import "../styles/page12-experience.scss";
+import "../styles/page12-testimonials.scss";
+
 
 import Modal from "./modal/modal12";
 
@@ -60,6 +62,7 @@ class Page12 extends Component {
           <Skills />
           <Projects openModalHandler={this.openModalHandler} />
           <Experience />
+          <Testimonials />
         </div>
         {isShowing ? (
           <Modal number={modalNumber} className="modal" close={this.closeModalHandler} />
