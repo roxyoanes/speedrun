@@ -1,0 +1,78 @@
+.page12{
+  .contact{
+    background: rgb(46, 46, 46);
+    color: #888888;
+    padding: 8%;
+
+    &__title{
+      text-align: center;
+      color: white;
+      font-size: 34px;
+      font-weight: 500;
+    }
+    &__subtitle{
+      font-size: 16px;
+      text-align: center;
+      font-weight: 400;
+    }
+    &__info-container{
+      padding-top: 30px;
+    }
+    &__info-title{
+      font-size: 18px;
+      font-weight: 500;
+    }
+    &__info-address{
+      color: white;
+      font-size: 16px;
+    }
+    &__form{
+      padding: 20px 15px;
+      border: 1px solid #656565;
+      border-radius: 0;
+      background: transparent;
+      color: #ccc;
+
+      &:hover{
+        border-color: #66afe9;
+        outline: 0;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+      }
+    }
+    &__send-wrapper{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 3fr;
+      grid-gap: 15px;
+    }
+    &__btn-wrapper{
+      display: flex;
+      justify-content: flex-end;
+      padding-top: 20px;  
+    }
+
+    .fa-facebook-f, .fa-twitter, .fa-google-plus, .fa-pinterest{
+      font-size: 22px;
+      color: #C1C1C1;
+    }
+    .fa-twitter:hover{
+      color: #55acee;
+    }
+    .fa-facebook-f:hover{
+      color: #337ab7;
+    }
+    .fa-google-plus:hover{
+      color: #dd4b39;
+    }
+    .fa-pinterest:hover{
+      color: #cb2026;
+    }
+    .contact-btn{
+      color: #2D2D2D;
+      background-color: #FEB11E;
+      border: 1px solid #FEB11E;
+      padding: 10px 34px;
+      border-radius: 0;
+    }
+  }
+}

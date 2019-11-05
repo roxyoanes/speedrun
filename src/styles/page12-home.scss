@@ -47,6 +47,10 @@
     &__socials-wrapper{
       display: flex;
       margin: 20px 0;
+
+      &--contact{
+        justify-content: center;
+      }
     }
     &__icon-wrapper{
       margin-right: 4px;
