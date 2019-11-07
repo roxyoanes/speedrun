@@ -2,7 +2,11 @@ import React from "react";
 
 const Home = () => (
   <div className="home">
-    <div className="home__wrapper">
+    <div
+      className="home__wrapper"
+      data-aos="zoom-in"
+      data-aos-delay="200"
+      data-aos-duration="1500">
       <h2 className="home__title">
         I AM ANDEY
       </h2>
@@ -18,24 +22,40 @@ const Home = () => (
         <a
           href
           className="home__icon-wrapper"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-delay="300"
         >
           <i className="fab fa-facebook-f icon" />
         </a>
         <a
           href
           className="home__icon-wrapper"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-delay="500"
         >
           <i className="fab fa-twitter icon" />
         </a>
         <a
           href
           className="home__icon-wrapper"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-delay="700"
         >
           <i className="fab fa-google-plus icon" />
         </a>
         <a
           href
           className="home__icon-wrapper"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-delay="900"
         >
           <i className="fab fa-pinterest icon" />
         </a>

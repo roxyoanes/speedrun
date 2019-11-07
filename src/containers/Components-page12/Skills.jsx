@@ -4,7 +4,10 @@ const Skills = () => (
   <div className="skills">
     <h3 className="skills__title">Skills</h3>
     <p className="skills__subtitle">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</p>
-    <div className="skills__container">
+    <div
+      className="skills__container" 
+      data-aos="zoom-in"
+      data-aos-duration="1500">
       <div className="skills__card">
         <span className="skills__icon-container">
           <i className="fab fa-android skills-icon" />
