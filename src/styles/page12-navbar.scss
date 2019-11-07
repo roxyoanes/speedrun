@@ -18,6 +18,9 @@
       @media(min-width: 769px){
           display: none;
       }
+      @media(min-width: 768px) and (max-width: 1023px){
+        grid-column: 11/12;
+      }
     }
     &__list{
       text-align: center;
@@ -25,10 +28,13 @@
       @media(max-width: 768px){
           display: none;
       }
+      @media(min-width: 1024px){
+        grid-column: 3/11;
+      }
     }
     &__list-item{
       padding: 8px 5px;
-      color: #D9F5BE;
+      color: #777777;
       padding: 0 1rem;        
       font-size: 14px;
       font-weight: 600;
@@ -36,7 +42,7 @@
       text-transform: uppercase;
 
       &:hover{
-          color: white;
+        color: #ED5441;
       }
       @media(max-width: 767px){
           display: none;

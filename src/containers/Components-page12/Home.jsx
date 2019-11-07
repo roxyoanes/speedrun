@@ -6,7 +6,8 @@ const Home = () => (
       className="home__wrapper"
       data-aos="zoom-in"
       data-aos-delay="200"
-      data-aos-duration="1500">
+      data-aos-duration="1000"
+    >
       <h2 className="home__title">
         I AM ANDEY
       </h2>
@@ -23,7 +24,6 @@ const Home = () => (
           href
           className="home__icon-wrapper"
           data-aos="fade-right"
-          data-aos-offset="300"
           data-aos-easing="ease-in-sine"
           data-aos-delay="300"
         >
@@ -33,7 +33,6 @@ const Home = () => (
           href
           className="home__icon-wrapper"
           data-aos="fade-right"
-          data-aos-offset="300"
           data-aos-easing="ease-in-sine"
           data-aos-delay="500"
         >
@@ -43,7 +42,6 @@ const Home = () => (
           href
           className="home__icon-wrapper"
           data-aos="fade-right"
-          data-aos-offset="300"
           data-aos-easing="ease-in-sine"
           data-aos-delay="700"
         >
@@ -53,7 +51,6 @@ const Home = () => (
           href
           className="home__icon-wrapper"
           data-aos="fade-right"
-          data-aos-offset="300"
           data-aos-easing="ease-in-sine"
           data-aos-delay="900"
         >

@@ -5,6 +5,13 @@
     background-size: cover;
     height: 140vh;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media(min-width: 1024px){
+      height: 100vh;
+    }
 
       &::after{
         content: '';
@@ -50,6 +57,10 @@
 
       &--contact{
         justify-content: center;
+
+        @media(min-width: 768px){
+          justify-content: flex-start;
+        }
       }
     }
     &__icon-wrapper{
@@ -61,6 +72,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      cursor: pointer;
     }
     .fa-facebook-f, .fa-twitter, .fa-google-plus, .fa-pinterest{
       font-size: 22px;

@@ -1,6 +1,6 @@
 .page12{
   .about{
-    margin: 8% 4%;
+    margin: 6% 4%;
 
     &__title{
       font-size: 34px;
@@ -12,6 +12,16 @@
       font-size: 16px;
       color: #888888;
       text-align: center;
+    }
+    &__wrapper{
+      @media(min-width: 768px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+      }
+      @media(min-width: 2560px){
+        margin: 0 20%;
+      }
     }
     &__img{
       width: 100%;

@@ -15,6 +15,19 @@
       text-align: center;
       font-weight: 400;
     }
+    &__wrapper{
+      @media(min-width: 768px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      @media(min-width: 1024px){
+        align-items: baseline;
+        grid-template-columns: 1fr 2fr;
+      }
+      @media(min-width: 2560px){
+        margin: 0% 20%;
+      }
+    }
     &__info-container{
       padding-top: 30px;
     }
@@ -73,6 +86,7 @@
       border: 1px solid #FEB11E;
       padding: 10px 34px;
       border-radius: 0;
+      cursor: pointer;
     }
   }
 }

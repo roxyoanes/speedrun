@@ -1,6 +1,6 @@
 .page12{
   .projects{
-    padding: 8% 0;
+    padding: 6% 0;
 
     &__title{
       font-size: 34px;
@@ -27,8 +27,13 @@
       border: #FEB11E solid 1px;
       color: #7C7C7C;
       margin: 5px;
+      cursor: pointer;
 
       &:active{
+        background: #FEB11E;
+        color: #FFFFFF;
+      }
+      &:hover{
         background: #FEB11E;
         color: #FFFFFF;
       }
@@ -37,6 +42,19 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
+
+        @media(min-width: 768px){
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: auto;
+        }
+        @media(min-width: 1024px){
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-rows: auto;
+          margin-top: 40px;
+        }
+        @media(min-width: 2560px){
+          margin: 4% 20%;
+        }
     }
     &__image{
       width: 100%;
@@ -46,6 +64,7 @@
       position: relative;
       display: flex;
       background: black;
+      cursor: pointer;
 
       &:hover{
         background: rgb(141, 90, 12);

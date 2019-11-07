@@ -18,49 +18,45 @@ const Contact = () => (
           <h4 className="contact__info-title">Email us</h4>
           <p className="contact__info-address">support@sitename.com</p>
         </div>
+        <span className="home__socials-wrapper home__socials-wrapper--contact">
+          <a
+            href
+            className="home__icon-wrapper"
+            data-aos="fade-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="100"
+          >
+            <i className="fab fa-facebook-f icon" />
+          </a>
+          <a
+            href
+            className="home__icon-wrapper"
+            data-aos="fade-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="300"
+          >
+            <i className="fab fa-twitter icon" />
+          </a>
+          <a
+            href
+            className="home__icon-wrapper"
+            data-aos="fade-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="500"
+          >
+            <i className="fab fa-google-plus icon" />
+          </a>
+          <a
+            href
+            className="home__icon-wrapper"
+            data-aos="fade-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="700"
+          >
+            <i className="fab fa-pinterest icon" />
+          </a>
+        </span>
       </div>
-      <span className="home__socials-wrapper home__socials-wrapper--contact">
-        <a
-          href
-          className="home__icon-wrapper"
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          data-aos-delay="300"
-        >
-          <i className="fab fa-facebook-f icon" />
-        </a>
-        <a
-          href
-          className="home__icon-wrapper"
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          data-aos-delay="500"
-        >
-          <i className="fab fa-twitter icon" />
-        </a>
-        <a
-          href
-          className="home__icon-wrapper"
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          data-aos-delay="700"
-        >
-          <i className="fab fa-google-plus icon" />
-        </a>
-        <a
-          href
-          className="home__icon-wrapper"
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          data-aos-delay="900"
-        >
-          <i className="fab fa-pinterest icon" />
-        </a>
-      </span>
       <div className="contact__form-wrapper">
         <form className="contact__send-wrapper">
           <input type="text" className="contact__form" id="name" placeholder="Your Name" />
