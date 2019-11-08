@@ -25,7 +25,7 @@ const personArray = [
 ];
 
 const Testimonials = () => (
-  <div className="testimonials">
+  <div className="testimonials" id="testimonial">
     <h3 className="testimonials__title">Skills</h3>
     <p className="testimonials__subtitle">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</p>
     <div className="testimonials__cards-container">

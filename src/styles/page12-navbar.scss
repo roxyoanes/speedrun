@@ -54,6 +54,9 @@
       left: 0px;
       z-index: 99;
     }
+    &__is-current{
+      color: #F1BC4D;
+    }
   }
   .closed-menu{
     height: 0;
