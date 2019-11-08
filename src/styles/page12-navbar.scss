@@ -34,7 +34,7 @@
     }
     &__list-item{
       padding: 8px 5px;
-      color: #777777;
+      color: #6A7152;
       padding: 0 1rem;        
       font-size: 14px;
       font-weight: 600;
@@ -42,7 +42,7 @@
       text-transform: uppercase;
 
       &:hover{
-        color: #ED5441;
+        color: #F1BC4D;
       }
       @media(max-width: 767px){
           display: none;
@@ -75,20 +75,20 @@
 
     &__list-item{
         padding: 8px 0;
-        color: #111314;
+        color: #6A7152;
         font-size: 12px;
         font-weight: 600;
         text-decoration: none;
         text-transform: uppercase; 
     }
     &__is-current{
-      color: #FFB21F;
+      color: #F1BC4D;
     }
   }
   .nav-icon{
     background: none;
     border-color: transparent;
-    color: #ED5441;
+    color: #6A7152;
     font-size: 20px;
     cursor: pointer;
 

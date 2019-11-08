@@ -9,7 +9,7 @@ const Experience = () => (
   <div className="experience">
     <h2 className="experience__title">Worked For</h2>
     <div className="experience__companies">
-      <div className="experience__icon-container" data-aos="fade-left" data-aos-duration="1500">
+      <div className="experience__icon-container" data-aos="zoom-in" data-aos-duration="1800">
         <img src={img1} alt="brand" className="experience__img" />
         <img src={img2} alt="brand" className="experience__img" />
         <img src={img3} alt="brand" className="experience__img" />

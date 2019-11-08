@@ -6,6 +6,7 @@
       font-size: 34px;
       text-align: center;
       font-weight: 500;
+      color: #6A7152;
     }
     &__subtitle{
       font-size: 16px;
@@ -24,17 +25,17 @@
       padding: 10px 22px;
       transition: all 0.3s ease-in-out 0s;
       background: transparent;
-      border: #FEB11E solid 1px;
-      color: #7C7C7C;
+      border: #F1BC4D solid 1px;
+      color: #6A7152;
       margin: 5px;
       cursor: pointer;
 
-      &:active{
-        background: #FEB11E;
+      &:focus{
+        background: #F1BC4D;
         color: #FFFFFF;
       }
       &:hover{
-        background: #FEB11E;
+        background: #F1BC4D;
         color: #FFFFFF;
       }
     }
@@ -71,7 +72,7 @@
 
         .card-title{
           bottom: 50%;
-          color: #60B10F;
+          color: #F1BC4D;
           transition: all .3s ease-in;
           font-weight: 700;
         }

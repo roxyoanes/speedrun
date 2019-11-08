@@ -4,7 +4,7 @@ const Contact = () => (
   <div className="contact">
     <h3 className="contact__title">Get In Touch</h3>
     <p className="contact__subtitle">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</p>
-    <div className="contact__wrapper" data-aos="fade-right" data-aos-duration="1500">
+    <div className="contact__wrapper" data-aos="fade-down" data-aos-duration="1500">
       <div className="contact__info-container">
         <div className="contact__info-card">
           <h4 className="contact__info-title">Andey</h4>

@@ -7,7 +7,7 @@ const Skills = () => (
     <div
       className="skills__container" 
       data-aos="zoom-in"
-      data-aos-duration="1500">
+      data-aos-duration="1800">
       <div className="skills__card">
         <span className="skills__icon-container">
           <i className="fab fa-android skills-icon" />

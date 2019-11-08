@@ -6,7 +6,7 @@ const About = () => (
   <div className="about">
     <h3 className="about__title">Who Am I</h3>
     <p className="about__subtitle">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</p>
-    <div className="about__wrapper" data-aos="fade-right" data-aos-duration="1500">
+    <div className="about__wrapper" data-aos="zoom-in" data-aos-duration="1800">
       <img className="about__img" src={pic} alt="about-pic" />
       <div className="about__text-wrapper">
         <h3 className="about__text-wrapper-title">I Design Awesome Web Apps</h3>

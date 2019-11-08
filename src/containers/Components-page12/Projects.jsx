@@ -123,7 +123,7 @@ class Projects extends Component {
             ANDROID
           </button>
         </div>
-        <TransitionGroup className="projects__transition-container" data-aos="fade-right" data-aos-duration="1500">
+        <TransitionGroup className="projects__transition-container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
           {allPhotos.map((item, i) => (
             <CSSTransition key={item.id} timeout={500} classNames="projects__item">
               <div className="projects__card" role="presentation" onClick={() => openModalHandler(i + 1)}>
@@ -131,7 +131,6 @@ class Projects extends Component {
                   src={item.image}
                   alt="img"
                   className="projects__image"
-                  
                 />
                 <h5 className="card-title">
                     Warm
