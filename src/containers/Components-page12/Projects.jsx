@@ -76,7 +76,7 @@ class Projects extends Component {
     const { allPhotos } = this.state;
     const { openModalHandler } = this.props;
     return (
-      <div className="projects">
+      <div className="projects" id="projects">
         <h2 className="projects__title">Projects</h2>
         <h6 className="projects__subtitle">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
         <div className="projects__tags-container">

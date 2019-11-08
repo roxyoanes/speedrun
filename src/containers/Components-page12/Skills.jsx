@@ -1,13 +1,14 @@
 import React from "react";
 
 const Skills = () => (
-  <div className="skills">
+  <div className="skills" id="skills">
     <h3 className="skills__title">Skills</h3>
     <p className="skills__subtitle">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</p>
     <div
-      className="skills__container" 
+      className="skills__container"
       data-aos="zoom-in"
-      data-aos-duration="1800">
+      data-aos-duration="1800"
+    >
       <div className="skills__card">
         <span className="skills__icon-container">
           <i className="fab fa-android skills-icon" />

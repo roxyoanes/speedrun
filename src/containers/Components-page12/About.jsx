@@ -3,7 +3,7 @@ import React from "react";
 import pic from "../images/about12.png";
 
 const About = () => (
-  <div className="about">
+  <div className="about" id="about">
     <h3 className="about__title">Who Am I</h3>
     <p className="about__subtitle">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</p>
     <div className="about__wrapper" data-aos="zoom-in" data-aos-duration="1800">

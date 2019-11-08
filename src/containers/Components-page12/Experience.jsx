@@ -6,7 +6,7 @@ import img3 from "../images/samsung_logo.png";
 import img4 from "../images/micro_logo.png";
 
 const Experience = () => (
-  <div className="experience">
+  <div className="experience" id="experience">
     <h2 className="experience__title">Worked For</h2>
     <div className="experience__companies">
       <div className="experience__icon-container" data-aos="zoom-in" data-aos-duration="1800">

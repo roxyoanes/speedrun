@@ -1,7 +1,7 @@
 import React from "react";
 
 const Home = () => (
-  <div className="home">
+  <div className="home" id="home">
     <div
       className="home__wrapper"
       data-aos="zoom-in"

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Contact = () => (
-  <div className="contact">
+  <div className="contact" id="contact">
     <h3 className="contact__title">Get In Touch</h3>
     <p className="contact__subtitle">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</p>
     <div className="contact__wrapper" data-aos="fade-down" data-aos-duration="1500">
